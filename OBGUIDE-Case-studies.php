@@ -313,6 +313,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="Technologies-part">
                 <div class="container">
                     <div class="row">
@@ -322,17 +323,13 @@
                                 <img class="my-3" src="./images/line.png" alt="Line Image">
                             </div>
                             <div class="icon-btn">
-                                <button type="submit"><img src="./images/Python-icon.png"
-                                        alt="Python Icon">Python</button>
-                                <button type="submit"><img src="./images/Django-icon.png"
-                                        alt="Django Icon">Django</button>
-                                <button type="submit"><img src="./images/ReactJS-icon.png" alt="React JS Icon">React
-                                    JS</button>
-                                <button type="submit"><img src="./images/AntDesign-icon.png" alt="Ant Design Icon">Ant
-                                    Design</button>
+                                <button type="submit"><img src="./images/Python-icon.png" alt="Python Icon">Python</button>
+                                <button type="submit"><img src="./images/Django-icon.png" alt="Django Icon">Django</button>
+                                <button type="submit"><img src="./images/ReactJS-icon.png" alt="React JS Icon">React JS</button>
+                                <button type="submit"><img src="./images/AntDesign-icon.png" alt="Ant Design Icon">Ant Design</button>
                                 <button type="submit"><img src="./images/Figma-icon.png" alt="Figma Icon">Figma</button>
-                                <button type="submit"><img src="./images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS
-                                    Cloud</button>
+                                <button type="submit"><img src="./images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS Cloud</button>
+                                <br><br>
                             </div>
                         </div>
                     </div>

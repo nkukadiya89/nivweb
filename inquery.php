@@ -25,17 +25,36 @@ $fileName = str_replace(' ', ' ', ucwords(strtolower($fileName)));
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hire <?php echo htmlspecialchars($fileName); ?> Development Team</title>
-    <!-- <style>
+    <style>
+        input::placeholder {
+                color: gray !important; /* Change this color */
+                opacity: 1 !important; /* Optional */
+            }   
+        
+            #inquery-post .error
+            {
+                text-align:left;
+                color:red;
+            }
 
-    input::placeholder {
-            color: gray; /* Change this color */
-            opacity: 1; /* Optional */
-        }   
-    </style> -->
+        .border-gradient2 
+        {
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+        }
+        .disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+    </style>
+
 
 </head>
 <body>
     <div class="hire-form-block">
+    <div id="alertMsg"></div>
+
         <div class="container">
             <div class="row">
                 <div class="col col-12 col-md-6">
@@ -69,24 +88,30 @@ $fileName = str_replace(' ', ' ', ucwords(strtolower($fileName)));
                             We ensure you’re matched with the right talent resource based
                             on your requirement.
                         </p>
-                        <form class="inquery">
+                        <form id="inquery-post" action="" onsubmit="showLoading()">
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Name" />
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" placeholder="Email" />
-                            </div>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                                </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Phone Number" />
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number" />
                             </div>
                             <div class="mb-4">
-                                <textarea class="form-control" rows="3" placeholder="Describe Your Requirements"></textarea>
+                                <textarea class="form-control" rows="3" id="desc" name="desc" placeholder="Describe Your Requirements" ></textarea>
                             </div>
                             <div class="mb-5 d-flex justify-content-end">
-                                <button class="border-gradient">
-                                    <span>Inquire now</span>
-                                </button>
+                            
+                                 <button class="border-gradient2 border-gradient" type="submit" id="inq-btn" name="inq-btn">                                   
+                                        <span id="inq_text">Inquire now</span>          
+                                 </button>
+
                             </div>
+                        </form>
+
+                
+                    
                             <div class="formbtmtxt">
                                 <a href="mailto:sales@nivzen.com">
                                     <i class="fa fa-envelope-o me-2" aria-hidden="true"></i>
@@ -97,12 +122,13 @@ $fileName = str_replace(' ', ' ', ucwords(strtolower($fileName)));
                                     We accelerate the release of digital products and guarantee your success
                                 </p>
                             </div>
-                          </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+   
+
 </body>
 </html>
 

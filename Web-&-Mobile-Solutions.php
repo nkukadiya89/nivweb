@@ -3,6 +3,7 @@
 
 <?php include 'layout.php';?>
 
+
 <body>
 
   <body>
@@ -58,8 +59,8 @@
       </div>
 
       <?php include 'inquery.php';?>
-      
-      <div class="servicesRow">
+
+      <!-- <div class="servicesRow">
         <div class="container">
           <div class="row">
             <div class="discussProject">
@@ -68,10 +69,12 @@
                 Get free consultation and let us know your project idea to turn
                 it into an amazing digital product.
               </p>
-            </div>
+            </div> -->
+
+            
             <!--  -->
 
-            <!--  --> 
+            <!--  -->
 
             <div class="discussProject">
               <div class="container">
@@ -96,126 +99,185 @@
     </div>
 
    <!-- Bootstrap JS and dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<!-- Owl Carousel JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-<script>
-  $(document).ready(function () {
-    // Function to update details based on the center card
-    function updateCenterCardDetails(event) {
-      // Get all active items
-      var items = event.item.count; // Total number of items in the carousel
-      var itemIndex = (event.item.index + Math.floor(event.page.size / 2)) % items; // Calculate the center item index
-      var centerItem = $(event.target).find(".owl-item").eq(itemIndex).find(".item");
-      var clickedItemId = centerItem.attr("data-id");
-      var details = "Fetched details for item " + clickedItemId;
-      $("#details-container").html(details);
-    }
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Owl Carousel JS -->
 
-    // Initialize the Owl Carousel
-    var owl = $(".custom-carousel").owlCarousel({
-      loop: true,
-      margin: 10,
-      autoWidth: true,
-      nav: true,
-      navText: ["<button class='prev'>&#9664;</button>", "<button class='next'>&#9654;</button>"], // Custom navigation buttons
-      responsive: {
-        0: {
-          items: 1 
-        },
-        600: {
-          items: 1
-        },
-        1000: {
-          items: 1 
-        }
-      },
-      startPosition: Math.floor($(".custom-carousel .owl-item").length / 2), // Set the starting position to the calculated center index
-      autoplay: true, 
-      autoplayTimeout: 3000, 
-      autoplayHoverPause: true, 
-      onInitialized: updateCenterCardDetails,
-      onChanged: updateCenterCardDetails 
-    });
+    <script>
+        $(document).ready(function () {
+            function updateCenterCardDetails(event) {
+            // Get all active items
+            var items = event.item.count; // Total number of items in the carousel
+            var itemIndex = (event.item.index + Math.floor(event.page.size / 2)) % items; // Calculate the center item index
+            var centerItem = $(event.target).find(".owl-item").eq(itemIndex).find(".item");
+            var clickedItemId = centerItem.attr("data-id");
+            var details = "Fetched details for item " + clickedItemId;
+            $("#details-container").html(details);
+            }
 
-    // Click event on carousel items
-    $(".custom-carousel").on("click", ".item", function () {
-      $(".custom-carousel .item").removeClass("active");
-      $(this).addClass("active");
-      var clickedItemId = $(this).attr("data-id");
-      var details = "Fetched details for item " + clickedItemId;
-      $("#details-container").html(details);
-    });
-  });
-</script>
+            // Initialize the Owl Carousel
+            var owl = $(".custom-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            autoWidth: true,
+            nav: true,
+            navText: ["<button class='prev'>&#9664;</button>", "<button class='next'>&#9654;</button>"], // Custom navigation buttons
+            responsive: {
+                0: {
+                items: 1
+                },
+                600: {
+                items: 1
+                },
+                1000: {
+                items: 1
+                }
+            },
+            startPosition: Math.floor($(".custom-carousel .owl-item").length / 2), // Set the starting position to the calculated center index
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            onInitialized: updateCenterCardDetails,
+            onChanged: updateCenterCardDetails
+            });
 
+            // Click event on carousel items
+            $(".custom-carousel").on("click", ".item", function () {
+                $(".custom-carousel .item").removeClass("active");
+                $(this).addClass("active");
+                var clickedItemId = $(this).attr("data-id");
+                var details = "Fetched details for item " + clickedItemId;
+                $("#details-container").html(details);
+            });
+        });
 
-
+            
+    </script>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.js"></script>
+
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
     <script>
-      // Trigger CSS animations on scroll.
-      // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
+     
+        jQuery(function ($) {
+            // Function which adds the 'animated' class to any '.animatable' in view
+            var doAnimations = function () {
+            // Calc current offset and get all animatables
+            var offset = $(window).scrollTop() + $(window).height(),
+                $animatables = $(".animatable");
 
-      // Looking for a version that also reverses the animation when
-      // elements scroll below the fold again?
-      // --> Check https://codepen.io/bramus/pen/vKpjNP
-
-      jQuery(function ($) {
-        // Function which adds the 'animated' class to any '.animatable' in view
-        var doAnimations = function () {
-          // Calc current offset and get all animatables
-          var offset = $(window).scrollTop() + $(window).height(),
-            $animatables = $(".animatable");
-
-          // Unbind scroll handler if we have no animatables
-          if ($animatables.length == 0) {
-            $(window).off("scroll", doAnimations);
-          }
-
-          // Check all animatables and animate them if necessary
-          $animatables.each(function (i) {
-            var $animatable = $(this);
-            if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-              $animatable.removeClass("animatable").addClass("animated");
+            // Unbind scroll handler if we have no animatables
+            if ($animatables.length == 0) {
+                $(window).off("scroll", doAnimations);
             }
-          });
-        };
 
-        // Hook doAnimations on scroll, and trigger a scroll
-        $(window).on("scroll", doAnimations);
-        $(window).trigger("scroll");
+            // Check all animatables and animate them if necessary
+            $animatables.each(function (i) {
+                var $animatable = $(this);
+                if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+                $animatable.removeClass("animatable").addClass("animated");
+                }
+            });
+            };
 
-        $(".ward").owlCarousel({
-          loop: false,
-          margin: 0,
-          nav: false,
-          responsive: {
-            0: {
-              items: 3,
-            },
-            600: {
-              items: 4,
-            },
-            1000: {
-              items: 6,
-            },
-            1300: {
-              items: 6,
-            },
-          },
+            // Hook doAnimations on scroll, and trigger a scroll
+            $(window).on("scroll", doAnimations);
+            $(window).trigger("scroll");
+
+            $(".ward").owlCarousel({
+                loop: false,
+                margin: 0,
+                nav: false,
+                responsive: {
+                    0: {
+                    items: 3,
+                    },
+                    600: {
+                    items: 4,
+                    },
+                    1000: {
+                    items: 6,
+                    },
+                    1300: {
+                    items: 6,
+                    },
+                },
+            });
         });
-      });
     </script>
-   
+
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+ <script>
+
+$.validator.addMethod("phoneValidation", function(value, element) {
+// Regular expression for phone number validation
+    return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+}, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
+
+$.validator.addMethod("gmailValidation", function(value, element) {
+    // Check if the email ends with @gmail.com
+    return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
+}, "Please enter a valid Gmail address.");
+
+
+    $("#inquery-post").validate({
+        rules: {
+            'name': {
+                required: true,
+            },
+            'email': {
+                required: true ,
+                email: true ,
+                gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
+            },
+            'phone': {
+                required: true,
+                phoneValidation: true 
+            },
+            'desc': {
+                required: true
+            }
+        }
+    });
+
+    $("#inquery-post").submit(function(event) {
+        event.preventDefault();
+        // Send the form data via AJAX
+        if ($(this).valid()) { // Only submit if the form is valid
+            $.ajax({
+                url: 'submit-inquery.php',
+                type: 'POST',
+                data: $(this).serialize(), // Serialize form data
+                success: function(response) {
+                    const obj = JSON.parse(response);
+                    if (obj && obj.message) {
+                        $("#alertMsg").html(`
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                ${obj.message}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        `);
+
+                        $('#inquery-post')[0].reset();
+                    } 
+                }
+            });
+        }
+    });
+    </script>
+
+
   </body>
 
 </html>

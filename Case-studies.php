@@ -53,7 +53,7 @@
                                     </p>
                                     
                                     <div class="d-grid gap-2 col-lg-3 col-sm-12 mx-auto card-btn">
-                                        <a href="./Case-studies-PharmaLinkage.html" class="btn" role="button">
+                                        <a href="./case-studies-pharmalinkage.php" class="btn" role="button">
                                             View Project
                                         </a>
                                     </div>
@@ -77,7 +77,7 @@
                                       A company that is doing regular procurement for any product materials according to their need, faces inefficiencies and bottlenecks in its procurement processes. Manual paperwork, lack of real-time visibility, and fragmented communication were hindering their operations. Seeking a solution, they turned to SmartBuyer, a leading Procurement SaaS product, to streamline their procurement workflow.
                                     </p>
                                     <div class="d-grid gap-2 col-lg-3 col-sm-12 mx-auto card-btn">
-                                        <a href="./smart-buyer-Case-studies.html" class="btn" role="button">
+                                        <a href="./smart-buyer-case-studies.php" class="btn" role="button">
                                             View Project
                                         </a>
                                     </div>
@@ -113,7 +113,7 @@
 
                                     </p>
                                     <div class="d-grid gap-2 col-lg-3 col-sm-12 mx-auto card-btn">
-                                        <a href="./OBGUIDE-Case-studies.html" class="btn" role="button">
+                                        <a href="./obguide-case-studies.php" class="btn" role="button">
                                             View Project
                                         </a>
                                     </div>

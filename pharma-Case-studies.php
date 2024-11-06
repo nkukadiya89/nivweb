@@ -50,7 +50,7 @@
                                         Organizations (CDMOs) worldwide.
 
                                     </p>
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
+                                    <div class="d-grid gap-2 col-lg-3 col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
                                     </div>
                                 </div>
@@ -161,6 +161,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="Conclusion-part">
                 <div class="container">
                     <div class="row">
@@ -209,13 +210,14 @@
                                 <button type="submit"><img src="./images/AntDesign-icon.png" alt="Ant Design Icon">Ant Design</button>
                                 <button type="submit"><img src="./images/Figma-icon.png" alt="Figma Icon">Figma</button>
                                 <button type="submit"><img src="./images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS Cloud</button>
+                                <br><br>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <?php include 'footer.php';?>
+            <?php include 'footer.php';?> 
 
         </div>
         <!-- Optional JavaScript -->

@@ -66,16 +66,16 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./BlogDetail.html">
+                            <a href="./blogdetail.php">
                             <img src="./images/blog-card3-img.png" class="card-img-top" alt="...">
                         </a>
                             <div class="card-body">
                                 <div class="text-start card-tag">
-                                    <a class="" href="./BlogDetail.html" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div>
 
                                 <div class="container mt-3">
-                                    <a href="./BlogDetail.html">
+                                    <a href="./blogdetail.php">
                                     <p class="card-text text-dark">The Power Of Quantum Computing:How It Can Solve Complex
                                         Problem.
                                     </p>
@@ -93,16 +93,16 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./BlogDetail.html">
+                            <a href="./blogdetail.php">
                             <img src="./images/blog-card4-img.png" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
                                 <div class="text-start card-tag">
-                                    <a class="" href="./BlogDetail.html" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div>
 
                                 <div class="container mt-3">
-                                    <a href="./BlogDetail.html">
+                                    <a href="./blogdetail.php">
                                         <p class="card-text text-dark">The Power Of Quantum Computing:How It Can Solve Complex
                                             Problem.
                                         </p>
@@ -120,15 +120,15 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./BlogDetail.html">
+                            <a href="./blogdetail.php">
                             <img src="./images/blog-card5-img.png" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
                                 <div class=" text-start card-tag">
-                                    <a class="" href="./BlogDetail.html" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div>
                                 <div class="container mt-3">
-                                    <a href="./BlogDetail.html">
+                                    <a href="./blogdetail.php">
                                         <p class="card-text text-dark">The Power Of Quantum Computing:How It Can Solve Complex
                                             Problem.
                                         </p>
@@ -146,16 +146,16 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./BlogDetail.html">
+                            <a href="./blogdetail.php">
                             <img src="./images/blog-card3-img.png" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
                                 <div class=" text-start card-tag">
-                                    <a class="" href="./BlogDetail.html" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div>
 
                                 <div class="container mt-3">
-                                    <a href="./BlogDetail.html">
+                                    <a href="./blogdetail.php">
                                         <p class="card-text text-dark">The Power Of Quantum Computing:How It Can Solve Complex
                                             Problem.
                                         </p>
@@ -173,16 +173,16 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./BlogDetail.html">
+                            <a href="./blogdetail.php">
                             <img src="./images/blog-card4-img.png" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
                                 <div class="col-lg- text-start card-tag">
-                                    <a class="" href="./BlogDetail.html" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div>
 
                                 <div class="container mt-3">
-                                    <a href="./BlogDetail.html">
+                                    <a href="./blogdetail.php">
                                         <p class="card-text text-dark">The Power Of Quantum Computing:How It Can Solve Complex
                                             Problem.
                                         </p>
@@ -200,16 +200,16 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./BlogDetail.html">
+                            <a href="./blogdetail.php">
                             <img src="./images/blog-card5-img.png" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
                                 <div class="text-start card-tag">
-                                    <a class="" href="./BlogDetail.html" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div>
 
                                 <div class="container mt-3">
-                                    <a href="./BlogDetail.html">
+                                    <a href="./blogdetail.php">
                                         <p class="card-text text-dark">The Power Of Quantum Computing:How It Can Solve Complex
                                             Problem.
                                         </p>

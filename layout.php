@@ -67,4 +67,20 @@
 
     /* ============ mobile view .end// ============ */
   </style>
+  <style>
+    .country-select.inside .flag-dropdown:hover {
+    cursor: pointer;
+}
+.country-select.inside .flag-dropdown {
+    right: auto;
+    left: 0;
+}
+.country-select .flag-dropdown {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1px;
+}
+  </style>
 </head>
