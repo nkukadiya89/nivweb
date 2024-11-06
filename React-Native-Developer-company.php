@@ -64,7 +64,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 whycol">
-              <h3>Why Choose Nivzen Technologies for ReactJS Development</h3>
+              <h3>Why Choose Nivzen Technologies for React Native Development</h3>
               <div class="row">
                 <div class="col-6 col-md-4 points">
                   <div class="whyico">
@@ -115,17 +115,19 @@
             </div>
 
             <div class="col-12 col-md-6 servicecol">
-              <h3>Why Choose Nivzen Technologies for ReactJS Development</h3>
+              <h3>Why Choose Nivzen Technologies for React Native Development</h3>
               <ul>
-                <li>ReactJS Web App Development</li>
-                <li>Cross-Platform Application Development</li>
-                <li>Migration & Integration Services</li>
-                <li>ReactJS UI Development</li>
-                <li>ReactJS Plugin Development</li>
-                <li>Customized ReactJS Development</li>
-                <li>ReactJS Front-End Development</li>
-                <li>ReactJS Support & Maintenance</li>
-                <li>QA & Testing</li>
+                <li>Next-Gen Cross-Platform App Development</li>
+                <li>Custom Animation & Gesture-Based UI for Seamless User Experience</li>
+                <li>Integration of Augmented Reality (AR) in Apps with ARCore & ARKit</li>
+                <li>App Development with Real-Time Collaboration & Multi-User Features</li>
+                <li>AI-Driven Personalization & Recommendations in React Native Apps</li>
+                <li>Advanced Geolocation, Navigation & Mapping Features</li>
+                <li>Wearable App Development</li>
+                <li>Seamless IoT Device Control & Smart Home Integration</li>
+                <li>Building Offline-First React Native Apps with Local Storage & Syncing</li>
+                <li>CI/CD Pipeline Setup with Over-The-Air (OTA) Updates</li>
+
               </ul>
             </div>
           </div>
@@ -154,6 +156,9 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
       // Trigger CSS animations on scroll.
@@ -209,5 +214,68 @@
         });
       });
     </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+<script>
+
+$.validator.addMethod("phoneValidation", function(value, element) {
+// Regular expression for phone number validation
+   return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+}, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
+
+$.validator.addMethod("gmailValidation", function(value, element) {
+   // Check if the email ends with @gmail.com
+   return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
+}, "Please enter a valid Gmail address.");
+
+
+   $("#inquery-post").validate({
+       rules: {
+           'name': {
+               required: true,
+           },
+           'email': {
+               required: true ,
+               email: true ,
+               gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
+           },
+           'phone': {
+               required: true,
+               phoneValidation: true 
+           },
+           'desc': {
+               required: true
+           }
+       }
+   });
+
+   $("#inquery-post").submit(function(event) {
+       event.preventDefault();
+       // Send the form data via AJAX
+       if ($(this).valid()) { // Only submit if the form is valid
+           $.ajax({
+               url: 'submit-inquery.php',
+               type: 'POST',
+               data: $(this).serialize(), // Serialize form data
+               success: function(response) {
+                   const obj = JSON.parse(response);
+                   if (obj && obj.message) {
+                       $("#alertMsg").html(`
+                           <div class="alert alert-success alert-dismissible fade show" role="alert">
+                               ${obj.message}
+                               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                           </div>
+                       `);
+
+                       $('#inquery-post')[0].reset();
+                   } 
+               }
+           });
+       }
+   });
+   </script>
+
+
   </body>
 </html>
