@@ -862,6 +862,144 @@ header {
 
 }
 
+.casestudiesrow {
+  padding: 100px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  &.bg1 {
+    background: url(../images/green-texture.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  &.bg2 {
+    background: url(../images/red-texture.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  &.bg3 {
+    background: url(../images/blue-texture.png) no-repeat center top;
+    background-size: cover;
+  }
+
+  .image-part {
+    width: 100%;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .pharma-txt {
+    h3 {
+      margin: 0;
+      color: #343434;
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      color: #5A5A5A;
+    }
+  }
+}
+
+.case-studiedetail {
+  position: relative;
+
+  .casestudiesdtlrow {
+    padding: 64px 0px 0px 0px;
+
+    .image-part {
+      width: 100%;
+      text-align: center;
+
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .pharma-txt {
+      h3 {
+        margin: 0;
+        color: #343434;
+        font-size: 36px;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        color: #5A5A5A;
+      }
+    }
+  }
+
+  &::before {
+    content: "";
+    background: url(../images/dotbg1.png) no-repeat right top;
+    width: 363px;
+    height: 292px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.1;
+  }
+}
+
+.case-key-featuer {
+  margin-top: 64px;
+  padding: 64px 0px;
+  background: url(../images/KeyFeatures-bg.png) no-repeat left top;
+  background-size: cover;
+  color: #fff;
+
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .timeline {
+    padding-left: 32px;
+  }
+
+  .timeline-item {
+    border-left: 2px solid #fff;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    position: relative;
+
+    &::before {
+      width: 12px;
+      height: 12px;
+      content: "";
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      left: -7px;
+      top: 16px;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    color: #C0C0C0;
+  }
+}
+
 .about-react {
   padding: 64px 0px;
 
@@ -1915,7 +2053,9 @@ footer {
     }
   }
 
-
+  .casestudiesrow .image-part img {
+    max-width: 300px;
+  }
 }
 
 @media screen and (max-width: 575px) {
