@@ -32,6 +32,9 @@ button {
   text-decoration: none;
   transition: all 0.2s ease-in-out; }
 
+#wapper {
+  width: 100%; }
+
 .header-wapper {
   width: 100%;
   background: #fff;
@@ -702,6 +705,54 @@ header {
     font-size: 18px;
     color: #C0C0C0; }
 
+.Conclusion-part {
+  padding: 100px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: url(../images/blue-texture.png) no-repeat center top;
+  background-size: cover; }
+  .Conclusion-part img {
+    max-width: 100%; }
+  .Conclusion-part .pharma-txt h2 {
+    margin: 0;
+    color: #343434;
+    font-size: 36px;
+    font-weight: 600; }
+  .Conclusion-part .pharma-txt p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A5A5A; }
+
+.technologies {
+  padding: 100px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: url(../images/red-texture.png) no-repeat center top;
+  background-size: cover; }
+  .technologies h3 {
+    font-size: 36px;
+    font-weight: 600; }
+  .technologies .icon-btn {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .technologies .icon-btn a {
+      padding: 16px;
+      background: #fff;
+      border: 1px solid #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 10px;
+      min-width: 136px;
+      min-height: 136px;
+      color: #343434;
+      font-size: 16px; }
+      .technologies .icon-btn a img {
+        height: 50px;
+        width: auto;
+        margin: 12px 0px; }
+
 .about-react {
   padding: 64px 0px; }
   .about-react .col {
@@ -1119,6 +1170,15 @@ footer {
     font-size: 18px;
     font-weight: 600; } }
 @media screen and (max-width: 767px) {
+  .casestudiesrow .image-part img {
+    max-width: 300px; }
+
+  .casestudiesrow {
+    padding: 32px 0px; }
+
+  .casestudiesrow .image-part {
+    margin-bottom: 16px; }
+
   footer .top-part .quick-links {
     margin-bottom: 16px; }
 
@@ -1402,8 +1462,56 @@ footer {
     footer .top-part .contact a.mail {
       margin: 10px 0 0 0; }
 
-  .casestudiesrow .image-part img {
-    max-width: 300px; } }
+  .casestudiesrow .pharma-txt h3,
+  .case-studiedetail .casestudiesdtlrow .pharma-txt h3,
+  .case-key-featuer h3,
+  .Conclusion-part .pharma-txt h2,
+  .technologies h3 {
+    font-size: 24px; }
+
+  .casestudiesrow .pharma-txt img {
+    max-width: 250px; }
+
+  .case-studiedetail .casestudiesdtlrow .pharma-txt img {
+    max-width: 150px; }
+
+  .casestudiesrow .pharma-txt p,
+  .case-studiedetail .casestudiesdtlrow .pharma-txt p,
+  .Conclusion-part .pharma-txt p {
+    font-size: 16px;
+    line-height: 24px; }
+
+  .case-studiedetail .casestudiesdtlrow .image-part {
+    margin-bottom: 16px; }
+
+  .case-studiedetail .casestudiesdtlrow .image-part img {
+    max-width: 250px; }
+
+  .Conclusion-part .image-part img {
+    max-width: 250px; }
+
+  .case-key-featuer .dot-line img {
+    max-width: 150px; }
+
+  .technologies .dot-line img {
+    max-width: 150px; }
+
+  .case-key-featuer .timeline-item h2 {
+    font-size: 20px; }
+
+  .case-key-featuer p {
+    font-size: 16px; }
+
+  .Conclusion-part,
+  .technologies {
+    padding: 32px 0px; }
+
+  .technologies .icon-btn {
+    gap: 10px; }
+
+  .technologies .icon-btn a {
+    min-width: 120px;
+    min-height: 120px; } }
 @media screen and (max-width: 575px) {
   footer {
     text-align: center; }

@@ -33,13 +33,13 @@
             <div class="casestudiesrow bg1 PharmaLinkage-part">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInLeft ">
+                        <div class="col col-12 col-md-6 text-center">
+                            <div class="image-part   ">
                                 <img src="images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
-                        <div class="col col-12 col-md-6 pharma-text my-3">
-                            <div class="content-part animatable fadeInRight">
+                        <div class="col col-12 col-md-6 pharma-text">
+                            <div class="content-part  ">
                                 <div class="pharma-txt">
                                     <h3>PharmaLinkage</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
@@ -70,8 +70,14 @@
             <div class="casestudiesrow bg2 SmartBuyer-part">
                 <div class="container">
                     <div class="row">
-                        <div class="col col-12 col-md-6 pharma-text">
-                            <div class="content-part animatable fadeInLeft ">
+
+                        <div class="col col-12 col-md-6 text-center my-3 order-md-2">
+                            <div class="image-part   ">
+                                <img src="images/SmartBuyer-img.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-6 pharma-text order-md-1">
+                            <div class="content-part   ">
                                 <div class="pharma-txt">
                                     <h3>Smart Buyer</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
@@ -91,11 +97,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInRight ">
-                                <img src="images/SmartBuyer-img.png" alt="" />
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -106,12 +107,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-12 col-md-6 text-center">
-                            <div class="image-part animatable fadeInLeft ">
+                            <div class="image-part   ">
                                 <img src="images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text">
-                            <div class="content-part animatable fadeInRight">
+                            <div class="content-part  ">
                                 <div class="pharma-txt">
                                     <h3>My OBGUIDE HR System</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
