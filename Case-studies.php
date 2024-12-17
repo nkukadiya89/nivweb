@@ -44,14 +44,10 @@
                                     <h3>PharmaLinkage</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                        PharmaLinkage is a revolutionary platform designed to address the global
-                                        pharmaceutical industry's manufacturing and sourcing needs. It serves as a
-                                        comprehensive solution connecting top-tier manufacturing facility providers, API
-                                        and formulation manufacturers, and Contract Development and Manufacturing
-                                        Organizations (CDMOs) worldwide.
-
+                                    <b> Pharma MatchMaking Platform </b>is a unique digital platform designed to bridge the gap between pharmaceutical manufacturers and the facilities they need. 
+                                    The platform acts as a matchmaking service, connecting manufacturers with specialized production units and facilities that align with their requirements. 
+                                    This innovative approach optimizes resource allocation in the pharmaceutical sector, enabling seamless collaborations, and ensuring compliance with stringent industry standards.
                                     </p>
-
 
                                     <a href="./case-studies-pharmalinkage.php" class="border-gradient mt-3"
                                         role="button">

@@ -41,16 +41,15 @@
                             <div class="col col-12 col-md-6 pharma-text">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
-                                        <h3>Introduction</h3>
+                                        <h3>Client Requirements</h3>
                                         <img class="my-3" src="./images/line.png" alt="">
                                         <p>
-                                            PharmaLinkage is a revolutionary platform designed to address the global
-                                            pharmaceutical industry's manufacturing and sourcing needs. It serves as a
-                                            comprehensive solution connecting top-tier manufacturing facility providers,
-                                            API
-                                            and formulation manufacturers, and Contract Development and Manufacturing
-                                            Organizations (CDMOs) worldwide.
-
+                                           <b>The client approached Nivzen Technologies with the following objectives:</b><br>
+                                           Develop a platform to connect pharmaceutical manufacturers with production facilities based on specific requirements such as capacity, certifications, and geographic location.<br>
+                                           Incorporate features to manage profiles, upload facility certifications, and automate matchmaking based on predefined criteria.<br>
+                                           Ensure data privacy and adherence to regulatory standards in the pharmaceutical industry.<br>
+                                           Provide robust search, filter, and communication tools for users to streamline the partnership process.<br>
+                                           Create a scalable and user-friendly platform with an intuitive interface.<br>    
                                         </p>
 
                                     </div>
@@ -71,19 +70,18 @@
                             <div class="col col-12 col-md-6 pharma-text  order-md-1">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
-                                        <h3>Challenges</h3>
-                                        <img class="my-3" src="./images/line.png" alt="">
+                                        <h3>Key Challenges</h3>
+                                        <img class="my-3" src="./images/line.png" alt=""><br>
                                         <p>
-                                            Before PharmaLinkage, pharmaceutical facility providers often struggled to
-                                            expand their reach beyond local markets. The lack of a centralized platform
-                                            made
-                                            showcasing their capabilities to potential partners globally challenging.
-                                            Moreover, navigating regulatory approvals and certifications posed
-                                            significant
-                                            hurdles in attracting international buyers.
-
+                                            <b>1. Data Security and Compliance: </b><br>
+                                            Ensuring the platform complies with industry regulations and securely handles sensitive data, such as certifications and proprietary manufacturing details.<br>
+                                            <b>2. Efficient Matchmaking Algorithm: </b><br>                                        
+                                            Designing an algorithm that considers multiple parameters, including production capacity, certifications, location, and lead times, to generate precise matches.<br>
+                                            <b>3. Scalability: </b><br>
+                                             Building a system capable of supporting a growing user base without compromising performance.<br>
+                                            <b>4. User Onboarding: </b><br>
+                                            Simplifying the onboarding process for facility owners and manufacturers, many of whom were not familiar with digital platforms.
                                         </p>
-
                                     </div>
                                 </div>
                             </div>
@@ -136,35 +134,49 @@
                         <div class="content-text">
 
                             <div class="timeline">
-                                <div class="timeline-item">
 
+                                <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Comprehensive Facility Listings</h2>
-                                        <p>PharmaLinkage enables facility providers to showcase comprehensive
-                                            details about their facilities, products, and manufacturing
-                                            capabilities, empowering them to stand out in a competitive market.
-                                        </p>
+                                        <h2>Facility and Manufacturer Profiles:</h2>
+                                        <p> Each facility and manufacturer can create detailed profiles with fields for certifications, production capabilities, location, and contact details.</p>
                                     </div>
                                 </div>
-                                <div class="timeline-item">
 
+                                <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Certification Showcase</h2>
-                                        <p>The platform allows providers to proudly display their certifications
-                                            and regulatory approvals, including cGMP, FDA, EDQM, ISO, and more,
-                                            demonstrating their commitment to industry standards and regulatory
-                                            compliance.</p>
+                                        <h2>Advanced Matchmaking Algorithm:</h2>
+                                        <p>The algorithm matches facilities and manufacturers based on multi-factor criteria, prioritizing certifications and capacity requirements.</p>
                                     </div>
                                 </div>
-                                <div class="timeline-item">
 
+                                <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Efficient Connections</h2>
-                                        <p>PharmaLinkage streamlines the process of connecting pharmaceutical
-                                            companies with reliable manufacturing partners, fostering efficient
-                                            collaborations and business growth.</p>
+                                        <h2>Search and Filter Options:</h2>
+                                        <p>Users can refine searches based on location, certifications, and facility specialization.</p>
                                     </div>
                                 </div>
+
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Secure Document Management:</h2>
+                                        <p>Facilities can upload and share certifications securely, with access restricted to authorized users.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Communication Module:</h2>
+                                        <p>A built-in messaging system enables secure communication between manufacturers and facility owners.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Dashboard for Admins:</h2>
+                                        <p>Administrators can monitor activity, manage disputes, and ensure compliance with platform policies.</p>
+                                    </div>
+                                </div>
+
                             </div>
 
                         </div>
@@ -182,17 +194,8 @@
                                 <div class="pharma-txt ">
                                     <h2>Conclusion</h2>
                                     <img class="my-3" src="./images/line.png" alt="">
-                                    <p>
-                                        <b> PharmaLinkage</b> stands as a testament to innovation and efficiency in the
-                                        pharmaceutical industry. By bridging the gap between facility providers and
-                                        buyers worldwide, <b>PharmaLinkage</b> continues to revolutionise pharmaceutical
-                                        manufacturing and sourcing, driving industry growth and collaboration.
-                                        <br>
-                                    <p>In conclusion, <b>PharmaLinkage's</b> success story exemplifies the
-                                        transformative power of technology in facilitating global connections and
-                                        driving business expansion in the pharmaceutical sector.</p>
-                                    </p>
-
+                                    <p>Platform exemplifies how technology can address industry-specific challenges by creating a dedicated platform for efficient resource utilization and collaboration. <br><br>
+                                       <b> Nivzen Technologies' </b>expertise in understanding client requirements and delivering tailored solutions played a pivotal role in the platform's success, setting a benchmark for innovation in the pharmaceutical sector.</p>
                                 </div>
                             </div>
                         </div>
