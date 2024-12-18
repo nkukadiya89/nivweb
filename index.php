@@ -265,7 +265,7 @@
                 solution, our expert team excels in all facets of web development. We are committed to delivering
                 exceptional results that align with your vision and business objectives.
               </p>
-              <a href="http://localhost/nivzen/web-&-mobile-solutions.php">Read More</a>
+              <a href="./web-&-mobile-solutions.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/mobile-ico.png" alt="" /></div>
@@ -275,7 +275,7 @@
                 ensuring
                 a seamless user experience.
               </p>
-              <a href="http://localhost/nivzen/android-development-company.php">Read More</a>
+              <a href="./android-development-company.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/python-ico.png" alt="" /></div>
@@ -285,7 +285,7 @@
                 your specific
                 needs. Explore the possibilities of Python web application development with us.
               </p>
-              <a href="http://localhost/nivzen/python-developer-company.php">Read More</a>
+              <a href="./python-developer-company.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/react-ico.png" alt="" /></div>
@@ -295,7 +295,7 @@
                 React, crafting web applications using React JS, and providing tailored solutions as a React JS web
                 development company.
               </p>
-              <a href="http://localhost/nivzen/react-js-development-company.php">Read More</a>
+              <a href="./react-js-development-company.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/concept-ico.png" alt="" /></div>

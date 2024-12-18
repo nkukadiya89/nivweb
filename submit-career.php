@@ -9,6 +9,7 @@ $mail = new PHPMailer(true);
 
     $uploadDir = 'uploads/';
     $fileName = basename($_FILES['resume']['name']);
+
     $filePath = $uploadDir . $fileName;
    
 
@@ -32,13 +33,13 @@ $mail = new PHPMailer(true);
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
-        $mail->Password = 'nhtg hqft xsps isqj'; // Your password or App Password
+        $mail->Username = 'onlyneaws@gmail.com'; // Your email
+        $mail->Password = 'jojw oyaf giki xouz'; // Your password or App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
         $mail->Port = 587; // TCP port to connect to
 
-        $mail->setFrom('foramdelvadiya@gmail.com', $_REQUEST['fname']);
-        $mail->addAddress('recipient@example.com');    
+        $mail->setFrom('onlyneaws@gmail.com', $_REQUEST['fname']);
+        $mail->addAddress('onlyneaws@gmail.com');    
 
         $mail->isHTML(true);
         $mail->Subject = 'Career Details';

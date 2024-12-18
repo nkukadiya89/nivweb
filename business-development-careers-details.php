@@ -209,7 +209,6 @@
 
             $("#career-detail").submit(function(event) {
                 event.preventDefault(); 
-
                 $('#recaptcha-error').hide(); 
 
                 if ($(this).valid()) {
