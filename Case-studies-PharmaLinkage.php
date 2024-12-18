@@ -101,16 +101,24 @@
                                         <h3>Solution</h3>
                                         <img class="my-3" src="./images/line.png" alt="">
                                         <p>
-                                            PharmaLinkage emerged as the ultimate solution, offering a user-friendly
-                                            platform for pharmaceutical facility providers to list and manage their
-                                            facilities effortlessly. With intuitive features, providers can
-                                            highlight
-                                            their strengths, showcase detailed information about their facilities,
-                                            and
-                                            attract international opportunities seamlessly.
-
+                                            <b> Compliance and Security Measures : </b>
+                                            <li>Data encryption for all sensitive information.</li>
+                                            <li>Role-based access control (RBAC) to ensure secure data access.</li>
+                                            <li>GDPR compliance to protect user privacy and manage data processing transparently.</li><br>
+                                            <p><b>User Experience Optimization : </b></p>
+                                            <li>Simplified onboarding with guided steps for profile setup.</li>
+                                            <li>Interactive walkthroughs to educate users about platform features.</li>
+                                            <li>Mobile-friendly interface for accessibility on any device.</li><br>
+                                            <p><b>Impact and Results</b></p>
+                                            <p><b>1 . Enhanced Collaboration: </b></p>
+                                            <p>Platform facilitated collaborations between hundreds of manufacturers and facilities within its first year of operation.</p>
+                                            <p><b>2 . Time and Cost Savings:  </b></p>
+                                            <p>The matchmaking algorithm reduced the time spent searching for suitable facilities by over 70%.</p>
+                                            <p><b>3 . Market Penetration:  </b></p>
+                                            <p>The platform attracted a diverse user base, from small-scale manufacturers to multinational pharmaceutical companies.</p>
+                                            <p><b>4 . Data-Driven Insights:</b></p>
+                                            <p>The admin dashboard provided actionable insights into market trends, helping facilities and manufacturers align their operations with demand.</p>
                                         </p>
-
                                     </div>
                                 </div>
                             </div>

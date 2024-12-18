@@ -73,7 +73,7 @@
                               .elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}
                            </style>
                                         <br><br><br>
-                              <p>Level up your career graph and join the team to experience a thrilling and adventureNivzen gives you an </p>
+                              <p>Level up your career graph and join the t  eam to experience a thrilling and adventureNivzen gives you an </p>
                               <p>   opportunity to work on leading technologies, enhance passion, grow IT career and cultivate talent</p>		<br><br>
             	           </div>
 			                </div>
@@ -108,10 +108,15 @@
                 <p style="padding-top:38px;"><b>Experience :</b> 0 TO 6 Months</p>
                 <h6><p><b>Work From Office</b></p></h6>
                 <div  style="display: flex; justify-content: center; padding-top:28px; margin:28px;">
-                          <button class="border-gradient">
-                            <span> Apply Now</span>
-                          </button>
-                        </div>
+                  <a href="./web-designer-careers-details.php">
+                    <button class="border-gradient">
+                      <span> Read More</span>
+                    </button></a>
+                  <a href="./web-designer-careers-details.php">
+                    <button class="border-gradient">
+                       <span> Apply Now</span>
+                    </button></a>
+                </div>
               </div>
             </div>
           </div>
@@ -123,10 +128,15 @@
                 <p style="padding-top:38px;"><b>Experience :</b> 1 TO 2 Years</p>
                 <h6><p><b>Work From Office</b></p></h6>
                 <div  style="display: flex; justify-content: center; padding-top:28px; margin:28px;">
-                          <button class="border-gradient">
-                            <span> Apply Now</span>
-                          </button>
-                        </div>
+                <a href="business-development-careers-details.php">
+                  <button class="border-gradient">
+                        <span> Read More</span>
+                  </button></a>
+                  <a href="business-development-careers-details.php">
+                  <button class="border-gradient">
+                        <span> Apply Now</span>
+                  </button></a>
+                </div>
               </div>
             </div>
           </div>
@@ -138,10 +148,15 @@
                 <p style="padding-top:38px;"><b>Experience :</b> 2 TO 3 Years</p>
                 <h6><p><b>Work From Office</b></p></h6>
                 <div  style="display: flex; justify-content: center; padding-top:28px; margin:28px;">
-                          <button class="border-gradient">
-                            <span> Apply Now</span>
-                          </button>
-                        </div>
+                <a href="uiux-designer-careers-details.php">
+                  <button class="border-gradient">
+                        <span> Read More</span>
+                  </button></a>
+                  <a href="uiux-designer-careers-details.php">
+                  <button class="border-gradient">
+                      <span> Apply Now</span>
+                  </button></a>
+                </div>
               </div>
             </div>
           </div>
@@ -153,9 +168,14 @@
                 <p style="padding-top:38px;"><b>Experience :</b> 1 TO 2 Years</p>
                 <h6><p><b>Work From Office</b></p></h6>
                 <div  style="display: flex; justify-content: center; padding-top:28px; margin:28px;">
-                          <button class="border-gradient">
-                            <span> Apply Now</span>
-                          </button>
+                  <a href="wordpress-developer-careers-details.php">
+                    <button class="border-gradient">
+                            <span> Read More</span>
+                    </button></a>
+                  <a href="wordpress-developer-careers-details.php">
+                    <button class="border-gradient">
+                      <span> Apply Now</span>
+                    </button></a>
                         </div>
               </div>
             </div>
@@ -163,7 +183,7 @@
         </div>
       </div>
     </div>
-
+<!-- 
                     <form id="career-post" method="post" style="align:center; width:80%; padding-left:28%;">
                       <h1 style="padding-left:38%; padding-top:28px;"><b>Get In Touch</b></h1><br>
                         <div class="row" style="padding-top:30px; text-align:left;">
@@ -215,7 +235,7 @@
                               </div>
                             </div>
                           </div>
-                        </form>
+                        </form> -->
 
 
 <?php include 'footer.php';?>
@@ -226,157 +246,169 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-<script src="js/jquery.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-    // Trigger CSS animations on scroll.
-    // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      // Trigger CSS animations on scroll.
+      // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
 
-    // Looking for a version that also reverses the animation when
-    // elements scroll below the fold again?
-    // --> Check https://codepen.io/bramus/pen/vKpjNP
+      // Looking for a version that also reverses the animation when
+      // elements scroll below the fold again?
+      // --> Check https://codepen.io/bramus/pen/vKpjNP
 
-    jQuery(function ($) {
-      // Function which adds the 'animated' class to any '.animatable' in view
-      var doAnimations = function () {
-        // Calc current offset and get all animatables
-        var offset = $(window).scrollTop() + $(window).height(),
-          $animatables = $(".animatable");
+      jQuery(function ($) {
+        // Function which adds the 'animated' class to any '.animatable' in view
+        var doAnimations = function () {
+          // Calc current offset and get all animatables
+          var offset = $(window).scrollTop() + $(window).height(),
+            $animatables = $(".animatable");
 
-        // Unbind scroll handler if we have no animatables
-        if ($animatables.length == 0) {
-          $(window).off("scroll", doAnimations);
-        }
-
-        // Check all animatables and animate them if necessary
-        $animatables.each(function (i) {
-          var $animatable = $(this);
-          if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-            $animatable.removeClass("animatable").addClass("animated");
+          // Unbind scroll handler if we have no animatables
+          if ($animatables.length == 0) {
+            $(window).off("scroll", doAnimations);
           }
-        });
-      };
 
-      // Hook doAnimations on scroll, and trigger a scroll
-      $(window).on("scroll", doAnimations);
-      $(window).trigger("scroll");
-
-
-      $('.owl-services').owlCarousel({
-        loop: false,
-        margin: 0,
-        nav: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          600: {
-            items: 2
-          },
-          1000: {
-            items: 3
-          },
-          1300: {
-            items: 4
-          }
-        }
-      })
-      $('.award').owlCarousel({
-        loop: false,
-        margin: 0,
-        nav: false,
-        responsive: {
-          0: {
-            items: 3
-          },
-          600: {
-            items: 4
-          },
-          1000: {
-            items: 6
-          },
-          1300: {
-            items: 6
-          }
-        }
-      })
-    });
-
-  </script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
-
-<script>
-        $("#career-post").validate({
-            rules: {
-                'fname': {
-                    required: true,
-                },
-                'lname': {
-                    required: true,
-                },
-                'email': {
-                    required: true,
-                    email: true,
-                },
-                'phone': {
-                    required: true,
-                },
-                'comfortable': {
-                    required: true,
-                },
-                'experience':{
-                  required:true,
-                },
-
-                
-                'resume': {
-                  required: true,
-                } 
-            },
-            errorPlacement: function(error, element) 
-            {
-                if ( element.is(":radio") ) 
-                {
-                    error.appendTo( element.parents('.container') );
-                }
-                else 
-                {
-                   // This is the default behavior 
-                    error.insertAfter( element );
-                }
+          // Check all animatables and animate them if necessary
+          $animatables.each(function (i) {
+            var $animatable = $(this);
+            if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+              $animatable.removeClass("animatable").addClass("animated");
             }
-        });
+          });
+        };
 
-        $("#career-post").submit(function(event) {
-            event.preventDefault(); 
+        // Hook doAnimations on scroll, and trigger a scroll
+        $(window).on("scroll", doAnimations);
+        $(window).trigger("scroll");
 
-            // Send the form data via AJAX
-            $.ajax({
-                url: 'submit-career.php',  
-                type: 'POST',
-                data: $(this).serialize(), // Serialize form data
-                success: function(response) {
-                    if (response) {
-                        $("#alertMsg").html(`
-                            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                ${response}
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        `);
-                        
-                        $('#career-post')[0].reset();
-                    } else {
-                        console.error("Mode is undefined");
-                    }
-                }
-            });
-        });
+
+        $('.owl-services').owlCarousel({
+          loop: false,
+          margin: 0,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 2
+            },
+            1000: {
+              items: 3
+            },
+            1300: {
+              items: 4
+            }
+          }
+        })
+        $('.award').owlCarousel({
+          loop: false,
+          margin: 0,
+          nav: false,
+          responsive: {
+            0: {
+              items: 3
+            },
+            600: {
+              items: 4
+            },
+            1000: {
+              items: 6
+            },
+            1300: {
+              items: 6
+            }
+          }
+        })
+      });
 
     </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+    <!-- <script>
+          $.validator.addMethod("phoneValidation", function(value, element) {
+        // Regular expression for phone number validation
+          return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+        }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
+
+        $.validator.addMethod("gmailValidation", function(value, element) {
+          // Check if the email ends with @gmail.com
+          return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
+        }, "Please enter a valid Gmail address.");
+
+            $("#career-post").validate({
+                rules: {
+                    'fname': {
+                        required: true,
+                    },
+                    'lname': {
+                        required: true,
+                    },
+                    'email': {
+                        required: true,
+                        email: true,
+                        gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
+                    },
+                    'phone': {
+                        required: true,
+                        phoneValidation: true 
+                    },
+                    'comfortable': {
+                        required: true,
+                    },
+                    'experience':{
+                      required:true,
+                    },
+
+                    
+                    'resume': {
+                      required: true,
+                    } 
+                },
+                errorPlacement: function(error, element) 
+                {
+                    if ( element.is(":radio") ) 
+                    {
+                        error.appendTo( element.parents('.container') );
+                    }
+                    else 
+                    {
+                      // This is the default behavior 
+                        error.insertAfter( element );
+                    }
+                }
+            });
+
+            $("#career-post").submit(function(event) {
+                event.preventDefault(); 
+
+                // Send the form data via AJAX
+                $.ajax({
+                    url: 'submit-career.php',  
+                    type: 'POST',
+                    data: $(this).serialize(), // Serialize form data
+                    success: function(response) {
+                        if (response) {
+                            $("#alertMsg").html(`
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    ${response}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            `);
+                            
+                            $('#career-post')[0].reset();
+                        } else {
+                            console.error("Mode is undefined");
+                        }
+                    }
+                });
+            });
+
+        </script>
+ -->
 
 
 </body>

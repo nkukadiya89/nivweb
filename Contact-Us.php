@@ -8,7 +8,22 @@
         text-align:left;
         color:red;
     }
+
+    .border-gradient2 
+        {
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+        }
+
+    .disabled 
+    {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
 </style>
+
 <body>
   <div id="wapper">
     <div class="header-wapper">
@@ -43,7 +58,7 @@
                 <img class="" src="./images/line.png" alt="">
                   <div class="contact-form">
                     <div class="container">
-                        <form id="contact-post">
+                        <form id="contact-post" method="post">
                         
                         <div class="row" style="padding-top:100px; text-align:left;">
                           <div class="col-lg-6 col-md-6 col-sm-12" style="padding-bottom:18px;">
@@ -69,8 +84,8 @@
                         </div>
                         <div class="discussProject">
                           <div class="container">
-                            <button class="border-gradient" type="submit">
-                              <span>Submit</span>
+                            <button class="border-gradient border-gradient2" type="submit" id="submit" name="submit">
+                              <span id="submit_btn">Submit</span>
                             </button>
                           </div>
                         </div>
@@ -88,11 +103,11 @@
             <h4>sales@nivzen.com</h4>
               <h3>Let's Discuss Your Project</h3>
                 <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-                  <a href="">
+                  <!-- <a href="">
                     <button class="border-gradient ">
                       <span>Contact Us</span>
                     </button>
-                  </a>
+                  </a> -->
       </div>
     </div>
 
@@ -167,52 +182,71 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    
     <script>
-        $("#contact-post").validate({
-            rules: {
-                'fname': {
-                    required: true,
-                },
-                'lname': {
-                    required: true,
-                },
-                'emailAddress': {
-                    required: true
-                },
-                'phoneNumber': {
-                    required: true,
-                    phoneNumber: true // Use custom rule
-                },
-                'message': {
-                    required: true
-                }
-            }
-        });
 
-        $("#contact-post").submit(function(event) {
-            event.preventDefault(); 
+            
+      $.validator.addMethod("phoneValidation", function(value, element) {
+        return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+      }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
-            // Send the form data via AJAX
-            $.ajax({
-                url: 'mail.php',  
-                type: 'POST',
-                data: $(this).serialize(), // Serialize form data
-                success: function(response) {
-                    if (response) {
-                        $("#alertMsg").html(`
-                            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                ${response}
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        `);
-                        
-                        $('#contact-post')[0].reset();
-                    } else {
-                        console.error("Mode is undefined");
-                    }
-                }
-            });
-        });
+      $.validator.addMethod("gmailValidation", function(value, element) {
+        return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);  
+      }, "Please enter a valid Gmail address.");
+
+              $("#contact-post").validate({
+                  rules: {
+                      'fname': {
+                          required: true,
+                      },
+                      'lname': {
+                          required: true,
+                      },
+                      'emailAddress': {
+                          required: true,
+                          email: true,
+                          gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
+                      },
+                      'phone': {
+                          required: true,
+                          phoneValidation: true 
+                      },
+                      'message': {
+                          required: true
+                      }
+                  }
+              });
+
+              $("#contact-post").submit(function(event) {
+                  event.preventDefault(); 
+
+                  if ($(this).valid()) { // Only submit if the form is valid
+                  // Send the form data via AJAX
+                  $('#submit_btn').text('Processing...'); 
+                    $.ajax({
+                        url: 'mail.php',  
+                        type: 'POST',
+                        data: $(this).serialize(), // Serialize form data
+                        success: function(response) {
+                          const obj = JSON.parse(response);
+                              if (obj && obj.message) {
+                                $("#alertMsg").html(`
+                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                          ${obj.message}
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    </div>
+                                `);
+
+                                $('#submit_btn').text('Submit'); 
+                                
+                                $('#contact-post')[0].reset();
+                            } else {
+                                console.error("Mode is undefined");
+                            }
+                        }
+                    });
+                  }
+              });
 
     </script>
 </body>

@@ -209,7 +209,6 @@
 <script>
 
 $.validator.addMethod("phoneValidation", function(value, element) {
-// Regular expression for phone number validation
    return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
 }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
@@ -243,6 +242,7 @@ $.validator.addMethod("gmailValidation", function(value, element) {
        event.preventDefault();
        // Send the form data via AJAX
        if ($(this).valid()) { // Only submit if the form is valid
+        $('#inq_text').text('Processing...'); 
            $.ajax({
                url: 'submit-inquery.php',
                type: 'POST',
@@ -256,6 +256,7 @@ $.validator.addMethod("gmailValidation", function(value, element) {
                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                            </div>
                        `);
+                       $('#inq_text').text('Inquiry Sent'); 
 
                        $('#inquery-post')[0].reset();
                    } 
@@ -267,4 +268,4 @@ $.validator.addMethod("gmailValidation", function(value, element) {
 
 </body>
 
-</html>
+</html> 
