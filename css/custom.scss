@@ -250,6 +250,40 @@ header {
   background-size: cover;
   padding-top: 80px;
 
+  &.career {
+    padding: 130px 0px 32px 0px;
+    text-align: center;
+
+    h3 {
+      margin: 0;
+      margin-bottom: 16px;
+      color: #343434;
+      font-size: 58px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 60px;
+      letter-spacing: 0.5px;
+      margin-bottom: 24px;
+
+      span {
+        background: #FF5767;
+        background: linear-gradient(90deg, #FF5767 0, #FCCF58);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    p {
+      color: #343434;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 32px;
+      letter-spacing: 0.16;
+      margin-bottom: 32px;
+    }
+  }
+
   .carousel {
     background: url(../images/bnrshape.png) repeat;
 
@@ -556,6 +590,98 @@ header {
         line-height: normal;
         letter-spacing: 0.16px;
       }
+    }
+  }
+}
+
+.currentopening {
+  padding: 64px 0px;
+  padding-bottom: 150px;
+
+  .blocktitle {
+    text-align: center;
+    margin-bottom: 64px;
+
+
+    h3 {
+      margin: 0;
+      margin-bottom: 10px;
+      color: #343434;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 0.36px;
+    }
+
+
+  }
+
+  .openingwrp {
+    display: flex;
+    flex-direction: column;
+
+    &.gap {
+      margin-top: 54px;
+    }
+
+    .openingbox {
+      flex: auto;
+      border-radius: 10px;
+      border: 1px solid rgba(104, 104, 104, 0.20);
+      background: #FFF6F3;
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.05);
+      padding: 24px 16px;
+      padding-bottom: 32px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+
+      &.yellow {
+        background: #FFFBF1;
+      }
+
+      &.green {
+        background: #F5FFF7;
+      }
+
+      &.blue {
+        background: #F6FCFF;
+      }
+
+
+
+      h3 {
+        margin: 0;
+        color: #343434;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.26px;
+        margin-bottom: 16px;
+      }
+
+      .btnwrp {
+        display: flex;
+        gap: 16px;
+        margin-top: 10px;
+      }
+
+      .skills {
+        margin-bottom: 16px;
+        font-size: 18px;
+        color: #000;
+        font-weight: 600;
+
+        label {
+          display: block;
+          color: #636363;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+
     }
   }
 }
