@@ -1,10 +1,11 @@
+
 <footer>
   <div class="top-part">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6 col-md-12 col-lg-3">
           <a
-            href="index"
+            href="<?php echo $projectFolderName?>"
             class="footer-logo"
             aria-label="this redirect to home page"
           >
@@ -37,13 +38,14 @@
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
           <div class="quick-links">
             <ul>
-              <li><a href="./index.php">Company </a></li>
+              <li><a href="<?php echo $projectFolderName?>">Company </a></li>
               <!-- <li><a href="#">Services </a></li>
               <li><a href="#">Technologies</a></li>
               <li><a href="#">Industries </a></li> -->
-              <li><a href="./blogs.php">Resources </a></li> 
-              <li><a href="./careers.php">Careers</a>
-              <li><a href="./contact-us.php">Contact Us</a></li>
+              <li><a href="<?php echo $projectFolderName; ?>/resources/blogs/blogs.php">Resources</a></li>
+              </li> 
+              <li><a href="<?php echo $projectFolderName; ?>/resources/careers/careers.php">Careers</a>
+              <li><a href="<?php echo $projectFolderName; ?>/contact-us.php">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -108,7 +110,7 @@
                 <div>
                   <h3>Australia</h3>
                   <h6>Australia - Melbourne</h6>
-                </div>
+                </div>src=".
               </li>
             </ul>
           </div>
@@ -132,7 +134,7 @@
         </div>
         <div class="item">
           <img src="/nivweb/images/a7.png" alt="" />
-        </div>
+        </div>src=".
       </div>
       <div class="copyright">
         Copyright © <?php echo date('Y')?> Nivzen Technologies All rights reserved.

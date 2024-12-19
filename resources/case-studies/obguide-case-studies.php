@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php'; ?>
+<?php include '../../includes/layout.php'; ?>
 
 <body>
 
@@ -10,7 +10,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                    <?php include '../includes/header.php'; ?>
+                    <?php include '../../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -301,15 +301,15 @@
                         <div class="m-auto text-center">
                             <h3>Technologies</h3>
                             <div class="dot-line">
-                                <img class="my-3" src="./images/line.png" alt="Line Image">
+                                <img class="my-3" src="../../images/line.png" alt="Line Image">
                             </div>
                             <div class="icon-btn">
-                                <button type="submit"><img src="./images/Python-icon.png" alt="Python Icon">Python</button>
-                                <button type="submit"><img src="./images/Django-icon.png" alt="Django Icon">Django</button>
-                                <button type="submit"><img src="./images/ReactJS-icon.png" alt="React JS Icon">React JS</button>
-                                <button type="submit"><img src="./images/AntDesign-icon.png" alt="Ant Design Icon">Ant Design</button>
-                                <button type="submit"><img src="./images/Figma-icon.png" alt="Figma Icon">Figma</button>
-                                <button type="submit"><img src="./images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS Cloud</button>
+                                <button type="submit"><img src="../../images/Python-icon.png" alt="Python Icon">Python</button>
+                                <button type="submit"><img src="../../images/Django-icon.png" alt="Django Icon">Django</button>
+                                <button type="submit"><img src="../../images/ReactJS-icon.png" alt="React JS Icon">React JS</button>
+                                <button type="submit"><img src="../../images/AntDesign-icon.png" alt="Ant Design Icon">Ant Design</button>
+                                <button type="submit"><img src="../../images/Figma-icon.png" alt="Figma Icon">Figma</button>
+                                <button type="submit"><img src="../../images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS Cloud</button>
                                 <br><br>
                             </div>
                         </div>

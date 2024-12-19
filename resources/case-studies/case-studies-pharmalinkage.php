@@ -23,7 +23,7 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="images/case-banner.png" alt="" />
+                            <img src="../images/case-banner.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="images/Introduction-img.png" alt="" />
+                                    <img src="../images/Introduction-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -60,7 +60,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center   order-md-2">
                                 <div class="image-part  ">
-                                    <img src="images/Challenges-img.png" alt="" />
+                                    <img src="../images/Challenges-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -90,7 +90,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="images/Solution-img.png" alt="" />
+                                    <img src="../images/Solution-img.png" alt="" />
                                 </div>
   <!-- <link rel="stylesheet" href="" -->
                             </div>
@@ -209,7 +209,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part  ">
-                                <img src="images/conclusion.png" alt="" />
+                                <img src="../images/conclusion.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -245,8 +245,8 @@
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
         // Trigger CSS animations on scroll.

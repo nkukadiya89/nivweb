@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include 'layout.php';?>
+<?php include '../../includes/layout.php'; ?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-            <?php include 'header.php';?>
+            <?php include '../../includes/header.php'; ?>
 
             </div>
         </div>
@@ -20,7 +20,7 @@
                         <p>1st May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="images/bloge-banner-img.png" alt="" class="responsive" />
+                        <img src="../images/bloge-banner-img.png" alt="" class="responsive" />
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
             <div class="inrpgtitle">
                 <br><br>    
                 <h2><b>Introduction</b></h2><br>
-                <img src="images/Blog-part4-pic1.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part4-pic1.png" alt="" class="responsive"><br><br>
                 <p>The internet has revolutionized the way businesses operate. 
                     It has made it possible for businesses to reach a global audience and conduct transactions online. <br> 
                     However, it has also made businesses more vulnerable to cyber attacks.</p><br>
@@ -66,7 +66,7 @@
 
 
                 <h2><b>Best Practices for Cybersecurity</b></h2><br>
-                <img src="images/Blog-part4-pic2.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part4-pic2.png" alt="" class="responsive"><br><br>
                 <p>Cybersecurity is not a static process; cyber threats are constantly evolving and so must the strategies that businesses use to protect themselves. 
                     The following are some of <br> the best practices for keeping your business safe online:</p><br>
                 <ul>
@@ -92,7 +92,7 @@
 
 
                 <h2><b>Emerging Cybersecurity Threats</b></h2><br>
-                <img src="images/Blog-part4-pic3.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part4-pic3.png" alt="" class="responsive"><br><br>
                 <p>Emerging cyber security threats can pose a real risk to businesses, and it’s important for businesses to stay on top of these threats to ensure their data is secure. 
                     <br> Here are some of the most common emerging cyber threats:</p><br><br>
                     <ul>
@@ -120,7 +120,7 @@
 
 
                     <h2><b>How to Respond to a Cybersecurity Breach</b></h2><br>
-                    <img src="images/Blog-part4-pic4.png" alt="" class="responsive"><br><br>
+                    <img src="../images/Blog-part4-pic4.png" alt="" class="responsive"><br><br>
                     <p>No matter how hard we try and how much security we have in place, it’s possible that a cyber-attack or a data breach can still happen. 
                         When this happens, it’s extremely important to immediately act to prevent further damage. Here are some steps to take in response to a cybersecurity breach:</p><br><br>
                     <ul>
@@ -148,7 +148,7 @@
 
 
                     <h2><b>Conclusion</b></h2><br>
-                    <img src="images/Blog-part4-pic5.png" alt="" class="responsive"><br><br>
+                    <img src="../images/Blog-part4-pic5.png" alt="" class="responsive"><br><br>
                     <p>The importance of cybersecurity cannot be overstated in the digital age.
                          With cyber threats increasing in number and sophistication, businesses must ensure they have in <br> place the right security measures to keep their data, systems, and networks safe.</p><br>
                     <p>In this blog, we looked at some of the best security practices and emerging threats that businesses must be aware of. 
@@ -159,9 +159,9 @@
             </div>
         </div>
 
-        <?php include 'footer.php';?>
+        <?php include '../../includes/footer.php'; ?>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

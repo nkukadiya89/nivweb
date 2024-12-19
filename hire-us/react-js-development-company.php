@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php';?>
 
 <body>
   <div id="wapper">
     <div class="header-wapper">
       <div class="container">
 
-      <?php include 'header.php';?>
+      <?php include '../includes/header.php';?>
 
       </div>
     </div>
@@ -20,7 +20,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert ReactJS Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="images/react-bnr.png" alt="" />
+            <img src="../images/react-bnr.png" alt="" />
           </div>
         </div>
       </div>
@@ -51,61 +51,61 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part animatable  fadeInRight">
-              <img src="images/about-react-img.png" alt="" />
+              <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include 'inquery.php';?>
+    <?php include '../inquery.php';?>
 
     <div class="servicesRow">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 whycol">
+          <!-- <div class="col-12 col-md-6 whycol">
             <h3>Why Choose Nivzen Technologies for ReactJS Development</h3>
             <div class="row">
               <div class="col-6 col-md-4 points">
                 <div class="whyico">
-                  <img src="images/p3.png" alt="" />
+                  <img src="../images/p3.png" alt="" />
                 </div>
                 <h6>Upgrade<br />
                   Tools</h6>
               </div>
               <div class="col-6 col-md-4 points">
                 <div class="whyico">
-                  <img src="images/p4.png" alt="" />
+                  <img src="../images/p4.png" alt="" />
                 </div>
                 <h6>Powerful<br />
                   Solutions</h6>
               </div>
               <div class="col-6 col-md-4 points">
                 <div class="whyico">
-                  <img src="images/p2.png" alt="" />
+                  <img src="../images/p2.png" alt="" />
                 </div>
                 <h6>Augmentation<br />
                   Services</h6>
               </div>
               <div class="col-6 col-md-4 points">
                 <div class="whyico">
-                  <img src="images/p1.png" alt="" />
+                  <img src="../images/p1.png" alt="" />
                 </div>
                 <h6>Extensively<br />
                   Scalable</h6>
               </div>
               <div class="col-6 col-md-4 points">
                 <div class="whyico">
-                  <img src="images/p3.png" alt="" />
+                  <img src="../images/p3.png" alt="" />
                 </div>
                 <h6>Accessible<br />
                   Support</h6>
               </div>
 
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-12 col-md-6 servicecol">
+          <!-- <div class="col-12 col-md-6 servicecol">
             <h3>Why Choose Nivzen Technologies for ReactJS Development</h3>
             <ul>
               <li>ReactJS Web App Development</li>
@@ -118,7 +118,7 @@
               <li>ReactJS Support & Maintenance</li>
               <li>QA & Testing</li>
             </ul>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -127,21 +127,21 @@
       <div class="container">
         <h3>Let's Discuss Your Project</h3>
         <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-        <a href="./contact-us.php">
+        <a href="../contact-us.php">
         <button class="border-gradient ">
           <span>Contact Us</span>
         </button></a>
       </div>
     </div>
 
-    <?php include 'footer.php';?>
+    <?php include '../includes/footer.php';?>
 
   </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+  <script src="../js/bootstrap.bundle.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 

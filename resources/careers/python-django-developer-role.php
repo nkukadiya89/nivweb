@@ -45,7 +45,7 @@
                             <h3><span> Python Django Developer</span></h3>
                         </div>
                         <div class="bnrimg">
-                            <img src="images/bloge-banner-img.png" alt="" />
+                            <img src="../images/bloge-banner-img.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -134,8 +134,8 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
      
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>

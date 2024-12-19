@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include './resources/includes/layout.php'; ?>
+<?php include './includes/layout.php'; ?>
 
 <body>
   <div id="wapper">
     <div class="header-wapper">
       <div class="container">
 
-      <?php include './resources/includes/header.php'; ?>
+      <?php include './includes/header.php'; ?>
 
       </div>
     </div>
@@ -265,7 +265,7 @@
                 solution, our expert team excels in all facets of web development. We are committed to delivering
                 exceptional results that align with your vision and business objectives.
               </p>
-              <a href="./web-and  -mobile-solutions.php">Read More</a>
+              <a href="./our-expertise/web-and-mobile-solutions.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/mobile-ico.png" alt="" /></div>
@@ -275,7 +275,7 @@
                 ensuring
                 a seamless user experience.
               </p>
-              <a href="./android-development-company.php">Read More</a>
+              <a href="./hire-us/android-development-company.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/python-ico.png" alt="" /></div>
@@ -285,7 +285,7 @@
                 your specific
                 needs. Explore the possibilities of Python web application development with us.
               </p>
-              <a href="./python-developer-company.php">Read More</a>
+              <a href="./hire-us/python-developer-company.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/react-ico.png" alt="" /></div>
@@ -295,7 +295,7 @@
                 React, crafting web applications using React JS, and providing tailored solutions as a React JS web
                 development company.
               </p>
-              <a href="./react-js-development-company.php">Read More</a>
+              <a href="./hire-us/react-js-development-company.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/concept-ico.png" alt="" /></div>
@@ -422,7 +422,7 @@
       </div>
     </div>
 
-    <?php include './resources/includes/footer.php'; ?>
+    <?php include './includes/footer.php'; ?>
 
 
   </div>

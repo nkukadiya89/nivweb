@@ -24,7 +24,7 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="images/case-banner.png" alt="" />
+                            <img src="../images/case-banner.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     <div class="row my-2 mb-0">
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInLeft ">
-                                <img src="images/Introduction-img.png" alt="" />
+                                <img src="../images/Introduction-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text my-3">
@@ -97,7 +97,7 @@
 
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="images/Challenges-img.png" alt="" />
+                                <img src="../images/Challenges-img.png" alt="" />
                             </div>
                         </div>
 
@@ -120,7 +120,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center my-4">
                                 <div class="image-part animatable fadeInLeft ">
-                                    <img src="images/Solution-img.png" alt="" />
+                                    <img src="../images/Solution-img.png" alt="" />
                                 </div>
                             </div>
                             <div class="col col-12 col-md-6 pharma-text py-4">
@@ -316,7 +316,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="images/PharmaLinkage-img.png" alt="" />
+                                <img src="../images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -350,8 +350,8 @@
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
             // Trigger CSS animations on scroll.

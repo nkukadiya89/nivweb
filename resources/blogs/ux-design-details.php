@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include 'layout.php';?>
+    <?php include '../../includes/layout.php'; ?>
 
     <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-            <?php include 'header.php';?>
+            <?php include '../../includes/header.php'; ?>
 
             </div>
         </div>
@@ -20,7 +20,7 @@
                         <p>1st May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
             <div class="inrpgtitle">
                 <br><br>    
                 <h2><b>User-centered design</b></h2><br>
-                <img src="images/Blog-part5-pic1.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part5-pic1.png" alt="" class="responsive"><br><br>
                 <p>User-centered design (UCD) is a process used in the design of user interfaces to ensure that the resulting product is easy to use and meets the needs of the people who will <br> be using it. 
                     The UCD process involves four essential steps:</p><br><br>
                 <ul>
@@ -47,7 +47,7 @@
 
 
                 <h2><b>Simple and intuitive design  </b></h2><br>
-                <img src="images/Blog-part5-pic2.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part5-pic2.png" alt="" class="responsive"><br><br>
                 <p>The second of the top five UX design principles is one that should be applied throughout the design process; 
                     create a solution that is both simple and intuitive. 
                     This can be <br> achieved by using familiar user interface elements and established design patterns.
@@ -65,7 +65,7 @@
 
                 
                 <h2><b>Engaging and interactive design </b></h2><br>
-                <img src="images/Blog-part5-pic3.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part5-pic3.png" alt="" class="responsive"><br><br>
                 <p>The third of the top 5 UX design principles focuses on engaging and interactive design. 
                     This is especially important in today’s digital world, where users are constantly <br> bombarded with information and choices.
                     A successful design must be able to engage and captivate users, while also being simple and intuitive.</p><br>
@@ -83,7 +83,7 @@
 
 
                 <h2><b>Memorable and recognizable design </b></h2><br>
-                <img src="images/Blog-part5-pic4.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part5-pic4.png" alt="" class="responsive"><br><br>
                 <p>Another of the top 5 UX design principles is to create memorable & recognizable design. 
                     This principle has its roots in some of the earliest principles of graphic design. Good design should be consistent and recognizable, so users can recognize and remember it at a glance. 
                     This usually involves a certain degree of repetition, as well as repeating elements to give the design a consistent feel</p><br>
@@ -93,7 +93,7 @@
 
 
                 <h2><b>Consistent and reliable design </b></h2><br>
-                <img src="images/Blog-part5-pic5.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part5-pic5.png" alt="" class="responsive"><br><br>
                 <p>The final UX design principles is to create a consistent and reliable design. 
                     Consistency helps users quickly understand the navigation and structure of a design as they know <br> they’ll find the same elements in every page. 
                     This helps them in completing tasks quickly and easily.</p><br>
@@ -104,16 +104,16 @@
 
 
                 
-                <img src="images/Blog-part5-pic6.png" alt="" class="responsive"><br><br><br><br><br><br>
+                <img src="../images/Blog-part5-pic6.png" alt="" class="responsive"><br><br><br><br><br><br>
 
 
 
 
             </div>
         </div>
-        <?php include 'footer.php';?>
+        <?php include '../../includes/footer.php'; ?>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

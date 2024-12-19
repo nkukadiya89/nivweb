@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
  
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php';?>
+
 
 
   <body>
@@ -9,7 +10,7 @@
       <div class="header-wapper">
         <div class="container">
 
-        <?php include 'header.php';?>
+        <?php include '../includes/header.php';?>
 
         </div>
       </div>
@@ -24,7 +25,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="images/react-bnr.png" alt="" />
+              <img src="../images/react-bnr.png" alt="" />
             </div>
           </div>
         </div>
@@ -51,7 +52,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part animatable fadeInRight">
-                <img src="images/about-react-img.png" alt="" />
+                <img src="../images/about-react-img.png" alt="" />
               </div>
             </div>
           </div>
@@ -68,7 +69,7 @@
               <div class="row">
                 <div class="col-6 col-md-4 points">
                   <div class="whyico">
-                    <img src="images/p3.png" alt="" />
+                    <img src="../images/p3.png" alt="" />
                   </div>
                   <h6>
                     Upgrade<br />
@@ -77,7 +78,7 @@
                 </div>
                 <div class="col-6 col-md-4 points">
                   <div class="whyico">
-                    <img src="images/p4.png" alt="" />
+                    <img src="../images/p4.png" alt="" />
                   </div>
                   <h6>
                     Powerful<br />
@@ -86,7 +87,7 @@
                 </div>
                 <div class="col-6 col-md-4 points">
                   <div class="whyico">
-                    <img src="images/p2.png" alt="" />
+                    <img src="../images/p2.png" alt="" />
                   </div>
                   <h6>
                     Augmentation<br />
@@ -95,7 +96,7 @@
                 </div>
                 <div class="col-6 col-md-4 points">
                   <div class="whyico">
-                    <img src="images/p1.png" alt="" />
+                    <img src="../images/p1.png" alt="" />
                   </div>
                   <h6>
                     Extensively<br />
@@ -104,7 +105,7 @@
                 </div>
                 <div class="col-6 col-md-4 points">
                   <div class="whyico">
-                    <img src="images/p3.png" alt="" />
+                    <img src="../images/p3.png" alt="" />
                   </div>
                   <h6>
                     Accessible<br />
@@ -154,8 +155,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 

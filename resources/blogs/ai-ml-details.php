@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include 'layout.php';?>
+<?php include '../../includes/layout.php'; ?>
 
     <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-            <?php include 'header.php';?>
+            <?php include '../../includes/header.php'; ?>
 
             </div>
         </div>
@@ -20,7 +20,7 @@
                         <p>05th May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
             <div class="inrpgtitle">
                 <br><br>    
                 <h2><b>Introduction</b></h2><br>
-                <img src="images/Blog-part3-pic1.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part3-pic1.png" alt="" class="responsive"><br><br>
                 <p>The Various Ways AI and ML Are Impacting Different Industries</p><br>
                 <p>Manufacturing, agriculture, retail, and many other industries are being impacted by artificial intelligence (AI) & machine learning (ML). 
                     These technologies are being used to improve efficiency, accuracy, and safety in various settings. 
@@ -45,7 +45,7 @@
 
 
                 <h2><b>How is AI impacting the retail industry?</b></h2><br>
-                <img src="images/Blog-part3-pic2.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part3-pic2.png" alt="" class="responsive"><br><br>
                 <p>AI and ML are impacting the retail sector in a variety of ways. 
                     AI-powered chatbots, for example, can provide personalised customer service, reduce customer wait times & handle complex tasks like ordering or returns.
                      Machine learning algorithms can be used to curate products that customers are likely to purchase. 
@@ -61,7 +61,7 @@
 
 
                 <h2><b>How is AI being used in the healthcare industry?</b></h2><br>
-                <img src="images/Blog-part3-pic3.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part3-pic3.png" alt="" class="responsive"><br><br>
                 <p>The healthcare industry is turning to AI & ML for large number of tasks. 
                     AI can be used for disease diagnosis, facial recognition for authentication , virtual health assistants & <br> much more. 
                     ML can also be used for patient monitoring and the analysis of large amounts of healthcare data.</p><br>
@@ -76,7 +76,7 @@
 
 
                 <h2><b>What other industries are using AI and ML?</b></h2><br>
-                <img src="images/Blog-part3-pic4.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part3-pic4.png" alt="" class="responsive"><br><br>
                 <p>AI and ML are being used in a variety of other industries, from transportation to retail. Here are some of the ways AI and ML are being used:</p><br>
                 <br>
                 <ul>
@@ -87,7 +87,7 @@
                 </ul><br><br><br>
 
                 <h2><b>How will AI and ML develop in the future?</b></h2><br>
-                <img src="images/Blog-part3-pic5.png" alt="" class="responsive"><br><br>
+                <img src="../images/Blog-part3-pic5.png" alt="" class="responsive"><br><br>
                 <p>AI & ML have the potential to revolutionize our lives, making mundane tasks much easier and allowing us to focus on the things that matter most. 
                     As technology continues to advance, so too will the applications of AI and ML.</p><br>
                 <p>Organizations are already leveraging AI and ML to drive their business processes, improve decision-making capabilities, and provide deeper insights. 
@@ -99,9 +99,9 @@
 
             </div>
         </div>
-        <?php include 'footer.php';?>
+        <?php include '../../includes/footer.php'; ?>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

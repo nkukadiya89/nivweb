@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include './includes/layout.php';?>
 
 <style>
     #contact-post .error {
@@ -29,7 +29,7 @@
     <div class="header-wapper">
         <div class="container">
 
-          <?php include 'header.php';?>
+          <?php include './includes/header.php';?>
 
         </div>
     </div>
@@ -43,7 +43,7 @@
                     </p>
                 </div>
                 <div class="bnrimg">
-                    <img src="images/Contact-img.png" alt="" />
+                    <img src="../images/Contact-img.png" alt="" />
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
       </div>
     </div>
 
-      <?php include 'footer.php';?>
+      <?php include './includes/footer.php';?>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

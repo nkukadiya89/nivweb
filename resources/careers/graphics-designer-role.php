@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-    <?php include 'layout.php';?>
+    <?php include '../../includes/layout.php'; ?>
     <head>
 
     <style>
@@ -35,7 +35,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include 'header.php';?>
+                <?php include '../../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -46,7 +46,7 @@
                             <h3><span>Graphic Designer</span></h3>
                         </div>
                         <div class="bnrimg">
-                            <img src="images/bloge-banner-img.png" alt="" />
+                            <img src="../images/bloge-banner-img.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -126,13 +126,13 @@
             </div>
         </div>
 
-        <?php include 'footer.php';?>
+        <?php include '../../includes/footer.php'; ?>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
      
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>

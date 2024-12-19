@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include 'layout.php';?>
+<?php include '../../includes/layout.php'; ?>
 
     <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
-                <?php include 'header.php';?>
+            <?php include '../../includes/header.php'; ?>
             </div>
         </div>
         <div class="innerbanner">
@@ -18,7 +18,7 @@
                         <p>13th June</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                     <div class="inrpgtitle">
                     <br><br>    
                     <h2><b>Introduction</b></h2><br>
-                            <img src="images/Blog-part1-pic1.png" alt="" class="responsive"><br><br>
+                            <img src="../images/Blog-part1-pic1.png" alt="" class="responsive"><br><br>
                                 <p>Quantum computing is a new & developing field of computing which harnesses the power of quantum mechanics to solve complex problems. 
                                     It has the potential to <br> revolutionize the way we solve complex problems, & has already begun to be used in industry & research.
                                     This article will briefly introduce quantum computing and explain <br> how it can be used to solve complex problems. 
@@ -39,7 +39,7 @@
 
 
                         <h2><b>The basics of quantum computing</b></h2><br>
-                        <img src="images/Blog-part1-pic2.png"  alt="" class="responsive">
+                        <img src="../images/Blog-part1-pic2.png"  alt="" class="responsive">
                         <br><br>
                         <p>The basis of quantum computing lies in the operation of qubits, which are the quantum version of the traditional bit. 
                             A traditional bit is capable of representing either a 1 or <br> 0, while a qubit holds a combination of these values.
@@ -55,7 +55,7 @@
 
                         <h2><b>The power of quantum computing</b></h2><br>
 
-                        <img src="images/Blog-part1-pic3.png" alt="" class="responsive">
+                        <img src="../images/Blog-part1-pic3.png" alt="" class="responsive">
                         <br><br>
                         <p>The power of quantum computing lies in its ability to leverage a process called quantum entanglement. 
                         This process allows the qubits to become linked together & interact <br> with each other in a way that traditional computing methods cannot match.</p>
@@ -73,7 +73,7 @@
                         
                         <h2><b>Real-world applications of quantum computing</b></h2>
                         <br>
-                        <img src="images/Blog-part1-pic4.png" alt="" class="responsive">
+                        <img src="../images/Blog-part1-pic4.png" alt="" class="responsive">
                         <br><br>
 
                         <p>Although quantum computing is still in its early stages, we are already seeing real-world applications of quantum computing being used in the fields of medicine,
@@ -106,9 +106,9 @@
             </div>
             
         
-        <?php include 'footer.php';?>
-    </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+            <?php include '../../includes/footer.php'; ?>
+            </div>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

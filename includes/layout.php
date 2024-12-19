@@ -13,6 +13,9 @@
     $currentUrl = getCurrentUrl();
 
     $parsedUrl = parse_url($currentUrl);
+
+    $projectFolderName = '/nivweb'; 
+   
   ?>
   <meta name="title" content="Nivzen Technologies.">
   <meta name="description"

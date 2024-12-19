@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../../includes/layout.php'; ?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-            <?php include 'header.php';?>
+            <?php include '../../includes/header.php'; ?>
 
             </div>
         </div>
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                     <div class="bnrimg">
-                        <img src="images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -398,12 +398,33 @@
 
         <!--  -->
         
-        <?php include 'footer.php';?>
+        <?php include '../../includes/footer.php'; ?>
 
     </div>
     <!--  -->
 
+   
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
+        // Trigger CSS animations on scroll.
+        // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
+
+        // Looking for a version that also reverses the animation when
+        // elements scroll below the fold again?
+        // --> Check https://codepen.io/bramus/pen/vKpjNP
+
         document.addEventListener('DOMContentLoaded', function () {
             var swiper = new Swiper(".slide-content", {
                 slidesPerView: 3, // Number of slides visible at once in larger screens
@@ -433,28 +454,6 @@
                 },
             });
         });
-
-    </script>
-
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script>
-        // Trigger CSS animations on scroll.
-        // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-        // Looking for a version that also reverses the animation when
-        // elements scroll below the fold again?
-        // --> Check https://codepen.io/bramus/pen/vKpjNP
 
         jQuery(function ($) {
             // Function which adds the 'animated' class to any '.animatable' in view

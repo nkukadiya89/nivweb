@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php';?>
 
 <body>
 
@@ -10,7 +10,7 @@
       <div class="header-wapper">
         <div class="container">
 
-        <?php include 'header.php';?>
+        <?php include '../includes/header.php';?>
 
         </div>
       </div>
@@ -25,7 +25,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="images/Group 244.png" alt="" />
+              <img src="../images/Group 244.png" alt="" />
             </div>
           </div>
         </div>
@@ -56,14 +56,14 @@ Whether you're starting from scratch or looking to redesign and improve an exist
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part animatable fadeInRight">
-                <img src="images/Group2.png" alt="" />
+                <img src="../images/Group2.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <?php include 'inquery.php';?>
+      <?php include '../inquery.php';?>
 
       <!-- <div class="servicesRow">
         <div class="container">
@@ -89,7 +89,7 @@ Whether you're starting from scratch or looking to redesign and improve an exist
                   Get free consultation and let us know your project idea to turn it
                   into an amazing digital product.
                 </p>
-                <a href="./contact-us.php">
+                <a href="../contact-us.php">
                 <button class="border-gradient">
                   <span>Contact Us</span>
                 </button>
@@ -100,7 +100,7 @@ Whether you're starting from scratch or looking to redesign and improve an exist
         </div>
       </div>
 
-      <?php include 'footer.php';?>
+      <?php include '../includes/footer.php';?>
 
     </div>
 
@@ -150,8 +150,8 @@ Whether you're starting from scratch or looking to redesign and improve an exist
     </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 

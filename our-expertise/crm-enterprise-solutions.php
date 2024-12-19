@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php';?>
 
 <style>
     #contact-post .error {
@@ -25,29 +25,113 @@
 </style>
 
 <body>
-  <div id="wapper">
-    <div class="header-wapper">
+    <div id="wapper">
+      <div class="header-wapper">
         <div class="container">
 
-          <?php include 'header.php';?>
+        <?php include '../includes/header.php';?>
 
         </div>
-    </div>
-    <div class="innerbanner">
+      </div>
+      <div class="innerbanner">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="inrpgtitle">
-                    <h3><span>Contact Us</span></h3>
-                    <p>
-                      We operate Globally
-                    </p>
-                </div>
-                <div class="bnrimg">
-                    <img src="images/Contact-img.png" alt="" />
-                </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="inrpgtitle">
+              <h3><span>CRM & Enterprise Solutions</span></h3>
+              <p>
+                Strategically build and leverage digital technologies to boost
+                business results and user experiences
+              </p>
             </div>
+            <div class="bnrimg">
+              <img src="../images/Group 244.png" alt="" />
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+      <div class="about-react">
+        <div class="container">
+          <div class="normaltxt">
+            Our CRM & Enterprise Solutions Team is a collaborative space where engineers, developers, and creative thinkers come together to experiment and innovate. We partner with startups, enterprises, and industry leaders to explore new possibilities and develop transformative digital products.
+            Transforming industries with secure, transparent, and decentralized solutions that revolutionize everything from finance to supply chain management.
+
+          </div>
+          <div class="row">
+            <div class="col col-12 col-md-6">
+              <div class="content-part animatable fadeInLeft">
+                <h3>Why Choose Our CRM & Enterprise Solutions team for Your Web Development Needs?</h3>
+                <p>
+                  At Nivzen Technologies, innovation isn't just a buzzword—it's the driving force behind everything we do. The CRM & Enterprise Solutions is where cutting-edge ideas, emerging technologies, and creative problem-solving converge to build groundbreaking solutions for our clients.
+
+
+                  <br /><br />
+                  Building immersive experiences that redefine customer engagement, training, and entertainment, providing a new dimension to user interaction.Connecting the physical and digital worlds to drive automation, increase efficiency, and offer real-time data insights across industries.
+
+                </p>
+              </div>
+            </div>
+            <div class="col col-12 col-md-6 text-center">
+              <div class="image-part animatable fadeInRight">
+                <img src="../images/Group2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <?php include '../inquery.php';?>
+
+      <!-- <div class="servicesRow">
+        <div class="container">
+          <div class="row">
+            <div class="discussProject">
+              <h3>Some Of Our Recent Projects</h3>
+              <p>
+                Get free consultation and let us know your project idea to turn
+                it into an amazing digital product.
+              </p>
+            </div> -->
+
+            
+            <!--  -->
+
+            <!--  -->
+
+            <div class="discussProject">
+              <div class="container">
+                <h3>Let's Discuss Your Project</h3>
+                <p>
+                  Get free consultation and let us know your project idea to turn it
+                  into an amazing digital product.
+                </p>
+                <a href="./contact-us.php">
+                <button class="border-gradient">
+                  <span>Contact Us</span>
+                </button>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="discussProject">
+              <!-- <div class="container">
+                <h3>Let's Discuss Your Project</h3>
+                <p>
+                  Get free consultation and let us know your project idea to turn it
+                  into an amazing digital product.
+                </p>
+                <a href="./contact-us.php">
+                <button class="border-gradient">
+                  <span>Contact Us</span>
+                </button>
+              </a>
+              </div>
+            </div> -->
+
+
+
    
     <div class="from">
     
@@ -97,30 +181,19 @@
       </div> -->
 
 
-    <div class="discussProject">
-      <div class="container">
-          <p>or email us on</p>
-            <h4>sales@nivzen.com</h4>
-              <h3>Let's Discuss Your Project</h3>
-                <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-                  <a href="">
-                    <button class="border-gradient ">
-                      <span>Contact Us</span>
-                    </button>
-                  </a>
-      </div>
+
+
+      <?php include '../includes/footer.php';?>
+
     </div>
 
-      <?php include 'footer.php';?>
-
-  </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
