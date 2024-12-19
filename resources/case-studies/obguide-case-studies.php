@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
 
@@ -10,7 +10,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include 'header.php';?>
+                    <?php include '../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -24,31 +24,29 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="images/case-banner.png" alt="" />
+                            <img src="../../images/case-banner.png" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="PharmaLinkage-part">
                 <div class="container">
                     <div class="row my-2 mb-0">
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInLeft ">
-                                <img src="images/Introduction-img.png" alt="" />
+                                <img src="../../images/Introduction-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text my-3">
                             <div class="content-part animatable fadeInRight">
                                 <div class="pharma-txt  mx-4">
-                                    <h3>Introduction</h3>
+                                    <h3>Client Requirements</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                        In the ever-evolving landscape of healthcare, Obstetrics and Gynecology (OB/GYN)
-                                        practices face unique challenges in managing patient data, streamlining
-                                        workflows, and delivering high-quality care. This case study delves into the
-                                        transformative journey of Shraddha Hospital, a leading OB/GYN practice, with the
-                                        implementation of My OBGUIDE EHR System, a comprehensive Electronic Health
-                                        Record (EHR) solution tailored specifically for OB/GYN specialties.
+                                        The client is a network of OB/GYN clinics that struggled with fragmented patient records, inefficient appointment scheduling, and lack of real-time collaboration among doctors.<br> 
+                                        These issues led to delays in patient care, errors in documentation, and an increased administrative burden on medical staff.<br>
+
                                     </p>
                                     <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
@@ -57,74 +55,74 @@
                             </div>
                         </div>
 
-                        <div class="col col-12 col-md-6 pharma-text">
-                            <div class="content-part animatable fadeInLeft ">
-                                <div class="pharma-txt mx-4">
-                                    <h3>Challenges</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
-                                    <h4>Shraddha Hospital faced several challenges with its existing EHR system,
-                                        including:
-                                    </h4>
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
+                        
+                        <div class="col col-12 col-md-6 text-center my-3">
+                            <div class="image-part animatable fadeInRight ">
+                                <img src="../../images/Challenges-img.png" alt="" />
+                            </div>
+                        </div>
+
+
+                        <div class="col col-12 col-md-6 pharma-text  order-md-1">
+                                <div class="content-part ">
+                                    <div class="pharma-txt">
+                                        <h3>Key Challenges</h3>
+                                        <img class="my-3" src="./images/line.png" alt=""><br>
                                         <p>
-                                            Workflow Inefficiencies: Cumbersome documentation processes and fragmented
-                                            workflows led to inefficiencies, resulting in longer patient wait times and
-                                            decreased provider productivity.
+                                            <li>To centralize patient records for ease of access and management.</li><br>
+                                            <li>To improve the efficiency of appointment scheduling and patient tracking.</li><br>                                        
+                                            <li>To provide tools tailored for OB/GYN-specific workflows, including prenatal care, ultrasounds, and delivery tracking.</li><br>
+                                            <li>To enhance compliance with healthcare data privacy regulations.</li><br>
                                         </p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                        <p>
-                                            Data Accessibility: Limited accessibility to patient records outside of the
-                                            clinic hindered care coordination and impeded timely decision-making,
-                                            particularly in emergencies or during telemedicine consultations.
-                                        </p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                        <p>
-                                            Scalability: As Shraddha Hospital continued to grow, its existing EHR system
-                                            struggled to scale effectively, leading to performance issues and increased
-                                            maintenance costs.
-                                        </p>
-                                    </div>
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
-                                        <button class="btn" type="button">View Project</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInRight ">
-                                <img src="images/Challenges-img.png" alt="" />
-                            </div>
-                        </div>
+
+
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center my-4">
                                 <div class="image-part animatable fadeInLeft ">
-                                    <img src="images/OBGUIDE-Solution.png" alt="" />
+                                    <img src="../../images/OBGUIDE-Solution.png" alt="" />
                                 </div>
                             </div>
+
                             <div class="col col-12 col-md-6 pharma-text py-4">
                                 <div class="content-part animatable fadeInRight">
                                     <div class="pharma-txt  mx-4">
                                         <h3>Solution</h3>
                                         <img class="my-3" src="./images/line.png" alt="">
-                                        <p>Shraddha Hospital partnered with My OBGUIDE to implement their innovative EHR
-                                            solution tailored specifically for OB/GYN practices. My OBGUIDE EHR System
-                                            offered a range of features to address Shraddha Hospital's challenges:</p>
+                                        <p>Nivzen Technologies developed MyObGuide as a comprehensive EHR platform tailored to OB/GYN practices. 
+                                            Key features include:</p>
+
+                                            <p><b>1 . Centralized Patient Records:</b></p>
+                                                <li>Secure storage of patient history, diagnoses, lab results, and imaging.</li>
+                                                <li>Easy retrieval of longitudinal patient data for prenatal and postnatal care.</li>
+                                            <p><b>2 . Specialized Workflow Support:</b></p>
+                                                <li>Templates for common OB/GYN procedures and documentation.</li>
+                                                <li>Tracking of pregnancy milestones, including trimester-specific alerts.</li>
+                                            <p><b>3 . Appointment and Scheduling Management:</b></p>
+                                                <li>Integrated appointment system with automatic reminders for patients.</li>
+                                                <li>Resource allocation for ultrasound and procedure rooms.</li>
+                                            <p><b>4 . Analytics and Reporting:</b></p>
+                                                <li>Visual dashboards for patient outcomes and clinic performance.</li>
+                                                <li>Built-in compliance reporting for medical standards.</li>
+                                            <p><b>5 . Collaboration Tools:</b></p>
+                                                <li>Real-time data sharing between doctors within the clinic network.</li>
+                                                <li>Secure communication channels for patient updates and consultations.</li>
+                                            <p><b>6 . Compliance and Security:</b></p>
+                                                <li>HIPAA-compliant system with role-bData encryption to safeguard sensitive medical information.</li>                                       <li> API support for third-party tools.</li>
+
 
                                     </div>
 
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12 col-md-6 mx-auto card-btn">
+                                    <!-- <div class="d-grid gap-2 col-lg-3  col-sm-12 col-md-6 mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col col-12 col-md-6 pharma-text py-4">
+                        <!-- <div class="row"> -->
+                            <!-- <div class="col col-12 col-md-6 pharma-text py-4">
                                 <div class="d-flex">
                                     <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
                                     <p>
@@ -168,8 +166,8 @@
                                         studies, enhancing diagnostic accuracy and care coordination.
                                     </p>
                                 </div>
-                            </div>
-                            <div class="col col-12 pharma-text py-4">
+                            </div> -->
+                            <!-- <div class="col col-12 pharma-text py-4">
                                 <h4>Implementation Process</h4>
                                 <img class="my-3" src="./images/line.png" alt="">
                                 <p>The implementation of My OBGUIDE EHR System followed a structured approach:</p>
@@ -199,8 +197,8 @@
                                         disruptions to patient care.
                                     </p>
                                 </div>
-                            </div>
-                        </div>
+                            </div> -->
+                        <!-- </div> -->
 
                     </div>
                 </div>
@@ -223,47 +221,33 @@
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
-                                                <h4>Integrated Imaging and Diagnostics</h4>
-                                                <p>Seamless integration with imaging and diagnostic devices, such as
-                                                    ultrasound machines and laboratory systems, allows providers to
-                                                    access test results and imaging studies directly within the EHR
-                                                    system for more informed decision-making and enhanced patient care.
-                                                </p>
+                                                <h4>Improved Efficiency: </h4>
+                                                <p>Reduced documentation time by 35%, allowing doctors to focus more on patient care.</p>
                                             </div>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
-                                                <h4>Cloud-Based Accessibility</h4>
-                                                <p>Secure cloud-based architecture that enables providers to access
-                                                    patient records from any location with an internet connection,
-                                                    facilitating remote consultations, telemedicine appointments, and
-                                                    seamless collaboration among providers across multiple sites.</p>
-                                            </div>
+                                                <h4>Enhanced Patient Experience:</h4>
+                                                <p>Streamlined scheduling and proactive follow-up increased patient satisfaction scores by 25%.</p>
+                                                <?php include 'footer.php';?>
+                                                </div>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content highlight">
-                                                <h4>Comprehensive Record-Keeping</h4>
-                                                <p>Centralized electronic health records that consolidate patient
-                                                    information, including medical history, medications, allergies, and
-                                                    past procedures, providing a comprehensive view of the patient's
-                                                    health status to support clinical decision-making and care
-                                                    coordination.</p>
+                                                <h4>Data Accuracy:</h4>
+                                                <p>Centralized record management reduced errors in patient histories and treatment plans.</p>
                                             </div>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
-                                                <h4>Decision Support Tools</h4>
-                                                <p>Built-in decision support tools, such as risk assessment calculators,
-                                                    clinical guidelines, and alerts for preventive care reminders,
-                                                    empower providers to make evidence-based decisions at the point of
-                                                    care and enhance patient safety.
-                                                </p>
+                                                <h4>Compliance Adherence:</h4>
+                                                <p>Ensured all clinics adhered to HIPAA and other regulatory standards.</p>
                                             </div>
                                         </div>
-                                        <div class="timeline-item">
+                                        <!-- <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
                                                 <h4>Billing Integration</h4>
@@ -273,7 +257,7 @@
                                                     reimbursement tracking.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -291,13 +275,10 @@
                                     <h3>Conclusion</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                        The implementation of <b>My OBGUIDE EHR</b> System transformed Shraddha
-                                        Hospital's <b>OB/GYN</b> practice, enabling them to streamline workflows,
-                                        enhance patient care, and stay ahead in a competitive healthcare landscape. By
-                                        leveraging innovative technology tailored specifically for <b>OB/GYN</b>
-                                        specialties, Shraddha Hospital achieved greater efficiency, improved care
-                                        coordination, and increased patient satisfaction, reinforcing its reputation as
-                                        a leader in women's health.
+                                    <b>MyObGuide </b>has revolutionized the way OB/GYN clinics operate by digitizing workflows, enhancing collaboration, and ensuring the highest standards of patient care. <br>
+                                    This project underscores <b>Nivzen Technologies'</b> commitment to delivering specialized software solutions that cater to industry-specific needs. <br>
+                                    <b>MyObGuide's success </b>has laid the groundwork for further innovations in healthcare technology.
+
                                     </p>
                                     <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
@@ -307,7 +288,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="images/OBGUIDE-Conclusion-img.png" alt="" />
+                                <img src="../../images/OBGUIDE-Conclusion-img.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -336,13 +317,13 @@
                 </div>
             </div>
 
-            <?php include 'footer.php';?>
+            <?php include '../includes/footer.php'; ?>
 
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="../../js/jquery.js"></script>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
             // Trigger CSS animations on scroll.

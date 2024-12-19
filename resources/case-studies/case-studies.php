@@ -78,12 +78,9 @@
                                     <h3>Smart Buyer</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                        A company that is doing regular procurement for any product materials according
-                                        to their need, faces inefficiencies and bottlenecks in its procurement
-                                        processes. Manual paperwork, lack of real-time visibility, and fragmented
-                                        communication were hindering their operations. Seeking a solution, they turned
-                                        to SmartBuyer, a leading Procurement SaaS product, to streamline their
-                                        procurement workflow.
+                                    <b>Smart Buyer </b>is a state-of-the-art procurement portal designed to streamline and optimize the procurement process for businesses. 
+                                    Developed by <b>Nivzen Technologies</b>, this platform addresses the challenges of procurement inefficiencies, supplier management, and cost control. 
+                                    The solution provides businesses with a seamless digital experience, ensuring transparency, efficiency, and scalability in procurement operations.
                                     </p>
 
                                     <a href="./smart-buyer-case-studies.php" class="border-gradient mt-3" role="button">
@@ -113,12 +110,8 @@
                                     <h3>My OBGUIDE HR System</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                        In the ever-evolving landscape of healthcare, Obstetrics and Gynecology (OB/GYN)
-                                        practices face unique challenges in managing patient data, streamlining
-                                        workflows, and delivering high-quality care. This case study delves into the
-                                        transformative journey of Shraddha Hospital, a leading OB/GYN practice, with the
-                                        implementation of My OBGUIDE EHR System, a comprehensive Electronic Health
-                                        Record (EHR) solution tailored specifically for OB/GYN specialties.
+                                    <b>MyObGuide is an innovative Electronic Health Record (EHR) system </b> developed to address the specific needs of obstetric and gynecological (OB/GYN) doctors. 
+                                    Created by <b>Nivzen Technologies</b>, the platform empowers healthcare professionals by streamlining patient data management, improving care delivery, and ensuring compliance with medical standards
 
                                     </p>
 

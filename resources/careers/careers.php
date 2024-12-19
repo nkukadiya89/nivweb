@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../../layout.php';?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-                <?php include 'header.php';?>
+                <?php include '../../header.php';?>
 
             </div>
         </div>
@@ -35,10 +35,10 @@
                         <div class="openingwrp">
                             <div class="openingbox red">
 
-                                <h3>Web Designer Intern </h3>
+                                <h3>Graphic Designer </h3>
                                 <div class="skills">
                                     <label>Experience </label>
-                                    0 TO 6 Months
+                                    1 to 2 year 
                                 </div>
                                 <div class="skills">
                                     <label>Job Type</label>
@@ -46,10 +46,10 @@
                                 </div>
 
                                 <div class="btnwrp">
-                                    <a href="./web-designer-careers-details.php"
+                                    <a href="./graphic-designer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="./web-designer-careers-details.php"
+                                    <a href="./graphic-designer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -72,10 +72,10 @@
                                 </div>
 
                                 <div class="btnwrp">
-                                    <a href="business-development-careers-details.php"
+                                    <a href="business-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="business-development-careers-details.php"
+                                    <a href="business-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -86,7 +86,7 @@
                     <div class="col col-12 col-sm-6 col-lg-3">
                         <div class="openingwrp">
                             <div class="openingbox green">
-                                <h3>UI &amp; UX Designer </h3>
+                                <h3>Python Django Developer</h3>
                                 <div class="skills">
                                     <label>Experience </label>
                                     2 TO 3 Years
@@ -96,10 +96,10 @@
                                     Work From Office
                                 </div>
                                 <div class="btnwrp">
-                                    <a href="uiux-designer-careers-details.php"
+                                    <a href="python-django-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="uiux-designer-careers-details.php"
+                                    <a href="python-django-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -110,20 +110,20 @@
                     <div class="col col-12 col-sm-6 col-lg-3 ">
                         <div class="openingwrp gap">
                             <div class="openingbox blue">
-                                <h3>Wordpress Developer</h3>
+                                <h3>Content Writer </h3>
                                 <div class="skills">
                                     <label>Experience </label>
-                                    1 TO 2 Years
+                                    0 TO 1 Years
                                 </div>
                                 <div class="skills">
                                     <label>Job Type</label>
                                     Work From Office
                                 </div>
                                 <div class="btnwrp">
-                                    <a href="wordpress-developer-careers-details.php"
+                                    <a href="content-writer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="wordpress-developer-careers-details.php"
+                                    <a href="content-writer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>

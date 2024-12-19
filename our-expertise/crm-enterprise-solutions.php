@@ -51,7 +51,7 @@
    
     <div class="from">
     
-        <div id="alertMsg"></div>
+        <!-- <div id="alertMsg"></div>
         <div class="container-from text-center">
             <div class="text-center my-3">
               <h3>We are excited that you want to Work with us.</h3>
@@ -94,7 +94,7 @@
                   </div>
              </div>
           </div>
-      </div>
+      </div> -->
 
 
     <div class="discussProject">

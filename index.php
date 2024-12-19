@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include './resources/includes/layout.php'; ?>
 
 <body>
   <div id="wapper">
     <div class="header-wapper">
       <div class="container">
 
-      <?php include 'header.php';?>
+      <?php include './resources/includes/header.php'; ?>
 
       </div>
     </div>
@@ -265,7 +265,7 @@
                 solution, our expert team excels in all facets of web development. We are committed to delivering
                 exceptional results that align with your vision and business objectives.
               </p>
-              <a href="./web-&-mobile-solutions.php">Read More</a>
+              <a href="./web-and  -mobile-solutions.php">Read More</a>
             </div>
             <div class="item">
               <div class="imgico"><img src="images/mobile-ico.png" alt="" /></div>
@@ -422,7 +422,8 @@
       </div>
     </div>
 
-    <?php include 'footer.php';?>
+    <?php include './resources/includes/footer.php'; ?>
+
 
   </div>
 

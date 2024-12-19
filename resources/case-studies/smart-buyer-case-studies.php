@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
 
@@ -10,7 +10,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include 'header.php';?>
+                <?php include '../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -20,7 +20,7 @@
                         <div class="inrpgtitle">
                             <h3><span>Smart Buyer</span></h3>
                             <p>
-                                Streamlining Procurement Processes with Smart Buyer 
+                                Streamlining Procurement Processes with Smart Buyer
                             </p>
                         </div>
                         <div class="bnrimg">
@@ -40,15 +40,12 @@
                         <div class="col col-12 col-md-6 pharma-text my-3">
                             <div class="content-part animatable fadeInRight">
                                 <div class="pharma-txt  mx-4">
-                                    <h3>Introduction</h3>
+                                    <h3>Client Requirements</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                        PharmaLinkage is a revolutionary platform designed to address the global
-                                        pharmaceutical industry's manufacturing and sourcing needs. It serves as a
-                                        comprehensive solution connecting top-tier manufacturing facility providers, API
-                                        and formulation manufacturers, and Contract Development and Manufacturing
-                                        Organizations (CDMOs) worldwide.
-
+                                    The client is a mid-sized manufacturing company facing challenges in managing procurement activities.<br> 
+                                    Their procurement process was manual, involving extensive paperwork, delayed approvals, and inconsistent supplier management.<br> 
+                                    These inefficiencies resulted in higher costs, frequent stockouts, and strained supplier relationships.<br> 
                                     </p>
                                     <div class="d-grid gap-2 col-lg-3 col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
@@ -57,10 +54,10 @@
                             </div>
                         </div>
 
-                        <div class="col col-12 col-md-6 pharma-text">
+                        <!-- <div class="col col-12 col-md-6 pharma-text">
                             <div class="content-part animatable fadeInLeft ">
                                 <div class="pharma-txt mx-4">
-                                    <h3>Challenges</h3>
+                                    <h3>Key Challenges</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <div class="d-flex">
                                         <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
@@ -96,12 +93,30 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
                                 <img src="images/Challenges-img.png" alt="" />
                             </div>
                         </div>
+
+                        <div class="col col-12 col-md-6 pharma-text  order-md-1">
+                                <div class="content-part ">
+                                    <div class="pharma-txt">
+                                        <h3>Key Challenges</h3>
+                                        <img class="my-3" src="./images/line.png" alt=""><br>
+                                        <p>
+                                            <li>Automate procurement workflows.</li><br>
+                                            <li>Simplify supplier management.</li><br>                                        
+                                            <li>Ensure real-time tracking of procurement activities.</li><br>
+                                            <li>Provide data-driven insights for cost control and better decision-making.</li><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center my-4">
                                 <div class="image-part animatable fadeInLeft ">
@@ -113,7 +128,29 @@
                                     <div class="pharma-txt  mx-4">
                                         <h3>Solution</h3>
                                         <img class="my-3" src="./images/line.png" alt="">
-                                        <p>Company ABC implemented SmartBuyer, a cloud-based Procurement SaaS solution,
+
+                                        <p>Nivzen Technologies designed and developed Smart Buyer as a monolithic web application using Python Django for the backend and React JS for the frontend. 
+                                            The solution includes the following features:</p>
+
+
+                                            <p><b>1 . Supplier Management:</b></p>
+                                                <li>Centralized repository of suppliers.</li>
+                                                <li>Evaluation and rating system for suppliers based on performance metrics.</li>
+                                            <p><b>2 . Automated Procurement Workflows:</b></p>
+                                                <li>Digital purchase request and approval system.</li>
+                                                <li>Automated purchase order (PO) generation.</li>
+                                            <p><b>3 . Real-time Tracking:</b></p>
+                                                <li>Dashboard for real-time tracking of procurement activities.</li>
+                                                <li>Notifications and alerts for pending approvals and stock requirements.</li>
+                                            <p><b>4 . Cost Analysis and Reporting:</b></p>
+                                                <li>Notifications and alerts for pending approvals and stock requirements.</li>
+                                                <li>Customizable reports for management.</li>
+                                            <p><b>5 . Integration Capabilities:</b></p>
+                                                <li>Seamless integration with the company's existing ERP system.</li>
+                                                <li>API support for third-party tools.</li>
+
+
+                                        <!-- <p>Company ABC implemented SmartBuyer, a cloud-based Procurement SaaS solution,
                                             to automate and streamline their procurement processes. Key features of
                                             SmartBuyer include:</p>
                                         <div class="d-flex">
@@ -121,34 +158,34 @@
                                             <p>
                                                 Manual Processes: The company relied heavily on manual procurement
                                                 processes, leading to delays and errors.
-                                            </p>
-                                        </div>
-                                        <div class="d-flex">
+                                            </p> -->
+                                        <!-- </div> -->
+                                        <!-- <div class="d-flex">
                                             <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
                                             <p>
                                                 Limited Visibility: Lack of real-time data visibility made it difficult
                                                 to track orders, inventory levels, and supplier performance.
                                             </p>
-                                        </div>
-                                        <div class="d-flex">
+                                        </div> -->
+                                        <!-- <div class="d-flex">
                                             <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
                                             <p>
                                                 Communication Gaps: Communication between departments and suppliers was
                                                 fragmented, leading to misunderstandings and delays in procurement
                                                 cycles.
                                             </p>
-                                        </div>
-                                        <div class="d-flex">
+                                        </div> -->
+                                        <!-- <div class="d-flex">
                                             <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
                                             <p>
                                                 Compliance Issues: Ensuring compliance with regulations and internal
                                                 policies was a challenge due to manual processes.
                                             </p>
-                                        </div>
+                                        </div> -->
 
-                                        <div class="d-grid gap-2 col-lg-3  col-sm-12 col-md-6 mx-auto card-btn">
-                                            <button class="btn" type="button">View Project</button>
-                                        </div>
+                                        <!-- <div class="d-grid gap-2 col-lg-3  col-sm-12 col-md-6 mx-auto card-btn"> -->
+                                            <!-- <button class="btn" type="button">View Project</button> -->
+                                        <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -174,42 +211,32 @@
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
-                                                <h4>Centralized Dashboard:</h4>
-                                                <p>A user-friendly dashboard that provides a centralized view of all
-                                                    procurement activities, including pending requisitions, approved
-                                                    orders, inventory levels, and supplier performance metrics.
-                                                </p>
+                                                <h4>Reduced Procurement Time:</h4>
+                                                <p>Automated workflows reduced procurement cycle times by 40%.</p>
                                             </div>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
-                                                <h4>Requisition Management:</h4>
-                                                <p>A feature to create, submit, and track requisitions for goods and
-                                                    services, with customizable approval workflows to ensure compliance
-                                                    with company policies.</p>
+                                                <h4>Cost Savings:</h4>
+                                                <p>Data-driven insights enabled better negotiation with suppliers, resulting in a 15% reduction in procurement costs.</p>
                                             </div>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content highlight">
-                                                <h4>Purchase Order (PO) Management:</h4>
-                                                <p>Tools to generate, manage, and track purchase orders, including
-                                                    automated PO creation based on approved requisitions and integration
-                                                    with supplier databases for streamlined order processing.</p>
+                                                <h4>Enhanced Transparency:</h4>
+                                                <p>Real-time tracking improved accountability and supplier relationships.</p>
                                             </div>
                                         </div>
                                         <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
-                                                <h4>Supplier Management:</h4>
-                                                <p>A comprehensive supplier management module to maintain supplier
-                                                    information, track performance metrics, and facilitate communication
-                                                    and collaboration with vendors.
-                                                </p>
+                                                <h4>Operational Efficiency:</h4>
+                                                <p>Integration with the ERP system eliminated data silos, streamlining operations.</p>
                                             </div>
                                         </div>
-                                        <div class="timeline-item">
+                                        <!-- <div class="timeline-item">
                                             <div class="dot"></div>
                                             <div class="content">
                                                 <h4>Document Management:</h4>
@@ -260,7 +287,7 @@
                                                     evolving business requirements over time.
                                                 </p>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -277,16 +304,10 @@
                                 <div class="pharma-txt mx-4">
                                     <h3>Conclusion</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
-                                    <p>
-                                        By leveraging <b>Smart Buyer</b>, Company ABC transformed its procurement
-                                        operations, achieving greater efficiency, cost savings, and compliance. The
-                                        implementation of a cloud-based Procurement SaaS solution not only streamlined
-                                        processes but also empowered Company ABC to adapt to changing market dynamics
-                                        and drive business growth.
-                                        <br>
-                                        This hypothetical case study demonstrates the potential benefits of adopting a
-                                        Procurement SaaS solution for organizations looking to optimize their
-                                        procurement processes and stay competitive in today's market.
+                                    <p><b>Smart Buyer</b> has transformed the client's procurement operations, making them more efficient, transparent, and cost-effective. <br>
+                                        The solution's scalability ensures it can adapt to the client's growing needs, establishing a strong foundation for future digital transformation initiatives.<br>
+                                        <b>Nivzen Technologies' expertise </b>in delivering tailored software solutions has not only resolved the client's immediate challenges but also set a benchmark for procurement excellence.<br>
+
                                     <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
                                     </div>
@@ -324,7 +345,7 @@
                 </div>
             </div>
             
-            <?php include 'footer.php';?>
+            <?php include '../includes/footer.php'; ?>
 
         </div>
         <!-- Optional JavaScript -->

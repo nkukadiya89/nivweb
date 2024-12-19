@@ -1,7 +1,7 @@
 <header>
     <div class="logo">
       <a class="navbar-brand m-0" href="index.php" aria-label="image which shows site logo"><img
-          src="images/site-logo.png" alt="site logo" /></a>
+          src="/nivweb/images/site-logo.png" alt="site logo" /></a>
     </div>
     <div class="headright">
       <nav class="navbar navbar-expand-lg ">
@@ -187,8 +187,9 @@
             <li class="nav-item dropdown">
               <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Resources</a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="./blogs.php">Blogs</a></li>
+                <li><a class="dropdown-item" href="../../blogs.php">Blogs</a></li>
                 <li><a class="dropdown-item" href="./case-studies.php">Case stuies</a></li>
+                <li><a class="dropdown-item" href="./careers.php">Career</a></li>
               </ul>
             </li>
 

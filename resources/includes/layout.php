@@ -23,11 +23,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <!-- Bootstrap CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/font-awesome.css?v=1.1" />
-  <link rel="stylesheet" href="css/animation.css?v=1.1" />
-  <link rel="stylesheet" href="css/custom.css?v=1.1" />
-  <link rel="stylesheet" href="css/mediaquery.css?v=1.1" />
+  <link href="/nivweb/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/nivweb/css/font-awesome.css?v=1.1" />
+  <link rel="stylesheet" href="/nivweb/css/animation.css?v=1.1" />
+  <link rel="stylesheet" href="/nivweb/css/custom.css?v=1.1" />
+  <link rel="stylesheet" href="/nivweb/css/mediaquery.css?v=1.1" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css?v=1.1">
   <title>Nivzen Technologies</title>
   <style type="text/css">

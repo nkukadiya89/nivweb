@@ -2,12 +2,13 @@
 <html lang="eng">
 
     <?php include 'layout.php';?>
+
     <head>
 
     <style>
         #drop-area {
             border: 2px dashed #ccc;
-            border-radius: 20px;        
+            border-radius: 20px;
             padding: 20px;
             text-align: center;
             margin: 20px;
@@ -22,15 +23,18 @@
             text-align:left;
             color:red;
         }
-
     </style>
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+    <script> 
+        function enableSubmitBtn(){
+            document.getElementById("career_submit_btn").disabled=false;
+        }
+    </script>
+    
     </head>
 
     <body>
-
         <div id="wapper">
             <div class="header-wapper">
                 <div class="container">
@@ -43,7 +47,7 @@
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
-                            <h3><span>Web Designer Intern</span></h3>
+                            <h3><span>Business Developer</span></h3>
                         </div>
                         <div class="bnrimg">
                             <img src="images/bloge-banner-img.png" alt="" />
@@ -59,7 +63,7 @@
                     <div class="col-12">
                         <div class="section-title-and-desc">
                             <div class="section-title-block">
-                                <h1 class="section-title-text mt-5"><b>Embedded Web Designer</b></h1><br>
+                                <h1 class="section-title-text mt-5"><b>Job Description :</b></h1><br>
                             </div>
                         </div>
                     </div>
@@ -68,53 +72,49 @@
 
                     <div class="col-lg-6 mb-5">
                         <p class="font-bold">Job Brief:</p>
-                        <p>We are looking for a skilled Web Designer Lead with expertise in both Automation Testing and Manual Testing to join our team. The ideal candidate will have extensive experience in leading Web Designing teams, developing test strategies, and ensuring the quality of our software products.</p>
-                        <p></p>
-                        <p><span class="font-bold">Role:</span> Web Designer</p> 
-                        <p><span class="font-bold">Experience:</span> 0 to 6 Months</p>
+                        <p>Are you a strategic thinker with a knack for building strong business relationships? 
+                            Nivzen Technologies is looking for a dynamic <b>Business Development Manager </b>with 1-2 years of experience to join our team.</p>
+                        <p>As a <b>Business Development Manager at Nivzen</b>, you will play a critical role in driving business growth by identifying new opportunities, building partnerships, and developing strategies to expand our market presence.</p>
+                        <!-- <p><span class="font-bold">Role:</span> Business Developer </p> 
+                        <p><span class="font-bold">Experience:</span> 1 to 2 Years</p>
                         <p><span class="font-bold">Position Open:</span> 1</p><p><span class="font-bold">Job Location:</span> Ahmedabad</p>              
                         <p><span class="font-bold">Work from Home Available:</span> Not Available</p>                    
-                        <p><span class="font-bold">Salary:</span> Not a constraint for the right candidate</p>                                            
+                        <p><span class="font-bold">Salary:</span> Not a constraint for the right candidate</p>                                             -->
                         <hr>
-                        <p class="font-bold">Roles and Responsibility:</p>
+                        <p class="font-bold">Key Responsibilities :</p>
                         
                         <ul class="style-icon">
-                            <li>Lead the Web Designing team and oversee all aspects of the quality assurance process.</li>
-                            <li>Develop and implement test strategies, test plans, test cases, and test scripts.</li>
-                            <li>Conduct both manual and automated testing to ensure software quality.</li>
-                            <li>Collaborate with the development team to identify and resolve defects.</li>
-                            <li>Review and analyze system specifications.</li>
-                            <li>Coordinate with the project management team to prioritize testing efforts.</li>
-                            <li>Provide feedback and recommendations to improve software quality.</li>
-                            <li>Mentor and train Web Designing team members on best practices and new technologies.</li>
-                            <li>Stay updated with industry trends and best practices in quality assurance.</li>
+                            <li>Identify and pursue new business opportunities through market research and networking.</li>
+                            <li>Build and maintain strong relationships with prospective and existing clients.</li>
+                            <li>Develop proposals, presentations, and strategic plans to win new projects.</li>
+                            <li>Collaborate with internal teams to ensure successful project delivery.</li>
+                            <li>Stay updated on industry trends to identify potential business leads.</li>
+                            <li>Meet and exceed sales targets and objectives.</li>
                         </ul>                                            
                         <hr>
-                        <p class="font-bold">Skill Requirement:</p>
-                        <ul class="style-icon"><li>Bachelor's degree in Computer Science, Engineering, or related field.</li>
-                            <li>0 to 6 Months of experience in Web Designer, with a focus on both Automation and Manual Testing.</li>
-                            <li>Proven experience leading Web Designing teams and managing projects.</li>
-                            <li>Strong knowledge of software Web Designermethodologies, tools, and processes.</li>
-                            <li>Experience with test automation tools such as Selenium, Appium, or similar.</li>
-                            <li>Proficiency in programming languages such as Java, Python, or C#.</li>
-                            <li>Excellent analytical and problem-solving skills.</li>
-                            <li>Strong communication and leadership abilities.</li>
-                            <li>Experience working in an Agile/Scrum environment is a plus.</li>
+                        <p class="font-bold">Required Skills and Qualifications:</p>
+                        <ul class="style-icon"><li><b>Experience : </b>1-2 years in business development, sales, or a similar role.</li>
+                            <li>Strong communication and interpersonal skills.</li>
+                            <li>Proven ability to develop and maintain client relationships.</li>
+                            <li>Excellent presentation and negotiation skills.</li>
+                            <li>Goal-oriented with a proactive and self-motivated approach.</li>
                         </ul>                                       
-                            <hr><p><span class="font-bold">Qualification:</span>  B.Tech/B.E/MCA</p>   
-                            <hr><p><span class="font-bold">Office Timings:</span>  10.00 AM to 7.00 PM</p>                    
-                            <hr><p><span class="font-bold">Perks and Benefits:</span></p>
+                            <hr><p><span class="font-bold">Additional Skills (Preferred) : </span></p>   
+                            <li>Experience in the IT or software development industry.</li>
+                            <li>Knowledge of CRM tools and sales analytics.</li>
+                            <li>Ability to analyze data to make informed decisions.</li>
+
+                            <hr><p><span class="font-bold">Location :</span> </p>  
+                            <p>902, Ganesh glory, Godrej garden City road, jagatpur<br>
+                                Ahmedabad - 382481</p>                  
+                            <hr><p><span class="font-bold">Job Type : </span>Full-time</p>
+
                         <ul class="style-icon">
-                            <li>5-Days a week</li> 
-                            <li>Health Insurance</li>
-                            <li>(28 Leaves a year) 18 paid leave &amp; 10 public holiday</li>
-                            <li>Maternity paternity leave benefit</li>
-                            <li>Training and Development : Certifications</li>
-                            <li>Employee engagement activities : awards, community gathering</li>
-                            <li>Good Infrastructure</li>
-                            <li>Flexible working culture</li>
-                            <li>Onsite opportunity</li>
-                        </ul>                    
+                            <b>Why Join Nivzen Technologies?</b>
+                            <li>Be part of a fast-growing and innovative organization.</li>
+                            <li>Work in a collaborative and supportive environment.</li>
+                            <li>Enjoy opportunities for professional growth and skill development.</li>
+                        </ul>               
                     
                         <a href="javascript:history.go(-1)">
                             <button class="border-gradient">
@@ -127,7 +127,7 @@
                     </div>
 
                     <?php include 'careers-details-inq-form.php'?>
-
+                    
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
                     },
                     'email': {
                         required: true,
-                        email: true,
+                        // email: true
                         // gmailValidation: true
                     },
                     'phone': {
@@ -201,16 +201,10 @@
                         error.insertAfter(element);     
                     }
                 },
-                // highlight: function(element, errorClass) {
-                //     $(element).addClass('is-invalid');
-                // },
-                // unhighlight: function(element, errorClass) {
-                //     $(element).removeClass('is-invalid');
-                // }
             });
 
             $("#career-detail").submit(function(event) {
-                event.preventDefault(); // Prevent the default form submission
+                event.preventDefault(); 
                 $('#recaptcha-error').hide(); 
 
                 if ($(this).valid()) {
@@ -219,16 +213,11 @@
                         return;
                     }
 
-                    var form_data = new FormData($(this)[0]);
-                    var imgFile = $("#resume")[0]; // Get the file input element
-                    form_data.append("resume", imgFile.files[0]); 
                     $('#career_submit_btn').text('Processing...');
                     $.ajax({
                         url: 'submit-career.php',  
                         type: 'POST',
-                        data:  form_data,
-                        processData: false,
-                        contentType: false,
+                        data: $(this).serialize(), 
                         success: function(response) {
                             const obj = JSON.parse(response);
                             if (obj && obj.message) {
@@ -254,7 +243,6 @@
             });
         </script>
 
-        
 
     </body>
 

@@ -2,13 +2,12 @@
 <html lang="eng">
 
     <?php include 'layout.php';?>
-
     <head>
 
     <style>
         #drop-area {
             border: 2px dashed #ccc;
-            border-radius: 20px;
+            border-radius: 20px;        
             padding: 20px;
             text-align: center;
             margin: 20px;
@@ -23,18 +22,15 @@
             text-align:left;
             color:red;
         }
+
     </style>
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script> 
-        function enableSubmitBtn(){
-            document.getElementById("career_submit_btn").disabled=false;
-        }
-    </script>
-    
+
     </head>
 
     <body>
+
         <div id="wapper">
             <div class="header-wapper">
                 <div class="container">
@@ -47,7 +43,7 @@
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
-                            <h3><span>Business Developer</span></h3>
+                            <h3><span>Graphic Designer</span></h3>
                         </div>
                         <div class="bnrimg">
                             <img src="images/bloge-banner-img.png" alt="" />
@@ -63,7 +59,7 @@
                     <div class="col-12">
                         <div class="section-title-and-desc">
                             <div class="section-title-block">
-                                <h1 class="section-title-text mt-5"><b>Embedded Business Developer</b></h1><br>
+                                <h1 class="section-title-text mt-5"><b>Job Description : </b></h1><br>
                             </div>
                         </div>
                     </div>
@@ -72,52 +68,46 @@
 
                     <div class="col-lg-6 mb-5">
                         <p class="font-bold">Job Brief:</p>
-                        <p>We are looking for a skilled Business Developer  Lead with expertise in both Automation Testing and Manual Testing to join our team. The ideal candidate will have extensive experience in leading Business Developing  teams, developing test strategies, and ensuring the quality of our software products.</p>
-                        <p></p>
-                        <p><span class="font-bold">Role:</span> Business Developer </p> 
-                        <p><span class="font-bold">Experience:</span> 1 to 2 Years</p>
+                        <p>Are you a creative thinker with a passion for visual storytelling? 
+                            Nivzen Technologies is looking for a talented<b> Graphic Designer </b>with 1-2 years of experience to join our dynamic team.</p>
+                        <p>As a <b>Graphic Designer at Nivzen</b>, you will be responsible for designing engaging visuals for digital and print media, collaborating with cross-functional teams, and bringing ideas to life with your creative flair.</p>
+                        <!-- <p><span class="font-bold">Role:</span> Web Designer</p> 
+                        <p><span class="font-bold">Experience:</span> 0 to 6 Months</p>
                         <p><span class="font-bold">Position Open:</span> 1</p><p><span class="font-bold">Job Location:</span> Ahmedabad</p>              
                         <p><span class="font-bold">Work from Home Available:</span> Not Available</p>                    
-                        <p><span class="font-bold">Salary:</span> Not a constraint for the right candidate</p>                                            
+                        <p><span class="font-bold">Salary:</span> Not a constraint for the right candidate</p>                                             -->
                         <hr>
-                        <p class="font-bold">Roles and Responsibility:</p>
+                        <p class="font-bold">Key Responsibilities :</p>
                         
                         <ul class="style-icon">
-                            <li>Lead the Business Developing  team and oversee all aspects of the quality assurance process.</li>
-                            <li>Develop and implement test strategies, test plans, test cases, and test scripts.</li>
-                            <li>Conduct both manual and automated testing to ensure software quality.</li>
-                            <li>Collaborate with the development team to identify and resolve defects.</li>
-                            <li>Review and analyze system specifications.</li>
-                            <li>Coordinate with the project management team to prioritize testing efforts.</li>
-                            <li>Provide feedback and recommendations to improve software quality.</li>
-                            <li>Mentor and train Business Developing  team members on best practices and new technologies.</li>
-                            <li>Stay updated with industry trends and best practices in quality assurance.</li>
+                            <li>Develop creative designs for social media, marketing campaigns, websites, and print materials.</li>
+                            <li>Work closely with marketing and product teams to create impactful visuals.</li>
+                            <li>Ensure consistency in brand guidelines across all designs.</li>
+                            <li>Collaborate on brainstorming and conceptualization of new ideas.</li>
+                            <li>Stay updated on the latest design trends and tools.</li>
                         </ul>                                            
                         <hr>
-                        <p class="font-bold">Skill Requirement:</p>
-                        <ul class="style-icon"><li>Bachelor's degree in Computer Science, Engineering, or related field.</li>
-                            <li>1 to 2 Years of experience in Business Developer , with a focus on both Automation and Manual Testing.</li>
-                            <li>Proven experience leading Business Developing teams and managing projects.</li>
-                            <li>Strong knowledge of software Business Developer methodologies, tools, and processes.</li>
-                            <li>Experience with test automation tools such as Selenium, Appium, or similar.</li>
-                            <li>Proficiency in programming languages such as Java, Python, or C#.</li>
-                            <li>Excellent analytical and problem-solving skills.</li>
-                            <li>Strong communication and leadership abilities.</li>
-                            <li>Experience working in an Agile/Scrum environment is a plus.</li>
+                        <p class="font-bold">Required Skills and Qualifications:</p>
+                        <ul class="style-icon"><li><b>Experience : </b>1-2 years in graphic design.</li>
+                            <li><b>Proficiency in Tools : </b>Adobe Creative Suite (Photoshop, Illustrator, InDesign, etc.).</li>
+                            <li>A strong portfolio showcasing creative design work.</li>
+                            <li>Knowledge of typography, color theory, and layout design.</li>
+                            <li>Ability to work on multiple projects and meet deadlines.</li>
+                            <li>A keen eye for detail and a proactive attitude.</li>
                         </ul>                                       
-                            <hr><p><span class="font-bold">Qualification:</span>  B.Tech/B.E/MCA</p>   
-                            <hr><p><span class="font-bold">Office Timings:</span>  10.00 AM to 7.00 PM</p>                    
-                            <hr><p><span class="font-bold">Perks and Benefits:</span></p>
+                            <hr><p><span class="font-bold">Additional Skills (Preferred) : </span></p>   
+                            <li>Experience in video editing or motion graphics.</li>
+                            <li>Familiarity with UI/UX design principles.</li>
+                            <hr><p><span class="font-bold">Location :</span> </p>  
+                            <p>902, Ganesh glory, Godrej garden City road, jagatpur<br>
+                                Ahmedabad - 382481</p>                  
+                            <hr><p><span class="font-bold">Job Type : </span>Full-time</p>
+
                         <ul class="style-icon">
-                            <li>5-Days a week</li> 
-                            <li>Health Insurance</li>
-                            <li>(28 Leaves a year) 18 paid leave &amp; 10 public holiday</li>
-                            <li>Maternity paternity leave benefit</li>
-                            <li>Training and Development : Certifications</li>
-                            <li>Employee engagement activities : awards, community gathering</li>
-                            <li>Good Infrastructure</li>
-                            <li>Flexible working culture</li>
-                            <li>Onsite opportunity</li>
+                            <b>Why Join Nivzen Technologies?</b>
+                            <li>Work with a team of innovative professionals.</li>
+                            <li>Opportunity to grow and develop your skills.</li>
+                            <li>A friendly and collaborative work environment.</li>
                         </ul>                    
                     
                         <a href="javascript:history.go(-1)">
@@ -131,7 +121,7 @@
                     </div>
 
                     <?php include 'careers-details-inq-form.php'?>
-                    
+
                 </div>
             </div>
         </div>
@@ -182,7 +172,7 @@
                     },
                     'email': {
                         required: true,
-                        // email: true
+                        email: true,
                         // gmailValidation: true
                     },
                     'phone': {
@@ -205,10 +195,16 @@
                         error.insertAfter(element);     
                     }
                 },
+                // highlight: function(element, errorClass) {
+                //     $(element).addClass('is-invalid');
+                // },
+                // unhighlight: function(element, errorClass) {
+                //     $(element).removeClass('is-invalid');
+                // }
             });
 
             $("#career-detail").submit(function(event) {
-                event.preventDefault(); 
+                event.preventDefault(); // Prevent the default form submission
                 $('#recaptcha-error').hide(); 
 
                 if ($(this).valid()) {
@@ -217,11 +213,16 @@
                         return;
                     }
 
+                    var form_data = new FormData($(this)[0]);
+                    var imgFile = $("#resume")[0]; // Get the file input element
+                    form_data.append("resume", imgFile.files[0]); 
                     $('#career_submit_btn').text('Processing...');
                     $.ajax({
                         url: 'submit-career.php',  
                         type: 'POST',
-                        data: $(this).serialize(), 
+                        data:  form_data,
+                        processData: false,
+                        contentType: false,
                         success: function(response) {
                             const obj = JSON.parse(response);
                             if (obj && obj.message) {
@@ -247,6 +248,7 @@
             });
         </script>
 
+        
 
     </body>
 

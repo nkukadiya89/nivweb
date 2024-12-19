@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include 'layout.php';?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
 
@@ -9,15 +9,14 @@
         <div id="wapper">
             <div class="header-wapper">
                 <div class="container">
-                    <?php include 'header.php';?>
-
+                <?php include '../includes/header.php'; ?>
                 </div>
             </div>
             <div class="innerbanner">
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
-                            <h3><span>Case Studiese</span></h3>
+                            <h3><span>PharmaLinkage</span></h3>
                             <p>
                                 More than 100+ companies turn to Digiteon to drive their businesses forward in the age
                                 of digital transformation.
@@ -38,6 +37,7 @@
                                     <img src="images/Introduction-img.png" alt="" />
                                 </div>
                             </div>
+
                             <div class="col col-12 col-md-6 pharma-text">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
@@ -51,13 +51,9 @@
                                            Provide robust search, filter, and communication tools for users to streamline the partnership process.<br>
                                            Create a scalable and user-friendly platform with an intuitive interface.<br>    
                                         </p>
-
                                     </div>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                     <div class="casestudiesdtlrow">
@@ -67,6 +63,7 @@
                                     <img src="images/Challenges-img.png" alt="" />
                                 </div>
                             </div>
+
                             <div class="col col-12 col-md-6 pharma-text  order-md-1">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
@@ -78,7 +75,8 @@
                                             <b>2. Efficient Matchmaking Algorithm: </b><br>                                        
                                             Designing an algorithm that considers multiple parameters, including production capacity, certifications, location, and lead times, to generate precise matches.<br>
                                             <b>3. Scalability: </b><br>
-                                             Building a system capable of supporting a growing user base without compromising performance.<br>
+                                             Building
+  <link rel="stylesheet" href="" a system capable of supporting a growing user base without compromising performance.<br>
                                             <b>4. User Onboarding: </b><br>
                                             Simplifying the onboarding process for facility owners and manufacturers, many of whom were not familiar with digital platforms.
                                         </p>
@@ -94,7 +92,9 @@
                                 <div class="image-part ">
                                     <img src="images/Solution-img.png" alt="" />
                                 </div>
+  <!-- <link rel="stylesheet" href="" -->
                             </div>
+
                             <div class="col col-12 col-md-6 pharma-text">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
@@ -240,7 +240,7 @@
             </div>
 
 
-            <?php include 'footer.php';?>
+            <?php include '../includes/footer.php'; ?>
 
         </div>
         <!-- Optional JavaScript -->

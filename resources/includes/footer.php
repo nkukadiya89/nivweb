@@ -9,7 +9,7 @@
             aria-label="this redirect to home page"
           >
             <img
-              src="images/footer-logo.png"
+              src="/nivweb/images/footer-logo.png"
               alt="footer logo"
               width="150"
               height="50"
@@ -71,7 +71,7 @@
               <li>
                 <div class="flagimg">
                   <img
-                    src="images/ind.png"
+                    src="/nivweb/images/ind.png"
                     alt="footer logo"
                     width="52"
                     height="52"
@@ -85,7 +85,7 @@
               <li>
                 <div class="flagimg">
                   <img
-                    src="images/nl.png"
+                    src="/nivweb/images/nl.png"
                     alt="footer logo"
                     width="52"
                     height="52"
@@ -99,7 +99,7 @@
               <li>
                 <div class="flagimg">
                   <img
-                    src="images/aus.png"
+                    src="/nivweb/images/aus.png"
                     alt="footer logo"
                     width="52"
                     height="52"
@@ -116,22 +116,22 @@
       </div>
       <div class="owl-carousel award owl-footer">
         <div class="item">
-          <img src="images/a1.png" alt="" />
+          <img src="/nivweb/images/a1.png" alt="" />
         </div>
         <div class="item">
-          <img src="images/a2.png" alt="" />
+          <img src="/nivweb/images/a2.png" alt="" />
         </div>
         <div class="item">
-          <img src="images/a3.png" alt="" />
+          <img src="/nivweb/images/a3.png" alt="" />
         </div>
         <div class="item">
-          <img src="images/a4.png" alt="" />
+          <img src="/nivweb/images/a4.png" alt="" />
         </div>
         <div class="item">
-          <img src="images/a6.png" alt="" />
+          <img src="/nivweb/images/a6.png" alt="" />
         </div>
         <div class="item">
-          <img src="images/a7.png" alt="" />
+          <img src="/nivweb/images/a7.png" alt="" />
         </div>
       </div>
       <div class="copyright">
