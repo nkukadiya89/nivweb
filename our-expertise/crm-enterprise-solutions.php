@@ -220,14 +220,14 @@
                   }
               });
 
-              $("#contact-post").submit(function(event) {
+              $("#inquery-post").submit(function(event) {
                   event.preventDefault(); 
 
                   if ($(this).valid()) { // Only submit if the form is valid
                   // Send the form data via AJAX
-                  $('#submit_btn').text('Processing...'); 
+                  $('#inq_text').text('Processing...'); 
                     $.ajax({
-                        url: 'submit-inquery.php',  
+                        url: '<?php echo $projectFolderName?>/submit-inquery.php',  
                         type: 'POST',
                         data: $(this).serialize(), // Serialize form data
                         success: function(response) {

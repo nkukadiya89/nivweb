@@ -218,7 +218,7 @@
                     form_data.append("resume", imgFile.files[0]); 
                     $('#career_submit_btn').text('Processing...');
                     $.ajax({
-                        url: 'submit-career.php',  
+                        url: '<?php echo $projectFolderName?>/submit-career.php',  
                         type: 'POST',
                         data:  form_data,
                         processData: false,

@@ -10,7 +10,7 @@
             aria-label="this redirect to home page"
           >
             <img
-              src="/nivweb/images/footer-logo.png"
+              src="<?php echo $projectFolderName?>/images/footer-logo.png"
               alt="footer logo"
               width="150"
               height="50"
@@ -73,7 +73,7 @@
               <li>
                 <div class="flagimg">
                   <img
-                    src="/nivweb/images/ind.png"
+                    src="<?php echo $projectFolderName?>/images/ind.png"
                     alt="footer logo"
                     width="52"
                     height="52"
@@ -87,7 +87,7 @@
               <li>
                 <div class="flagimg">
                   <img
-                    src="/nivweb/images/nl.png"
+                    src="<?php echo $projectFolderName?>/images/nl.png"
                     alt="footer logo"
                     width="52"
                     height="52"
@@ -101,7 +101,7 @@
               <li>
                 <div class="flagimg">
                   <img
-                    src="/nivweb/images/aus.png"
+                    src="<?php echo $projectFolderName?>/images/aus.png"
                     alt="footer logo"
                     width="52"
                     height="52"
@@ -118,22 +118,22 @@
       </div>
       <div class="owl-carousel award owl-footer">
         <div class="item">
-          <img src="/nivweb/images/a1.png" alt="" />
+          <img src="<?php echo $projectFolderName?>/images/a1.png" alt="" />
         </div>
         <div class="item">
-          <img src="/nivweb/images/a2.png" alt="" />
+          <img src="<?php echo $projectFolderName?>/images/a2.png" alt="" />
         </div>
         <div class="item">
-          <img src="/nivweb/images/a3.png" alt="" />
+          <img src="<?php echo $projectFolderName?>/images/a3.png" alt="" />
         </div>
         <div class="item">
-          <img src="/nivweb/images/a4.png" alt="" />
+          <img src="<?php echo $projectFolderName?>/images/a4.png" alt="" />
         </div>
         <div class="item">
-          <img src="/nivweb/images/a6.png" alt="" />
+          <img src="<?php echo $projectFolderName?>/images/a6.png" alt="" />
         </div>
         <div class="item">
-          <img src="/nivweb/images/a7.png" alt="" />
+          <img src="<?php echo $projectFolderName?>/images/a7.png" alt="" />
         </div>
       </div>
       <div class="copyright">

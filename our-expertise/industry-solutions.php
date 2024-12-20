@@ -244,7 +244,7 @@
         if ($(this).valid()) { // Only submit if the form is valid
           $('#inq_text').text('Processing...'); 
             $.ajax({
-                url: 'submit-inquery.php',
+                url: '<?php echo $projectFolderName?>/submit-inquery.php',
                 type: 'POST',
                 data: $(this).serialize(), // Serialize form data
                 success: function(response) {
