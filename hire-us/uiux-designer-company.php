@@ -59,9 +59,9 @@
         </div>
       </div>
 
-      <?php include 'inquery.php';?>
+      <?php include '../inquery.php';?>
 
-      <div class="servicesRow">
+      <!-- <div class="servicesRow">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 whycol">
@@ -132,7 +132,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="discussProject">
         <div class="container">
           <h3>Let's Discuss Your Project</h3>
@@ -140,7 +140,7 @@
             Get free consultation and let us know your project idea to turn it
             into an amazing digital product.
           </p>
-          <a href="./contact-us.php">
+          <a href="../contact-us.php">
           <button class="border-gradient">
             <span>Contact Us</span>
           </button>
@@ -148,7 +148,7 @@
         </div>
       </div>
 
-      <?php include 'footer.php';?>
+      <?php include '../includes/footer.php';?>
 
     </div>
 

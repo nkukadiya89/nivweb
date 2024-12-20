@@ -32,7 +32,7 @@
             <div class="inrpgtitle">
                 <br><br>    
                 <h2><b>Introduction</b></h2><br>
-                <img src="../images/Blog-part2-pic1.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part2-pic1.png" alt="" class="responsive"><br><br>
                 <p>The development of augmented reality (AR) and virtual reality (VR) technology has given rise to new and exciting possibilities in a number of industries. 
                  <br>These technologies are being used in fields as diverse as gaming, entertainment, education, and even healthcare.The potential uses of AR and VR are endless. 
                  <br>In the healthcare sector, for example, AR and VR are being used to train doctors and surgeons, to provide patient care, and even to help with rehabilitation.</p>
@@ -41,7 +41,7 @@
 
 
                  <h2><b>The Many Uses of AR and VR: From Games to Healthcare</b></h2><br>
-                 <img src="../images/Blog-part2-pic2.png" alt="" class="responsive"><br><br>
+                 <img src="../../images/Blog-part2-pic2.png" alt="" class="responsive"><br><br>
                  <p>Augmented reality has already been adopted in multiple sectors, from marketing to education. 
                 It is used to display relevant information to users in real-time, such as <br> contextual information about a physical object while looking through a phone. 
                 It is also used to enhance training experiences, allowing trainees to observe demonstrations <br> of various processes more closely, as well as to learn more about product before buying it.Virtual reality allows users to immerse themselves in a two or three-dimensional <br> virtual world that is entirely computer-generated. 
@@ -51,7 +51,7 @@
 
 
                 <h2><b>How is AR and VR used in Healthcare</b></h2><br>
-                <img src="../images/Blog-part2-pic3.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part2-pic3.png" alt="" class="responsive"><br><br>
                 <p>AR and VR have found many applications in the field of healthcare. Here are some ways they are being used:</p>
                 <ul>
                     <li><b>Remote Surgery : </b> 
@@ -71,7 +71,7 @@
 
 
                 <h2><b>How is AR and VR used in Games?</b></h2><br>
-                <img src="../images/Blog-part2-pic4.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part2-pic4.png" alt="" class="responsive"><br><br>
                 <p>As well as being used in the medical sphere, Augmented Reality and Virtual Reality are heavily used in the gaming industry. 
                     <br>To give you a taste of what AR and VR have to offer:</p><br><br>
 

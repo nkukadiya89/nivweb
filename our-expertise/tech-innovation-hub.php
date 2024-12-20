@@ -3,8 +3,6 @@
 
 <?php include '../includes/layout.php';?>
 
-<body>
-
   <body>
     <div id="wapper">
       <div class="header-wapper">
@@ -85,7 +83,7 @@
                   Get free consultation and let us know your project idea to turn it
                   into an amazing digital product.
                 </p>
-                <a href="./contact-us.php">
+                <a href="../contact-us.php">
                 <button class="border-gradient">
                   <span>Contact Us</span>
                 </button>

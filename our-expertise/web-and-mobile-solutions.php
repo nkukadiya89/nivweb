@@ -3,8 +3,6 @@
 
 <?php include '../includes/layout.php'; ?>
 
-<body>
-
   <body>
     <div id="wapper">
       <div class="header-wapper">

@@ -29,7 +29,8 @@
       <div class="header-wapper">
         <div class="container">
 
-        <?php include '../includes/header.php';?>
+        <?php include '../includes/header.php'; ?>
+
 
         </div>
       </div>
@@ -37,10 +38,9 @@
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
             <div class="inrpgtitle">
-              <h3><span>CRM & Enterprise Solutions</span></h3>
+              <h3><span>CRM & Enterprises</span> Solutions</h3>
               <p>
-                Strategically build and leverage digital technologies to boost
-                business results and user experiences
+              Strategically build and leverage digital technologies to drive business growth and enhance user experiences through innovative CRM and enterprise solutions.  
               </p>
             </div>
             <div class="bnrimg">
@@ -52,21 +52,16 @@
       <div class="about-react">
         <div class="container">
           <div class="normaltxt">
-            Our CRM & Enterprise Solutions Team is a collaborative space where engineers, developers, and creative thinkers come together to experiment and innovate. We partner with startups, enterprises, and industry leaders to explore new possibilities and develop transformative digital products.
-            Transforming industries with secure, transparent, and decentralized solutions that revolutionize everything from finance to supply chain management.
-
+          At Nivzen Technologies, we turn your vision into innovative digital solutions that captivate and engage. 
+          From creating dynamic websites that leave a lasting impression to designing intuitive mobile apps that connect with users wherever they are, our dedicated team of developers and designers crafts tailored experiences that accelerate your business growth and enhance user engagement.
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
               <div class="content-part animatable fadeInLeft">
-                <h3>Why Choose Our CRM & Enterprise Solutions team for Your Web Development Needs?</h3>
+                <h3>Why Choose Us for Your CRM & Enterprises Solutions Needs?</h3>
                 <p>
-                  At Nivzen Technologies, innovation isn't just a buzzword—it's the driving force behind everything we do. The CRM & Enterprise Solutions is where cutting-edge ideas, emerging technologies, and creative problem-solving converge to build groundbreaking solutions for our clients.
-
-
-                  <br /><br />
-                  Building immersive experiences that redefine customer engagement, training, and entertainment, providing a new dimension to user interaction.Connecting the physical and digital worlds to drive automation, increase efficiency, and offer real-time data insights across industries.
-
+                  We provide CRM and Enterprise Solutions that deliver exceptional performance and seamless user experiences, whether through native or cross-platform development for both iOS and Android. From developing robust mobile applications to optimizing web services for simplicity and accessibility, we ensure a smooth, unified experience across all devices.<br/><br/>
+                  With expertise in custom web development and mobile app solutions, we offer comprehensive services that guarantee seamless integration, scalability, and outstanding user experiences. Whether you're a startup or an enterprise, we collaborate with you throughout the entire journey to build solutions that are not only functional but also intuitive and built for the future.
                 </p>
               </div>
             </div>
@@ -104,82 +99,17 @@
                   Get free consultation and let us know your project idea to turn it
                   into an amazing digital product.
                 </p>
-                <a href="./contact-us.php">
+                <a href="../contact-us.php">
                 <button class="border-gradient">
                   <span>Contact Us</span>
                 </button>
-              </a>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="discussProject">
-              <!-- <div class="container">
-                <h3>Let's Discuss Your Project</h3>
-                <p>
-                  Get free consultation and let us know your project idea to turn it
-                  into an amazing digital product.
-                </p>
-                <a href="./contact-us.php">
-                <button class="border-gradient">
-                  <span>Contact Us</span>
-                </button>
-              </a>
-              </div>
-            </div> -->
-
-
-
    
-    <div class="from">
-    
-        <!-- <div id="alertMsg"></div>
-        <div class="container-from text-center">
-            <div class="text-center my-3">
-              <h3>We are excited that you want to Work with us.</h3>
-                <img class="" src="./images/line.png" alt="">
-                  <div class="contact-form">
-                    <div class="container">
-                        <form id="contact-post" method="post">
-                        
-                        <div class="row" style="padding-top:100px; text-align:left;">
-                          <div class="col-lg-6 col-md-6 col-sm-12" style="padding-bottom:18px;">
-                            <label for="firstName" style="padding-left:8px; padding-bottom:5px;">First Name:</label>
-                              <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name" required >
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-sm-12">
-                            <label for="lastName" style="padding-left:8px; padding-bottom:5px;">Last Name:</label>
-                              <input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name" required>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-sm-12">
-                            <label for="emailAddress" style="padding-left:8px; padding-bottom:5px;">Email Address:</label>
-                              <input type="email" name="email" class="form-control" id="emailAddress" placeholder="Email Address" required>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-sm-12">
-                            <label for="phoneNumber" style="padding-left:8px; padding-bottom:5px;">Phone Number:</label>
-                              <input type="text" class="form-control" id="phoneNumber" name="phone" placeholder="Phone Number" required>
-                          </div>
-                        </div>
-                        <div class="form-group" style="text-align:left;">
-                          <label for="message" style="padding-left:8px; padding-top:18px; padding-bottom:5px;">Enter Message Here:</label>
-                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter Message Here..." required></textarea>
-                        </div>
-                        <div class="discussProject">
-                          <div class="container">
-                            <button class="border-gradient border-gradient2" type="submit" id="submit" name="submit">
-                              <span id="submit_btn">Submit</span>
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-             </div>
-          </div>
-      </div> -->
-
 
 
 
@@ -297,7 +227,7 @@
                   // Send the form data via AJAX
                   $('#submit_btn').text('Processing...'); 
                     $.ajax({
-                        url: 'mail.php',  
+                        url: 'submit-inquery.php',  
                         type: 'POST',
                         data: $(this).serialize(), // Serialize form data
                         success: function(response) {

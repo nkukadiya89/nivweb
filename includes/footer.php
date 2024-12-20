@@ -110,7 +110,7 @@
                 <div>
                   <h3>Australia</h3>
                   <h6>Australia - Melbourne</h6>
-                </div>src=".
+                </div>
               </li>
             </ul>
           </div>
@@ -134,7 +134,7 @@
         </div>
         <div class="item">
           <img src="/nivweb/images/a7.png" alt="" />
-        </div>src=".
+        </div>
       </div>
       <div class="copyright">
         Copyright © <?php echo date('Y')?> Nivzen Technologies All rights reserved.

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php'; ?>
+<?php include '../../includes/layout.php'; ?>
 
 <body>
 
@@ -9,7 +9,7 @@
         <div id="wapper">
             <div class="header-wapper">
                 <div class="container">
-                <?php include '../includes/header.php'; ?>
+                <?php include '../../includes/header.php'; ?>
                 </div>
             </div>
             <div class="innerbanner">
@@ -23,18 +23,19 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="../images/case-banner.png" alt="" />
+                            <img src="../../images/case-banner.png" alt="" />
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="case-studiedetail">
                 <div class="container">
                     <div class="casestudiesdtlrow">
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Introduction-img.png" alt="" />
+                                    <img src="../../images/Introduction-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -42,7 +43,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Client Requirements</h3>
-                                        <img class="my-3" src="./images/line.png" alt="">
+                                        <img class="my-3" src="../../images/line.png" alt="">
                                         <p>
                                            <b>The client approached Nivzen Technologies with the following objectives:</b><br>
                                            Develop a platform to connect pharmaceutical manufacturers with production facilities based on specific requirements such as capacity, certifications, and geographic location.<br>
@@ -56,11 +57,14 @@
                             </div>
                         </div>
                     </div>
+
+
+
                     <div class="casestudiesdtlrow">
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center   order-md-2">
                                 <div class="image-part  ">
-                                    <img src="../images/Challenges-img.png" alt="" />
+                                    <img src="../../images/Challenges-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -68,7 +72,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Key Challenges</h3>
-                                        <img class="my-3" src="./images/line.png" alt=""><br>
+                                        <img class="my-3" src="../../images/line.png" alt=""><br>
                                         <p>
                                             <b>1. Data Security and Compliance: </b><br>
                                             Ensuring the platform complies with industry regulations and securely handles sensitive data, such as certifications and proprietary manufacturing details.<br>
@@ -76,30 +80,30 @@
                                             Designing an algorithm that considers multiple parameters, including production capacity, certifications, location, and lead times, to generate precise matches.<br>
                                             <b>3. Scalability: </b><br>
                                              Building
-  <link rel="stylesheet" href="" a system capable of supporting a growing user base without compromising performance.<br>
+                                            <!-- <link rel="stylesheet" href="" a system capable of supporting a growing user base without compromising performance.<br> -->
                                             <b>4. User Onboarding: </b><br>
                                             Simplifying the onboarding process for facility owners and manufacturers, many of whom were not familiar with digital platforms.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
+
+
                     <div class="casestudiesdtlrow">
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                    <img src="../../images/Solution-img.png" alt="" />
                                 </div>
-  <!-- <link rel="stylesheet" href="" -->
                             </div>
 
                             <div class="col col-12 col-md-6 pharma-text">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Solution</h3>
-                                        <img class="my-3" src="./images/line.png" alt="">
+                                        <img class="my-3" src="../../images/line.png" alt="">
                                         <p>
                                             <b> Compliance and Security Measures : </b>
                                             <li>Data encryption for all sensitive information.</li>
@@ -135,7 +139,7 @@
                     <div class="text-center mt-3">
                         <h3>Key Features</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="./images/line2.png" alt="">
+                            <img class="my-3" src="../../images/line2.png" alt="">
                         </div>
                     </div>
                     <div class="my-4">
@@ -195,21 +199,26 @@
 
             <div class="Conclusion-part">
                 <div class="container">
-
+                    
                     <div class="row">
                         <div class="col col-12 col-md-6 pharma-text  my-3">
-                            <div class="content-part">
-                                <div class="pharma-txt ">
-                                    <h2>Conclusion</h2>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                            <div class="content-part animatable fadeInLeft">
+                                <div class="pharma-txt mx-4">
+                                    <h3>Conclusion</h3>
+                                    <img class="my-3" src="../../images/line.png" alt="">
+                                    <p>
                                     <p>Platform exemplifies how technology can address industry-specific challenges by creating a dedicated platform for efficient resource utilization and collaboration. <br><br>
-                                       <b> Nivzen Technologies' </b>expertise in understanding client requirements and delivering tailored solutions played a pivotal role in the platform's success, setting a benchmark for innovation in the pharmaceutical sector.</p>
+                                    <b> Nivzen Technologies' </b>expertise in understanding client requirements and delivering tailored solutions played a pivotal role in the platform's success, setting a benchmark for innovation in the pharmaceutical sector.</p>
+                                    </p>
+                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
+                                        <button class="btn" type="button">View Project</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part  ">
-                                <img src="../images/conclusion.png" alt="" />
+                            <div class="image-part animatable fadeInRight ">
+                                <img src="../../images/OBGUIDE-Conclusion-img.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -221,26 +230,22 @@
                     <div class="text-center mt-3">
                         <h3>Technologies</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="./images/line.png" alt="">
+                            <img class="my-3" src="../../images/line.png" alt="">
                         </div>
                     </div>
                     <div class="icon-btn">
-                        <a href=""><img src="./images/Python.png" alt="Python Icon">Python</a>
-                        <a href=""><img src="./images/dj.png" alt="Django Icon">Django</a>
-                        <a href=""><img src="./images/ReactJs.png" alt="React JS Icon">React
-                            JS</a>
-                        <a href=""><img src="./images/antd.png" alt="Ant Design Icon">Ant
-                            Design</a>
-                        <a href=""><img src="./images/Figma.png" alt="Figma Icon">Figma</a>
-                        <a href=""><img src="./images/aws.png" alt="AWS Cloud Icon">AWS
-                            Cloud</a>
-
+                        <a href=""><img src="../../images/Python.png" alt="Python Icon">Python</a>
+                        <a href=""><img src="../../images/dj.png" alt="Django Icon">Django</a>
+                        <a href=""><img src="../../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../../images/antd.png" alt="Ant Design Icon">Ant Design</a>
+                        <a href=""><img src="../../images/Figma.png" alt="Figma Icon">Figma</a>
+                        <a href=""><img src="../../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
                     </div>
                 </div>
             </div>
 
 
-            <?php include '../includes/footer.php'; ?>
+            <?php include '../../includes/footer.php'; ?>
 
         </div>
         <!-- Optional JavaScript -->

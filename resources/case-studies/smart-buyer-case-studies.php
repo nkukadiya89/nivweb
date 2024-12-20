@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php'; ?>
+<?php include '../../includes/layout.php'; ?>
 
 <body>
 
@@ -10,7 +10,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include '../includes/header.php'; ?>
+                <?php include '../../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -29,30 +29,37 @@
                     </div>
                 </div>
             </div>
-            <div class="PharmaLinkage-part">
+
+
+            <div class="case-studiedetail">
                 <div class="container">
-                    <div class="row my-2 mb-0">
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInLeft ">
-                                <img src="../images/Introduction-img.png" alt="" />
+                    <div class="casestudiesdtlrow">
+                        <div class="row">
+                            <div class="col col-12 col-md-6 text-center">
+                                <div class="image-part ">
+                                    <img src="../../images/Introduction-img.png" alt="" />
+                                </div>
                             </div>
-                        </div>
+
+
                         <div class="col col-12 col-md-6 pharma-text my-3">
                             <div class="content-part animatable fadeInRight">
                                 <div class="pharma-txt  mx-4">
                                     <h3>Client Requirements</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../../images/line.png" alt="">
                                     <p>
                                     The client is a mid-sized manufacturing company facing challenges in managing procurement activities.<br> 
                                     Their procurement process was manual, involving extensive paperwork, delayed approvals, and inconsistent supplier management.<br> 
                                     These inefficiencies resulted in higher costs, frequent stockouts, and strained supplier relationships.<br> 
                                     </p>
-                                    <div class="d-grid gap-2 col-lg-3 col-sm-12  mx-auto card-btn">
+                                    <!-- <div class="d-grid gap-2 col-lg-3 col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
-                                    </div>
+                                    </div> -->
+                                </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
                         <!-- <div class="col col-12 col-md-6 pharma-text">
                             <div class="content-part animatable fadeInLeft ">
@@ -95,39 +102,45 @@
                             </div>
                         </div> -->
 
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInRight ">
-                                <img src="../images/Challenges-img.png" alt="" />
-                            </div>
-                        </div>
+                        <div class="casestudiesdtlrow">
+                            <div class="row">
+                                <div class="col col-12 col-md-6 text-center   order-md-2">
+                                    <div class="image-part  ">
+                                        <img src="../../images/Challenges-img.png" alt="" />
+                                    </div>
+                                </div>
 
-                        <div class="col col-12 col-md-6 pharma-text  order-md-1">
-                                <div class="content-part ">
-                                    <div class="pharma-txt">
-                                        <h3>Key Challenges</h3>
-                                        <img class="my-3" src="./images/line.png" alt=""><br>
-                                        <p>
-                                            <li>Automate procurement workflows.</li><br>
-                                            <li>Simplify supplier management.</li><br>                                        
-                                            <li>Ensure real-time tracking of procurement activities.</li><br>
-                                            <li>Provide data-driven insights for cost control and better decision-making.</li><br>
-                                        </p>
+
+                                <div class="col col-12 col-md-6 pharma-text  order-md-1">
+                                    <div class="content-part ">
+                                        <div class="pharma-txt">
+                                            <h3>Key Challenges</h3>
+                                            <img class="my-3" src="../../images/line.png" alt=""><br>
+                                            <p>
+                                                <li>Automate procurement workflows.</li><br>
+                                                <li>Simplify supplier management.</li><br>                                        
+                                                <li>Ensure real-time tracking of procurement activities.</li><br>
+                                                <li>Provide data-driven insights for cost control and better decision-making.</li><br>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-
-                        <div class="row">
-                            <div class="col col-12 col-md-6 text-center my-4">
-                                <div class="image-part animatable fadeInLeft ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                        <div class="casestudiesdtlrow">
+                            <div class="row">
+                                <div class="col col-12 col-md-6 text-center my-4">
+                                    <div class="image-part animatable fadeInLeft ">
+                                        <img src="../../images/Solution-img.png" alt="" />
+                                    </div>
                                 </div>
-                            </div>
+
                             <div class="col col-12 col-md-6 pharma-text py-4">
                                 <div class="content-part animatable fadeInRight">
                                     <div class="pharma-txt  mx-4">
                                         <h3>Solution</h3>
-                                        <img class="my-3" src="./images/line.png" alt="">
+                                        <img class="my-3" src="../../images/line.png" alt="">
 
                                         <p>Nivzen Technologies designed and developed Smart Buyer as a monolithic web application using Python Django for the backend and React JS for the frontend. 
                                             The solution includes the following features:</p>
@@ -195,13 +208,13 @@
             </div>
 
 
-            <div class="KeyFeatures-part">
+            <div class="case-key-featuer">
                 <div class="container">
-                    <div class="row">
+
                         <div class="text-center mt-3">
                             <h3>Key Features</h3>
                             <div class="dot-line">
-                                <img class="my-3" src="./images/line.png" alt="">
+                                <img class="my-3" src="../../images/line.png" alt="">
                             </div>
                         </div>
                         <div class="my-4">
@@ -294,7 +307,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
             <div class="Conclusion-part">
                 <div class="container">
@@ -303,7 +315,7 @@
                             <div class="content-part animatable fadeInLeft">
                                 <div class="pharma-txt mx-4">
                                     <h3>Conclusion</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../../images/line.png" alt="">
                                     <p><b>Smart Buyer</b> has transformed the client's procurement operations, making them more efficient, transparent, and cost-effective. <br>
                                         The solution's scalability ensures it can adapt to the client's growing needs, establishing a strong foundation for future digital transformation initiatives.<br>
                                         <b>Nivzen Technologies' expertise </b>in delivering tailored software solutions has not only resolved the client's immediate challenges but also set a benchmark for procurement excellence.<br>
@@ -316,36 +328,33 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../images/PharmaLinkage-img.png" alt="" />
+                                <img src="../../images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="Technologies-part">
+            <div class="technologies">
                 <div class="container">
-                    <div class="row">
-                        <div class="m-auto text-center">
-                            <h3>Technologies</h3>
-                            <div class="dot-line">
-                                <img class="my-3" src="./images/line.png" alt="Line Image">
-                            </div>
-                            <div class="icon-btn">
-                                <button type="submit"><img src="./images/Python-icon.png" alt="Python Icon">Python</button>
-                                <button type="submit"><img src="./images/Django-icon.png" alt="Django Icon">Django</button>
-                                <button type="submit"><img src="./images/ReactJS-icon.png" alt="React JS Icon">React JS</button>
-                                <button type="submit"><img src="./images/AntDesign-icon.png" alt="Ant Design Icon">Ant Design</button>
-                                <button type="submit"><img src="./images/Figma-icon.png" alt="Figma Icon">Figma</button>
-                                <button type="submit"><img src="./images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS Cloud</button>
-                                <br><br>
-                            </div>
+                    <div class="text-center mt-3">
+                        <h3>Technologies</h3>
+                        <div class="dot-line">
+                            <img class="my-3" src="../../images/line.png" alt="">
                         </div>
+                    </div>
+                    <div class="icon-btn">
+                        <a href=""><img src="../../images/Python.png" alt="Python Icon">Python</a>
+                        <a href=""><img src="../../images/dj.png" alt="Django Icon">Django</a>
+                        <a href=""><img src="../../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../../images/antd.png" alt="Ant Design Icon">Ant Design</a>
+                        <a href=""><img src="../../images/Figma.png" alt="Figma Icon">Figma</a>
+                        <a href=""><img src="../../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
                     </div>
                 </div>
             </div>
             
-            <?php include '../includes/footer.php'; ?>
+            <?php include '../../includes/footer.php'; ?>
 
         </div>
         <!-- Optional JavaScript -->

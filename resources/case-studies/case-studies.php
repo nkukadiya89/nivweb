@@ -49,7 +49,7 @@
                                     This innovative approach optimizes resource allocation in the pharmaceutical sector, enabling seamless collaborations, and ensuring compliance with stringent industry standards.
                                     </p>
 
-                                    <a href="./case-studies-pharmalinkage.php" class="border-gradient mt-3"
+                                    <a href="./pharmalinkage-case-studies.php" class="border-gradient mt-3"
                                         role="button">
                                         <span>View Project</span>
                                     </a>

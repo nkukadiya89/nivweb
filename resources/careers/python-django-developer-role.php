@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-    <?php include '../includes/layout.php'; ?>
+    <?php include '../../includes/layout.php'; ?>
     <style>
         #drop-area {
             border: 2px dashed #ccc;
@@ -34,7 +34,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include '../includes/header.php'; ?>
+                <?php include '../../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -128,7 +128,7 @@
             </div>
         </div>
 
-        <?php include '../includes/footer.php'; ?>
+        <?php include '../../includes/footer.php'; ?>
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -216,7 +216,10 @@
                         $('#recaptcha-error').show(); 
                         return;
                     }
-
+                    
+                    var form_data = new FormData($(this)[0]);
+                    var imgFile = $("#resume")[0]; // Get the file input element
+                    form_data.append("resume", imgFile.files[0]); 
                     $('#career_submit_btn').text('Processing...');
                     $.ajax({
                         url: 'submit-career.php',  

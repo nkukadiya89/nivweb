@@ -55,9 +55,9 @@ we offer a comprehensive range of Magento development services designed to meet 
       </div>
     </div>
 
-    <?php include 'inquery.php';?>
+    <?php include '../inquery.php';?>
 
-    <div class="servicesRow">
+    <!-- <div class="servicesRow">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 whycol">
@@ -119,19 +119,19 @@ we offer a comprehensive range of Magento development services designed to meet 
         </div>
 
       </div>
-    </div>
+    </div> -->
     <div class="discussProject">
       <div class="container">
         <h3>Let's Discuss Your Project</h3>
         <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-        <a href="./contact-us.php">
+        <a href="../contact-us.php">
         <button class="border-gradient ">
           <span>Contact Us</span>
         </button>
       </a>
       </div>
     </div>
-    <?php include 'footer.php';?>
+    <?php include '../includes/footer.php';?>
 
   </div>
 

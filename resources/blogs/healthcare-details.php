@@ -31,7 +31,7 @@
             <div class="inrpgtitle">
                 <br><br>    
                 <h2><b>EHR Interoperability</b></h2><br>
-                <img src="../images/Blog-part6-pic1.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part6-pic1.png" alt="" class="responsive"><br><br>
                 <p>The healthcare sector is under constant pressure to provide better patient care while reducing costs. 
                     In order to meet these goals, healthcare organizations are turning to technology. 
                     The adoption of new healthcare technologies is essential to improving patient care and reducing costs.</p><br>
@@ -45,7 +45,7 @@
 
 
                 <h2>Blockchain in Healthcare</h2><br>
-                <img src="../images/Blog-part6-pic2.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part6-pic2.png" alt="" class="responsive"><br><br>
                 <p>Blockchain technology has revolutionized the way organizations collect & secure data. 
                     This technology is being adopted by healthcare organizations to improve healthcare <br> data  collection, enable secure patient data access, deliver auditable health records, facilitate data exchange agreements, and enable healthcare payments.</p><br>
                 <p>Blockchain technology is rapidly influencing the healthcare sector. 
@@ -57,7 +57,7 @@
             
             
                 <h2>Telemedicine</h2><br>
-                <img src="../images/Blog-part6-pic3.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part6-pic3.png" alt="" class="responsive"><br><br>
                 <p>Telemedicine is another healthcare technology that has seen an upsurge over the past few years. 
                     It enables medical professionals to diagnose and treat medical conditions <br> from  a distance. 
                     This technology has applications in remote medical consultations, remote patient monitoring and video doctor consultations.</p><br>
@@ -71,7 +71,7 @@
 
 
                 <h2>Precision Medicine</h2><br>
-                <img src="../images/Blog-part6-pic4.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part6-pic4.png" alt="" class="responsive"><br><br>
                 <p>Precision medicine is a modern approach to medical care that allows medical professionals to develop targeted treatments that are specific to an individual patient’s needs. 
                     <br> It is a revolutionary branch of healthcare that involves the use of data and analytics to develop treatments customized to an individual’s genetic makeup.</p><br>
                 <p>The adoption of precision medicine has seen an upsurge in recent years. 
@@ -84,7 +84,7 @@
 
 
                 <h2>AI in Healthcare</h2><br>
-                <img src="../images/Blog-part6-pic5.png" alt="" class="responsive"><br><br>
+                <img src="../../images/Blog-part6-pic5.png" alt="" class="responsive"><br><br>
                 <p>AI in healthcare is becoming increasingly powerful, allowing healthcare professionals to make decisions backed by data.
                     AI technology is being used to streamline patient <br> care, reduce costs, and identify illnesses quickly and accurately.</p><br>
                 <p>AI can be used to automate mundane tasks and processes, freeing up time for doctors and nurses to focus on more important duties. 
@@ -94,7 +94,7 @@
 
 
 
-                <img src="../images/Blog-part6-pic6.png" alt="" class="responsive"><br><br><br><br><br>               
+                <img src="../../images/Blog-part6-pic6.png" alt="" class="responsive"><br><br><br><br><br>               
 
 
             

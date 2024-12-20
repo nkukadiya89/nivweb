@@ -30,14 +30,17 @@
                 </div>
             </div>
 
-            <div class="PharmaLinkage-part">
+            <div class="case-studiedetail">
                 <div class="container">
-                    <div class="row my-2 mb-0">
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInLeft ">
-                                <img src="../../images/Introduction-img.png" alt="" />
+                    <div class="casestudiesdtlrow">
+                        <div class="row">
+                            <div class="col col-12 col-md-6 text-center">
+                                <div class="image-part ">
+                                    <img src="../../images/Introduction-img.png" alt="" />
+                                </div>
                             </div>
-                        </div>
+
+
                         <div class="col col-12 col-md-6 pharma-text my-3">
                             <div class="content-part animatable fadeInRight">
                                 <div class="pharma-txt  mx-4">
@@ -48,22 +51,26 @@
                                         These issues led to delays in patient care, errors in documentation, and an increased administrative burden on medical staff.<br>
 
                                     </p>
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
+                                    <!-- <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
                                         <button class="btn" type="button">View Project</button>
+                                    </div> -->
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
                         
-                        <div class="col col-12 col-md-6 text-center my-3">
-                            <div class="image-part animatable fadeInRight ">
-                                <img src="../../images/Challenges-img.png" alt="" />
+                    <div class="casestudiesdtlrow">
+                        <div class="row">
+                            <div class="col col-12 col-md-6 text-center   order-md-2">
+                                <div class="image-part  ">
+                                    <img src="../../images/Challenges-img.png" alt="" />
+                                </div>
                             </div>
-                        </div>
 
 
-                        <div class="col col-12 col-md-6 pharma-text  order-md-1">
+                            <div class="col col-12 col-md-6 pharma-text  order-md-1">
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Key Challenges</h3>
@@ -77,14 +84,18 @@
                                     </div>
                                 </div>
                             </div>
+                         </div>
+                    </div>
 
 
+                    <div class="casestudiesdtlrow">
                         <div class="row">
-                            <div class="col col-12 col-md-6 text-center my-4">
-                                <div class="image-part animatable fadeInLeft ">
-                                    <img src="../../images/OBGUIDE-Solution.png" alt="" />
+                            <div class="col col-12 col-md-6 text-center">
+                                <div class="image-part ">
+                                    <img src="../../images/Solution-img.png" alt="" />
                                 </div>
                             </div>
+
 
                             <div class="col col-12 col-md-6 pharma-text py-4">
                                 <div class="content-part animatable fadeInRight">
@@ -205,13 +216,13 @@
             </div>
 
 
-            <div class="KeyFeatures-part">
+            <div class="case-key-featuer">
                 <div class="container">
-                    <div class="row">
+
                         <div class="text-center mt-3">
                             <h3>Key Features</h3>
                             <div class="dot-line">
-                                <img class="my-3" src="./images/line.png" alt="">
+                                <img class="my-3" src="../../images/line.png" alt="">
                             </div>
                         </div>
                         <div class="my-4">
@@ -230,7 +241,6 @@
                                             <div class="content">
                                                 <h4>Enhanced Patient Experience:</h4>
                                                 <p>Streamlined scheduling and proactive follow-up increased patient satisfaction scores by 25%.</p>
-                                                <?php include 'footer.php';?>
                                                 </div>
                                         </div>
                                         <div class="timeline-item">
@@ -264,16 +274,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
             <div class="Conclusion-part">
                 <div class="container">
+                    
                     <div class="row">
                         <div class="col col-12 col-md-6 pharma-text  my-3">
                             <div class="content-part animatable fadeInLeft">
                                 <div class="pharma-txt mx-4">
                                     <h3>Conclusion</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../../images/line.png" alt="">
                                     <p>
                                     <b>MyObGuide </b>has revolutionized the way OB/GYN clinics operate by digitizing workflows, enhancing collaboration, and ensuring the highest standards of patient care. <br>
                                     This project underscores <b>Nivzen Technologies'</b> commitment to delivering specialized software solutions that cater to industry-specific needs. <br>
@@ -295,29 +305,26 @@
                 </div>
             </div>
 
-            <div class="Technologies-part">
+            <div class="technologies">
                 <div class="container">
-                    <div class="row">
-                        <div class="m-auto text-center">
-                            <h3>Technologies</h3>
-                            <div class="dot-line">
-                                <img class="my-3" src="../../images/line.png" alt="Line Image">
-                            </div>
-                            <div class="icon-btn">
-                                <button type="submit"><img src="../../images/Python-icon.png" alt="Python Icon">Python</button>
-                                <button type="submit"><img src="../../images/Django-icon.png" alt="Django Icon">Django</button>
-                                <button type="submit"><img src="../../images/ReactJS-icon.png" alt="React JS Icon">React JS</button>
-                                <button type="submit"><img src="../../images/AntDesign-icon.png" alt="Ant Design Icon">Ant Design</button>
-                                <button type="submit"><img src="../../images/Figma-icon.png" alt="Figma Icon">Figma</button>
-                                <button type="submit"><img src="../../images/AWScloud-icon.png" alt="AWS Cloud Icon">AWS Cloud</button>
-                                <br><br>
-                            </div>
+                    <div class="text-center mt-3">
+                        <h3>Technologies</h3>
+                        <div class="dot-line">
+                            <img class="my-3" src="../../images/line.png" alt="">
                         </div>
+                    </div>
+                    <div class="icon-btn">
+                        <a href=""><img src="../../images/Python.png" alt="Python Icon">Python</a>
+                        <a href=""><img src="../../images/dj.png" alt="Django Icon">Django</a>
+                        <a href=""><img src="../../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../../images/antd.png" alt="Ant Design Icon">Ant Design</a>
+                        <a href=""><img src="../../images/Figma.png" alt="Figma Icon">Figma</a>
+                        <a href=""><img src="../../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
                     </div>
                 </div>
             </div>
 
-            <?php include '../includes/footer.php'; ?>
+            <?php include '../../includes/footer.php'; ?>
 
         </div>
         <!-- Optional JavaScript -->

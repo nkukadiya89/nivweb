@@ -219,9 +219,12 @@
                         return;
                     }
 
+                    var form_data = new FormData($(this)[0]);
+                    var imgFile = $("#resume")[0]; // Get the file input element
+                    form_data.append("resume", imgFile.files[0]); 
                     $('#career_submit_btn').text('Processing...');
                     $.ajax({
-                        url: 'submit-career.php',  
+                        url: '../resources/careers/submit-career.php',  
                         type: 'POST',
                         data: $(this).serialize(), 
                         success: function(response) {
