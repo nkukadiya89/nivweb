@@ -215,10 +215,10 @@
         return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
     }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
-// $.validator.addMethod("gmailValidation", function(value, element) {
-//     // Check if the email ends with @gmail.com
-//     return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
-// }, "Please enter a valid Gmail address.");
+    // $.validator.addMethod("gmailValidation", function(value, element) {
+    //     // Check if the email ends with @gmail.com
+    //     return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
+    // }, "Please enter a valid Gmail address.");
 
 
     $("#inquery-post").validate({
@@ -242,6 +242,7 @@
     });
 
     $("#inquery-post").submit(function(event) {
+      alert()
         event.preventDefault();
         // Send the form data via AJAX
         if ($(this).valid()) { // Only submit if the form is valid

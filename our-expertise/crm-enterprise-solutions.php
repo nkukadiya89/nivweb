@@ -3,7 +3,7 @@
 
 <?php include '../includes/layout.php';?>
 
-<style>
+<!-- <style>
     #contact-post .error {
         text-align:left;
         color:red;
@@ -22,7 +22,7 @@
             cursor: not-allowed;
         }
 
-</style>
+</style> -->
 
 <body>
     <div id="wapper">
@@ -193,28 +193,25 @@
         return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
       }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
-      $.validator.addMethod("gmailValidation", function(value, element) {
-        return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);  
-      }, "Please enter a valid Gmail address.");
+      // $.validator.addMethod("gmailValidation", function(value, element) {
+      //   return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);  
+      // }, "Please enter a valid Gmail address.");
 
-              $("#contact-post").validate({
+              $("#inquery-post").validate({
                   rules: {
-                      'fname': {
+                      'name': {
                           required: true,
-                      },
-                      'lname': {
-                          required: true,
-                      },
-                      'emailAddress': {
+                      },            
+                      'email': {
                           required: true,
                           email: true,
-                          gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
+                          // gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
                       },
                       'phone': {
                           required: true,
                           phoneValidation: true 
                       },
-                      'message': {
+                      'desc': {
                           required: true
                       }
                   }
@@ -240,9 +237,9 @@
                                     </div>
                                 `);
 
-                                $('#submit_btn').text('Submit'); 
+                                $('#inq_text').text('Inquiry Sent'); 
                                 
-                                $('#contact-post')[0].reset();
+                                $('#inquery-post')[0].reset();
                             } else {
                                 console.error("Mode is undefined");
                             }

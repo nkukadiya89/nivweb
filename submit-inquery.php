@@ -14,13 +14,13 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
-    $mail->Password = 'nhtg hqft xsps isqj'; // Your password or App Password
+    $mail->Password = 'zave copr rawt eugt'; // Your password or App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
     $mail->Port = 587; // TCP port to connect to
 
     // Recipients
     $mail->setFrom('foramdelvadiya@gmail.com', $_REQUEST['name']);
-    $mail->addAddress('recipient@example.com');
+    $mail->addAddress($_REQUEST['email']);
 
     // Email content
     $mail->isHTML(true);

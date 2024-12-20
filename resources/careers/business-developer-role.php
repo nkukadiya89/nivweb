@@ -26,11 +26,11 @@
     </style>
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script> 
+    <!-- <script> 
         function enableSubmitBtn(){
             document.getElementById("career_submit_btn").disabled=false;
         }
-    </script>
+    </script> -->
     
     </head>
 
@@ -220,7 +220,9 @@
                     $.ajax({
                         url: '<?php echo $projectFolderName?>/submit-career.php',  
                         type: 'POST',
-                        data: $(this).serialize(), 
+                        data:  form_data,
+                        processData: false,
+                        contentType: false,
                         success: function(response) {
                             const obj = JSON.parse(response);
                             if (obj && obj.message) {
