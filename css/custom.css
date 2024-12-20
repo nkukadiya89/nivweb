@@ -700,6 +700,36 @@ header {
     font-size: 22px;
     color: #fff;
     font-weight: 400; }
+  .innerbanner.contactbnr {
+    background: url(../images/Contactus-bg.png) no-repeat right top;
+    background-size: cover;
+    padding-bottom: 30px; }
+
+.cnctformfrom {
+  padding: 100px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: url(../images/green-texture.png) no-repeat center top;
+  background-size: cover; }
+  .cnctformfrom .title {
+    text-align: center;
+    margin-bottom: 32px; }
+    .cnctformfrom .title h3 {
+      font-size: 36px;
+      margin-bottom: 10px; }
+  .cnctformfrom label {
+    font-size: 18px;
+    margin-bottom: 3px; }
+  .cnctformfrom .form-control {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    min-height: 56px;
+    color: #343434; }
+  .cnctformfrom .btnwrap {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end; }
+    .cnctformfrom .btnwrap button {
+      min-width: 160px; }
 
 .casestudiesrow {
   padding: 100px 0px;
@@ -1033,9 +1063,69 @@ header {
           top: 0;
           content: ""; }
 
+.inquirynodal .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 9;
+  position: fixed; }
+.inquirynodal .modal-dialog {
+  z-index: 10; }
+.inquirynodal .modal-content {
+  border: 0; }
+.inquirynodal .modal-body {
+  padding: 32px; }
+  .inquirynodal .modal-body .btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+  .inquirynodal .modal-body .hireformRight {
+    text-align: left;
+    border-radius: 20px; }
+    .inquirynodal .modal-body .hireformRight h3 {
+      margin: 0;
+      margin-bottom: 10px;
+      color: #343434;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 35px;
+      margin-top: 10px; }
+    .inquirynodal .modal-body .hireformRight .formbtmtxt h4 {
+      margin: 0;
+      margin-bottom: 10px;
+      color: #343434;
+      font-size: 33px;
+      font-weight: 100; }
+    .inquirynodal .modal-body .hireformRight .formbtmtxt a {
+      margin-bottom: 10px;
+      color: #F15A24;
+      font-size: 20px;
+      font-weight: 400;
+      display: flex;
+      align-items: center; }
+    .inquirynodal .modal-body .hireformRight p {
+      color: #838383;
+      font-size: 18px;
+      font-weight: 400; }
+    .inquirynodal .modal-body .hireformRight .form-control {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      min-height: 50px;
+      color: #343434; }
+
 .discussProject {
   padding: 64px 16px;
   text-align: center; }
+  .discussProject .salescnct {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    color: #343434; }
+    .discussProject .salescnct h4 {
+      font-size: 36px;
+      font-weight: 600; }
+    .discussProject .salescnct p {
+      font-size: 18px; }
   .discussProject h3 {
     margin: 0;
     margin-bottom: 16px;
