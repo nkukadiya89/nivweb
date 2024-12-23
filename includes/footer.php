@@ -18,17 +18,17 @@
           <div class="follow-up">
             <ul class="list-inline">
               <li>
-                <a href="#" target="_blank" aria-label=""
+                <a href="https://www.facebook.com/people/Nivzen-Technologies/100091831778724/?sk=about" target="_blank" aria-label=""
                   ><i class="fa fa-facebook"></i
                 ></a>
               </li>
               <li>
-                <a href="#" target="_blank" aria-label=""
+                <a href="https://www.instagram.com/nivzentechnologies/" target="_blank" aria-label=""
                   ><i class="fa fa-instagram"></i
                 ></a>
               </li>
               <li>
-                <a href="#" target="_blank" aria-label=""
+                <a href="https://www.linkedin.com/in/nivzen-technologies-8732a0272/" target="_blank" aria-label=""
                   ><i class="fa fa-linkedin"></i
                 ></a>
               </li>
@@ -58,8 +58,8 @@
                 >
               </li>
               <li>
-                <a href="tel:+91 92656 47928"
-                  ><i class="fa fa-phone"></i> +91 92656 47928</a>
+                <a href="tel:+91 97271 11122"
+                  ><i class="fa fa-phone"></i> +91 97271 11122</a>
               </li>
               <li>
                 <a href="https://join.skype.com/invite/u10rifHPk3OP"><i class="fa fa-skype"></i> NivZen</a>

@@ -106,7 +106,7 @@
 
         <?php include '../../includes/footer.php'; ?>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
