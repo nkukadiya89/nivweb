@@ -35,7 +35,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Python Services for Your Web Development Needs?</h3>
               <p>
                 At Nivzen Technologies, we specialize in creating dynamic, high-performance applications using Python, one of the most versatile and powerful programming languages available today. As a trusted Python development company, we deliver customized solutions that help businesses across various industries optimize their operations, improve user experiences, and drive innovation. Whether you're looking for web development, data analysis, AI integration, or custom software solutions, our expert Python developers are ready to turn your vision into reality.
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

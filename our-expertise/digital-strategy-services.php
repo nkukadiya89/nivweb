@@ -39,7 +39,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Us for Your Digital Strategy and Web Development Needs?</h3>
                 <p>
                   We don’t just create digital solutions, we craft strategies that propel your business into the digital age. By aligning technology with your business objectives, we help you unlock new opportunities, enhance operational efficiency, and deliver lasting value to your customers.
@@ -52,7 +52,7 @@
               </div>
             </div>
             <div class="col col-12 col-md-6 text-center">
-              <div class="image-part animatable fadeInRight">
+              <div class="image-part">
                 <img src="../images/Group2.png" alt="" />
               </div>
             </div>

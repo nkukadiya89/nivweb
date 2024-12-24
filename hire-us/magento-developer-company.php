@@ -35,7 +35,7 @@ we offer a comprehensive range of Magento development services designed to meet 
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Magento Services for Your Web Development Needs?</h3>
               <p>
               We believe in creating Magento stores that do more than just sell products—they provide engaging shopping experiences that keep customers coming back. Whether you’re a small business just starting out or an established enterprise looking to take your store to the next level, we’re here to help you build a Magento-powered e-commerce solution that drives results.
@@ -47,7 +47,7 @@ we offer a comprehensive range of Magento development services designed to meet 
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

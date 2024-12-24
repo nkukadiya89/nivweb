@@ -34,7 +34,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Laravel Services for Your Web Development Needs?</h3>
               <p>
                 At Nivzen Technologies, we specialize in Laravel, one of the most popular PHP frameworks, to build high-quality web applications that are both powerful and elegant. Our commitment to innovation and excellence allows us to deliver exceptional solutions tailored to the unique needs of our clients. Whether you’re a startup or an established enterprise, our Laravel development services will help you create scalable, efficient, and robust applications that drive business growth.
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

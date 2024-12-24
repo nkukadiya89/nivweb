@@ -35,7 +35,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Android App Development Services?</h3>
               <p>
 
@@ -56,7 +56,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

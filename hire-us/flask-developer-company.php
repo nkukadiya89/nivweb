@@ -34,7 +34,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Flask Services for Your Web Development Needs?</h3>
               <p>
                 We specialize in building high-quality web applications using Flask, a micro web framework known for its simplicity and flexibility. As a leading Flask development company, we leverage the power of this versatile framework to create robust and scalable web solutions that align with your business objectives. Our expert team is dedicated to delivering efficient, maintainable, and user-friendly applications that empower businesses to thrive in a competitive digital landscape.
@@ -45,7 +45,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

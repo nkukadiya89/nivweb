@@ -35,7 +35,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Django Services for Your Web Development Needs?</h3>
               <p>
                 At Nivzen Technologies, we specialize in developing high-performance web applications using Django, one of the most powerful and flexible web frameworks available today. As a leading Django development company, we provide comprehensive solutions that combine cutting-edge technology with innovative design to meet the unique needs of your business. Our expert team is dedicated to delivering secure, scalable, and efficient web applications that empower businesses to achieve their goals and drive growth.
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

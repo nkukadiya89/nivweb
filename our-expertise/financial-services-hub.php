@@ -38,7 +38,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Our Financial Services Hub for Your Web Development Needs?</h3>
                 <p>
                   Our Financial Services Hub is focused on revolutionizing the way financial institutions operate in an increasingly digital world. We provide cutting-edge technology solutions designed to address the unique challenges of the financial sector, from improving operational efficiency to enhancing customer engagement. Whether you're a traditional bank, fintech startup, or insurance provider, our tailored solutions ensure secure, scalable, and future-ready services that meet industry standards.
@@ -54,7 +54,7 @@
               </div>
             </div>
             <div class="col col-12 col-md-6 text-center">
-              <div class="image-part animatable fadeInRight">
+              <div class="image-part">
                 <img src="../images/Group2.png" alt="" />
               </div>
             </div>

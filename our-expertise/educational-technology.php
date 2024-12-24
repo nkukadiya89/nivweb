@@ -38,7 +38,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Our Web & Mobile Educational Technology for Your Web Development Needs?</h3>
                 <p>
                   we believe that education is the foundation for innovation and growth. Our Educational Technology Solutions are designed to transform traditional learning methods into dynamic, interactive, and accessible experiences for students, educators, and institutions alike. Whether you’re an educational institution, a corporate training provider, or a startup in the ed-tech space, we offer customized solutions that drive digital learning forward.
@@ -53,7 +53,7 @@
               </div>
             </div>
             <div class="col col-12 col-md-6 text-center">
-              <div class="image-part animatable fadeInRight">
+              <div class="image-part">
                 <img src="../images/Group2.png" alt="" />
               </div>
             </div>

@@ -36,7 +36,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our WordPress Services for Your Web Development Needs?</h3>
               <p>
                 At Nivzen Technologies, our passion for design fuels our commitment to crafting visually stunning and effective solutions that drive your brand forward. We focus on creating engaging designs that not only look impressive but also resonate with your audience, helping your brand thrive in a competitive marketplace. Here’s why businesses choose to work with us:At Nivzen Technologies, we specialize in creating dynamic, fully customized WordPress websites that empower businesses to stand out and grow. As a leading WordPress development company, we are passionate about leveraging the flexibility and scalability of WordPress to craft digital experiences that are user-friendly, visually appealing, and designed for performance. Whether you're looking for a simple blog or a robust e-commerce platform, our expert WordPress developers are here to turn your vision into reality.
@@ -48,7 +48,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

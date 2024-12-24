@@ -8,7 +8,7 @@
         <div class="header-wapper">
             <div class="container">
 
-            <?php include '../../includes/header.php'; ?>
+                <?php include '../../includes/header.php'; ?>
 
             </div>
         </div>
@@ -32,7 +32,7 @@
            
         </div> -->
 
-        <!-- <div class="container">
+        <!-- <div class="container"> 
             <div class="row">
                 -- Table of Contents --
                 <h4 class="my-3">Table of Contents</h4>
@@ -397,13 +397,13 @@
         </section> -->
 
         <!--  -->
-        
+
         <?php include '../../includes/footer.php'; ?>
 
     </div>
     <!--  -->
 
-   
+
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -418,90 +418,89 @@
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-        // Trigger CSS animations on scroll.
-        // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
+    // Trigger CSS animations on scroll.
+    // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
 
-        // Looking for a version that also reverses the animation when
-        // elements scroll below the fold again?
-        // --> Check https://codepen.io/bramus/pen/vKpjNP
+    // Looking for a version that also reverses the animation when
+    // elements scroll below the fold again?
+    // --> Check https://codepen.io/bramus/pen/vKpjNP
 
-        document.addEventListener('DOMContentLoaded', function () {
-            var swiper = new Swiper(".slide-content", {
-                slidesPerView: 3, // Number of slides visible at once in larger screens
-                spaceBetween: 25,
-                loop: true,
-                centeredSlides: true,
-                grabCursor: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                    dynamicBullets: true,
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 3, // Number of slides visible at once in larger screens
+            spaceBetween: 25,
+            loop: true,
+            centeredSlides: true,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, // One slide at a time on small screens
                 },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
+                768: {
+                    slidesPerView: 2, // Two slides at a time on medium screens
                 },
-                breakpoints: {
-                    320: {
-                        slidesPerView: 1, // One slide at a time on small screens
-                    },
-                    768: {
-                        slidesPerView: 2, // Two slides at a time on medium screens
-                    },
-                    950: {
-                        slidesPerView: 3, // Three slides at a time on large screens
-                    },
+                950: {
+                    slidesPerView: 3, // Three slides at a time on large screens
                 },
+            },
+        });
+    });
+
+    jQuery(function($) {
+        // Function which adds the 'animated' class to any '.animatable' in view
+        var doAnimations = function() {
+            // Calc current offset and get all animatables
+            var offset = $(window).scrollTop() + $(window).height(),
+                $animatables = $(".animatable");
+
+            // Unbind scroll handler if we have no animatables
+            if ($animatables.length == 0) {
+                $(window).off("scroll", doAnimations);
+            }
+
+            // Check all animatables and animate them if necessary
+            $animatables.each(function(i) {
+                var $animatable = $(this);
+                if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+                    $animatable.removeClass("animatable").addClass("animated");
+                }
             });
-        });
+        };
 
-        jQuery(function ($) {
-            // Function which adds the 'animated' class to any '.animatable' in view
-            var doAnimations = function () {
-                // Calc current offset and get all animatables
-                var offset = $(window).scrollTop() + $(window).height(),
-                    $animatables = $(".animatable");
+        // Hook doAnimations on scroll, and trigger a scroll
+        $(window).on("scroll", doAnimations);
+        $(window).trigger("scroll");
 
-                // Unbind scroll handler if we have no animatables
-                if ($animatables.length == 0) {
-                    $(window).off("scroll", doAnimations);
+
+        $('.award').owlCarousel({
+            loop: false,
+            margin: 0,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                600: {
+                    items: 4
+                },
+                1000: {
+                    items: 6
+                },
+                1300: {
+                    items: 6
                 }
-
-                // Check all animatables and animate them if necessary
-                $animatables.each(function (i) {
-                    var $animatable = $(this);
-                    if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-                        $animatable.removeClass("animatable").addClass("animated");
-                    }
-                });
-            };
-
-            // Hook doAnimations on scroll, and trigger a scroll
-            $(window).on("scroll", doAnimations);
-            $(window).trigger("scroll");
-
-
-            $('.award').owlCarousel({
-                loop: false,
-                margin: 0,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 3
-                    },
-                    600: {
-                        items: 4
-                    },
-                    1000: {
-                        items: 6
-                    },
-                    1300: {
-                        items: 6
-                    }
-                }
-            })
-        });
-
+            }
+        })
+    });
     </script>
 </body>
 

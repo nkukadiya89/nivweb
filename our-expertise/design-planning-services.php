@@ -40,7 +40,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Our Design & Planning Services for Your Web Development Needs?</h3>
                 <p>
                   At Nivzen Technologies, great design is at the heart of everything we do. Our Design & Planning Services are built to elevate your brand, bringing your ideas to life with thoughtful, innovative, and user-centered design solutions. We believe that every successful project starts with meticulous planning and strategic design that speaks to both aesthetics and functionality.
@@ -55,7 +55,7 @@ Whether you're starting from scratch or looking to redesign and improve an exist
               </div>
             </div>
             <div class="col col-12 col-md-6 text-center">
-              <div class="image-part animatable fadeInRight">
+              <div class="image-part">
                 <img src="../images/Group2.png" alt="" />
               </div>
             </div>

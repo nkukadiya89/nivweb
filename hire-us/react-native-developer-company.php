@@ -38,7 +38,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Our React Nativ App Development Services?</h3>
                 <p>
                   We specialize in React Native app development, empowering businesses to reach their audiences with high-performance, visually appealing mobile applications. Leveraging the strengths of React Native, our dedicated team develops cross-platform apps that deliver a seamless user experience on both iOS and Android devices. Whether you're a startup looking to create your first mobile app or an established enterprise seeking to enhance your digital offerings, our React Native development services are designed to help you succeed.
