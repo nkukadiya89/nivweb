@@ -37,7 +37,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Us for Your Web & Mobile Development Needs?</h3>
                 <p>
                   We develop mobile applications that excel in performance and user experience, whether through native solutions or cross-platform development, tailored for both iOS and Android environments. Whether it's creating feature-rich mobile applications or building simplified versions of your web services, we ensure a fluid user experience across devices.
@@ -48,7 +48,7 @@
               </div>
             </div>
             <div class="col col-12 col-md-6 text-center">
-              <div class="image-part animatable fadeInRight">
+              <div class="image-part">
                 <img src="../images/Group2.png" alt="" />
               </div>
             </div>

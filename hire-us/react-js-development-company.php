@@ -34,7 +34,7 @@
         </div>
         <div class="row">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our ReactJS Services for Your Web Development Needs?</h3>
               <p>
                 We understand that every business has unique needs, and we don't believe in one-size-fits-all solutions. Our custom ReactJS development services are designed to provide solutions that are specifically tailored to your business challenges and objectives.
@@ -50,7 +50,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

@@ -40,7 +40,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Our Marketplace & E-commerce Services for Your Web Development Needs?</h3>
                 <p>
                   At Nivzen Technologies, we are passionate about building Marketplace & E-commerce platforms that not only drive sales but also create meaningful, seamless shopping experiences. Whether you’re launching an online marketplace, expanding an existing e-commerce site, or looking to optimize your digital retail operations, we offer the expertise and technology needed to power your success in the digital marketplace.
@@ -54,7 +54,7 @@
               </div>
             </div>
             <div class="col col-12 col-md-6 text-center">
-              <div class="image-part animatable fadeInRight">
+              <div class="image-part">
                 <img src="../images/Group2.png" alt="" />
               </div>
             </div>

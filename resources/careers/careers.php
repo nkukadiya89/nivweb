@@ -8,7 +8,7 @@
         <div class="header-wapper">
             <div class="container">
 
-            <?php include '../../includes/header.php'; ?>
+                <?php include '../../includes/header.php'; ?>
 
             </div>
         </div>
@@ -31,14 +31,14 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col col-12 col-sm-6 col-lg-3">
+                    <div class="col col-12 col-md-6 col-lg-3">
                         <div class="openingwrp">
                             <div class="openingbox red">
 
                                 <h3>Graphic Designer </h3>
                                 <div class="skills">
                                     <label>Experience </label>
-                                    1 to 2 year 
+                                    1 to 2 year
                                 </div>
                                 <div class="skills">
                                     <label>Job Type</label>
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-12 col-sm-6 col-lg-3">
+                    <div class="col col-12 col-md-6 col-lg-3">
                         <div class="openingwrp gap">
                             <div class="openingbox yellow">
 
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-12 col-sm-6 col-lg-3">
+                    <div class="col col-12 col-md-6 col-lg-3">
                         <div class="openingwrp">
                             <div class="openingbox green">
                                 <h3>Python Django Developer</h3>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col col-12 col-sm-6 col-lg-3 ">
+                    <div class="col col-12 col-md-6 col-lg-3 ">
                         <div class="openingwrp gap">
                             <div class="openingbox blue">
                                 <h3>Content Writer </h3>

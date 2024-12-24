@@ -34,7 +34,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Fast Api Services for Your Web Development Needs?</h3>
               <p>
                 At Nivzen Technologies, we harness the power of FastAPI, a modern web framework that is renowned for its speed, efficiency, and ease of use. As a leading FastAPI development company, we specialize in creating high-performance web applications and APIs that cater to the unique needs of businesses across various industries. Our dedicated team of experts is committed to delivering robust, scalable, and secure solutions that empower your organization to thrive in the digital landscape.
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

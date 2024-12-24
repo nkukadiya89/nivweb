@@ -35,7 +35,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our iOS App Development Services?</h3>
               <p>
                 At Nivzen Technologies, we specialize in iOS app development, crafting sophisticated mobile applications that captivate users and drive business growth. With a deep understanding of Apple's ecosystem, our dedicated team harnesses cutting-edge technologies to deliver high-performance iOS applications tailored to your specific needs. Whether you're a startup aiming to launch your first app or an established enterprise seeking to enhance your digital presence, we are here to turn your vision into reality.
@@ -51,7 +51,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

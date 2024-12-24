@@ -34,7 +34,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Flutter App Development Services?</h3>
               <p>
                 At Nivzen Technologies, we are at the forefront of Flutter app development, creating stunning, high-performance applications that operate seamlessly across multiple platforms. With Flutter's powerful framework, our talented developers can build applications that deliver a native-like experience on both iOS and Android devices. Whether you’re looking to launch a new app or enhance an existing one, our Flutter development services are designed to help you achieve your business objectives while providing an exceptional user experience.
@@ -46,7 +46,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>

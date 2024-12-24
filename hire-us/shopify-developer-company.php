@@ -38,7 +38,7 @@
           </div>
           <div class="row">
             <div class="col col-12 col-md-6">
-              <div class="content-part animatable fadeInLeft">
+              <div class="content-part">
                 <h3>Why Choose Our Shopify Services for Your Web Development Needs?</h3>
                 <p>
                   At Nivzen Technologies, we specialize in creating tailor-made Shopify solutions that enable businesses to launch, manage, and grow their online stores with ease. As a leading Shopify development company, we are passionate about helping businesses build visually stunning and high-performing e-commerce stores on one of the world’s most popular e-commerce platforms—Shopify. From seamless store setups to custom functionalities, our expert Shopify developers are here to bring your e-commerce vision to life.

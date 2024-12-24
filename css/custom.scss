@@ -1179,6 +1179,7 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: url(../images/blue-texture.png) no-repeat center top;
   background-size: cover;
+  overflow: hidden;
 
   img {
     max-width: 100%;
@@ -1296,6 +1297,7 @@ header {
 .hire-form-block {
   padding: 64px 0px;
   background: #000;
+  overflow: hidden;
 
   .border-gradient {
     color: #fff;
@@ -2728,6 +2730,80 @@ footer {
   .blogdtlpage .blogbigimg {
 
     margin: 16px 0px;
+  }
+
+  .case-key-featuer .timeline {
+    padding-left: 10px;
+  }
+
+  .case-key-featuer {
+    margin-top: 32px;
+    padding: 32px 0px;
+  }
+
+  .cnctformfrom {
+    padding: 32px 0px;
+  }
+
+  .cnctformfrom .title h3 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .discussProject .salescnct h4 {
+    font-size: 24px;
+  }
+
+  .banner.career {
+    padding: 74px 0px 16px 0px;
+    text-align: center;
+  }
+
+  .banner.career h3 {
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .currentopening {
+    padding: 32px 0px;
+    padding-bottom: 32px;
+  }
+
+  .currentopening .openingwrp.gap {
+    margin-top: 0;
+  }
+
+  .currentopening .blocktitle {
+    margin-bottom: 32px;
+  }
+
+  .currentopening .openingwrp {
+    padding-bottom: 16px;
+  }
+
+  .currentopening .blocktitle h3 {
+    font-size: 24px;
+  }
+
+  .inquirynodal .modal-body .hireformRight h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .inquirynodal .modal-body {
+    padding: 16px;
+  }
+
+  .inquirynodal .modal-body .hireformRight p {
+    font-size: 14px;
+  }
+
+  .inquirynodal .modal-body .hireformRight .formbtmtxt h4 {
+    font-size: 24px;
+  }
+
+  .inquirynodal .modal-body .hireformRight .form-control {
+    min-height: 42px;
   }
 }
 

@@ -34,7 +34,7 @@
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
-            <div class="content-part animatable fadeInLeft">
+            <div class="content-part">
               <h3>Why Choose Our Ruby-Rails Services for Your Web Development Needs?</h3>
               <p>
                 we specialize in leveraging the power of Ruby on Rails (RoR) to create dynamic, high-performance web applications that meet the unique needs of our clients. As a leading Ruby on Rails development company, we are committed to delivering scalable, efficient, and user-friendly solutions that enhance your business operations and drive growth. Our expert team is dedicated to transforming your ideas into reality through innovative and robust web applications.
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
-            <div class="image-part animatable  fadeInRight">
+            <div class="image-part">
               <img src="../images/about-react-img.png" alt="" />
             </div>
           </div>
