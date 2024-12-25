@@ -28,7 +28,7 @@
     <meta name="title" content="<?php echo $pageMeta['title']; ?>">
     <title><?php echo $pageMeta['title']; ?></title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $projectFolderName?>/images/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <!-- Bootstrap CSS -->

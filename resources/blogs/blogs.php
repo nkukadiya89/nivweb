@@ -85,7 +85,7 @@
                                             <img src="../../images/favicon.ico" alt="Author Image">
                                             <p>Nivzen Technologies</p>
                                         </div>
-                                        <span>13-June</span>
+                                        <span>13-June-2024</span>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@
                                             <img src="../../images/favicon.ico" alt="Author Image">
                                             <p>Nivzen Technologies</p>
                                         </div>
-                                        <span>15-May</span>
+                                        <span>15-May-2024</span>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +135,7 @@
                                             <img src="../../images/favicon.ico" alt="Author Image">
                                             <p>Nivzen Technologies</p>
                                         </div>
-                                        <span>05-May </span>
+                                        <span>05-May-2024</span>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
                                             <img src="../../images/favicon.ico" alt="Author Image">
                                             <p>Nivzen Technologies</p>
                                         </div>
-                                        <span>01-May</span>
+                                        <span>01-May-2024</span>
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +187,7 @@
                                             <img src="../../images/favicon.ico" alt="Author Image">
                                             <p>Nivzen Technologies</p>
                                         </div>
-                                        <span>01-May</span>
+                                        <span>01-May-2024</span>
                                     </div>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@
                                             <img src="../../images/favicon.ico" alt="Author Image">
                                             <p>Nivzen Technologies</p>
                                         </div>
-                                        <span>01-March</span>
+                                        <span>01-March-2024</span>
                                     </div>
                                 </div>
                             </div>
