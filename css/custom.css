@@ -1312,116 +1312,171 @@ footer {
     color: #666666;
     font-size: 16px; }
 
-.blogdtlpage .blogbigimg {
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 50px 0px; }
-  .blogdtlpage .blogbigimg img {
-    width: 100%; }
-.blogdtlpage #blog_dtl_sidebar {
-  background: #fff;
-  min-width: 370px;
-  max-width: 370px;
-  transition: all 0.3s; }
-  .blogdtlpage #blog_dtl_sidebar h4 {
-    font-size: 20px;
-    font-weight: 500;
+.blogdtlpage {
+  padding: 32px 0px; }
+  .blogdtlpage .blog-dtl-title {
     margin: 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #f1f1f1;
-    margin-bottom: 16px; }
-.blogdtlpage .customlist {
-  padding-left: 24px; }
-  .blogdtlpage .customlist li {
-    font-size: 16px; }
-  .blogdtlpage .customlist > li {
-    margin-bottom: 10px; }
-    .blogdtlpage .customlist > li ul {
-      margin-left: -13px;
-      font-size: 14px; }
-      .blogdtlpage .customlist > li ul li {
-        margin-bottom: 5px; }
-  .blogdtlpage .customlist > li > a {
-    font-weight: 600; }
-.blogdtlpage .sharediv {
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid #f1f1f1; }
-  .blogdtlpage .sharediv h5 {
-    font-size: 20px;
-    font-weight: 500; }
-  .blogdtlpage .sharediv .socialicon {
-    display: flex;
-    gap: 10px; }
-.blogdtlpage .blog-dtl-content {
-  min-height: 100vh;
-  width: 100%;
-  font-size: 16px; }
-  .blogdtlpage .blog-dtl-content h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0;
+    margin-bottom: 10px;
+    color: #343434;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
     line-height: normal;
-    margin-bottom: 5px; }
-.blogdtlpage .subtitle {
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 32px;
-  margin-top: 32px; }
-.blogdtlpage .owl-relatedblog {
-  position: relative;
-  margin-bottom: 32px; }
-  .blogdtlpage .owl-relatedblog .owl-nav {
-    position: absolute;
-    right: 24px;
-    top: -50px; }
-  .blogdtlpage .owl-relatedblog .owl-nav .owl-prev {
-    width: 31px;
-    height: 16px;
-    background: url(../images/left.png) no-repeat center;
-    font-size: 0; }
-  .blogdtlpage .owl-relatedblog .owl-nav .owl-next {
-    width: 31px;
-    height: 16px;
-    background: url(../images/right.png) no-repeat center;
-    margin-left: 10px;
-    font-size: 0; }
-  .blogdtlpage .owl-relatedblog .imgdiv {
+    letter-spacing: 0.36px;
+    padding: 16px 0px; }
+  .blogdtlpage .blogbigimg {
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 16px; }
-    .blogdtlpage .owl-relatedblog .imgdiv img {
-      width: 100%; }
-  .blogdtlpage .owl-relatedblog .badge {
-    border-radius: 32px;
-    background: #F0F0F0;
-    padding: 5px 10px;
-    font-size: 14px;
-    color: #343434;
-    font-weight: 400;
-    margin-bottom: 10px; }
-  .blogdtlpage .owl-relatedblog h3 {
+    padding-top: 400px;
+    position: relative;
+    height: 400px;
+    width: 100%; }
+    .blogdtlpage .blogbigimg img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      object-fit: cover; }
+  .blogdtlpage ul {
+    margin-bottom: 32px; }
+  .blogdtlpage p,
+  .blogdtlpage li {
+    margin: 0;
     color: #343434;
     font-size: 18px;
-    font-weight: 600;
+    font-style: normal;
+    font-weight: 400;
     line-height: normal;
+    letter-spacing: 0.18px;
     margin-bottom: 16px; }
-  .blogdtlpage .owl-relatedblog .bloger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .blogdtlpage .owl-relatedblog .bloger .blogerprofile {
+  .blogdtlpage h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #343434;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0.36px; }
+  .blogdtlpage .contentimg {
+    position: relative;
+    padding-top: 300px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    max-width: 400px; }
+    .blogdtlpage .contentimg img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+  .blogdtlpage #blog_dtl_sidebar {
+    background: #fff;
+    min-width: 370px;
+    max-width: 370px;
+    transition: all 0.3s; }
+    .blogdtlpage #blog_dtl_sidebar h4 {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #f1f1f1;
+      margin-bottom: 16px; }
+  .blogdtlpage .customlist {
+    padding-left: 24px; }
+    .blogdtlpage .customlist li {
+      font-size: 16px; }
+    .blogdtlpage .customlist > li {
+      margin-bottom: 10px; }
+      .blogdtlpage .customlist > li ul {
+        margin-left: -13px;
+        font-size: 14px; }
+        .blogdtlpage .customlist > li ul li {
+          margin-bottom: 5px; }
+    .blogdtlpage .customlist > li > a {
+      font-weight: 600; }
+  .blogdtlpage .sharediv {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f1f1f1; }
+    .blogdtlpage .sharediv h5 {
+      font-size: 20px;
+      font-weight: 500; }
+    .blogdtlpage .sharediv .socialicon {
       display: flex;
-      gap: 10px;
-      align-items: center;
-      font-weight: 500; }
-      .blogdtlpage .owl-relatedblog .bloger .blogerprofile .blogerimg {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        overflow: hidden; }
-    .blogdtlpage .owl-relatedblog .bloger .date {
-      font-weight: 500; }
+      gap: 10px; }
+  .blogdtlpage .blog-dtl-content {
+    min-height: 100vh;
+    width: 100%;
+    font-size: 16px; }
+    .blogdtlpage .blog-dtl-content h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 0;
+      line-height: normal;
+      margin-bottom: 5px; }
+  .blogdtlpage .subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    margin-top: 32px; }
+  .blogdtlpage .owl-relatedblog {
+    position: relative;
+    margin-bottom: 32px; }
+    .blogdtlpage .owl-relatedblog .owl-nav {
+      position: absolute;
+      right: 24px;
+      top: -50px; }
+    .blogdtlpage .owl-relatedblog .owl-nav .owl-prev {
+      width: 31px;
+      height: 16px;
+      background: url(../images/left.png) no-repeat center;
+      font-size: 0; }
+    .blogdtlpage .owl-relatedblog .owl-nav .owl-next {
+      width: 31px;
+      height: 16px;
+      background: url(../images/right.png) no-repeat center;
+      margin-left: 10px;
+      font-size: 0; }
+    .blogdtlpage .owl-relatedblog .imgdiv {
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 16px; }
+      .blogdtlpage .owl-relatedblog .imgdiv img {
+        width: 100%; }
+    .blogdtlpage .owl-relatedblog .badge {
+      border-radius: 32px;
+      background: #F0F0F0;
+      padding: 5px 10px;
+      font-size: 14px;
+      color: #343434;
+      font-weight: 400;
+      margin-bottom: 10px; }
+    .blogdtlpage .owl-relatedblog h3 {
+      color: #343434;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 16px; }
+    .blogdtlpage .owl-relatedblog .bloger {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .blogdtlpage .owl-relatedblog .bloger .blogerprofile {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-weight: 500; }
+        .blogdtlpage .owl-relatedblog .bloger .blogerprofile .blogerimg {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          overflow: hidden; }
+      .blogdtlpage .owl-relatedblog .bloger .date {
+        font-weight: 500; }
 
 @media screen and (max-width: 1024px) {
   footer a.footer-logo img {
