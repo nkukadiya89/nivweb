@@ -222,7 +222,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                            <   <img src="../../images/PharmaLinkage-img.png" alt="" />
+                              <img src="../../images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                     </div>
