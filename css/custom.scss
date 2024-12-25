@@ -60,6 +60,11 @@ button {
   position: relative;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
   &::before {
@@ -963,11 +968,21 @@ header {
 
   .bnrimg {
     margin-right: 32px;
+
+    img {
+      width: auto;
+      height: 200px;
+    }
   }
 
   .inrpgtitle {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     h3 {
-      font-size: 50px;
+      font-size: 42px;
       font-weight: 700;
       color: #fff;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -992,7 +1007,6 @@ header {
   &.contactbnr {
     background: url(../images/Contactus-bg.png) no-repeat right top;
     background-size: cover;
-    padding-bottom: 30px;
   }
 
 }
@@ -1655,7 +1669,7 @@ header {
 }
 
 footer {
-  letter-spacing: 0.18px;
+  letter-spacing: 0.5px;
 
   .top-part {
     background: #000;
@@ -1663,7 +1677,7 @@ footer {
 
     .footer-logo {
       img {
-        max-width: 150px;
+        max-width: 210px;
         height: auto;
       }
     }
@@ -1692,8 +1706,8 @@ footer {
             }
 
             i {
-              font-weight: 600;
-              font-size: 18px;
+              font-weight: 400;
+              font-size: 24px;
             }
           }
         }
@@ -1710,10 +1724,11 @@ footer {
           display: block;
           list-style: none;
           position: relative;
+          margin-bottom: 8px;
 
           a {
             color: #fff;
-            font-size: 16px;
+            font-size: 18px;
             line-height: 32px;
             text-decoration: none;
             font-weight: 300;
@@ -1736,7 +1751,7 @@ footer {
           display: block;
           list-style: none;
           position: relative;
-          margin-bottom: 16px;
+          margin-bottom: 20px;
 
           i {
             width: 30px;
@@ -1750,7 +1765,7 @@ footer {
 
           a {
             color: #fff;
-            font-size: 20px;
+            font-size: 18px;
             line-height: 40px;
             text-decoration: none;
             font-weight: 300;
@@ -1773,7 +1788,7 @@ footer {
           display: flex;
           list-style: none;
           position: relative;
-          margin-bottom: 16px;
+          margin-bottom: 10px;
           align-items: center;
 
           .flagimg {
@@ -1782,7 +1797,7 @@ footer {
 
           h3 {
             margin: 0;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 300;
             color: #fff;
             line-height: normal;
@@ -1820,10 +1835,12 @@ footer {
 
     .copyright {
       color: #fff;
-      font-size: 16px;
+      font-size: 18px;
       margin: 0;
       padding-top: 32px;
       text-align: center;
+      border-top: 1px solid #252525;
+      margin-top: 16px;
     }
   }
 }
@@ -1895,19 +1912,86 @@ footer {
   }
 }
 
+.Bologe-page {
+  background: url(../images/red-texture.png) no-repeat center top;
+  background-size: cover;
+  padding: 24px 0px;
+  padding-bottom: 48px;
+
+  .card {
+    border: 0;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.05);
+
+    a {
+      h3 {
+        margin: 0;
+        margin-bottom: 10px;
+        color: #343434;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.26px;
+      }
+    }
+
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+
+      a {
+        flex: auto;
+      }
+    }
+
+    .author-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 5px;
+      margin-top: 16px;
+
+      img {
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #343434;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        margin: 0;
+      }
+
+      span {
+        color: #616161;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0px;
+        background: #f7f7f7;
+        border-radius: 27px;
+        padding: 5px 10px;
+        margin-bottom: -4px;
+
+      }
+    }
+  }
+}
+
 .blogdtlpage {
   padding: 32px 0px;
 
   .blog-dtl-title {
     margin: 0;
-    margin-bottom: 10px;
     color: #343434;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.36px;
-    padding: 16px 0px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
   }
 
   .blogbigimg {
@@ -1935,25 +2019,18 @@ footer {
 
   p,
   li {
-    margin: 0;
-    color: #343434;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.18px;
+    line-height: 28px;
+    color: #5A5A5A;
     margin-bottom: 16px;
   }
 
   h3 {
     margin: 0;
-    margin-bottom: 10px;
     color: #343434;
-    font-size: 32px;
-    font-style: normal;
+    font-size: 36px;
     font-weight: 600;
-    line-height: 44px;
-    letter-spacing: 0.36px;
+    margin-bottom: 10px;
   }
 
   .contentimg {
@@ -2203,6 +2280,17 @@ footer {
       z-index: 999;
       padding: 16px;
     }
+  }
+
+  .navbar-nav .nav-link {
+    position: relative;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 5px 0px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border-left: 5px solid #fcb640;
+    color: #343434;
   }
 
   .custom-navbar li a {
