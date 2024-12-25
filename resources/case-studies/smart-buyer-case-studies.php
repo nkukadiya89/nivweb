@@ -320,15 +320,19 @@
                                         The solution's scalability ensures it can adapt to the client's growing needs, establishing a strong foundation for future digital transformation initiatives.<br>
                                         <b>Nivzen Technologies' expertise </b>in delivering tailored software solutions has not only resolved the client's immediate challenges but also set a benchmark for procurement excellence.<br>
 
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
-                                        <button class="btn" type="button">View Project</button>
+                                    <div class="d-grid gap-2 col-lg-4  col-sm-12  mx-auto card-btn">
+                                        <a href="javascript:history.go(-1)">
+                                            <button class="border-gradient">
+                                                <span> View All Resources</span>
+                                            </button>
+                                        </a>   
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../../images/PharmaLinkage-img.png" alt="" />
+                                <img src="../../images/SmartBuyer-img.png" alt="" />
                             </div>
                         </div>
                     </div>

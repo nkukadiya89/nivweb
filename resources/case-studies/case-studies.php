@@ -107,7 +107,7 @@
                         <div class="col col-12 col-md-6 pharma-text">
                             <div class="content-part  ">
                                 <div class="pharma-txt">
-                                    <h3>My OBGUIDE HR System</h3>
+                                    <h3>My OBGUIDE EHR System</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
                                     <b>MyObGuide is an innovative Electronic Health Record (EHR) system </b> developed to address the specific needs of obstetric and gynecological (OB/GYN) doctors. 

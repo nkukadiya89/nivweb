@@ -79,8 +79,8 @@
                                             <b>2. Efficient Matchmaking Algorithm: </b><br>                                        
                                             Designing an algorithm that considers multiple parameters, including production capacity, certifications, location, and lead times, to generate precise matches.<br>
                                             <b>3. Scalability: </b><br>
-                                             Building
-                                            <!-- <link rel="stylesheet" href="" a system capable of supporting a growing user base without compromising performance.<br> -->
+                                             Building system capable of supporting a growing user base without compromising performance
+                                            <br>
                                             <b>4. User Onboarding: </b><br>
                                             Simplifying the onboarding process for facility owners and manufacturers, many of whom were not familiar with digital platforms.
                                         </p>
@@ -210,15 +210,19 @@
                                     <p>Platform exemplifies how technology can address industry-specific challenges by creating a dedicated platform for efficient resource utilization and collaboration. <br><br>
                                     <b> Nivzen Technologies' </b>expertise in understanding client requirements and delivering tailored solutions played a pivotal role in the platform's success, setting a benchmark for innovation in the pharmaceutical sector.</p>
                                     </p>
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
-                                        <button class="btn" type="button">View Project</button>
+                                    <div class="d-grid gap-2 col-lg-4  col-sm-12  mx-auto card-btn">
+                                        <a href="javascript:history.go(-1)">
+                                            <button class="border-gradient">
+                                                <span> View All Resources</span>
+                                            </button>
+                                        </a>   
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../../images/OBGUIDE-Conclusion-img.png" alt="" />
+                            <   <img src="../../images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                     </div>

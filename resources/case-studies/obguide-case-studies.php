@@ -290,8 +290,12 @@
                                     <b>MyObGuide's success </b>has laid the groundwork for further innovations in healthcare technology.
 
                                     </p>
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
-                                        <button class="btn" type="button">View Project</button>
+                                    <div class="d-grid gap-2 col-lg-4  col-sm-12  mx-auto card-btn">
+                                        <a href="javascript:history.go(-1)">
+                                            <button class="border-gradient">
+                                                <span> View All Resources</span>
+                                            </button>
+                                        </a>   
                                     </div>
                                 </div>
                             </div>
