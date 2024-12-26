@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include '../../includes/layout.php'; ?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
-                <?php include '../../includes/header.php'; ?>
+                <?php include '../includes/header.php'; ?>
             </div>
         </div>
         <div class="innerbanner">
@@ -17,7 +17,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">The Power Of Quantum
                                     Computing:How It Can Solve Complex Problem</li>
                             </ol>
@@ -37,7 +37,7 @@
 
                 <div class="blog-dtl-title">Introduction</div>
                 <div class="blogbigimg mb-3">
-                    <img src="../../images/Blog-part1-pic1.png" alt="">
+                    <img src="../images/Blog-part1-pic1.png" alt="">
                 </div>
                 <p>Quantum computing is a new & developing field of computing which harnesses the power of quantum
                     mechanics to solve complex problems.
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../../images/Blog-part1-pic2.png" alt="">
+                            <img src="../images/Blog-part1-pic2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../../images/Blog-part1-pic3.png" alt="">
+                            <img src="../images/Blog-part1-pic3.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
 
         </div>
 
-        <?php include '../../includes/footer.php'; ?>
+        <?php include '../includes/footer.php'; ?>
     </div>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -166,8 +166,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
    
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
    

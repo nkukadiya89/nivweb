@@ -271,12 +271,10 @@
                         <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Resources</a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item"
-                                    href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                                    href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
                             <li><a class="dropdown-item"
-                                    href="<?php echo $projectFolderName?>/resources/case-studies/case-studies.php">Case
+                                    href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                     Stuies</a></li>
-                            <li><a class="dropdown-item"
-                                    href="<?php echo $projectFolderName?>/resources/careers/careers.php">Career</a></li>
                         </ul>
                     </li>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../../includes/layout.php'; ?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
 
@@ -10,7 +10,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                    <?php include '../../includes/header.php'; ?>
+                    <?php include '../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -29,7 +29,7 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="../../images/case-banner.png" alt="" />
+                            <img src="../images/case-banner.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
                     <div class="row">
                         <div class="col col-12 col-md-6 text-center">
                             <div class="image-part   ">
-                                <img src="../../images/PharmaLinkage-img.png" alt="" />
+                                <img src="../images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text">
@@ -78,7 +78,7 @@
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
                             <div class="image-part   ">
-                                <img src="../../images/SmartBuyer-img.png" alt="" />
+                                <img src="../images/SmartBuyer-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
@@ -113,7 +113,7 @@
                     <div class="row">
                         <div class="col col-12 col-md-6 text-center">
                             <div class="image-part   ">
-                                <img src="../../images/OBGUIDE-Conclusion-img.png" alt="" />
+                                <img src="../images/OBGUIDE-Conclusion-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text">
@@ -144,12 +144,12 @@
             <!-- part3end -->
 
 
-            <?php include '../../includes/footer.php'; ?>
+            <?php include '../includes/footer.php'; ?>
 
         </div>
     
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
     

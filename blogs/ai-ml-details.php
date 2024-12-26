@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include '../../includes/layout.php'; ?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-                <?php include '../../includes/header.php'; ?>
+                <?php include '../includes/header.php'; ?>
 
             </div>
         </div>
@@ -19,7 +19,7 @@
                     <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">The Various Ways AI and ML Are Impacting Different Industries</li>
                             </ol>
                         </nav>
@@ -38,7 +38,7 @@
                 <div class="inrpgtitle">
                     <div class="blog-dtl-title">Introduction</div>
                     <div class="blogbigimg mb-3">
-                        <img src="../../images/Blog-part3-pic1.png" alt="" class="responsive">
+                        <img src="../images/Blog-part3-pic1.png" alt="" class="responsive">
                     </div>
 
                     <p>The Various Ways AI and ML Are Impacting Different Industries</p>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../../images/Blog-part3-pic2.png" alt="">
+                                <img src="../images/Blog-part3-pic2.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../../images/Blog-part3-pic3.png" alt="">
+                                <img src="../images/Blog-part3-pic3.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../../images/Blog-part3-pic4.png" alt="">
+                                <img src="../images/Blog-part3-pic4.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../../images/Blog-part3-pic5.png" alt="">
+                                <img src="../images/Blog-part3-pic5.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -195,10 +195,10 @@
                 </div>
             </div>
         </div>
-        <?php include '../../includes/footer.php'; ?>
+        <?php include '../includes/footer.php'; ?>
     </div>
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

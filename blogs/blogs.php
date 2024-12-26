@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../../includes/layout.php'; ?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
-                <?php include '../../includes/header.php'; ?>
+                <?php include '../includes/header.php'; ?>
 
             </div>
         </div>
@@ -27,7 +27,7 @@
                         </p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../../images/blog-banner-img.png" alt="" />
+                        <img src="../images/blog-banner-img.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./quantum-computing-details.php">
-                            <img src="../../images/Blog-part1-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part1-pic1.png" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
@@ -88,7 +88,7 @@
                             </a>
                             <div class="author-info">
                                 <div class="author-details">
-                                    <img src="../../images/favicon.ico" alt="Author Image">
+                                    <img src="../images/favicon.ico" alt="Author Image">
                                     <p>Nivzen Technologies</p>
                                 </div>
                                 <span>13-June-2024</span>
@@ -100,7 +100,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./ar-vr-details.php">
-                            <img src="../../images/Blog-part2-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part2-pic1.png" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
@@ -114,7 +114,7 @@
                             </a>
                             <div class="author-info">
                                 <div class="author-details">
-                                    <img src="../../images/favicon.ico" alt="Author Image">
+                                    <img src="../images/favicon.ico" alt="Author Image">
                                     <p>Nivzen Technologies</p>
                                 </div>
                                 <span>15-May-2024</span>
@@ -126,7 +126,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./ai-ml-details.php">
-                            <img src="../../images/Blog-part3-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part3-pic1.png" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <!-- <div class=" text-start card-tag">
@@ -139,7 +139,7 @@
                             </a>
                             <div class="author-info">
                                 <div class="author-details">
-                                    <img src="../../images/favicon.ico" alt="Author Image">
+                                    <img src="../images/favicon.ico" alt="Author Image">
                                     <p>Nivzen Technologies</p>
                                 </div>
                                 <span>05-May-2024</span>
@@ -151,7 +151,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./cybersecurity-details.php">
-                            <img src="../../images/Blog-part4-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part4-pic1.png" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <!-- <div class=" text-start card-tag">
@@ -166,7 +166,7 @@
                             </a>
                             <div class="author-info">
                                 <div class="author-details">
-                                    <img src="../../images/favicon.ico" alt="Author Image">
+                                    <img src="../images/favicon.ico" alt="Author Image">
                                     <p>Nivzen Technologies</p>
                                 </div>
                                 <span>01-May-2024</span>
@@ -178,7 +178,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./ux-design-details.php">
-                            <img src="../../images/Blog-part5-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part5-pic1.png" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <!-- <div class="col-lg- text-start card-tag">
@@ -193,7 +193,7 @@
                             </a>
                             <div class="author-info">
                                 <div class="author-details">
-                                    <img src="../../images/favicon.ico" alt="Author Image">
+                                    <img src="../images/favicon.ico" alt="Author Image">
                                     <p>Nivzen Technologies</p>
                                 </div>
                                 <span>01-May-2024</span>
@@ -205,7 +205,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./healthcare-details.php">
-                            <img src="../../images/Blog-part6-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part6-pic1.png" class="card-img-top" alt="...">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
@@ -219,7 +219,7 @@
                             </a>
                             <div class="author-info">
                                 <div class="author-details">
-                                    <img src="../../images/favicon.ico" alt="Author Image">
+                                    <img src="../images/favicon.ico" alt="Author Image">
                                     <p>Nivzen Technologies</p>
                                 </div>
                                 <span>01-March-2024</span>
@@ -231,7 +231,7 @@
             </div>
         </div>
     </div>
-    <?php include '../../includes/footer.php'; ?>
+    <?php include '../includes/footer.php'; ?>
 
 
     </div>
@@ -242,8 +242,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../../js/jquery.js"></script>
-    <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
     // Trigger CSS animations on scroll.

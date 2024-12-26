@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../../includes/layout.php'; ?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
 
@@ -9,7 +9,7 @@
         <div id="wapper">
             <div class="header-wapper">
                 <div class="container">
-                    <?php include '../../includes/header.php'; ?>
+                    <?php include '../includes/header.php'; ?>
                 </div>
             </div>
             <div class="innerbanner">
@@ -19,7 +19,7 @@
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/case-studies/case-studies.php">Case
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">PharmaLinkage</li>
                                 </ol>
@@ -31,7 +31,7 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="../../images/case-banner.png" alt="" />
+                            <img src="../images/case-banner.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../../images/Introduction-img.png" alt="" />
+                                    <img src="../images/Introduction-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -51,7 +51,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Client Requirements</h3>
-                                        <img class="my-3 mb-4" src="../../images/line.png" alt="">
+                                        <img class="my-3 mb-4" src="../images/line.png" alt="">
                                         <h5>The client approached Nivzen Technologies with the following
                                             objectives</h5>
                                         <p>
@@ -88,7 +88,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center   order-md-2">
                                 <div class="image-part  ">
-                                    <img src="../../images/Challenges-img.png" alt="" />
+                                    <img src="../images/Challenges-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -96,7 +96,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Key Challenges</h3>
-                                        <img class="my-3" src="../../images/line.png" alt=""><br>
+                                        <img class="my-3" src="../images/line.png" alt=""><br>
 
                                         <ol>
                                             <li>
@@ -148,7 +148,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../../images/Solution-img.png" alt="" />
+                                    <img src="../images/Solution-img.png" alt="" />
                                 </div>
                             </div>
 
@@ -156,7 +156,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Solution</h3>
-                                        <img class="my-3" src="../../images/line.png" alt="">
+                                        <img class="my-3" src="../images/line.png" alt="">
                                         <h5>Compliance and Security Measures </h5>
                                         <ul>
                                             <li>Data encryption for all sensitive information.</li>
@@ -212,7 +212,7 @@
                     <div class="text-center mt-3">
                         <h3>Key Features</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="../../images/line2.png" alt="">
+                            <img class="my-3" src="../images/line2.png" alt="">
                         </div>
                     </div>
                     <div class="my-4">
@@ -284,7 +284,7 @@
                             <div class="content-part animatable fadeInLeft">
                                 <div class="pharma-txt mx-4">
                                     <h2>Conclusion</h2>
-                                    <img class="my-3" src="../../images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
 
                                     <p>Platform exemplifies how technology can address industry-specific challenges by
                                         creating a dedicated platform for efficient resource utilization and
@@ -300,7 +300,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../../images/PharmaLinkage-img.png" alt="" />
+                                <img src="../images/PharmaLinkage-img.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -312,27 +312,27 @@
                     <div class="text-center mt-3">
                         <h3>Technologies</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="../../images/line.png" alt="">
+                            <img class="my-3" src="../images/line.png" alt="">
                         </div>
                     </div>
                     <div class="icon-btn">
-                        <a href=""><img src="../../images/Python.png" alt="Python Icon">Python</a>
-                        <a href=""><img src="../../images/dj.png" alt="Django Icon">Django</a>
-                        <a href=""><img src="../../images/ReactJs.png" alt="React JS Icon">React JS</a>
-                        <a href=""><img src="../../images/antd.png" alt="Ant Design Icon">Ant Design</a>
-                        <a href=""><img src="../../images/Figma.png" alt="Figma Icon">Figma</a>
-                        <a href=""><img src="../../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
+                        <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
+                        <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
+                        <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
+                        <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
                     </div>
                 </div>
             </div>
 
 
-            <?php include '../../includes/footer.php'; ?>
+            <?php include '../includes/footer.php'; ?>
 
         </div>
      
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
        
