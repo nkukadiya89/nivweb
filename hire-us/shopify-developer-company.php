@@ -17,6 +17,12 @@
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
             <div class="inrpgtitle">
+            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Shopify Development Company</li>
+                                </ol>
+                            </nav>
               <h3><span>Shopify</span> Development Company</h3>
               <p>
                 Elevate User Experiences With Nivzen Technologies' Expert
@@ -24,7 +30,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="../images/react-bnr.png" alt="" />
+              <img src="../images/Hire-Shopify-Developer.png" alt="" />
             </div>
           </div>
         </div>
@@ -61,78 +67,7 @@
 
       <?php include '../inquery.php';?>
 
-      <!-- <div class="servicesRow">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 whycol">
-              <h3>Why Choose Nivzen Technologies for Shopify Development</h3>
-              <div class="row">
-                <div class="col-6 col-md-4 points">
-                  <div class="whyico">
-                    <img src="../images/p3.png" alt="" />
-                  </div>
-                  <h6>
-                    Upgrade<br />
-                    Tools
-                  </h6>
-                </div>
-                <div class="col-6 col-md-4 points">
-                  <div class="whyico">
-                    <img src="../images/p4.png" alt="" />
-                  </div>
-                  <h6>
-                    Powerful<br />
-                    Solutions
-                  </h6>
-                </div>
-                <div class="col-6 col-md-4 points">
-                  <div class="whyico">
-                    <img src="../images/p2.png" alt="" />
-                  </div>
-                  <h6>
-                    Augmentation<br />
-                    Services
-                  </h6>
-                </div>
-                <div class="col-6 col-md-4 points">
-                  <div class="whyico">
-                    <img src="../images/p1.png" alt="" />
-                  </div>
-                  <h6>
-                    Extensively<br />
-                    Scalable
-                  </h6>
-                </div>
-                <div class="col-6 col-md-4 points">
-                  <div class="whyico">
-                    <img src="../images/p3.png" alt="" />
-                  </div>
-                  <h6>
-                    Accessible<br />
-                    Support
-                  </h6>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 servicecol">
-              <h3>Why Choose Nivzen Technologies for Shopify Development</h3>
-              <ul>
-                <li>Branded Visual Identity</li>
-                <li>Mobile-Optimized Graphics for Shopify Themes</li>
-                <li>Custom Themes with Interactive Visuals</li>
-                <li>Product Imagery & Graphics for Maximum Engagement</li>
-                <li>Custom Iconography & Graphics for Apps</li>
-                <li>Enhanced Visual Storytelling on Product Pages</li>
-                <li>Shopify Front-End Design for Immersive Shopping Experiences</li>
-                <li>Ongoing Visual Support & Graphics Maintenance</li>
-                <li>A/B Testing & Optimization of Visuals for Better Conversions</li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> -->
+    
       <div class="discussProject">
         <div class="container">
           <h3>Let's Discuss Your Project</h3>
@@ -152,8 +87,7 @@
 
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  
       <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
 
@@ -161,26 +95,17 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-      // Trigger CSS animations on scroll.
-      // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-      // Looking for a version that also reverses the animation when
-      // elements scroll below the fold again?
-      // --> Check https://codepen.io/bramus/pen/vKpjNP
+   
 
       jQuery(function ($) {
-        // Function which adds the 'animated' class to any '.animatable' in view
         var doAnimations = function () {
-          // Calc current offset and get all animatables
           var offset = $(window).scrollTop() + $(window).height(),
             $animatables = $(".animatable");
 
-          // Unbind scroll handler if we have no animatables
           if ($animatables.length == 0) {
             $(window).off("scroll", doAnimations);
           }
 
-          // Check all animatables and animate them if necessary
           $animatables.each(function (i) {
             var $animatable = $(this);
             if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -189,7 +114,6 @@
           });
         };
 
-        // Hook doAnimations on scroll, and trigger a scroll
         $(window).on("scroll", doAnimations);
         $(window).trigger("scroll");
 
@@ -224,12 +148,6 @@
     return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
   }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
-// $.validator.addMethod("gmailValidation", function(value, element) {
-//    // Check if the email ends with @gmail.com
-//    return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
-// }, "Please enter a valid Gmail address.");
-
-
    $("#inquery-post").validate({
        rules: {
            'name': {
@@ -238,7 +156,6 @@
            'email': {
                required: true ,
                email: true ,
-              //  gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
            },
            'phone': {
                required: true,
@@ -252,13 +169,12 @@
 
    $("#inquery-post").submit(function(event) {
        event.preventDefault();
-       // Send the form data via AJAX
-       if ($(this).valid()) { // Only submit if the form is valid
+       if ($(this).valid()) { 
         $('#inq_text').text('Processing...'); 
            $.ajax({
                url: '<?php echo $projectFolderName?>/submit-inquery.php',
                type: 'POST',
-               data: $(this).serialize(), // Serialize form data
+               data: $(this).serialize(),
                success: function(response) {
                    const obj = JSON.parse(response);
                    if (obj && obj.message) {

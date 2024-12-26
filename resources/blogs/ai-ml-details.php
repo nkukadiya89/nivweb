@@ -16,6 +16,13 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
+                    <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">The Various Ways AI and ML Are Impacting Different Industries</li>
+                            </ol>
+                        </nav>
                         <h3><span>The Various Ways AI and ML Are Impacting Different Industries</span></h3>
                         <p>05th May</p>
                     </div>
@@ -58,12 +65,14 @@
                                     Machine learning algorithms can be used to curate products that customers are likely
                                     to
                                     purchase.
-                                    This can make it easier for customers to shop, increasing conversions.</p><br>
+                                    This can make it easier for customers to shop, increasing conversions.</p>
+
                                 <p>AI & ML can also be used to automate inventory management.
                                     By tracking customer purchases and analysing trends, AI-driven systems can make
                                     stocking
                                     decisions and restocking decisions.
-                                    This helps retailers keep the shelves filled and save costs.</p><br>
+                                    This helps retailers keep the shelves filled and save costs.</p>
+
                                 <p>AI & ML can also be used to collect data about customer behaviour and analyse it.
                                     This in turn can be used to improve customer experiences and provide more
                                     personalised services.
@@ -164,11 +173,11 @@
                                 <p> One of the future trends that is already taking shape is the use of AI-driven
                                     cognitive
                                     computing systems.
-                                    These systems will allow machines to understand human <br>communication & emotion &
+                                    These systems will allow machines to understand human communication & emotion &
                                     act
                                     accordingly.
                                     The use of deep learning models is also expected to be more widespread.
-                                    Deep learning models are complex, non-linear <br> models that enable machines to
+                                    Deep learning models are complex, non-linear models that enable machines to
                                     process large
                                     amounts of data & identify complex patterns.</p>
 

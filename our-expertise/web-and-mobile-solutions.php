@@ -17,6 +17,13 @@
         <div class="container">
           <div class="d-flex justify-content-between align-items-center">
             <div class="inrpgtitle">
+            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Web & Mobile Solutions</li>
+                                </ol>
+                            </nav>
+            
               <h3><span>Web & Mobile</span> Solutions</h3>
               <p>
                 Strategically build and leverage digital technologies to boost
@@ -24,7 +31,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="../images/Group 244.png" alt="" />
+              <img src="../images/Web-Mobile-Solutions.png" alt="" />
             </div>
           </div>
         </div>

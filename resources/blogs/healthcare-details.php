@@ -16,6 +16,13 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
+                    <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">The Top 5 Healthcare Tech advancements You Should Know About</li>
+                            </ol>
+                        </nav>
                         <h3><span>The Top 5 Healthcare Tech advancements You Should Know About</span></h3>
                         <p>1st March</p>
                     </div>
@@ -49,7 +56,7 @@
                             <h3>Blockchain in Healthcare</h3>
 
                             <p>Blockchain technology has revolutionized the way organizations collect & secure data.
-                                This technology is being adopted by healthcare organizations to improve healthcare <br>
+                                This technology is being adopted by healthcare organizations to improve healthcare 
                                 data
                                 collection, enable secure patient data access, deliver auditable health records,
                                 facilitate data
@@ -77,14 +84,14 @@
 
                             <p>Telemedicine is another healthcare technology that has seen an upsurge over the past few
                                 years.
-                                It enables medical professionals to diagnose and treat medical conditions <br> from a
+                                It enables medical professionals to diagnose and treat medical conditions from a
                                 distance.
                                 This technology has applications in remote medical consultations, remote patient
                                 monitoring and
                                 video doctor consultations.</p>
                             <p>Telemedicine improves healthcare access by allowing medical professionals to provide
                                 medical
-                                assistance virtually when the patient is unable to make it to a physical <br> doctor’s
+                                assistance virtually when the patient is unable to make it to a physical doctor’s
                                 office.
                                 It has proven to be cost effective and enables healthcare organizations to digitally
                                 collect and
@@ -106,14 +113,14 @@
                             <p>Precision medicine is a modern approach to medical care that allows medical professionals
                                 to
                                 develop targeted treatments that are specific to an individual patient’s needs.
-                                <br> It is a revolutionary branch of healthcare that involves the use of data and
+                                 It is a revolutionary branch of healthcare that involves the use of data and
                                 analytics to
                                 develop treatments customized to an individual’s genetic makeup.
                             </p>
                             <p>The adoption of precision medicine has seen an upsurge in recent years.
                                 It has made it easier for medical professionals to build detailed patient profiles using
                                 genomic
-                                data <br> that can be used to accurately diagnose diseases & develop targeted
+                                data that can be used to accurately diagnose diseases & develop targeted
                                 treatments.
                                 It ensures that medications are not administered to the wrong patient and that the right
                                 treatments are administered correctly.</p>
@@ -124,7 +131,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../../images/Blog-part6-pic4.png" alt="" class="responsive">
+                            <img src="../../images/Blog-part4-pic4.png" alt="" class="responsive">
                         </div>
                     </div>
                 </div>
@@ -136,12 +143,12 @@
                             <p>AI in healthcare is becoming increasingly powerful, allowing healthcare professionals to
                                 make
                                 decisions backed by data.
-                                AI technology is being used to streamline patient <br> care, reduce costs, and identify
+                                AI technology is being used to streamline patient  care, reduce costs, and identify
                                 illnesses quickly and accurately.</p>
                             <p>AI can be used to automate mundane tasks and processes, freeing up time for doctors and
                                 nurses to
                                 focus on more important duties.
-                                AI can also be used to make medical <br> records secure, reducing the potential for
+                                AI can also be used to make medical records secure, reducing the potential for
                                 medical
                                 errors.</p>
 
@@ -149,20 +156,10 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../../images/Blog-part6-pic5.png" alt="" class="responsive">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-
-                    <div class="col col-12 ">
-                        <div class="contentimg">
                             <img src="../../images/Blog-part6-pic6.png" alt="" class="responsive">
                         </div>
                     </div>
                 </div>
-
-
 
             </div>
 

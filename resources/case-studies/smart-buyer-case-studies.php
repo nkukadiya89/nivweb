@@ -18,11 +18,12 @@
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
-                            <nav aria-label="breadcrumb">
+                        <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Case Studiese</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Smart Buyer</li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/case-studies/case-studies.php">Case
+                                            stuies</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">SmartBuyer</li>
                                 </ol>
                             </nav>
                             <h3><span>Smart Buyer</span></h3>
@@ -37,6 +38,7 @@
                 </div>
             </div>
 
+            
 
             <div class="case-studiedetail">
                 <div class="container">
@@ -54,63 +56,19 @@
                                     <div class="pharma-txt  mx-4">
                                         <h3>Client Requirements</h3>
                                         <img class="my-3" src="../../images/line.png" alt="">
-                                        <p>
-                                            The client is a mid-sized manufacturing company facing challenges in
-                                            managing procurement activities.<br>
-                                            Their procurement process was manual, involving extensive paperwork, delayed
-                                            approvals, and inconsistent supplier management.<br>
-                                            These inefficiencies resulted in higher costs, frequent stockouts, and
-                                            strained supplier relationships.<br>
-                                        </p>
-                                        <!-- <div class="d-grid gap-2 col-lg-3 col-sm-12  mx-auto card-btn">
-                                        <button class="btn" type="button">View Project</button>
-                                    </div> -->
+                                            <h5>The client is a mid-sized manufacturing company facing challenges in
+                                            managing procurement activities.</h5>
+                    
+                                            <p>Their procurement process was manual, involving extensive paperwork, delayed
+                                            approvals, and inconsistent supplier management.</p>
+                                            <p>These inefficiencies resulted in higher costs, frequent stockouts, and
+                                            strained supplier relationships.</P>
+                                    
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- <div class="col col-12 col-md-6 pharma-text">
-                            <div class="content-part animatable fadeInLeft ">
-                                <div class="pharma-txt mx-4">
-                                    <h3>Key Challenges</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                        <p>
-                                            Manual Processes: The company relied heavily on manual procurement
-                                            processes, leading to delays and errors.
-                                        </p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                        <p>
-                                            Limited Visibility: Lack of real-time data visibility made it difficult to
-                                            track orders, inventory levels, and supplier performance.
-                                        </p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                        <p>
-                                            Communication Gaps: Communication between departments and suppliers was
-                                            fragmented, leading to misunderstandings and delays in procurement cycles.
-                                        </p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                        <p>
-                                            Compliance Issues: Ensuring compliance with regulations and internal
-                                            policies was a challenge due to manual processes.
-                                        </p>
-                                    </div>
-
-                                    <div class="d-grid gap-2 col-lg-3  col-sm-12  mx-auto card-btn">
-                                        <button class="btn" type="button">View Project</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
 
                     <div class="casestudiesdtlrow">
                         <div class="row">
@@ -160,8 +118,7 @@
                                             frontend.
                                             The solution includes the following features:</p>
 
-                                        <ol>
-                                            <li><b>Supplier Management:</b>
+                                            <h5>Supplier Management:</h5>
                                                 <ul>
                                                     <li>Centralized repository of suppliers.</li>
                                                     <li>Evaluation and rating system for suppliers based on
@@ -171,14 +128,14 @@
 
                                             </li>
 
-                                            <li><b>Automated Procurement Workflows:</b>
+                                            <h5>Automated Procurement Workflows:</h5>
                                                 <ul>
                                                     <li>Digital purchase request and approval system.</li>
                                                     <li>Automated purchase order (PO) generation.</li>
                                                 </ul>
                                             </li>
 
-                                            <li><b>Real-time Tracking:</b>
+                                            <h5>Real-time Tracking:</h5>
                                                 <ul>
                                                     <li>Dashboard for real-time tracking of procurement activities.
                                                     </li>
@@ -187,7 +144,7 @@
                                                 </ul>
                                             </li>
 
-                                            <li><b>Cost Analysis and Reporting:</b>
+                                            <h5>Cost Analysis and Reporting:</h5>
                                                 <ul>
                                                     <li>Notifications and alerts for pending approvals and stock
                                                         requirements.</li>
@@ -195,52 +152,13 @@
                                                 </ul>
                                             </li>
 
-                                            <li><b>Integration Capabilities:</b>
+                                            <h5>Integration Capabilities:</h5>
                                                 <ul>
                                                     <li>Seamless integration with the company's existing ERP system.
                                                     </li>
                                                     <li>API support for third-party tools.</li>
                                                 </ul>
                                             </li>
-
-
-                                        </ol>
-                                        <!-- <p>Company ABC implemented SmartBuyer, a cloud-based Procurement SaaS solution,
-                                            to automate and streamline their procurement processes. Key features of
-                                            SmartBuyer include:</p>
-                                        <div class="d-flex">
-                                            <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                            <p>
-                                                Manual Processes: The company relied heavily on manual procurement
-                                                processes, leading to delays and errors.
-                                            </p> -->
-                                        <!-- </div> -->
-                                        <!-- <div class="d-flex">
-                                            <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                            <p>
-                                                Limited Visibility: Lack of real-time data visibility made it difficult
-                                                to track orders, inventory levels, and supplier performance.
-                                            </p>
-                                        </div> -->
-                                        <!-- <div class="d-flex">
-                                            <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                            <p>
-                                                Communication Gaps: Communication between departments and suppliers was
-                                                fragmented, leading to misunderstandings and delays in procurement
-                                                cycles.
-                                            </p>
-                                        </div> -->
-                                        <!-- <div class="d-flex">
-                                            <img class="mx-2" src="./images/Arror-icon.png" width="25" height="30">
-                                            <p>
-                                                Compliance Issues: Ensuring compliance with regulations and internal
-                                                policies was a challenge due to manual processes.
-                                            </p>
-                                        </div> -->
-
-                                        <!-- <div class="d-grid gap-2 col-lg-3  col-sm-12 col-md-6 mx-auto card-btn"> -->
-                                        <!-- <button class="btn" type="button">View Project</button> -->
-                                        <!-- </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +174,7 @@
                     <div class="text-center mt-3">
                         <h3>Key Features</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="../../images/line.png" alt="">
+                            <img class="my-3" src="../../images/line2.png" alt="">
                         </div>
                     </div>
                     <div class="my-4">
@@ -264,92 +182,36 @@
                             <div class="container">
                                 <div class="timeline">
                                     <div class="timeline-item">
-                                        <div class="dot"></div>
                                         <div class="content">
-                                            <h4>Reduced Procurement Time:</h4>
+                                            <h2>Reduced Procurement Time:</h2>
                                             <p>Automated workflows reduced procurement cycle times by
                                                 40%.</p>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <div class="dot"></div>
                                         <div class="content">
-                                            <h4>Cost Savings:</h4>
+                                            <h2>Cost Savings:</h2>
                                             <p>Data-driven insights enabled better negotiation with
                                                 suppliers, resulting
                                                 in a 15% reduction in procurement costs.</p>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <div class="dot"></div>
                                         <div class="content highlight">
-                                            <h4>Enhanced Transparency:</h4>
+                                            <h2>Enhanced Transparency:</h2>
                                             <p>Real-time tracking improved accountability and supplier
                                                 relationships.
                                             </p>
                                         </div>
                                     </div>
                                     <div class="timeline-item">
-                                        <div class="dot"></div>
                                         <div class="content">
-                                            <h4>Operational Efficiency:</h4>
+                                            <h2>Operational Efficiency:</h2>
                                             <p>Integration with the ERP system eliminated data silos,
                                                 streamlining
                                                 operations.</p>
                                         </div>
                                     </div>
-                                    <!-- <div class="timeline-item">
-                                            <div class="dot"></div>
-                                            <div class="content">
-                                                <h4>Document Management:</h4>
-                                                <p>A centralized repository for storing procurement-related documents,
-                                                    such as purchase orders, contracts, invoices, and supplier
-                                                    agreements, with version control and access controls for enhanced
-                                                    security.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-item">
-                                            <div class="dot"></div>
-                                            <div class="content">
-                                                <h4>Budget and Spend Analysis:</h4>
-                                                <p>Reporting and analytics features to analyze procurement spend, track
-                                                    budget utilization, and identify cost-saving opportunities through
-                                                    insights into spending patterns, supplier performance, and price
-                                                    variances.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-item">
-                                            <div class="dot"></div>
-                                            <div class="content">
-                                                <h4>Integration Capabilities:s</h4>
-                                                <p>Seamless integration with ERP systems, accounting software, and other
-                                                    third-party applications to facilitate data exchange and streamline
-                                                    end-to-end procurement processes.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-item">
-                                            <div class="dot"></div>
-                                            <div class="content">
-                                                <h4>Mobile Accessibility:</h4>
-                                                <p>Responsive web interfaces that enable users to access SmartBuyer on
-                                                    the go, submit requisitions, approve purchase orders, and track
-                                                    procurement activities from anywhere.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="timeline-item">
-                                            <div class="dot"></div>
-                                            <div class="content">
-                                                <h4>Customization and Scalability:</h4>
-                                                <p>Customization options to tailor the platform to the unique needs of
-                                                    the organization, with scalability to accommodate growth and
-                                                    evolving business requirements over time.
-                                                </p>
-                                            </div>
-                                        </div> -->
                                 </div>
                             </div>
                         </div>
@@ -363,21 +225,21 @@
                         <div class="col col-12 col-md-6 pharma-text  my-3">
                             <div class="content-part animatable fadeInLeft">
                                 <div class="pharma-txt mx-4">
-                                    <h3>Conclusion</h3>
+                                    <h2>Conclusion</h2>
                                     <img class="my-3" src="../../images/line.png" alt="">
                                     <p><b>Smart Buyer</b> has transformed the client's procurement
                                         operations, making
-                                        them more efficient, transparent, and cost-effective. <br>
+                                        them more efficient, transparent, and cost-effective. 
                                         The solution's scalability ensures it can adapt to the client's
                                         growing needs,
                                         establishing a strong foundation for future digital
                                         transformation
-                                        initiatives.<br>
-                                        <b>Nivzen Technologies' expertise </b>in delivering tailored
+                                        initiatives.<br><br>
+                                        <b>Nivzen Technologies'</b>expertise in delivering tailored
                                         software solutions
                                         has not only resolved the client's immediate challenges but also
                                         set a benchmark
-                                        for procurement excellence.<br>
+                                        for procurement excellence.
 
                                     <div class="d-grid gap-2 col-lg-4  col-sm-12  mx-auto card-btn">
                                         <a href="javascript:history.go(-1)">
@@ -420,33 +282,27 @@
             <?php include '../../includes/footer.php'; ?>
 
         </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     
         <script src="../../js/jquery.js"></script>
         <script src="../../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
         </script>
         <script>
-        // Trigger CSS animations on scroll.
-        // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-        // Looking for a version that also reverses the animation when
-        // elements scroll below the fold again?
-        // --> Check https://codepen.io/bramus/pen/vKpjNP
+       
 
         jQuery(function($) {
-            // Function which adds the 'animated' class to any '.animatable' in view
+          
             var doAnimations = function() {
-                // Calc current offset and get all animatables
+               
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-                // Unbind scroll handler if we have no animatables
+                
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-                // Check all animatables and animate them if necessary
+               
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 <
@@ -456,7 +312,7 @@
                 });
             };
 
-            // Hook doAnimations on scroll, and trigger a scroll
+            
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 

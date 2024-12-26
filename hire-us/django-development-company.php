@@ -17,11 +17,17 @@
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <div class="inrpgtitle">
+          <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Django Development Company</li>
+                                </ol>
+                            </nav>
             <h3><span>Django</span> Development Company</h3>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Django Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="../images/react-bnr.png" alt="" />
+            <img src="../images/Hire-Django-Developer.png" alt="" />
           </div>
         </div>
       </div>

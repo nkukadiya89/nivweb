@@ -16,8 +16,8 @@
                     <div class="inrpgtitle">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Blogs</a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">The Power Of Quantum
                                     Computing:How It Can Solve Complex Problem</li>
                             </ol>
@@ -41,9 +41,9 @@
                 </div>
                 <p>Quantum computing is a new & developing field of computing which harnesses the power of quantum
                     mechanics to solve complex problems.
-                    It has the potential to <br> revolutionize the way we solve complex problems, & has already
+                    It has the potential to revolutionize the way we solve complex problems, & has already
                     begun to be used in industry & research.
-                    This article will briefly introduce quantum computing and explain <br> how it can be used to
+                    This article will briefly introduce quantum computing and explain how it can be used to
                     solve complex problems.
                     It will also outline some of the challenges associated with quantum computing, & how these are
                     being addressed.
@@ -152,11 +152,6 @@
                     </p>
                 </div>
 
-
-
-
-
-
             </div>
 
         </div>
@@ -170,22 +165,16 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
     <script src="../../js/jquery.js"></script>
     <script src="../../js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-    // Trigger CSS animations on scroll.
-    // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-    // Looking for a version that also reverses the animation when
-    // elements scroll below the fold again?
-    // --> Check https://codepen.io/bramus/pen/vKpjNP
+   
 
     document.addEventListener('DOMContentLoaded', function() {
         var swiper = new Swiper(".slide-content", {
-            slidesPerView: 3, // Number of slides visible at once in larger screens
+            slidesPerView: 3, 
             spaceBetween: 25,
             loop: true,
             centeredSlides: true,
@@ -201,13 +190,13 @@
             },
             breakpoints: {
                 320: {
-                    slidesPerView: 1, // One slide at a time on small screens
+                    slidesPerView: 1, 
                 },
                 768: {
-                    slidesPerView: 2, // Two slides at a time on medium screens
+                    slidesPerView: 2, 
                 },
                 950: {
-                    slidesPerView: 3, // Three slides at a time on large screens
+                    slidesPerView: 3, 
                 },
             },
         });

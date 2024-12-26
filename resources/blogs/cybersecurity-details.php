@@ -16,6 +16,13 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
+                    <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">How to Keep Your Business Safe Online: Cybersecurity Best Practices</li>
+                            </ol>
+                        </nav>
                         <h3><span>How to Keep Your Business Safe Online: Cybersecurity Best Practices</span></h3>
                         <p>1st May</p>
                     </div>
@@ -34,14 +41,14 @@
                     </div>
                     <p>The internet has revolutionized the way businesses operate.
                         It has made it possible for businesses to reach a global audience and conduct transactions
-                        online. <br>
+                        online. 
                         However, it has also made businesses more vulnerable to cyber attacks.</p>
                     <p>Cybersecurity is a major concern for businesses of all sizes.
                         According to a report by Juniper Research, the cost of data breaches is expected to reach $5
-                        trillion by 2024. <br>
+                        trillion by 2024. 
                         This is a staggering figure, and it’s only going to increase as more businesses move online.</p>
                     <p>To protect your business from cyber attacks, you need to be aware of the latest cybersecurity
-                        threats and implement the best cybersecurity practices. <br>
+                        threats and implement the best cybersecurity practices. 
                         This blog will help you do just that.</p>
 
 
@@ -79,34 +86,42 @@
                                     strategies that businesses use to protect themselves.
                                     The following are some of <br> the best practices for keeping your business safe
                                     online:</p>
-                                <ul>
-                                    <li><b>Establish Secure Passwords : </b>
+                                    <ol>
+                                        <li>
+                                <h5>Establish Secure Passwords :</h5> 
                                         <p>Use a mixture of uppercase and lowercase letters, numbers, and symbols and
                                             create
-                                            frequent password changes.</p>
-                                    </li>
-                                    <li><b>Monitor Email and Computer Activity : </b>
+                                            frequent password changes.
+                                    </p>
+</li>
+<li>
+                                    <h5>Monitor Email and Computer Activity : </h5>
                                         <p>Regularly monitor computer activity during work hours and check emails for
                                             suspicious
-                                            links or attachments</p>
-                                    </li>
-                                    <li><b>Patch and Update Software : </b>
+                                            links or attachments
+                                    </p>
+</li>
+<li>
+                                    <h5>Patch and Update Software : </h5>
                                         <p>Regularly update software and patch existing programs to ensure your business
                                             is
                                             protected against the most current cyber threats.
-                                        </p>
-                                    </li>
-                                    <li><b>Implement Firewall Protection : </b>
+                                    </p>
+</li>
+<li>                                    <h5>Implement Firewall Protection : </h5>
                                         <p>Firewall protection is one of the most effective cyber defenses and should be
                                             implemented
-                                            as soon as possible</p>
-                                    </li>
-                                    <li><b>Utilize Expert Resources : </b>
+                                            as soon as possible
+                                    </p>
+</li>
+<li>
+                                    <h5>Utilize Expert Resources : </h5>
                                         <p> Utilizing expert cyber security resources can help to identify any potential
                                             threats and
-                                            vulnerabilities.</p>
-                                    </li>
-                                </ul>
+                                            vulnerabilities.
+                                    </p>
+</li>
+                                    </ol>
 
                                 <p>By following these best practices for cybersecurity, your business can remain one
                                     step ahead of
@@ -133,39 +148,44 @@
                                 <p>Emerging cyber security threats can pose a real risk to businesses, and it’s
                                     important for
                                     businesses to stay on top of these threats to ensure their data is secure.
-                                    <br> Here are some of the most common emerging cyber threats:
+                                     Here are some of the most common emerging cyber threats:
                                 </p>
-                                <ul>
-                                    <li><b>Cloud Security Risks : </b>
+                                <ol>
+                                    <li>
+                                    <h5>Cloud Security Risks : </h5>
                                         <p>As cloud computing becomes more popular, more malicious actors are targeting
                                             cloud users
                                             for data theft and cyberattacks</p>
                                     </li>
-                                    <li><b>Data Manipulation : </b>
+                                    <li>
+                                    <h5>Data Manipulation : </h5>
                                         <p>Sophisticated cyber criminals are now able to manipulate data stored on
                                             enterprise
                                             networks to further their own malicious ends.</p>
                                     </li>
-                                    <li><b>Increased Mobile Device Security Risks : </b>
+                                    <li>
+                                    <h5>Increased Mobile Device Security Risks : </h5>
                                         <p>As more and more businesses switch to cloud-based mobile applications, the
                                             risk of data
                                             breaches increases</p>
                                     </li>
-                                    <li><b>IoT Security Vulnerabilities : </b>
+                                    <li>
+                                    <h5>IoT Security Vulnerabilities : </h5>
                                         <p>Internet-connected devices are increasingly becoming targets of malicious
                                             actors as they
                                             are often poorly secured and can provide a point of attack into a company’s
                                             network.
                                         </p>
                                     </li>
-                                    <li><b>Insiders Threats : </b>
+                                    <li>
+                                    <h5>Insiders Threats : </h5>
                                         <p>In many cases, a company’s greatest security risk is its own employees or
                                             contractors;
-                                            employees or contractors can unknowingly compromise security by sharing <br>
+                                            employees or contractors can unknowingly compromise security by sharing 
                                             sensitive
                                             information or downloading malicious software.</p>
                                     </li>
-                                </ul>
+</ol>
 
                                 <p>By staying informed about the latest cyber security threats, companies can take
                                     appropriate
@@ -191,41 +211,43 @@
                                     When this happens, it’s extremely important to immediately act to prevent further
                                     damage. Here
                                     are some steps to take in response to a cybersecurity breach:</p>
-                                <ul>
-                                    <li><b>Notify legal counsel and stakeholders : </b>
+                                <ol>
+                                    <li>
+                                    <h5>Notify legal counsel and stakeholders : </h5>
                                         <p>Immediately contact legal counsel and any other stakeholders. This will
                                             ensure that you
                                             have the necessary guidance to handle and remediate the breach.</p>
                                     </li>
-                                    <li><b>Identify and contain the breach : </b>
+                                    <li>
+                                    <h5>Identify and contain the breach : </h5>
                                         <p>Immediately identify and contain the breach.
                                             This involves shutting down affected systems, taking backups and wiping
                                             affected data.
                                         </p>
                                     </li>
-                                    <li><b>Evaluate the scope of the breach : </b>
+                                    <li>
+                                    <h5>Evaluate the scope of the breach : </h5>
                                         <p> Assess and evaluate the scope of the breach, such as which systems were
                                             affected and how
                                             much data was compromised</p>
                                     </li>
-                                    <li><b>Implement corrective measures : </b>
+                                    <li>
+                                        <h5>Implement corrective measures : </h5>
                                         <p>Implement corrective measures to prevent future breaches.
                                             This may involve tighter access controls, additional audits, and more
                                             stringent security
                                             policies and procedures.</p>
                                     </li>
-                                    <li><b>Notify relevant authorities : </b>
+                                    <li><h5>Notify relevant authorities : </h5>
                                         <p>Notify all relevant authorities, from law enforcement to credit monitoring
                                             companies to
                                             the media if necessary.
                                         </p>
                                     </li>
-                                </ul>
+                                </ol>
                                 <p>Following these steps can help minimize the damage caused by a cybersecurity breach
                                     and ensure
                                     that your company is taken seriously by the impacted parties.</p>
-
-
                             </div>
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
@@ -242,7 +264,7 @@
                                 <p>The importance of cybersecurity cannot be overstated in the digital age.
                                     With cyber threats increasing in number and sophistication, businesses must ensure
                                     they have in
-                                    <br> place the right security measures to keep their data, systems, and networks
+                                    place the right security measures to keep their data, systems, and networks
                                     safe.
                                 </p>
                                 <p>In this blog, we looked at some of the best security practices and emerging threats

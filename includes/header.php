@@ -274,7 +274,7 @@
                                     href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
                             <li><a class="dropdown-item"
                                     href="<?php echo $projectFolderName?>/resources/case-studies/case-studies.php">Case
-                                    stuies</a></li>
+                                    Stuies</a></li>
                             <li><a class="dropdown-item"
                                     href="<?php echo $projectFolderName?>/resources/careers/careers.php">Career</a></li>
                         </ul>

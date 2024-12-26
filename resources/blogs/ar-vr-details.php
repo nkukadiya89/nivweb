@@ -17,6 +17,13 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
+                    <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/resources/blogs/blogs.php">Blogs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">The Many Uses of AR and VR: From Games to Healthcare</li>
+                            </ol>
+                        </nav>
                         <h3><span>The Many Uses of AR and VR: From Games to Healthcare</span></h3>
                         <p>15th May</p>
                     </div>
@@ -37,9 +44,9 @@
 
                 <p>The development of augmented reality (AR) and virtual reality (VR) technology has given rise to
                     new and exciting possibilities in a number of industries.
-                    <br>These technologies are being used in fields as diverse as gaming, entertainment, education,
+                   These technologies are being used in fields as diverse as gaming, entertainment, education,
                     and even healthcare.The potential uses of AR and VR are endless.
-                    <br>In the healthcare sector, for example, AR and VR are being used to train doctors and
+                   In the healthcare sector, for example, AR and VR are being used to train doctors and
                     surgeons, to provide patient care, and even to help with rehabilitation.
                 </p>
                 <div class="row mt-5">
@@ -48,18 +55,19 @@
                             <h3>The Many Uses of AR and VR: From Games to Healthcare</h3>
                             <p>Augmented reality has already been adopted in multiple sectors, from marketing to
                                 education.
-                                It is used to display relevant information to users in real-time, such as <br>
+                                It is used to display relevant information to users in real-time, such as 
                                 contextual
                                 information about a physical object while looking through a phone.
                                 It is also used to enhance training experiences, allowing trainees to observe
                                 demonstrations
-                                <br> of various processes more closely, as well as to learn more about product before
+                                 of various processes more closely, as well as to learn more about product before
                                 buying
-                                it.Virtual reality allows users to immerse themselves in a two or three-dimensional <br>
+                                it.</P>
+                                <P>Virtual reality allows users to immerse themselves in a two or three-dimensional 
                                 virtual
                                 world that is entirely computer-generated.
                                 It is often used in the gaming and entertainment industry, but industries as varied as
-                                architecture, fashion, & medicine are <br> also exploring its potential.
+                                architecture, fashion, & medicine are  also exploring its potential.</P>
                             </p>
 
                         </div>
@@ -79,30 +87,32 @@
                             <p>AR and VR have found many applications in the field of healthcare. Here are some ways
                                 they are
                                 being used:</p>
-                            <ul>
-                                <li><b>Remote Surgery : </b>
-                                    <p>AR & VR are being used to enable remote surgery, enabling surgeons to perform
+                           
+                                <h5>Remote Surgery : </h5>
+                                <ul>
+                                    <li>AR & VR are being used to enable remote surgery, enabling surgeons to perform
                                         operations
                                         without actually being in the operating room.
-                                        This could help revolutionize surgery, making it even faster and safer.</p>
+                                        This could help revolutionize surgery, making it even faster and safer.
                                 </li>
-
-                                <li><b>Dental Surgery : </b>
-                                    <p>VR & AR are being used to allow new types of dental surgery to be performed, as
+</ul>
+                                <h5>Dental Surgery : </h5>
+                                <ul>
+                                    <li>VR & AR are being used to allow new types of dental surgery to be performed, as
                                         well as
                                         to remotely monitor patient
-                                        progress or provide instruction to patients on how <br> to take care of their
-                                        teeth.</p>
+                                        progress or provide instruction to patients on how to take care of their
+                                        teeth.
                                 </li>
-
-                                <li><b>Radiation Therapy :</b>
-                                    <p>AR & VR are used to make radiation therapy more accurate and faster.
+</ul>
+                              <h5>Radiation Therapy :</h5>
+                              <ul>  
+                                    <li>AR & VR are used to make radiation therapy more accurate and faster.
                                         This technology can track the exact location of the cancer cells and provide
                                         more
-                                        precise doses <br> of radiation.</p>
+                                        precise doses of radiation.
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
@@ -119,37 +129,42 @@
                             <p>As well as being used in the medical sphere, Augmented Reality and Virtual Reality are
                                 heavily
                                 used in the gaming industry.
-                                <br>To give you a taste of what AR and VR have to offer:
+                                To give you a taste of what AR and VR have to offer:
                             </p>
 
-                            <ul>
-                                <li><b>Motion Tracking : </b>
-                                    <p>Perhaps the most well-known use of AR and VR in gaming is motion tracking, in
+                                <h5>Motion Tracking : </h5>
+                                <ul>
+                                    <li>Perhaps the most well-known use of AR and VR in gaming is motion tracking, in
                                         which the
-                                        player’s body movements are tracked and used to control the game.
-                                        <br>This type of AR and VR is used to give the player an immersive and realistic
+                                        player’s body movements are tracked and used to control the game.</li>
+                                        <li>This type of AR and VR is used to give the player an immersive and realistic
                                         experience that can’t be achieved on a conventional gaming console.
-                                    </p>
+                                    </li>
+</ul>
                                 </li>
 
-                                <li><b>Role Playing Games : </b>
-                                    <p>Role playing games are exclusively designed for VR gaming, with players
+                                <h5>Role Playing Games : </h5>
+                                <ul>
+                                    <li>Role playing games are exclusively designed for VR gaming, with players
                                         inhabiting a
-                                        made-up world and meeting other players from around the world.
-                                        <br>AR and VR allow for an incredibly realistic experience that can’t be
+                                        made-up world and meeting other players from around the world.</li>
+                                        <li>
+                                        AR and VR allow for an incredibly realistic experience that can’t be
                                         replicated with
                                         a traditional gaming console.
-                                    </p>
+                                    </li>
                                 </li>
-
-                                <li><b>Augmented Search Games : </b>
-                                    <p>In these types of games, players compete in a "real world" setting in which they
-                                        have to
-                                        use the environment and clues to solve a mystery.
-                                        <br>In using AR and VR, game designers have the ability to add extra layers of
+</ul>
+                                <h5>Augmented Search Games : </h5>
+                                <ul>
+                                    <li>
+                                        In these types of games, players compete in a "real world" setting in which they
+                                        have to use the environment and clues to solve a mystery.</li>
+                                        <li>
+                                            In using AR and VR, game designers have the ability to add extra layers of
                                         realism
-                                        and challenge to the games, making them far more engaging and enjoyable.
-                                    </p>
+                                        and challenge to the games, making them far more engaging and enjoyable.</li>
+                                    </li>
                                 </li>
                             </ul>
 
@@ -171,7 +186,7 @@
 
                     <p>The possibilities are endless, and the advancements in AR and VR technology are moving faster
                         than ever before.
-                        We’re already beginning to see AR and VR incorporated <br> into modern society, and this is only
+                        We’re already beginning to see AR and VR incorporated into modern society, and this is only
                         the beginning.</p>
 
 
