@@ -55,18 +55,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item ">
                         <div class="bannerContent">
                             <div class="container">
                                 <div class="row m-0">
+
                                     <div class="col col-7 coltwo">
                                         <div class="bntcont">
                                             <h6>Digital Transformation </h6>
-                                            <h3>React JS Web Development Company</h3>
+                                            <h3>AI/ML Development Company</h3>
                                             <p>
-                                                Empowering Digital Excellence with Cutting-Edge React JS Solutions –
-                                                Your Trusted Partner for
-                                                Innovative Web Development Services
+                                                Empowering Innovation, Elevating Experiences: Your Premier Partner in
+                                                Cutting-Edge Mobile App
+                                                Development
                                             </p>
                                             <a href="./contact-us.php">
                                                 <button class="border-gradient ">
@@ -76,7 +77,7 @@
                                         </div>
                                     </div>
                                     <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/react-development.png" alt="" /></div>
+                                        <div class="imgdi"><img src="images/aiml-development.png" alt="" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -109,6 +110,34 @@
                             </div>
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="bannerContent">
+                            <div class="container">
+                                <div class="row m-0">
+                                    <div class="col col-7 coltwo">
+                                        <div class="bntcont">
+                                            <h6>Digital Transformation </h6>
+                                            <h3>React JS Web Development Company</h3>
+                                            <p>
+                                                Empowering Digital Excellence with Cutting-Edge React JS Solutions –
+                                                Your Trusted Partner for
+                                                Innovative Web Development Services
+                                            </p>
+                                            <a href="./contact-us.php">
+                                                <button class="border-gradient ">
+                                                    <span>Contact Us</span>
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col col-5 colone">
+                                        <div class="imgdi"><img src="images/react-development.png" alt="" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="carousel-item ">
                         <div class="bannerContent">
                             <div class="container">
@@ -138,34 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item ">
-                        <div class="bannerContent">
-                            <div class="container">
-                                <div class="row m-0">
-
-                                    <div class="col col-7 coltwo">
-                                        <div class="bntcont">
-                                            <h6>Digital Transformation </h6>
-                                            <h3>AI/ML Development Company</h3>
-                                            <p>
-                                                Empowering Innovation, Elevating Experiences: Your Premier Partner in
-                                                Cutting-Edge Mobile App
-                                                Development
-                                            </p>
-                                            <a href="./contact-us.php">
-                                                <button class="border-gradient ">
-                                                    <span>Contact Us</span>
-                                                </button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/aiml-development.png" alt="" /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
