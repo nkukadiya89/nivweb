@@ -14,6 +14,14 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Blogs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">The Power Of Quantum
+                                    Computing:How It Can Solve Complex Problem</li>
+                            </ol>
+                        </nav>
                         <h3><span>The Power Of Quantum Computing:How It Can Solve Complex Problem</span></h3>
                         <p>13th June</p>
                     </div>
@@ -150,12 +158,61 @@
 
 
             </div>
+
         </div>
 
         <?php include '../../includes/footer.php'; ?>
     </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="../../js/jquery.js"></script>
     <script src="../../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+    // Trigger CSS animations on scroll.
+    // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
+
+    // Looking for a version that also reverses the animation when
+    // elements scroll below the fold again?
+    // --> Check https://codepen.io/bramus/pen/vKpjNP
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var swiper = new Swiper(".slide-content", {
+            slidesPerView: 3, // Number of slides visible at once in larger screens
+            spaceBetween: 25,
+            loop: true,
+            centeredSlides: true,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, // One slide at a time on small screens
+                },
+                768: {
+                    slidesPerView: 2, // Two slides at a time on medium screens
+                },
+                950: {
+                    slidesPerView: 3, // Three slides at a time on large screens
+                },
+            },
+        });
+    });
+    </script>
 </body>
 
 </html>

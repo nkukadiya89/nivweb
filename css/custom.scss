@@ -210,6 +210,26 @@ header {
   }
 }
 
+.breadcrumb {
+  .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+  }
+
+  .breadcrumb-item {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+    a {
+      color: #c9c9c9;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
 .border-gradient {
   background-image: linear-gradient(to right, #FF5567 0%, #FCD158 100%);
   border-radius: 40px;
@@ -1109,12 +1129,48 @@ header {
       }
     }
 
+    ul {
+      margin-bottom: 32px;
+
+      li {
+        font-size: 18px;
+        line-height: 28px;
+        color: #5A5A5A;
+        margin-bottom: 16px;
+      }
+    }
+
+    ol {
+      li {
+        b {
+          margin-bottom: 5px;
+          display: block;
+          color: #5A5A5A;
+          font-size: 18px;
+        }
+
+        ul {
+          li {
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+
     .pharma-txt {
       h3 {
         margin: 0;
         color: #343434;
         font-size: 36px;
         font-weight: 600;
+      }
+
+      h5 {
+        font-size: 18px;
+        line-height: 28px;
+        color: #5A5A5A;
+        margin-bottom: 5px;
+        font-weight: bold;
       }
 
       p {
@@ -1276,13 +1332,9 @@ header {
 
   .normaltxt {
     margin-bottom: 32px;
-    color: #707070;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 137.5% */
-    letter-spacing: 0.16
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A5A5A;
   }
 
   h3 {
@@ -1298,13 +1350,9 @@ header {
   }
 
   p {
-    color: #707070;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 137.5% */
-    letter-spacing: 0.16
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A5A5A;
   }
 }
 
@@ -1453,6 +1501,10 @@ header {
       color: #fff;
       border-radius: 5px;
       min-height: 52px;
+
+      &::placeholder {
+        color: #818181;
+      }
     }
   }
 }
@@ -1613,6 +1665,10 @@ header {
     h4 {
       font-size: 36px;
       font-weight: 600;
+      background: #FF5767;
+      background: linear-gradient(90deg, #FF5767 0, #FCCF58);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     p {
@@ -1670,6 +1726,11 @@ header {
 
 footer {
   letter-spacing: 0.5px;
+
+  .owl-carousel .owl-stage-outer {
+    display: flex;
+    justify-content: center;
+  }
 
   .top-part {
     background: #000;
@@ -1839,8 +1900,6 @@ footer {
       margin: 0;
       padding-top: 32px;
       text-align: center;
-      border-top: 1px solid #252525;
-      margin-top: 16px;
     }
   }
 }
@@ -2333,10 +2392,7 @@ footer {
     position: static !important;
   }
 
-  header .navbar-collapse {
-    height: calc(100vh - 46px);
-    overflow: auto;
-  }
+  header .navbar-collapse {}
 
   header .navbar .megamenu ul a {
     font-size: 16px;

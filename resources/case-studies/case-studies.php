@@ -10,7 +10,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include '../../includes/header.php'; ?>
+                    <?php include '../../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -18,6 +18,10 @@
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Case Studiese</li>
+                            </ol>
                             <h3><span>Case Studiese</span></h3>
                             <p>
                                 More than 100+ companies turn to Digiteon to drive their businesses forward in the age
@@ -44,9 +48,14 @@
                                     <h3>PharmaLinkage</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                    <b> Pharma MatchMaking Platform </b>is a unique digital platform designed to bridge the gap between pharmaceutical manufacturers and the facilities they need. 
-                                    The platform acts as a matchmaking service, connecting manufacturers with specialized production units and facilities that align with their requirements. 
-                                    This innovative approach optimizes resource allocation in the pharmaceutical sector, enabling seamless collaborations, and ensuring compliance with stringent industry standards.
+                                        <b> Pharma MatchMaking Platform </b>is a unique digital platform designed to
+                                        bridge the gap between pharmaceutical manufacturers and the facilities they
+                                        need.
+                                        The platform acts as a matchmaking service, connecting manufacturers with
+                                        specialized production units and facilities that align with their requirements.
+                                        This innovative approach optimizes resource allocation in the pharmaceutical
+                                        sector, enabling seamless collaborations, and ensuring compliance with stringent
+                                        industry standards.
                                     </p>
 
                                     <a href="./pharmalinkage-case-studies.php" class="border-gradient mt-3"
@@ -78,9 +87,12 @@
                                     <h3>Smart Buyer</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                    <b>Smart Buyer </b>is a state-of-the-art procurement portal designed to streamline and optimize the procurement process for businesses. 
-                                    Developed by <b>Nivzen Technologies</b>, this platform addresses the challenges of procurement inefficiencies, supplier management, and cost control. 
-                                    The solution provides businesses with a seamless digital experience, ensuring transparency, efficiency, and scalability in procurement operations.
+                                        <b>Smart Buyer </b>is a state-of-the-art procurement portal designed to
+                                        streamline and optimize the procurement process for businesses.
+                                        Developed by <b>Nivzen Technologies</b>, this platform addresses the challenges
+                                        of procurement inefficiencies, supplier management, and cost control.
+                                        The solution provides businesses with a seamless digital experience, ensuring
+                                        transparency, efficiency, and scalability in procurement operations.
                                     </p>
 
                                     <a href="./smart-buyer-case-studies.php" class="border-gradient mt-3" role="button">
@@ -110,8 +122,12 @@
                                     <h3>My OBGUIDE EHR System</h3>
                                     <img class="my-3" src="./images/line.png" alt="">
                                     <p>
-                                    <b>MyObGuide is an innovative Electronic Health Record (EHR) system </b> developed to address the specific needs of obstetric and gynecological (OB/GYN) doctors. 
-                                    Created by <b>Nivzen Technologies</b>, the platform empowers healthcare professionals by streamlining patient data management, improving care delivery, and ensuring compliance with medical standards
+                                        <b>MyObGuide is an innovative Electronic Health Record (EHR) system </b>
+                                        developed to address the specific needs of obstetric and gynecological (OB/GYN)
+                                        doctors.
+                                        Created by <b>Nivzen Technologies</b>, the platform empowers healthcare
+                                        professionals by streamlining patient data management, improving care delivery,
+                                        and ensuring compliance with medical standards
 
                                     </p>
 

@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="<?php echo $projectFolderName?>/css/mediaquery.css?v=1.1" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css?v=1.1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
     <title>Nivzen Technologies</title>
     <style type="text/css">
     .navbar .megamenu {

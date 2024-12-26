@@ -147,6 +147,17 @@ header {
         font-size: 18px;
         color: #343434; }
 
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #fff; }
+.breadcrumb .breadcrumb-item {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400; }
+  .breadcrumb .breadcrumb-item a {
+    color: #c9c9c9; }
+    .breadcrumb .breadcrumb-item a:hover {
+      color: #fff; }
+
 .border-gradient {
   background-image: linear-gradient(to right, #FF5567 0%, #FCD158 100%);
   border-radius: 40px;
@@ -778,11 +789,31 @@ header {
       text-align: center; }
       .case-studiedetail .casestudiesdtlrow .image-part img {
         max-width: 100%; }
+    .case-studiedetail .casestudiesdtlrow ul {
+      margin-bottom: 32px; }
+      .case-studiedetail .casestudiesdtlrow ul li {
+        font-size: 18px;
+        line-height: 28px;
+        color: #5A5A5A;
+        margin-bottom: 16px; }
+    .case-studiedetail .casestudiesdtlrow ol li b {
+      margin-bottom: 5px;
+      display: block;
+      color: #5A5A5A;
+      font-size: 18px; }
+    .case-studiedetail .casestudiesdtlrow ol li ul li {
+      margin-bottom: 5px; }
     .case-studiedetail .casestudiesdtlrow .pharma-txt h3 {
       margin: 0;
       color: #343434;
       font-size: 36px;
       font-weight: 600; }
+    .case-studiedetail .casestudiesdtlrow .pharma-txt h5 {
+      font-size: 18px;
+      line-height: 28px;
+      color: #5A5A5A;
+      margin-bottom: 5px;
+      font-weight: bold; }
     .case-studiedetail .casestudiesdtlrow .pharma-txt p {
       font-size: 18px;
       line-height: 28px;
@@ -895,13 +926,9 @@ header {
     text-align: center; }
   .about-react .normaltxt {
     margin-bottom: 32px;
-    color: #707070;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 137.5% */
-    letter-spacing: 0.16; }
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A5A5A; }
   .about-react h3 {
     margin: 0;
     margin-bottom: 24px;
@@ -913,13 +940,9 @@ header {
     /* 122.222% */
     letter-spacing: 0.36px; }
   .about-react p {
-    color: #707070;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    /* 137.5% */
-    letter-spacing: 0.16; }
+    font-size: 18px;
+    line-height: 28px;
+    color: #5A5A5A; }
 
 .hire-form-block {
   padding: 64px 0px;
@@ -1029,6 +1052,8 @@ header {
       color: #fff;
       border-radius: 5px;
       min-height: 52px; }
+      .hire-form-block .hireformRight .form-control::placeholder {
+        color: #818181; }
 
 .servicesRow {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
@@ -1136,7 +1161,11 @@ header {
     color: #343434; }
     .discussProject .salescnct h4 {
       font-size: 36px;
-      font-weight: 600; }
+      font-weight: 600;
+      background: #FF5767;
+      background: linear-gradient(90deg, #FF5767 0, #FCCF58);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
     .discussProject .salescnct p {
       font-size: 18px; }
   .discussProject h3 {
@@ -1167,6 +1196,9 @@ header {
     opacity: 1; } }
 footer {
   letter-spacing: 0.5px; }
+  footer .owl-carousel .owl-stage-outer {
+    display: flex;
+    justify-content: center; }
   footer .top-part {
     background: #000;
     padding: 32px 0px; }
@@ -1275,9 +1307,7 @@ footer {
       font-size: 18px;
       margin: 0;
       padding-top: 32px;
-      text-align: center;
-      border-top: 1px solid #252525;
-      margin-top: 16px; }
+      text-align: center; }
 
 #blog_sidebar {
   background: #fff;
@@ -1603,10 +1633,6 @@ footer {
     border: 0;
     margin: 10px 0px;
     position: static !important; }
-
-  header .navbar-collapse {
-    height: calc(100vh - 46px);
-    overflow: auto; }
 
   header .navbar .megamenu ul a {
     font-size: 16px;
