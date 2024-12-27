@@ -35,7 +35,7 @@
                                     <div class="col col-7 coltwo">
                                         <div class="bntcont">
                                             <h6>Digital Transformation </h6>
-                                            <h3>Web Development Company </h3>
+                                            <h1>Web Development Company </h1>
                                             <p>
                                                 Empower Your Digital Presence with Cutting-Edge Solutions - Your Trusted
                                                 Partner in Web
@@ -63,7 +63,7 @@
                                     <div class="col col-7 coltwo">
                                         <div class="bntcont">
                                             <h6>Digital Transformation </h6>
-                                            <h3>AI/ML Development Company</h3>
+                                            <h1>AI/ML Development Company</h1>
                                             <p>
                                                 Empowering Innovation, Elevating Experiences: Your Premier Partner in
                                                 Cutting-Edge Mobile App
@@ -90,7 +90,7 @@
                                     <div class="col col-7 coltwo">
                                         <div class="bntcont">
                                             <h6>Digital Transformation </h6>
-                                            <h3>Python Web Development Company</h3>
+                                            <h1>Python Web Development Company</h1>
                                             <p>
                                                 Empowering Innovation through Expert Python Development: Transforming
                                                 Ideas into Reality with
@@ -117,7 +117,7 @@
                                     <div class="col col-7 coltwo">
                                         <div class="bntcont">
                                             <h6>Digital Transformation </h6>
-                                            <h3>React JS Web Development Company</h3>
+                                            <h1>React JS Web Development Company</h1>
                                             <p>
                                                 Empowering Digital Excellence with Cutting-Edge React JS Solutions –
                                                 Your Trusted Partner for
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="carousel-item ">
                         <div class="bannerContent">
                             <div class="container">
@@ -146,7 +146,7 @@
                                     <div class="col col-7 coltwo">
                                         <div class="bntcont">
                                             <h6>Digital Transformation </h6>
-                                            <h3>Mobile App Development Company</h3>
+                                            <h1>Mobile App Development Company</h1>
                                             <p>
                                                 Empowering Innovation, Elevating Experiences: Your Premier Partner in
                                                 Cutting-Edge Mobile App
@@ -167,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>

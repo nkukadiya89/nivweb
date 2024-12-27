@@ -269,7 +269,7 @@ header {
       font-style: normal;
       font-weight: 400;
       letter-spacing: 0.24px; }
-    .banner .bannerContent .bntcont h3 {
+    .banner .bannerContent .bntcont h1 {
       margin: 0;
       margin-bottom: 16px;
       color: #343434;
@@ -719,6 +719,17 @@ header {
         background: linear-gradient(90deg, #FF5767 0, #FCCF58);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; }
+    .innerbanner .inrpgtitle h1 {
+      font-size: 42px;
+      font-weight: 700;
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+      background: #FF5767;
+      background: linear-gradient(90deg, #FF5767 0, #FCCF58);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
     .innerbanner .inrpgtitle p {
       font-size: 22px;
       color: #fff;
@@ -727,13 +738,95 @@ header {
     background: url(../images/Contactus-bg.png) no-repeat right top;
     background-size: cover; }
 
+.thankyoupage {
+  padding: 100px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: url(../images/green-texture.png) no-repeat center top;
+  background-size: cover; }
+  .thankyoupage .thankinside {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 64px;
+    text-align: center; }
+    .thankyoupage .thankinside .title {
+      margin-bottom: 16px; }
+      .thankyoupage .thankinside .title img {
+        margin-bottom: 24px;
+        max-width: 80px; }
+    .thankyoupage .thankinside h3 {
+      font-size: 36px; }
+    .thankyoupage .thankinside p {
+      margin-bottom: 32px;
+      font-size: 18px;
+      line-height: 28px;
+      color: #5A5A5A; }
+    .thankyoupage .thankinside .connect {
+      padding: 32px 64px;
+      display: inline-block;
+      border-top: 1px solid #d9d9d9; }
+      .thankyoupage .thankinside .connect h4 {
+        margin: 0;
+        margin-bottom: 24px;
+        color: #343434;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 0.26px; }
+      .thankyoupage .thankinside .connect ul.list-inline {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 16px 0 0px 0px;
+        justify-content: center;
+        gap: 10px; }
+        .thankyoupage .thankinside .connect ul.list-inline li {
+          margin-right: 5px; }
+          .thankyoupage .thankinside .connect ul.list-inline li a {
+            align-items: center;
+            border-radius: 50%;
+            color: #343434;
+            display: flex;
+            height: 42px;
+            justify-content: center;
+            text-decoration: none;
+            width: 42px;
+            background: #fff; }
+            .thankyoupage .thankinside .connect ul.list-inline li a:hover {
+              background: linear-gradient(90deg, #FF5767 0, #FCCF58);
+              color: #fff; }
+            .thankyoupage .thankinside .connect ul.list-inline li a i {
+              font-weight: 400;
+              font-size: 24px; }
+
 .cnctformfrom {
   padding: 100px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: url(../images/green-texture.png) no-repeat center top;
   background-size: cover; }
+  .cnctformfrom .adress {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 16px;
+    display: flex;
+    gap: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07); }
+    .cnctformfrom .adress h3 {
+      margin: 0;
+      color: #343434;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.26px;
+      margin-bottom: 5px;
+      margin-top: 5px; }
+    .cnctformfrom .adress h6 {
+      color: #343434;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.16px; }
   .cnctformfrom .title {
-    text-align: center;
     margin-bottom: 32px; }
     .cnctformfrom .title h3 {
       font-size: 36px;
@@ -1741,7 +1834,7 @@ footer {
     padding-top: 25px;
     padding-bottom: 16px; }
 
-  .banner .bannerContent .bntcont h3 {
+  .banner .bannerContent .bntcont h1 {
     font-size: 22px;
     line-height: 28px; }
 
@@ -1816,6 +1909,10 @@ footer {
 
   .workprocess .blocktitle h3,
   .innerbanner .inrpgtitle h3 {
+    font-size: 24px;
+    line-height: 32px; }
+
+  .innerbanner .inrpgtitle h1 {
     font-size: 24px;
     line-height: 32px; }
 

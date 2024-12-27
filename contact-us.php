@@ -34,7 +34,7 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
-                        <h3><span>Contact Us</span></h3>
+                        <h1>Contact Us</h1>
                         <p>
                             We operate Globally
                         </p>
@@ -47,72 +47,114 @@
         </div>
 
         <div class="cnctformfrom">
-
-
             <div class="container">
-                <div id="alertMsg"></div>
 
-                <div class="contact-form">
-                    <div class="title">
-                        <h3>We are excited that you want to Work with us.</h3>
-                        <img class="" src="./images/line.png" alt="">
+                <div class="row g-5">
+                    <div class="col-12 col-md-4">
+                        <div class="title">
+                            <h3>Our Locations</h3>
+                            <img class="" src="./images/line.png" alt="">
+                        </div>
+                        <div class="adress">
+                            <div class="flag">
+                                <img src="./images/ind.png" alt="footer logo" width="52" height="52">
+                            </div>
+                            <div class="adrs">
+                                <h3>India HQ</h3>
+                                <h6>110, Ganesh glory, Godrej garden City road, jagatpur Ahmedabad - 382481</h6>
+                                <h6>Phone : +91 97271 11122</h6>
+                            </div>
+                        </div>
+                        <div class="adress">
+                            <div class="flag">
+                                <img src="./images/nl.png" alt="footer logo" width="52" height="52">
+                            </div>
+                            <div class="adrs">
+                                <h3>Netherlands</h3>
+                                <h6>Amsterdam, Netherlands</h6>
+                                <h6>Phone : +31 6-5155-7726</h6>
+                            </div>
+                        </div>
+                        <div class="adress">
+                            <div class="flag">
+                                <img src="./images/aus.png" alt="footer logo" width="52" height="52">
+                            </div>
+                            <div class="adrs">
+                                <h3>Australia</h3>
+                                <h6>Australia - Melbourne</h6>
+                                <h6>Phone : +61 401 334 325</h6>
+                            </div>
+                        </div>
                     </div>
-                    <form id="contact-post" method="post">
+                    <div class="col-12 col-md-8">
+                        <div id="alertMsg"></div>
 
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="mb-3">
-                                    <label for="firstName">First
-                                        Name:</label>
-                                    <input type="text" class="form-control" name="fname" id="fname"
-                                        placeholder="First Name" required>
-                                </div>
+                        <div class="contact-form">
+                            <div class="title">
+                                <h3>We are excited that you want to Work with us.</h3>
+                                <img class="" src="./images/line.png" alt="">
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="mb-3">
-                                    <label for="lastName">Last
-                                        Name:</label>
-                                    <input type="text" class="form-control" name="lname" id="lname"
-                                        placeholder="Last Name" required>
+                            <form id="contact-post" method="post">
+
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="firstName">First
+                                                Name:</label>
+                                            <input type="text" class="form-control" name="fname" id="fname"
+                                                placeholder="First Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="lastName">Last
+                                                Name:</label>
+                                            <input type="text" class="form-control" name="lname" id="lname"
+                                                placeholder="Last Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="emailAddress">Email
+                                                Address:</label>
+                                            <input type="email" name="email" class="form-control" id="emailAddress"
+                                                placeholder="Email Address" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <div class="mb-3">
+                                            <label for="phoneNumber">Phone
+                                                Number:</label>
+                                            <input type="text" class="form-control" id="phoneNumber" name="phone"
+                                                placeholder="Phone Number" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label for="message">Enter
+                                                Message
+                                                Here:</label>
+                                            <textarea class="form-control" id="message" name="message" rows="4"
+                                                placeholder="Enter Message Here..." required></textarea>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="mb-3">
-                                    <label for="emailAddress">Email
-                                        Address:</label>
-                                    <input type="email" name="email" class="form-control" id="emailAddress"
-                                        placeholder="Email Address" required>
+
+                                <div class="btnwrap">
+
+                                    <button class="border-gradient border-gradient2" type="submit" id="submit"
+                                        name="submit">
+                                        <span id="submit_btn">Submit</span>
+                                    </button>
+
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="mb-3">
-                                    <label for="phoneNumber">Phone
-                                        Number:</label>
-                                    <input type="text" class="form-control" id="phoneNumber" name="phone"
-                                        placeholder="Phone Number" required>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mb-3">
-                                    <label for="message">Enter
-                                        Message
-                                        Here:</label>
-                                    <textarea class="form-control" id="message" name="message" rows="4"
-                                        placeholder="Enter Message Here..." required></textarea>
-                                </div>
-                            </div>
+                            </form>
+
                         </div>
-
-                        <div class="btnwrap">
-
-                            <button class="border-gradient border-gradient2" type="submit" id="submit" name="submit">
-                                <span id="submit_btn">Submit</span>
-                            </button>
-
-                        </div>
-                    </form>
-
+                    </div>
                 </div>
+
+
             </div>
 
         </div>
@@ -120,10 +162,7 @@
 
         <div class="discussProject">
             <div class="container">
-                <div class="salescnct">
-                    <p>or email us on</p>
-                    <h4>sales@nivzen.com</h4>
-                </div>
+
                 <h3>Let's Discuss Your Project</h3>
                 <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.
                 </p>
