@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php';?>
+<?php include 'includes/layout.php';?>
 
 
 <body>
@@ -10,7 +10,7 @@
             <div class="container">
 
 
-                <?php include '../includes/header.php';?>
+                <?php include 'includes/header.php';?>
 
 
             </div>

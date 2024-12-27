@@ -125,21 +125,21 @@
                                             <h6 class="title">Front End</h6>
                                             <ul class="list-unstyled">
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/react-js-development-company.php">
+                                                        href="<?php echo $projectFolderName?>/react-js-development-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/react2-ico.png"
                                                                 alt="" /></div> Hire React Js
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/uiux-designer-company.php">
+                                                        href="<?php echo $projectFolderName?>/uiux-designer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/design-ico.png"
                                                                 alt="" /></div>Hire UI/UX
                                                         Designer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/graphics-designer-company.php">
+                                                        href="<?php echo $projectFolderName?>/graphics-designer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/design-ico.png"
                                                                 alt="" /></div>Hire Graphics
@@ -149,21 +149,21 @@
                                             <h6 class="title">Content Management System (CMS)</h6>
                                             <ul class="list-unstyled">
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/wordpress-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/wordpress-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/wordpress-ico.png"
                                                                 alt="" /></div>Hire
                                                         Wordpress Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/shopify-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/shopify-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/shopify-ico.png"
                                                                 alt="" /></div>Hire Shopify
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/magento-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/magento-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/magento-ico.png"
                                                                 alt="" /></div>Hire Magento
@@ -178,49 +178,49 @@
                                             <h6 class="title">Backend</h6>
                                             <ul class="list-unstyled">
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/python-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/python-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/python2-ico.png"
                                                                 alt="" /></div>Hire Python
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/ai-ml-development-company.php">
+                                                        href="<?php echo $projectFolderName?>/ai-ml-development-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/ai-ico.png"
                                                                 alt="" /></div>Hire AI/ML
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/django-development-company.php">
+                                                        href="<?php echo $projectFolderName?>/django-development-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/django-ico.png"
                                                                 alt="" /></div>Hire Django
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/flask-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/flask-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/flask-ico.png"
                                                                 alt="" /></div>Hire Flask
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/fast-api-development-company.php">
+                                                        href="<?php echo $projectFolderName?>/fast-api-development-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/fastapi-ico.png"
                                                                 alt="" /></div>Hire Fast API
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/ruby-rails-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/ruby-rails-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/ruby-ico.png"
                                                                 alt="" /></div>Hire Ruby and
                                                         Rails Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/laravel-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/laravel-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/laravel-ico.png"
                                                                 alt="" /></div>Hire Laravel
@@ -234,27 +234,27 @@
                                             <h6 class="title">Mobile App Development</h6>
                                             <ul class="list-unstyled">
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/android-development-company.php">
+                                                        href="<?php echo $projectFolderName?>/android-development-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/android-ico.png"
                                                                 alt="" /></div>Hire Android
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/ios-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/ios-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/ios-ico.png"
                                                                 alt="" /></div>Hire IOS Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/flutter-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/flutter-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/flutter-ico.png"
                                                                 alt="" /></div>Hire Flutter
                                                         Developer
                                                     </a></li>
                                                 <li><a
-                                                        href="<?php echo $projectFolderName?>/hire-us/react-native-developer-company.php">
+                                                        href="<?php echo $projectFolderName?>/react-native-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/react2-ico.png"
                                                                 alt="" /></div>Hire React

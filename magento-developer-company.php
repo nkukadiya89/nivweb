@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php';?>
+<?php include 'includes/layout.php';?>
 
 
 <body>
@@ -9,7 +9,7 @@
     <div class="header-wapper">
       <div class="container">
 
-      <?php include '../includes/header.php';?>
+      <?php include 'includes/header.php';?>
 
       </div>
     </div>
@@ -20,14 +20,14 @@
           <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Laravel Development Company</li>
+                                <li class="breadcrumb-item active" aria-current="page">Magento Development Company</li>
                                 </ol>
                             </nav>
-            <h1>Laravel Development Company</h1>
-            <p>Elevate User Experiences With Nivzen Technologies' Expert Laravel Development Services</p>
+            <h1>Magento Development Company</h1>
+            <p>Elevate User Experiences With Nivzen Technologies' Expert Magento Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="../images/Hire-Laravel-Developer.png" alt="" />
+            <img src="images/Hire-Magento-Developer.png" alt="" />
           </div>
         </div>
       </div>
@@ -35,59 +35,59 @@
     <div class="about-react">
       <div class="container">
         <div class="normaltxt">
-          Laravel follows the Model-View-Controller (MVC) architecture, which separates application logic from user interface considerations. This structure enhances code organization and makes it easier to maintain and scale applications.
-          Laravel offers built-in support for testing, enabling developers to write unit tests and feature tests seamlessly. This capability ensures that your application remains reliable and bug-free throughout its lifecycle.
+          
+we offer a comprehensive range of Magento development services designed to meet the specific needs of your business. From custom development to seamless integration and performance optimization, our team of certified Magento developers has the expertise to deliver solutions that elevate your e-commerce store.
+
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
             <div class="content-part">
-              <h3>Why Choose Our Laravel Services for Your Web Development Needs?</h3>
+              <h3>Why Choose Our Magento Services for Your Web Development Needs?</h3>
               <p>
-                At Nivzen Technologies, we specialize in Laravel, one of the most popular PHP frameworks, to build high-quality web applications that are both powerful and elegant. Our commitment to innovation and excellence allows us to deliver exceptional solutions tailored to the unique needs of our clients. Whether you’re a startup or an established enterprise, our Laravel development services will help you create scalable, efficient, and robust applications that drive business growth.
+              We believe in creating Magento stores that do more than just sell products—they provide engaging shopping experiences that keep customers coming back. Whether you’re a small business just starting out or an established enterprise looking to take your store to the next level, we’re here to help you build a Magento-powered e-commerce solution that drives results.
+
                 <br /><br />
-                We prioritize our clients’ needs. Our collaborative approach ensures that your feedback shapes the development process, resulting in solutions that truly reflect your vision.
-                Our team of experienced Laravel developers possesses a deep understanding of the framework and its capabilities. We stay updated on the latest trends and best practices to deliver top-notch solutions.
+                When it comes to building a successful e-commerce store, you need a partner that understands the intricacies of the platform and your business. At Nivzen Technologies, we bring a unique blend of technical expertise, creative thinking, and a deep understanding of e-commerce trends to every project.
               </p>
 
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="../images/about-react-img.png" alt="" />
+              <img src="images/about-react-img.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include '../inquery.php';?>
+    <?php include 'inquery.php';?>
 
-  
+   
     <div class="discussProject">
       <div class="container">
         <h3>Let's Discuss Your Project</h3>
         <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-        <a href="../contact-us.php">
+        <a href="contact-us.php">
         <button class="border-gradient ">
           <span>Contact Us</span>
         </button>
       </a>
       </div>
     </div>
-
-    <?php include '../includes/footer.php';?>
+    <?php include 'includes/footer.php';?>
 
   </div>
 
- 
-    <script src="../js/jquery.js"></script>
-  <script src="../js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script>
-
+ 
 
     jQuery(function ($) {
       var doAnimations = function () {
@@ -133,7 +133,6 @@
 
   </script>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
 <script>
@@ -141,6 +140,7 @@
   $.validator.addMethod("phoneValidation", function(value, element) {
     return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
   }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
+
 
    $("#inquery-post").validate({
        rules: {
@@ -187,6 +187,7 @@
        }
    });
    </script>
+
 
 </body>
 

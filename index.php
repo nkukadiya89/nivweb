@@ -292,7 +292,7 @@
                                 ensuring
                                 a seamless user experience.
                             </p>
-                            <a href="./hire-us/android-development-company.php">Read More</a>
+                            <a href="./android-development-company.php">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/python-ico.png" alt="" /></div>
@@ -304,7 +304,7 @@
                                 your specific
                                 needs. Explore the possibilities of Python web application development with us.
                             </p>
-                            <a href="./hire-us/python-developer-company.php">Read More</a>
+                            <a href="./python-developer-company.php">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/react-ico.png" alt="" /></div>
@@ -317,7 +317,7 @@
                                 React JS web
                                 development company.
                             </p>
-                            <a href="./hire-us/react-js-development-company.php">Read More</a>
+                            <a href="./react-js-development-company.php">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/concept-ico.png" alt="" /></div>

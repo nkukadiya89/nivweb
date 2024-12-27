@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php';?>
+<?php include 'includes/layout.php';?>
+
 
 
 <body>
@@ -9,7 +10,7 @@
     <div class="header-wapper">
       <div class="container">
 
-      <?php include '../includes/header.php';?>
+      <?php include 'includes/header.php';?>
 
       </div>
     </div>
@@ -20,14 +21,14 @@
           <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Flask Development Company</li>
+                                <li class="breadcrumb-item active" aria-current="page">IOS Development Company</li>
                                 </ol>
                             </nav>
-            <h1>Flask Development Company</h1>
-            <p>Elevate User Experiences With Nivzen Technologies' Expert Flask Development Services</p>
+            <h1>IOS Development Company</h1>
+            <p>Elevate User Experiences With Nivzen Technologies' Expert IOS Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="../images/Hire-Flask-Developer.png" alt="" />
+            <img src="images/Hire-IOS-Developer.png" alt="" />
           </div>
         </div>
       </div>
@@ -35,38 +36,43 @@
     <div class="about-react">
       <div class="container">
         <div class="normaltxt">
-          Flask is a lightweight and modular web framework that provides the essentials to build web applications without unnecessary complexity. Its minimalistic design and easy-to-use features make it a popular choice among developers. We recognize the transformative potential of Flask in building powerful web applications that drive business success. Whether you’re looking to develop a custom web application, integrate APIs, or create an e-commerce platform, our team is ready to deliver innovative solutions that propel your business forward.
-
+          iOS, Apple's mobile operating system, offers a unique opportunity for businesses to connect with a premium user base. 
+          We develop robust enterprise iOS applications designed to enhance operational efficiency and streamline business processes. Our solutions empower organizations to leverage mobile technology for better productivity and collaboration.
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
             <div class="content-part">
-              <h3>Why Choose Our Flask Services for Your Web Development Needs?</h3>
+              <h3>Why Choose Our iOS App Development Services?</h3>
               <p>
-                We specialize in building high-quality web applications using Flask, a micro web framework known for its simplicity and flexibility. As a leading Flask development company, we leverage the power of this versatile framework to create robust and scalable web solutions that align with your business objectives. Our expert team is dedicated to delivering efficient, maintainable, and user-friendly applications that empower businesses to thrive in a competitive digital landscape.
+                At Nivzen Technologies, we specialize in iOS app development, crafting sophisticated mobile applications that captivate users and drive business growth. With a deep understanding of Apple's ecosystem, our dedicated team harnesses cutting-edge technologies to deliver high-performance iOS applications tailored to your specific needs. Whether you're a startup aiming to launch your first app or an established enterprise seeking to enhance your digital presence, we are here to turn your vision into reality.
+
+
                 <br /><br />
-                Our experts specialize in building and integrating RESTful APIs using Flask, enabling seamless communication between your web applications and third-party services. We focus on creating secure and scalable APIs that enhance the functionality of your applications.
+                We believe in building lasting relationships with our clients. Our ongoing support and maintenance services ensure that your iOS applications remain up-to-date, secure, and optimized for peak performance.
+
+                Our skilled iOS developers have extensive experience in creating high-quality applications. We stay current with the latest trends and technologies to deliver innovative solutions.
+                
               </p>
 
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="../images/about-react-img.png" alt="" />
+              <img src="images/about-react-img.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include '../inquery.php';?>
+    <?php include 'inquery.php';?>
 
- 
+  
     <div class="discussProject">
       <div class="container">
         <h3>Let's Discuss Your Project</h3>
         <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-        <a href="../contact-us.php">
+        <a href="contact-us.php">
         <button class="border-gradient ">
           <span>Contact Us</span>
         </button>
@@ -74,20 +80,19 @@
       </div>
     </div>
 
-    <?php include '../includes/footer.php';?>
+    <?php include 'includes/footer.php';?>
 
   </div>
 
  
-    <script src="../js/jquery.js"></script>
-  <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script>
  
-
     jQuery(function ($) {
       var doAnimations = function () {
         var offset = $(window).scrollTop() + $(window).height(),
@@ -132,7 +137,6 @@
 
   </script>
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
 <script>
@@ -140,7 +144,6 @@
   $.validator.addMethod("phoneValidation", function(value, element) {
     return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
   }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
-
 
 
    $("#inquery-post").validate({

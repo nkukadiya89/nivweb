@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php';?>
+<?php include 'includes/layout.php';?>
 
 
 <body>
@@ -9,7 +9,7 @@
     <div class="header-wapper">
       <div class="container">
 
-      <?php include '../includes/header.php';?>
+      <?php include 'includes/header.php';?>
 
       </div>
     </div>
@@ -20,14 +20,14 @@
           <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Fast API Development Company</li>
+                                <li class="breadcrumb-item active" aria-current="page">Laravel Development Company</li>
                                 </ol>
                             </nav>
-            <h1>Fast API Development Company</h1>
-            <p>Elevate User Experiences With Nivzen Technologies' Expert Fast Api Development Services</p>
+            <h1>Laravel Development Company</h1>
+            <p>Elevate User Experiences With Nivzen Technologies' Expert Laravel Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="../images/Hire-Fast-API-Developer.png" alt="" />
+            <img src="images/Hire-Laravel-Developer.png" alt="" />
           </div>
         </div>
       </div>
@@ -35,57 +35,56 @@
     <div class="about-react">
       <div class="container">
         <div class="normaltxt">
-          FastAPI is an asynchronous web framework that allows for rapid development of APIs and web applications with an emphasis on performance and simplicity.
-          FastAPI is one of the fastest web frameworks available, capable of handling thousands of requests per second. Its asynchronous capabilities enable high throughput and reduced latency, making it ideal for applications requiring real-time data processing.
+          Laravel follows the Model-View-Controller (MVC) architecture, which separates application logic from user interface considerations. This structure enhances code organization and makes it easier to maintain and scale applications.
+          Laravel offers built-in support for testing, enabling developers to write unit tests and feature tests seamlessly. This capability ensures that your application remains reliable and bug-free throughout its lifecycle.
         </div>
         <div class="row ">
           <div class="col col-12 col-md-6">
             <div class="content-part">
-              <h3>Why Choose Our Fast Api Services for Your Web Development Needs?</h3>
+              <h3>Why Choose Our Laravel Services for Your Web Development Needs?</h3>
               <p>
-                At Nivzen Technologies, we harness the power of FastAPI, a modern web framework that is renowned for its speed, efficiency, and ease of use. As a leading FastAPI development company, we specialize in creating high-performance web applications and APIs that cater to the unique needs of businesses across various industries. Our dedicated team of experts is committed to delivering robust, scalable, and secure solutions that empower your organization to thrive in the digital landscape.
-
-
+                At Nivzen Technologies, we specialize in Laravel, one of the most popular PHP frameworks, to build high-quality web applications that are both powerful and elegant. Our commitment to innovation and excellence allows us to deliver exceptional solutions tailored to the unique needs of our clients. Whether you’re a startup or an established enterprise, our Laravel development services will help you create scalable, efficient, and robust applications that drive business growth.
                 <br /><br />
-                we recognize the transformative potential of FastAPI in building high-performance web applications that drive business success. Whether you’re looking to develop a custom application, integrate APIs, or create a data-driven solution, our team is ready to deliver innovative services that propel your business forward.
+                We prioritize our clients’ needs. Our collaborative approach ensures that your feedback shapes the development process, resulting in solutions that truly reflect your vision.
+                Our team of experienced Laravel developers possesses a deep understanding of the framework and its capabilities. We stay updated on the latest trends and best practices to deliver top-notch solutions.
               </p>
 
             </div>
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="../images/about-react-img.png" alt="" />
+              <img src="images/about-react-img.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include '../inquery.php';?>
+    <?php include 'inquery.php';?>
 
-    
+  
     <div class="discussProject">
       <div class="container">
         <h3>Let's Discuss Your Project</h3>
         <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-        <a href="../contact-us.php">
+        <a href="contact-us.php">
         <button class="border-gradient ">
           <span>Contact Us</span>
         </button>
       </a>
       </div>
     </div>
-    
-    <?php include '../includes/footer.php';?>
+
+    <?php include 'includes/footer.php';?>
 
   </div>
 
  
-    <script src="../js/jquery.js"></script>
-  <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script>
 
@@ -134,6 +133,7 @@
 
   </script>
 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
 <script>
@@ -141,7 +141,6 @@
   $.validator.addMethod("phoneValidation", function(value, element) {
     return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
   }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
-
 
    $("#inquery-post").validate({
        rules: {
