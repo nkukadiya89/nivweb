@@ -24,7 +24,7 @@
                                 </ol>
                             </nav>
             
-              <h3><span>Web & Mobile</span> Solutions</h3>
+              <h1>Web & Mobile Solutions</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

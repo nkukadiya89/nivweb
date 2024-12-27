@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">How to Keep Your Business Safe Online: Cybersecurity Best Practices</li>
                             </ol>
                         </nav>
-                        <h3><span>How to Keep Your Business Safe Online: Cybersecurity Best Practices</span></h3>
+                        <h1>How to Keep Your Business Safe Online: Cybersecurity Best Practices</h1>
                         <p>1st May</p>
                     </div>
                     <div class="bnrimg">

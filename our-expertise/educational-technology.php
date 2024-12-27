@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Web & Mobile Educational Technology</li>
                                 </ol>
                             </nav>
-              <h3><span>Web & Mobile Educational Technology</span></h3>
+              <h1>Web & Mobile Educational Technology</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

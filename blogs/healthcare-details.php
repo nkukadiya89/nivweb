@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">The Top 5 Healthcare Tech advancements You Should Know About</li>
                             </ol>
                         </nav>
-                        <h3><span>The Top 5 Healthcare Tech advancements You Should Know About</span></h3>
+                        <h1>The Top 5 Healthcare Tech advancements You Should Know About</h1>
                         <p>1st March</p>
                     </div>
                     <div class="bnrimg">

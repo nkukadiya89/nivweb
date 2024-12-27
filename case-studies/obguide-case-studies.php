@@ -26,7 +26,7 @@
                                     <li class="breadcrumb-item active" aria-current="page">My OBGUIDE EHR System</li>
                                 </ol>
                             </nav>
-                            <h3><span>My OBGUIDE EHR System</span></h3>
+                            <h1>My OBGUIDE EHR System</h1>
                             <p>
                                 Empowering OB/GYN Practices with My OBGUIDE EHR System: A Case Study
                             </p>

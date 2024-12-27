@@ -25,7 +25,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">AI-ML Development Company</li>
                                 </ol>
                             </nav>
-                        <h3><span>AI-ML</span> Development Company</h3>
+                        <h1>AI-ML Development Company</h1>
                         <p>Elevate User Experiences With Nivzen Technologies' Expert AI-ML Development Services</p>
                     </div>
                     <div class="bnrimg">

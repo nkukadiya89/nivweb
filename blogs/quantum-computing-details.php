@@ -22,7 +22,7 @@
                                     Computing:How It Can Solve Complex Problem</li>
                             </ol>
                         </nav>
-                        <h3><span>The Power Of Quantum Computing:How It Can Solve Complex Problem</span></h3>
+                        <h1>The Power Of Quantum Computing:How It Can Solve Complex Problem</h1>
                         <p>13th June</p>
                     </div>
                     <div class="bnrimg">

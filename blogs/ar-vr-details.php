@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">The Many Uses of AR and VR: From Games to Healthcare</li>
                             </ol>
                         </nav>
-                        <h3><span>The Many Uses of AR and VR: From Games to Healthcare</span></h3>
+                        <h1>The Many Uses of AR and VR: From Games to Healthcare</h1>
                         <p>15th May</p>
                     </div>
                     <div class="bnrimg">

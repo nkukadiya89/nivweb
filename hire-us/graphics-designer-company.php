@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Graphic Designer Company</li>
                                 </ol>
                             </nav>
-              <h3><span>Graphic</span> Designer Company</h3>
+              <h1>Graphic Designer Company</h1>
               <p>
                 Elevate Your User Experiences with Nivzen Technologies' Expert Graphic Design Services.
               </p>

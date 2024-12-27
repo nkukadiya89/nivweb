@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">IOS Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>IOS</span> Development Company</h3>
+            <h1>IOS Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert IOS Development Services</p>
           </div>
           <div class="bnrimg">

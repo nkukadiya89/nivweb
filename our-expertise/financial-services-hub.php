@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Financial Services Hub</li>
                                 </ol>
                             </nav>
-              <h3><span>Financial Services Hub</span></h3>
+              <h1>Financial Services Hub</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Laravel Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Laravel</span> Development Company</h3>
+            <h1>Laravel Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Laravel Development Services</p>
           </div>
           <div class="bnrimg">

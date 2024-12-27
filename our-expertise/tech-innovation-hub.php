@@ -22,7 +22,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Tech Innovation Hub</li>
                                 </ol>
                             </nav>
-              <h3><span>Tech Innovation Hub</span></h3>
+              <h1>Tech Innovation Hub</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

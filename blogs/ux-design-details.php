@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">The Top 5 UX Design Principles Every Designer Must Know</li>
                             </ol>
                         </nav>
-                        <h3><span>The Top 5 UX Design Principles Every Designer Must Know</span></h3>
+                        <h1>The Top 5 UX Design Principles Every Designer Must Know</h1>
                         <p>1st May</p>
                     </div>
                     <div class="bnrimg">

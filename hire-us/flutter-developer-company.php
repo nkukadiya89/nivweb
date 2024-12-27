@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Flutter Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Flutter</span> Development Company</h3>
+            <h1>Flutter Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Flutter Development Services</p>
           </div>
           <div class="bnrimg">

@@ -21,7 +21,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Blogs</li>
                             </ol>
                         </nav>
-                        <h3><span>Blogs</span></h3>
+                        <h1>Blogs</h1>
                         <p>
                             Learn with Us, Learn about Us from Our Blog Posts
                         </p>

@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">React Native Development Company</li>
                                 </ol>
                             </nav>
-              <h3><span>React Native</span> Development Company</h3>
+              <h1>React Native Development Company</h1>
               <p>
                 Elevate User Experiences With Nivzen Technologies' Expert
                 React Native Development Services

@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Wordpress Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Wordpress</span> Development Company</h3>
+            <h1>Wordpress Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Wordpress Development Services</p>
           </div>
           <div class="bnrimg">

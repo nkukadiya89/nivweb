@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Django Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Django</span> Development Company</h3>
+            <h1>Django Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Django Development Services</p>
           </div>
           <div class="bnrimg">

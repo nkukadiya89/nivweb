@@ -26,7 +26,7 @@
                                     <li class="breadcrumb-item active" aria-current="page">SmartBuyer</li>
                                 </ol>
                             </nav>
-                            <h3><span>Smart Buyer</span></h3>
+                            <h1>Smart Buyer</h1>
                             <p>
                                 Streamlining Procurement Processes with Smart Buyer
                             </p>

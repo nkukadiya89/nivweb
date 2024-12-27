@@ -24,7 +24,7 @@
                                     <li class="breadcrumb-item active" aria-current="page">PharmaLinkage</li>
                                 </ol>
                             </nav>
-                            <h3><span>PharmaLinkage</span></h3>
+                            <h1>PharmaLinkage</h1>
                             <p>
                                 More than 100+ companies turn to Digiteon to drive their businesses forward in the age
                                 of digital transformation.

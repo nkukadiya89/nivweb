@@ -22,7 +22,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Android Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Android</span> Development Company</h3>
+            <h1>Android Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Android Development Services</p>
           </div>
           <div class="bnrimg">

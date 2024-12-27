@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Design & Planning Services</li>
                                 </ol>
                             </nav>
-              <h3><span>Design & Planning Services</span></h3>
+              <h1>Design & Planning Services</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

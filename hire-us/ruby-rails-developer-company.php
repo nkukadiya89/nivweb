@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Ruby-Rails Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Ruby-Rails</span> Development Company</h3>
+            <h1>Ruby-Rails Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Ruby-Rails Development Services</p>
           </div>
           <div class="bnrimg">

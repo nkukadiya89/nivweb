@@ -22,7 +22,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Python Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Python</span> Development Company</h3>
+            <h1>Python Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Python Development Services</p>
           </div>
           <div class="bnrimg">

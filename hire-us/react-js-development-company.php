@@ -22,7 +22,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">ReactJS Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>ReactJS</span> Development Company</h3>
+            <h1>ReactJS Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert ReactJS Development Services</p>
           </div>
           <div class="bnrimg">

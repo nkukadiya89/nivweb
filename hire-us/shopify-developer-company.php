@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Shopify Development Company</li>
                                 </ol>
                             </nav>
-              <h3><span>Shopify</span> Development Company</h3>
+              <h1>Shopify Development Company</h1>
               <p>
                 Elevate User Experiences With Nivzen Technologies' Expert
                 Shopify Development Services

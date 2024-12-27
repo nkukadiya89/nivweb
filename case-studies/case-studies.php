@@ -22,7 +22,7 @@
                             <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Case Studiese</li>
                             </ol>
-                            <h3><span>Case Studiese</span></h3>
+                            <h1>Case Studiese</h1>
                             <p>
                                 More than 100+ companies turn to Digiteon to drive their businesses forward in the age
                                 of digital transformation.

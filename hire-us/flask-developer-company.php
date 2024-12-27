@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Flask Development Company</li>
                                 </ol>
                             </nav>
-            <h3><span>Flask</span> Development Company</h3>
+            <h1>Flask Development Company</h1>
             <p>Elevate User Experiences With Nivzen Technologies' Expert Flask Development Services</p>
           </div>
           <div class="bnrimg">

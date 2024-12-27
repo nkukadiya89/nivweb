@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Industry Solutions</li>
                                 </ol>
                             </nav>
-              <h3><span>Industry Solutions</span></h3>
+              <h1>Industry Solutions</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

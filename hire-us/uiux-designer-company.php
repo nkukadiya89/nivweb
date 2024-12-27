@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">UI/UX Designer Company</li>
                                 </ol>
                             </nav>
-              <h3><span>UI/UX</span> Designer Company</h3>
+              <h1>UI/UX Designer Company</h1>
               <p>
                 Elevate Your User Experiences with Nivzen Technologies' Expert UI/UX Design Services.
 

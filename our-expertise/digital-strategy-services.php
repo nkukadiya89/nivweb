@@ -24,7 +24,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Digital Strategy Services</li>
                                 </ol>
                             </nav>
-              <h3><span>Digital Strategy Services</span></h3>
+              <h1>Digital Strategy Services</h1>
               <p>
                 Strategically build and leverage digital technologies to boost
                 business results and user experiences

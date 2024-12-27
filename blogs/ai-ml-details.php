@@ -23,7 +23,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">The Various Ways AI and ML Are Impacting Different Industries</li>
                             </ol>
                         </nav>
-                        <h3><span>The Various Ways AI and ML Are Impacting Different Industries</span></h3>
+                        <h1>The Various Ways AI and ML Are Impacting Different Industries</h1>
                         <p>05th May</p>
                     </div>
                     <div class="bnrimg">
