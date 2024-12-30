@@ -87,8 +87,6 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-8">
-                        <div id="alertMsg"></div>
-
                         <div class="contact-form">
                             <div class="title">
                                 <h3>We are excited that you want to Work with us.</h3>
@@ -290,16 +288,8 @@
                 success: function(response) {
                     const obj = JSON.parse(response);
                     if (obj && obj.message) {
-                        $("#alertMsg").html(`
-                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                          ${obj.message}
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                    </div>
-                                `);
+                        window.location.href = 'thank-you.php';
 
-                        $('#submit_btn').text('Submit');
-
-                        $('#contact-post')[0].reset();
                     } else {
                         console.error("Mode is undefined");
                     }

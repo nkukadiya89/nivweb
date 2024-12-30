@@ -4,7 +4,6 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
-
 $mail = new PHPMailer(true);
 
 try {
@@ -25,7 +24,8 @@ try {
     $mail->isHTML(true);
     $mail->Subject = $_REQUEST['fname'];
 
-    $html = 'First Name : '. $_REQUEST['fname'].'<br>'. 'Last Name :'.$_REQUEST['lname'].'<br>'.'Email : '.$_REQUEST['email'].'<br>'.'Phone Number : '.$_REQUEST['phone'];
+    $html = 'First Name : '. $_REQUEST['fname'].'<br>'. 'Last Name :'.$_REQUEST['lname'].'<br>'.'Email : '.$_REQUEST['email'].'<br>'.'Phone Number : '.$_REQUEST['phone'].'<br>'.'Message : '.$_REQUEST['message'];
+
     $mail->Body = $html;
     // Send the email
     $mail->send();
