@@ -10,7 +10,7 @@
       $uri = $_SERVER['REQUEST_URI'];
       
       return $protocol . $host . $uri;
-  }
+    }
   $currentUrl = getCurrentUrl();
 
   $parsedUrl = parse_url($currentUrl);
@@ -27,6 +27,8 @@
     <meta name="description" content="<?php echo $pageMeta['description']; ?>">
     <meta name="title" content="<?php echo $pageMeta['title']; ?>">
     <title><?php echo $pageMeta['title']; ?></title>
+
+    <link rel="canonical" href="<?php echo $currentUrl?>"/>
 
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $projectFolderName?>/images/favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap"
