@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../includes/layout.php';?>
+<?php include 'includes/layout.php';?>
 
 <body>
   <div id="wapper">
     <div class="header-wapper">
       <div class="container">
 
-      <?php include '../includes/header.php';?>
+      <?php include 'includes/header.php';?>
 
       </div>
     </div>
@@ -26,7 +26,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert ReactJS Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="../images/react-bnr.png" alt="" />
+            <img src="images/react-bnr.png" alt="" />
           </div>
         </div>
       </div>
@@ -57,14 +57,14 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="../images/about-react-img.png" alt="" />
+              <img src="images/hire-images/React-Js-Developer.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <?php include '../inquery.php';?>
+    <?php include 'inquery.php';?>
 
     <div class="servicesRow">
       <div class="container">
@@ -78,20 +78,20 @@
       <div class="container">
         <h3>Let's Discuss Your Project</h3>
         <p>Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-        <a href="../contact-us.php">
+        <a href="contact-us.php">
         <button class="border-gradient ">
           <span>Contact Us</span>
         </button></a>
       </div>
     </div>
 
-    <?php include '../includes/footer.php';?>
+    <?php include 'includes/footer.php';?>
 
   </div>
 
 
-    <script src="../js/jquery.js"></script>
-  <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 
