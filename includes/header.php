@@ -243,7 +243,7 @@
                                                         Developer
                                                     </a></li>
                                                     <li><a
-                                                        href="<?php echo $projectFolderName?>/dotnet.php">
+                                                        href="<?php echo $projectFolderName?>/dotnet-developer-company.php">
                                                         <div class="menuico"><img
                                                                 src="<?php echo $projectFolderName?>/images/dotnet-ico.png"
                                                                 alt="" /></div>Hire .Net
