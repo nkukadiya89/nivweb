@@ -52,7 +52,7 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="images/hire-images/React-Js-Developer.png" alt="" />
+              <img src="images/hire-images/dotnetimg.png" alt="" />
             </div>
           </div>
         </div>
