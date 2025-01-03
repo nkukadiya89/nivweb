@@ -94,68 +94,78 @@
     }, "Please enter a valid Gmail address.");
 
     // Initialize form validation
-    $("#inquery-post-data").validate({
-        rules: {
-            name: { 
-                required: true,
+    $(document).ready(function () {
+        // Apply validation on form
+        $("#inquery-post-data").validate({
+            rules: {
+                name: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true,
+                    gmailValidation: true // Custom Gmail validation
+                },
+                phone: {
+                    required: true,
+                    phoneValidation: true // Custom phone validation
+                },
+                desc: { // Message/Description field
+                    required: false
+                },
+                file: {  // File input field validation
+                    required: false,
+                    extension: "jpg|jpeg|png|pdf", // Valid file types
+                    filesize: 10485760 // 10 MB in bytes
+                }
             },
-            email: { 
-                required: true,
-                email: true,
-                gmailValidation: true // Custom Gmail validation
-            },
-            phone: { 
-                required: true,
-                phoneValidation: true // Custom phone validation
-            },
-            desc: { // Message/Description field
-                required: false
-            },
-            file: {  // File input field validation
-                required: false, // Optional field, can be required if needed
-                extension: "jpg|jpeg|png|pdf",  // Valid file types (can adjust)
-                filesize: 10485760  // 10 MB in bytes (adjust based on your requirement)
+            messages: {
+                name: "Please enter your name.",
+                email: "Please enter a valid email address.",
+                phone: "Please enter a valid phone number.",
+                desc: "Please describe your requirements.",
+                file: {
+                    extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
+                    filesize: "The file size must not exceed 10 MB."
+                }
             }
-        },
-        messages: {
-            // Custom error messages can be defined here for individual fields
-            name: "Please enter your name.",
-            email: "Please enter a valid email address.",
-            phone: "Please enter a valid phone number.",
-            desc: "Please describe your requirements.",
-            file: {
-                extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
-                filesize: "The file size must not exceed 10 MB."
+        });
+
+        // Handle form submission
+        $("#inquery-post-data").submit(function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Ensure the form is valid before continuing
+            if (!$(this).valid()) {
+                return; // If form is invalid, stop the submission
             }
-        },
-        submitHandler: function(form, event) {
-            // Ensure that the event object is passed to prevent the form from submitting
-            event.preventDefault(); // Prevent default form submission to handle it via AJAX
 
             // Show processing message
-            $('#inq-btn').prop('disabled', true)
+            $('#inq-btn').prop('disabled', true);
             $('#inq_text').text('Processing...');
 
-            var form_data = new FormData(form); 
+            // Create FormData to send in the request
+            var form_data = new FormData(this);  // 'this' refers to the form
 
-            var imgFile = $("#inqueryfile")[0]; // Get the file input element
+            // Handle file attachment
+            var imgFile = $("#inqueryfile")[0];
             if (imgFile.files.length > 0) {
-                form_data.append("inqueryfile", imgFile.files[0]); 
+                form_data.append("inqueryfile", imgFile.files[0]);
             }
 
             // Perform AJAX request
             $.ajax({
-                url: 'submit-inquery.php', 
+                url: 'submit-inquery.php',
                 type: 'POST',
-                data: form_data, // Use FormData for file upload
+                data: form_data,
                 contentType: false,
                 processData: false,
-                success: function(response) {
+                success: function (response) {
                     try {
                         const obj = JSON.parse(response);
-                        console.log(obj, 'asfsdf');
                         if (obj && obj.message) {
-                            // window.location.href = 'thank-you.php';
+                            // Redirect to the thank-you page
+                            window.location.href = 'thank-you.php';
                         } else {
                             console.error("Response error: Mode is undefined.");
                         }
@@ -163,16 +173,18 @@
                         console.error("Error parsing JSON response:", error);
                     }
                 },
-                error: function() {
+                error: function () {
                     alert('There was an error submitting your form. Please try again later.');
                 },
-                complete: function() {
+                complete: function () {
+                    // Re-enable the submit button and reset the text
                     $('#inq-btn').prop('disabled', false);
                     $('#inq_text').text('Inquire now');
                 }
             });
-        }
+        });
     });
+
 </script>
 </body>
 </html>

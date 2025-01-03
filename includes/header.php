@@ -330,7 +330,7 @@
                                 We ensure you’re matched with the right talent resource based
                                 on your requirement.
                             </p>
-                            <form id="inquery-post-data" method="post" enctype="multipart/form-data">
+                            <form id="inquery-post-head" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
                         </div>
@@ -389,7 +389,7 @@
     }, "Please enter a valid Gmail address.");
 
     // Initialize form validation
-    $("#inquery-post-data").validate({
+    $("#inquery-post-head-1").validate({
         rules: {
             name: { 
                 required: true,
