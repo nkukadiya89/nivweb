@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
 <header>
     <div class="logo">
         <a class="navbar-brand m-0" href=" <?php echo $projectFolderName?>"
@@ -11,7 +14,20 @@
             </button>
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"> <a class="nav-link" href="<?php echo $projectFolderName?>">Company </a>
+                    <li class="nav-item active"> <a class="nav-link" href="<?php echo $projectFolderName?>">Home </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Company</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item"
+                                    href="<?php echo $projectFolderName?>/aboutus.php">About Us</a></li>
+                            <li><a class="dropdown-item"
+                                    href="<?php echo $projectFolderName?>/ourteam.php">Our Team</a></li>
+                                    <li><a class="dropdown-item"
+                                    href="<?php echo $projectFolderName?>/lifeatnivzen.php">Life at Nivzen </a></li>
+                                    <li><a class="dropdown-item"
+                                    href="<?php echo $projectFolderName?>/resources/careers/careers.php">Career</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item dropdown has-megamenu">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Expertise </a>
@@ -226,6 +242,13 @@
                                                                 alt="" /></div>Hire Laravel
                                                         Developer
                                                     </a></li>
+                                                    <li><a
+                                                        href="<?php echo $projectFolderName?>/dotnet.php">
+                                                        <div class="menuico"><img
+                                                                src="<?php echo $projectFolderName?>/images/dotnet-ico.png"
+                                                                alt="" /></div>Hire .Net
+                                                        Developer
+                                                    </a></li>
                                             </ul>
                                         </div> <!-- col-megamenu.// -->
                                     </div>
@@ -307,33 +330,30 @@
                                 We ensure you’re matched with the right talent resource based
                                 on your requirement.
                             </p>
-                            <form id="inquery-post" action="" onsubmit="showLoading()" novalidate="novalidate">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="email" class="form-control" id="email" name="email"
-                                        placeholder="Email">
-                                </div>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" id="phone" name="phone"
-                                        placeholder="Phone Number">
-                                </div>
-                                <div class="mb-4">
-                                    <textarea class="form-control" rows="3" id="desc" name="desc"
-                                        placeholder="Describe Your Requirements"></textarea>
-                                </div>
-                                <div class="mb-2 d-flex justify-content-end">
+                            <form id="inquery-post-data" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number" />
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="3" id="desc" name="desc" placeholder="Describe Your Requirements"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            
+                            <input type="file" id="inqueryfile" name="inqueryfile" accept=".pdf,.doc,.docx" >
 
-                                    <button class="border-gradient2 border-gradient" type="submit" id="inq-btn"
-                                        name="inq-btn">
-                                        <span id="inq_text">Inquire now</span>
-                                    </button>
-
-                                </div>
-                            </form>
-
-
+                        </div>
+                        <div class="mb-5 d-flex justify-content-end">
+    <button class="border-gradient2 border-gradient" type="submit" id="inq-btn">
+        <span id="inq_text">Inquire now</span>
+    </button>
+</div>
+                    </form>
 
                             <div class="formbtmtxt">
                                 <a href="mailto:sales@nivzen.com">
@@ -353,3 +373,100 @@
         </div>
     </div>
 </header>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+<script>
+    // Custom phone number validation (allowing +, spaces, dashes, parentheses)
+    $.validator.addMethod("phoneValidation", function(value, element) {
+        return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+    }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
+
+    // Custom Gmail validation (ensuring the email ends with @gmail.com)
+    $.validator.addMethod("gmailValidation", function(value, element) {
+        return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
+    }, "Please enter a valid Gmail address.");
+
+    // Initialize form validation
+    $("#inquery-post-data").validate({
+        rules: {
+            name: { 
+                required: true,
+            },
+            email: { 
+                required: true,
+                email: true,
+                gmailValidation: true
+            },
+            phone: { 
+                required: true,
+                phoneValidation: true 
+            },
+            desc: { 
+                required: false
+            },
+            file: {  
+                required: false, 
+                extension: "jpg|jpeg|png|pdf", 
+                filesize: 10485760 
+            }
+        },
+        messages: {
+            // Custom error messages can be defined here for individual fields
+            name: "Please enter your name.",
+            email: "Please enter a valid email address.",
+            phone: "Please enter a valid phone number.",
+            desc: "Please describe your requirements.",
+            file: {
+                extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
+                filesize: "The file size must not exceed 10 MB."
+            }
+        },
+        submitHandler: function(form, event) {
+            event.preventDefault(); 
+
+            $('#inq-btn').prop('disabled', true); 
+            $('#inq_text').text('Processing...'); 
+            var form_data = new FormData(form); 
+
+            var imgFile = $("#inqueryfile")[0];
+            if (imgFile.files.length > 0) {
+                form_data.append("inqueryfile", imgFile.files[0]); 
+            }
+
+            $.ajax({
+                url: 'submit-inquery.php', 
+                type: 'POST',
+                data: form_data,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    try {
+                        const obj = JSON.parse(response);
+                        if (obj && obj.message) {
+                            Optional: Redirect to a thank-you page or show a success message
+                            window.location.href = 'thank-you.php';
+                        } else {
+                            console.error("Response error: Mode is undefined.");
+                        }
+                    } catch (error) {
+                        console.error("Error parsing JSON response:", error);
+                    }
+                },
+                error: function() {
+                    alert('There was an error submitting your form. Please try again later.');
+                },
+                complete: function() {
+                    // Re-enable the submit button and reset the text after the request completes
+                    $('#inq-btn').prop('disabled', false); 
+                    $('#inq_text').text('Inquire now'); 
+                }
+            });
+        }
+    });
+</script>
+
+
+</body>
+</html>

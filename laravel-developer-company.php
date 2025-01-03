@@ -53,7 +53,7 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="images/about-react-img.png" alt="" />
+              <img src="images/hire-images/Laravel-Developer.png" alt="" />
             </div>
           </div>
         </div>

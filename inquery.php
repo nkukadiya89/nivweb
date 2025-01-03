@@ -1,6 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
 <div class="hire-form-block">
-    <div id="alertMsg"></div>
-
     <div class="container">
         <div class="row">
             <div class="col col-12 col-md-6">
@@ -36,7 +37,7 @@
                         We ensure you’re matched with the right talent resource based
                         on your requirement.
                     </p>
-                    <form id="inquery-post" action="">
+                    <form id="inquery-post-data" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Name" />
                         </div>
@@ -44,23 +45,22 @@
                             <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="phone" name="phone"
-                                placeholder="Phone Number" />
+                            <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone Number" />
                         </div>
                         <div class="mb-4">
-                            <textarea class="form-control" rows="3" id="desc" name="desc"
-                                placeholder="Describe Your Requirements"></textarea>
+                            <textarea class="form-control" rows="3" id="desc" name="desc" placeholder="Describe Your Requirements"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            
+                            <input type="file" id="inqueryfile" name="inqueryfile" accept=".pdf,.doc,.docx" >
+
                         </div>
                         <div class="mb-5 d-flex justify-content-end">
-
-                            <button class="border-gradient2 border-gradient" type="submit" id="inq-btn" name="inq-btn">
+                            <button class="border-gradient2 border-gradient" type="submit" id="inq-btn">
                                 <span id="inq_text">Inquire now</span>
                             </button>
-
                         </div>
                     </form>
-
-
 
                     <div class="formbtmtxt">
                         <a href="mailto:sales@nivzen.com">
@@ -77,3 +77,102 @@
         </div>
     </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+
+<script>
+    
+    // Custom phone number validation (allowing +, spaces, dashes, parentheses)
+    $.validator.addMethod("phoneValidation", function(value, element) {
+        return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+    }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
+
+    // Custom Gmail validation (ensuring the email ends with @gmail.com)
+    $.validator.addMethod("gmailValidation", function(value, element) {
+        return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
+    }, "Please enter a valid Gmail address.");
+
+    // Initialize form validation
+    $("#inquery-post-data").validate({
+        rules: {
+            name: { 
+                required: true,
+            },
+            email: { 
+                required: true,
+                email: true,
+                gmailValidation: true // Custom Gmail validation
+            },
+            phone: { 
+                required: true,
+                phoneValidation: true // Custom phone validation
+            },
+            desc: { // Message/Description field
+                required: false
+            },
+            file: {  // File input field validation
+                required: false, // Optional field, can be required if needed
+                extension: "jpg|jpeg|png|pdf",  // Valid file types (can adjust)
+                filesize: 10485760  // 10 MB in bytes (adjust based on your requirement)
+            }
+        },
+        messages: {
+            // Custom error messages can be defined here for individual fields
+            name: "Please enter your name.",
+            email: "Please enter a valid email address.",
+            phone: "Please enter a valid phone number.",
+            desc: "Please describe your requirements.",
+            file: {
+                extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
+                filesize: "The file size must not exceed 10 MB."
+            }
+        },
+        submitHandler: function(form, event) {
+            // Ensure that the event object is passed to prevent the form from submitting
+            event.preventDefault(); // Prevent default form submission to handle it via AJAX
+
+            // Show processing message
+            $('#inq-btn').prop('disabled', true)
+            $('#inq_text').text('Processing...');
+
+            var form_data = new FormData(form); 
+
+            var imgFile = $("#inqueryfile")[0]; // Get the file input element
+            if (imgFile.files.length > 0) {
+                form_data.append("inqueryfile", imgFile.files[0]); 
+            }
+
+            // Perform AJAX request
+            $.ajax({
+                url: 'submit-inquery.php', 
+                type: 'POST',
+                data: form_data, // Use FormData for file upload
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    try {
+                        const obj = JSON.parse(response);
+                        console.log(obj, 'asfsdf');
+                        if (obj && obj.message) {
+                            // window.location.href = 'thank-you.php';
+                        } else {
+                            console.error("Response error: Mode is undefined.");
+                        }
+                    } catch (error) {
+                        console.error("Error parsing JSON response:", error);
+                    }
+                },
+                error: function() {
+                    alert('There was an error submitting your form. Please try again later.');
+                },
+                complete: function() {
+                    $('#inq-btn').prop('disabled', false);
+                    $('#inq_text').text('Inquire now');
+                }
+            });
+        }
+    });
+</script>
+</body>
+</html>

@@ -3,8 +3,8 @@
 
 $metaData = [
     'default' => [
-        'title' => 'NivZen',
-        'description' => 'XYZ Development Company offers expert software solutions using Laravel, React, Python, and .NET technologies. We specialize in custom web development, mobile apps, and enterprise software to help businesses grow and succeed.',
+        'title' => 'NivZen Technologies',
+        'description' => 'Welcome to Nivzen Technologies, where web-based software craftsmanship converges with a commitment to excellence. As an emerging technologies company, we champion innovation, deliver value to clients and society, and celebrate a track record of over 500 projects, 350+ happy clients, and a team of 30+ experts dedicated to shaping a digital future that goes beyond expectations.',
         'keywords' => 'PHP, Laravel, It, Developing, meta, website, default',
         'author' => 'Niv Zen',
         'charset' => 'UTF-8',

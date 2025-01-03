@@ -36,7 +36,7 @@
                     <div class="inrpgtitle">
                         <h1>Contact Us</h1>
                         <p>
-                            We operate Globally
+                            We operate Globally 
                         </p>
                     </div>
                     <div class="bnrimg">
@@ -92,7 +92,8 @@
                                 <h3>We are excited that you want to Work with us.</h3>
                                 <img class="" src="./images/line.png" alt="">
                             </div>
-                            <form id="contact-post" method="post">
+                            <form id="contact-post"  method="POST">
+
 
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -276,27 +277,43 @@
     });
 
     $("#contact-post").submit(function(event) {
-        event.preventDefault();
+    event.preventDefault();  // Prevent default form submission
 
-        if ($(this).valid()) { // Only submit if the form is valid
-            // Send the form data via AJAX
-            $('#submit_btn').text('Processing...');
-            $.ajax({
-                url: 'mail.php',
-                type: 'POST',
-                data: $(this).serialize(), // Serialize form data
-                success: function(response) {
-                    const obj = JSON.parse(response);
+    if ($(this).valid()) {  // Only submit if the form is valid
+        // Change submit button text to indicate processing
+        $('#submit_btn').text('Processing...');
+
+        $.ajax({
+            url: 'mail.php',  // PHP file to handle the form data
+            type: 'POST',     // HTTP request type
+            data: $(this).serialize(),  // Serialize form data
+            success: function(response) {
+                try {submit_btne.log(obj) //This will now show an alert when the response is received
+
                     if (obj && obj.message) {
+                        // Redirect if the response contains the message key
                         window.location.href = 'thank-you.php';
-
                     } else {
-                        console.error("Mode is undefined");
+                        console.error("Message is undefined in response");
                     }
+                } catch (e) {
+                    console.error("Error parsing JSON: ", e);
                 }
-            });
-        }
-    });
+            },
+            error: function(xhr, status, error) {
+                // Log any AJAX request errors (like 500)
+                console.error("AJAX Error:", error);
+                alert("An error occurred while processing your request. Please try again later.");
+                $('#submisubmit_btn_btn').text('Submit');  // Reset button text
+            },
+            complete: function() {
+                // Reset the submit button text in case of completion (success or failure)
+                $('#submit_btn').text('Submit');
+            }
+        });
+    }
+});
+
     </script>
 </body>
 
