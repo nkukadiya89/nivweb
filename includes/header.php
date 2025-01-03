@@ -445,7 +445,7 @@
                     try {
                         const obj = JSON.parse(response);
                         if (obj && obj.message) {
-                            Optional: Redirect to a thank-you page or show a success message
+                            // Optional: Redirect to a thank-you page or show a success message
                             window.location.href = 'thank-you.php';
                         } else {
                             console.error("Response error: Mode is undefined.");
