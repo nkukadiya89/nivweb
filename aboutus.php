@@ -100,63 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div class="workprocess ">
-                <div class="container">
-                    <div class="blocktitle">
-                        <h5>Leaders</h5>
-                        <h3>Meet our Core Members</h3>
-                        <p>At Nivzen Technologies</p>
-                    </div>
-                    <div class="row">
-                        <div class="col col-12 col-sm-6 col-lg-3">
-                            <div class="teammember">
-                                <div class="memberphoto"><img src="images/nirav.jpg" alt=""></div>
-                                <h3>Nirav Kukadiya </h3>
-                                <h6>Founder, Chairman & CEO</h6>
-                                <div class="team-info ">
-                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
-                                        tabindex="0"><img src="images/linkdin2.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-12 col-sm-6 col-lg-3">
-                            <div class="teammember">
-                                <div class="memberphoto"><img src="images/team-img-2.jpg" alt=""></div>
-                                <h3>Flora Nyra </h3>
-                                <h6>Product Manager</h6>
-                                <div class="team-info ">
-                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
-                                        tabindex="0"><img src="images/linkdin2.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-12 col-sm-6 col-lg-3">
-                            <div class="teammember">
-                                <div class="memberphoto"><img src="images/team-img-1.jpg" alt=""></div>
-                                <h3>James Levi </h3>
-                                <h6>Product Manager</h6>
-                                <div class="team-info ">
-                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
-                                        tabindex="0"><img src="images/linkdin2.png"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-12 col-sm-6 col-lg-3">
-                            <div class="teammember">
-                                <div class="memberphoto"><img src="images/review-3.jpg" alt=""></div>
-                                <h3>James Levi </h3>
-                                <h6>Product Manager</h6>
-                                <div class="team-info ">
-                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
-                                        tabindex="0"><img src="images/linkdin2.png"></a>
-                                </div>
-                            </div>
-                        </div>
 
-
-                    </div>
-                </div>
-            </div>
             <!-- part1end -->
 
             <?php include './includes/footer.php'; ?>

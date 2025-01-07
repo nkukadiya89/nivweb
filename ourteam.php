@@ -22,7 +22,7 @@
                         </nav>
                         <h1>Our Team</h1>
                         <p>
-                        Our Team Posts
+                            Our Team Posts
                         </p>
                     </div>
                     <div class="bnrimg">
@@ -33,146 +33,85 @@
         </div>
 
 
-        <div class="Bologe-page  py-3">
+        <div class="casestudiesrow bg2 SmartBuyer-part " style="background:#fff;">
             <div class="container">
-                <div class="row align-items-center">
-                <div class="col-lg-6 text-start blog-tag ">
-                <h5>Heros Behind the Company</h5>
+                <div class="row">
 
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid id adipisci possimus sequi nihil, eius necessitatibus beatae praesentium provident veniam. Eos, laborum aliquid suscipit amet ex facere expedita sapiente.</p>
-</div>
-
-                   <div class="col-lg-6 search-btn">
-                            <div class="row justify-content-center">
-                                   <img src="images/ourteam.jpg" alt="">
-                        </div> 
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class=" Bologe-page ">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="./quantum-computing-details.php">
-                            <img src="./images/Blog-part1-pic1.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <!-- <div class="text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
-                                </div> -->
-
-                            <a href="./quantum-computing-details.php">
-                                <h3>The Power Of Quantum Computing:How It Can Solve
-                                    Complex
-                                    Problem.
-                                </h3>
-                            </a>
-                          
+                    <div class="col col-12 col-md-6 text-center  order-md-2">
+                        <div class="image-part   ">
+                            <img src="images/teamgroup.png" alt="" />
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="./ar-vr-details.php">
-                            <img src="./images/Blog-part2-pic1.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <!-- <div class="text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
-                                </div> -->
+                    <div class="col col-12 col-md-6 pharma-text order-md-1">
+                        <div class="content-part   ">
+                            <div class="pharma-txt">
+                                <h3>Heros Behind the Company</h3>
+                                <h5>These professionals will turn those colorful pictures with the product’s design into
+                                    a full-featured website.</h5>
+                                <p>
+                                    We know how you feel about your business as we feel the same way about ours. We are
+                                    certified driven by quality – through the customer service standards we follow.
+                                </p>
+                                <p>
+                                    Every professional working with us possesses the best experience in their field.
+                                    Maintaining strong coordination with the clients, each member works alike with equal
+                                    inputs on every project assigned, thus ensuring that the best gets delivered every
+                                    time from the roofs of Infynno solutions.
+                                </p>
 
-
-                            <a href="./ar-vr-details.php">
-                                <h3>The Many Uses of AR and VR: From Games to Healthcare
-                                </h3>
-                            </a>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="./ai-ml-details.php">
-                            <img src="./images/Blog-part3-pic1.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <!-- <div class=" text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
-                                </div> -->
-
-                            <a href="./ai-ml-details.php">
-                                <h3>The Various Ways AI and ML Are Impacting Different
-                                    Industries</h3>
-                            </a>
-                          
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="./cybersecurity-details.php">
-                            <img src="./images/Blog-part4-pic1.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <!-- <div class=" text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
-                                </div> -->
-
-
-                            <a href="./cybersecurity-details.php">
-                                <h3>How to Keep Your Business Safe Online: Cybersecurity
-                                    Best Practices
-                                </h3>
-                            </a>
-                          
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="./ux-design-details.php">
-                            <img src="./images/Blog-part5-pic1.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <!-- <div class="col-lg- text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
-                                </div> -->
-
-
-                            <a href="./ux-design-details.php">
-                                <h3>The Top 5 UX Design Principles Every Designer Must
-                                    Know
-                                </h3>
-                            </a>
-                          
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="./healthcare-details.php">
-                            <img src="./images/Blog-part6-pic1.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <!-- <div class="text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
-                                </div> -->
-
-                            <a href="./healthcare-details.php">
-                                <h3>The Top 5 Healthcare Tech advancements You Should
-                                    Know About
-                                </h3>
-                            </a>
-                           
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="workprocess ">
+            <div class="container">
+                <div class="blocktitle">
+                    <h5>Leaders</h5>
+                    <h3>Our Team</h3>
+                    <p>At Nivzen Technologies</p>
+                </div>
+                <div class="row">
+                    <div class="col col-12 col-sm-6 col-lg-3">
+                        <div class="teammember">
+                            <div class="memberphoto"><img src="images/nirav.jpg" alt=""></div>
+                            <h3>Nirav Kukadiya </h3>
+                            <h6>Founder, Chairman & CEO</h6>
+
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-lg-3">
+                        <div class="teammember">
+                            <div class="memberphoto"><img src="images/team-img-2.jpg" alt=""></div>
+                            <h3>Flora Nyra </h3>
+                            <h6>Product Manager</h6>
+
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-lg-3">
+                        <div class="teammember">
+                            <div class="memberphoto"><img src="images/team-img-1.jpg" alt=""></div>
+                            <h3>James Levi </h3>
+                            <h6>Product Manager</h6>
+
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-6 col-lg-3">
+                        <div class="teammember">
+                            <div class="memberphoto"><img src="images/review-3.jpg" alt=""></div>
+                            <h3>James Levi </h3>
+                            <h6>Product Manager</h6>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
     </div>
+
     <?php include './includes/footer.php'; ?>
 
 
