@@ -42,7 +42,7 @@
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
                             <div class="image-part   ">
-                                <img src="images/aboutus-Solutions.jpg" alt="" />
+                                <img src="images/aboutbig.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
@@ -66,29 +66,24 @@
                 </div>
             </div>
             <!-- part1 -->
-            <div class="casestudiesrow bg1 PharmaLinkage-part" style="background:#fff;">
+            <div class="counterwrp">
                 <div class="container">
-                    <div class="row">
-                        <div class="col col-12 col-md-6 text-center">
-                            <div class="image-part   ">
-                                <img src="images/ourteam.jpg" alt="" />
-                            </div>
+                    <div class="row ">
+                        <div class="col col-6 col-md-3 text-center">
+                            <h3>30</h3>
+                            <h5>Returning Customers</h5>
                         </div>
-                        <div class="col col-12 col-md-6 pharma-text">
-                            <div class="content-part  ">
-                                <div class="pharma-txt">
-                                    <h3>Pioneering Innovation, Crafting Solutions, Building Futures</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
-                                    <p>
-                                        Welcome to Nivzen Technologies, where web-based software craftsmanship converges
-                                        with a commitment to excellence. As an emerging technologies company, we
-                                        champion innovation, deliver value to clients and society, and celebrate a track
-                                        record of over 500 projects, 350+ happy clients, and a team of 30+ experts
-                                        dedicated to shaping a digital future that goes beyond expectations.
-                                    </p>
-
-                                </div>
-                            </div>
+                        <div class="col col-6 col-md-3 text-center">
+                            <h3>500+</h3>
+                            <h5>Project Delivered</h5>
+                        </div>
+                        <div class="col col-6 col-md-3 text-center">
+                            <h3>30+</h3>
+                            <h5>Experts Team</h5>
+                        </div>
+                        <div class="col col-6 col-md-3 text-center">
+                            <h3>350+</h3>
+                            <h5>Delighted clients</h5>
                         </div>
                     </div>
                 </div>
@@ -102,6 +97,63 @@
                     </div>
                     <div class="processimg">
                         <img src="images/proccess.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="workprocess ">
+                <div class="container">
+                    <div class="blocktitle">
+                        <h5>Leaders</h5>
+                        <h3>Meet our Core Members</h3>
+                        <p>At Nivzen Technologies</p>
+                    </div>
+                    <div class="row">
+                        <div class="col col-12 col-sm-6 col-lg-3">
+                            <div class="teammember">
+                                <div class="memberphoto"><img src="images/nirav.jpg" alt=""></div>
+                                <h3>Nirav Kukadiya </h3>
+                                <h6>Founder, Chairman & CEO</h6>
+                                <div class="team-info ">
+                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
+                                        tabindex="0"><img src="images/linkdin2.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-lg-3">
+                            <div class="teammember">
+                                <div class="memberphoto"><img src="images/team-img-2.jpg" alt=""></div>
+                                <h3>Flora Nyra </h3>
+                                <h6>Product Manager</h6>
+                                <div class="team-info ">
+                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
+                                        tabindex="0"><img src="images/linkdin2.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-lg-3">
+                            <div class="teammember">
+                                <div class="memberphoto"><img src="images/team-img-1.jpg" alt=""></div>
+                                <h3>James Levi </h3>
+                                <h6>Product Manager</h6>
+                                <div class="team-info ">
+                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
+                                        tabindex="0"><img src="images/linkdin2.png"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-lg-3">
+                            <div class="teammember">
+                                <div class="memberphoto"><img src="images/review-3.jpg" alt=""></div>
+                                <h3>James Levi </h3>
+                                <h6>Product Manager</h6>
+                                <div class="team-info ">
+                                    <a href="#" tabindex="0"><img src="images/skype.png"></a> <a href="#"
+                                        tabindex="0"><img src="images/linkdin2.png"></a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
