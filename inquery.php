@@ -26,9 +26,9 @@
                             <h5>For Fixed Cost Solution</h5>
                             <p>Ensure Timely Delivery Within Budget</p>
                         </div>
-                        <button class="border-gradient">
+                        <!-- <button class="border-gradient">
                             <span>Schedule a developer interview</span>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
                 <div class="col col-12 col-md-6 text-center">
@@ -93,11 +93,7 @@
         return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
     }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
-    // Custom Gmail validation (ensuring the email ends with @gmail.com)
-    $.validator.addMethod("gmailValidation", function(value, element) {
-        return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
-    }, "Please enter a valid Gmail address.");
-
+ 
     // Initialize form validation
     $(document).ready(function() {
         // Apply validation on form
@@ -108,8 +104,7 @@
                 },
                 email: {
                     required: true,
-                    email: true,
-                    gmailValidation: true // Custom Gmail validation
+                    email: true
                 },
                 phone: {
                     required: true,

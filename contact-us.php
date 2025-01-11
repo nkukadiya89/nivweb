@@ -288,17 +288,14 @@
             type: 'POST',     // HTTP request type
             data: $(this).serialize(),  // Serialize form data
             success: function(response) {
-                try {submit_btne.log(obj) //This will now show an alert when the response is received
 
-                    if (obj && obj.message) {
-                        // Redirect if the response contains the message key
-                        window.location.href = 'thank-you.php';
-                    } else {
-                        console.error("Message is undefined in response");
-                    }
-                } catch (e) {
-                    console.error("Error parsing JSON: ", e);
+                if (response) {
+                    // Redirect if the response contains the message key
+                    window.location.href = 'thank-you.php';
+                } else {
+                    alert("An error occurred while processing your request. Please try again later.");
                 }
+              
             },
             error: function(xhr, status, error) {
                 // Log any AJAX request errors (like 500)
