@@ -21,10 +21,10 @@
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                     <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Hey Courier</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Hey Couriers</li>
                                 </ol>
                             </nav>
-                            <h1>Hey Courier</h1>
+                            <h1>Hey Couriers</h1>
                             <p>
                                 More than 100+ companies turn to Digiteon to drive their businesses forward in the age
                                 of digital transformation.
@@ -43,7 +43,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Introduction-img.png" alt="" />
+                                    <img src="../images/heycourier.png" alt="">
                                 </div>
                             </div>
 
@@ -70,7 +70,7 @@
                                         Create a Scalable and User-Friendly Platform: Design an intuitive interface for both web and mobile users that can scale with the growing needs of the business.
                                         </p>
                                         <p>
-                                        Onboard Companies to Use the API: Facilitate the onboarding process for companies to integrate and utilize the HeyCourier API through WebHooks, allowing them to leverage the platform's capabilities for their own logistics needs.
+                                        Onboard Companies to Use the API: Facilitate the onboarding process for companies to integrate and utilize the HeyCouriers API through WebHooks, allowing them to leverage the platform's capabilities for their own logistics needs.
                                         </p>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                <img src="../images/heycourier.png" alt="" />
                                 </div>
                             </div>
 
@@ -146,7 +146,7 @@
                                             <li>A robust admin panel that allows for seamless management of deliveries, users, and overall operations, ensuring efficient oversight and control.
                                             </li>
                                         </ul>
-                                        <h5>Driver App</h5>
+                                        <h5>Mobile Driver App</h5>
                                         <ul>
                                             <li>A dedicated app for drivers, empowering them with tools for efficient and timely parcel deliveries, including real-time updates and navigation assistance.</li>
                                         </ul>
@@ -207,7 +207,7 @@
 
                                 <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Driver App</h2>
+                                        <h2>Mobile Driver App</h2>
                                         <p>Tools for drivers to manage their deliveries, receive real-time updates, and navigate efficiently.</p>
                                     </div>
                                 </div>
@@ -221,7 +221,7 @@
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>SMultiple User Logins</h2>
+                                        <h2>Multiple User Logins</h2>
                                         <p>Customizable access levels for different roles to streamline operations and responsibilities.</p>
                                     </div>
                                 </div>
@@ -249,16 +249,16 @@
                                     <h2>Conclusion</h2>
                                     <img class="my-3" src="../images/line.png" alt="">
 
-                                    <p><b>HeyCourier</b> exemplifies how technology can transform the logistics and courier industry by creating a dedicated platform for efficient delivery management. Nivzen Technologies' expertise in understanding client requirements and delivering tailored solutions played a pivotal role in the platform's success, setting a benchmark for innovation in the logistics sector.
+                                    <p><b>HeyCouriers</b> exemplifies how technology can transform the logistics and courier industry by creating a dedicated platform for efficient delivery management. Nivzen Technologies' expertise in understanding client requirements and delivering tailored solutions played a pivotal role in the platform's success, setting a benchmark for innovation in the logistics sector.
                                     </p>
-                                    <p>With HeyCourier, users can expect a seamless experience that not only meets their delivery needs but also enhances their overall logistics operations. For more information, visit HeyCourier or access the Admin Panel.</p>
+                                    <p>With HeyCouriers, users can expect a seamless experience that not only meets their delivery needs but also enhances their overall logistics operations. For more information, visit HeyCouriers or access the Admin Panel.</p>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../images/Hey Courrier-img.png" alt="" />
+                            <img src="../images/heycourier.png" alt="" />
                             </div>
                         </div>
                     </div>

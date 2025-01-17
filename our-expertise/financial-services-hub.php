@@ -61,7 +61,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part">
-                <img src="../images/Group2.png" alt="" />
+                <img src="../images/expertize-page/img-Financial-Services-Hub.png" alt="" />
               </div>
             </div>
           </div>

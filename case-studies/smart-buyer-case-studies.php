@@ -22,8 +22,8 @@
                                 <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                     <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
-                                            stuies</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">SmartBuyer</li>
+                                            studies</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Smart Buyer</li>
                                 </ol>
                             </nav>
                             <h1>Smart Buyer</h1>
@@ -146,8 +146,7 @@
 
                                             <h5>Cost Analysis and Reporting:</h5>
                                                 <ul>
-                                                    <li>Notifications and alerts for pending approvals and stock
-                                                        requirements.</li>
+                                                    
                                                     <li>Customizable reports for management.</li>
                                                 </ul>
                                             </li>

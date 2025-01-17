@@ -300,7 +300,7 @@
                                         href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
                                 <li><a class="dropdown-item"
                                         href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
-                                        Stuies</a></li>
+                                        Studies</a></li>
                             </ul>
                         </li>
 

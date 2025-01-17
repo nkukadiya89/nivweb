@@ -62,7 +62,7 @@ Whether you're starting from scratch or looking to redesign and improve an exist
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part">
-                <img src="../images/Group2.png" alt="" />
+                <img src="../images/expertize-page/img-Design-Planning-Services.png" alt="" />
               </div>
             </div>
           </div>

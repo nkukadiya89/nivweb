@@ -48,10 +48,10 @@
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
                             <div class="content-part   ">
                                 <div class="pharma-txt">
-                                    <h3>Hey Courier</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <h3>Hey Couriers</h3>
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
-                                        <b>Hey Courier </b>is a cutting-edge logistics platform available on both web and mobile applications, designed to provide businesses and individuals with smarter, faster, and more reliable courier services. Developed by <b>Nivzen Technologies</b>, both interfaces offer essential tools, with the mobile app empowering drivers through optimized delivery routes to minimize delays and maximize speed, revolutionizing courier services.
+                                        <b>Hey Couriers </b>is a cutting-edge logistics platform available on both web and mobile applications, designed to provide businesses and individuals with smarter, faster, and more reliable courier services. Developed by <b>Nivzen Technologies</b>, both interfaces offer essential tools, with the mobile app empowering drivers through optimized delivery routes to minimize delays and maximize speed, revolutionizing courier services.
                                     </p>
 
                                     <a href="./heycourrier-case-studies.php" class="border-gradient mt-3" role="button">
@@ -77,7 +77,7 @@
                             <div class="content-part  ">
                                 <div class="pharma-txt">
                                     <h3>PharmaLinkage</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b> Pharma MatchMaking Platform </b>is a unique digital platform designed to
                                         bridge the gap between pharmaceutical manufacturers and the facilities they
@@ -118,7 +118,7 @@
                             <div class="content-part   ">
                                 <div class="pharma-txt">
                                     <h3>Smart Buyer</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b>Smart Buyer </b>is a state-of-the-art procurement portal designed to
                                         streamline and optimize the procurement process for businesses.
@@ -153,7 +153,7 @@
                             <div class="content-part  ">
                                 <div class="pharma-txt">
                                     <h3>My OBGUIDE EHR System</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b>MyObGuide is an innovative Electronic Health Record (EHR) system </b>
                                         developed to address the specific needs of obstetric and gynecological (OB/GYN)
@@ -193,7 +193,7 @@
                             <div class="content-part   ">
                                 <div class="pharma-txt">
                                     <h3>Shivam Logistics</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b>Shivam Logistics </b>is a state-of-the-art procurement portal designed to
                                         streamline and optimize the procurement process for businesses.
@@ -228,7 +228,7 @@
                             <div class="content-part  ">
                                 <div class="pharma-txt">
                                     <h3>Onlyne Deals</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b>Onlyne Deals is an innovative Electronic Health Record (EHR) system </b>
                                         developed to address the specific needs of obstetric and gynecological (OB/GYN)
@@ -264,7 +264,7 @@
                             <div class="content-part   ">
                                 <div class="pharma-txt">
                                 <h3>Performaz BI</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b>Performaz BI is an innovative Electronic Health Record (EHR) system </b>
                                         developed to address the specific needs of obstetric and gynecological (OB/GYN)
