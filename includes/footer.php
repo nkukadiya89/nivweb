@@ -90,10 +90,10 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel award owl-footer">
-                <!-- <div class="item">
+            <!-- <div class="owl-carousel award owl-footer">
+                <div class="item">
                     <img src="<?php echo $projectFolderName?>/images/a1.png" alt="" />
-                </div> -->
+                </div> 
                 <div class="item">
                     <img src="<?php echo $projectFolderName?>/images/a2.png" alt="" />
                 </div>
@@ -106,10 +106,10 @@
                 <div class="item">
                     <img src="<?php echo $projectFolderName?>/images/a6.png" alt="" />
                 </div>
-                <!-- <div class="item">
+                <div class="item">
                     <img src="<?php echo $projectFolderName?>/images/a7.png" alt="" />
-                </div> -->
-            </div>
+                </div>
+            </div> -->
             <div class="copyright">
                 Copyright © <?php echo date('Y')?> Nivzen Technologies All rights reserved.
             </div>
