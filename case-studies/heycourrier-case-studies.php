@@ -20,7 +20,7 @@
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                     <li class="breadcrumb-item"><a
-                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                            href="<?php echo $projectFolderName ?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Hey Couriers</li>
                                 </ol>
@@ -150,7 +150,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/heycourier.png" alt="" />
+                                    <img src="../images/HeyCouriers.png" alt="" />
                                 </div>
                             </div>
 
