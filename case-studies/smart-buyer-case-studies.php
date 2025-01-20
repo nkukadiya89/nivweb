@@ -18,10 +18,11 @@
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
-                        <nav aria-label="breadcrumb">
+                            <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                             studies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Smart Buyer</li>
                                 </ol>
@@ -38,7 +39,7 @@
                 </div>
             </div>
 
-            
+
 
             <div class="case-studiedetail">
                 <div class="container">
@@ -56,14 +57,14 @@
                                     <div class="pharma-txt  mx-4">
                                         <h3>Client Requirements</h3>
                                         <img class="my-3" src="../images/line.png" alt="">
-                                            <h5>The client is a mid-sized manufacturing company facing challenges in
+                                        <h5>The client is a mid-sized manufacturing company facing challenges in
                                             managing procurement activities.</h5>
-                    
-                                            <p>Their procurement process was manual, involving extensive paperwork, delayed
+
+                                        <p>Their procurement process was manual, involving extensive paperwork, delayed
                                             approvals, and inconsistent supplier management.</p>
-                                            <p>These inefficiencies resulted in higher costs, frequent stockouts, and
+                                        <p>These inefficiencies resulted in higher costs, frequent stockouts, and
                                             strained supplier relationships.</P>
-                                    
+
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +102,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center my-4">
                                 <div class="image-part">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                    <img src="../images/casestudy-img/smartbuyer-solution.png" alt="" />
                                 </div>
                             </div>
 
@@ -118,46 +119,46 @@
                                             frontend.
                                             The solution includes the following features:</p>
 
-                                            <h5>Supplier Management:</h5>
-                                                <ul>
-                                                    <li>Centralized repository of suppliers.</li>
-                                                    <li>Evaluation and rating system for suppliers based on
-                                                        performance metrics.
-                                                    </li>
-                                                </ul>
-
+                                        <h5>Supplier Management:</h5>
+                                        <ul>
+                                            <li>Centralized repository of suppliers.</li>
+                                            <li>Evaluation and rating system for suppliers based on
+                                                performance metrics.
                                             </li>
+                                        </ul>
 
-                                            <h5>Automated Procurement Workflows:</h5>
-                                                <ul>
-                                                    <li>Digital purchase request and approval system.</li>
-                                                    <li>Automated purchase order (PO) generation.</li>
-                                                </ul>
-                                            </li>
+                                        </li>
 
-                                            <h5>Real-time Tracking:</h5>
-                                                <ul>
-                                                    <li>Dashboard for real-time tracking of procurement activities.
-                                                    </li>
-                                                    <li>Notifications and alerts for pending approvals and stock
-                                                        requirements.</li>
-                                                </ul>
-                                            </li>
+                                        <h5>Automated Procurement Workflows:</h5>
+                                        <ul>
+                                            <li>Digital purchase request and approval system.</li>
+                                            <li>Automated purchase order (PO) generation.</li>
+                                        </ul>
+                                        </li>
 
-                                            <h5>Cost Analysis and Reporting:</h5>
-                                                <ul>
-                                                    
-                                                    <li>Customizable reports for management.</li>
-                                                </ul>
+                                        <h5>Real-time Tracking:</h5>
+                                        <ul>
+                                            <li>Dashboard for real-time tracking of procurement activities.
                                             </li>
+                                            <li>Notifications and alerts for pending approvals and stock
+                                                requirements.</li>
+                                        </ul>
+                                        </li>
 
-                                            <h5>Integration Capabilities:</h5>
-                                                <ul>
-                                                    <li>Seamless integration with the company's existing ERP system.
-                                                    </li>
-                                                    <li>API support for third-party tools.</li>
-                                                </ul>
+                                        <h5>Cost Analysis and Reporting:</h5>
+                                        <ul>
+
+                                            <li>Customizable reports for management.</li>
+                                        </ul>
+                                        </li>
+
+                                        <h5>Integration Capabilities:</h5>
+                                        <ul>
+                                            <li>Seamless integration with the company's existing ERP system.
                                             </li>
+                                            <li>API support for third-party tools.</li>
+                                        </ul>
+                                        </li>
                                     </div>
                                 </div>
                             </div>
@@ -228,7 +229,7 @@
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p><b>Smart Buyer</b> has transformed the client's procurement
                                         operations, making
-                                        them more efficient, transparent, and cost-effective. 
+                                        them more efficient, transparent, and cost-effective.
                                         The solution's scalability ensures it can adapt to the client's
                                         growing needs,
                                         establishing a strong foundation for future digital
@@ -281,27 +282,25 @@
             <?php include '../includes/footer.php'; ?>
 
         </div>
-     
+
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
         </script>
         <script>
-       
-
         jQuery(function($) {
-          
+
             var doAnimations = function() {
-               
+
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-                
+
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-               
+
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 <
@@ -311,7 +310,7 @@
                 });
             };
 
-            
+
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 

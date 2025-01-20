@@ -20,8 +20,9 @@
                         <div class="inrpgtitle">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">My OBGUIDE EHR System</li>
                                 </ol>
@@ -52,9 +53,9 @@
                             <div class="col col-12 col-md-6 pharma-text">
                                 <div class="content-part animatable fadeInRight">
                                     <div class="pharma-txt">
-                                    <h3>Client Requirements</h3>
-                                    <img class="my-3 mb-4" src="../images/line.png" alt="">
-                                    
+                                        <h3>Client Requirements</h3>
+                                        <img class="my-3 mb-4" src="../images/line.png" alt="">
+
                                         <p>
                                             The client is a network of OB/GYN clinics that struggled with fragmented
                                             patient records, inefficient appointment scheduling, and lack of real-time
@@ -85,13 +86,13 @@
                                         <img class="my-3" src="../images/line.png" alt="">
                                         <ul>
                                             <li>To centralize patient records for ease of access and management.</li>
-                                            
+
                                             <li>To improve the efficiency of appointment scheduling and patient
                                                 tracking.</li>
                                             <li>To provide tools tailored for OB/GYN-specific workflows, including
                                                 prenatal care, ultrasounds, and delivery tracking.</li>
                                             <li>To enhance compliance with healthcare data privacy regulations.</li>
-</ul>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +104,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                    <img src="../images/casestudy-img/ob-guid-solution.png" alt="" />
                                 </div>
                             </div>
 
@@ -118,33 +119,42 @@
 
                                         <h5>Centralized Patient Records:</h5>
                                         <ul>
-                                        <li>Secure storage of patient history, diagnoses, lab results, and imaging.</li>
-                                        <li>Easy retrieval of longitudinal patient data for prenatal and postnatal care.
-                                        </li>
-</ul>
+                                            <li>Secure storage of patient history, diagnoses, lab results, and imaging.
+                                            </li>
+                                            <li>Easy retrieval of longitudinal patient data for prenatal and postnatal
+                                                care.
+                                            </li>
+                                        </ul>
                                         <h5>Specialized Workflow Support:</h5>
                                         <ul>
-                                        <li>Templates for common OB/GYN procedures and documentation.</li>
-                                        <li>Tracking of pregnancy milestones, including trimester-specific alerts.</li></ul>
+                                            <li>Templates for common OB/GYN procedures and documentation.</li>
+                                            <li>Tracking of pregnancy milestones, including trimester-specific alerts.
+                                            </li>
+                                        </ul>
                                         <h5>Appointment and Scheduling Management:</h5>
                                         <ul>
-                                        <li>Integrated appointment system with automatic reminders for patients.</li>
-                                        <li>Resource allocation for ultrasound and procedure rooms.</li></ul>
+                                            <li>Integrated appointment system with automatic reminders for patients.
+                                            </li>
+                                            <li>Resource allocation for ultrasound and procedure rooms.</li>
+                                        </ul>
                                         <h5>Analytics and Reporting:</h5>
                                         <ul>
-                                        <li>Visual dashboards for patient outcomes and clinic performance.</li>
-                                        <li>Built-in compliance reporting for medical standards.</li></ul>
+                                            <li>Visual dashboards for patient outcomes and clinic performance.</li>
+                                            <li>Built-in compliance reporting for medical standards.</li>
+                                        </ul>
 
                                         <h5>Collaboration Tools:</h5>
                                         <ul>
-                                        <li>Real-time data sharing between doctors within the clinic network.</li>
-                                        <li>Secure communication channels for patient updates and consultations.</li></ul>
+                                            <li>Real-time data sharing between doctors within the clinic network.</li>
+                                            <li>Secure communication channels for patient updates and consultations.
+                                            </li>
+                                        </ul>
                                         <h5>Compliance and Security:</h5>
                                         <ul>
-                                        <li>HIPAA-compliant system with role-bData encryption to safeguard sensitive
-                                            medical information.</li>
-                                        <li> API support for third-party tools.</li>
-</ul>
+                                            <li>HIPAA-compliant system with role-bData encryption to safeguard sensitive
+                                                medical information.</li>
+                                            <li> API support for third-party tools.</li>
+                                        </ul>
 
                                     </div>
                                 </div>
@@ -158,7 +168,7 @@
             <div class="case-key-featuer">
                 <div class="container">
 
-                <div class="text-center mt-3">
+                    <div class="text-center mt-3">
                         <h3>Key Features</h3>
                         <div class="dot-line">
                             <img class="my-3" src="../images/line2.png" alt="">
@@ -166,35 +176,35 @@
                     </div>
                     <div class="my-4">
                         <div class="content-text">
-                                <div class="timeline">
-                                    <div class="timeline-item">
-                                        <div class="content">
-                                            <h2>Improved Efficiency: </h2>
-                                            <p>Reduced documentation time by 35%, allowing doctors to focus more on
-                                                patient care.</p>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="content">
-                                            <h2>Enhanced Patient Experience:</h2>
-                                            <p>Streamlined scheduling and proactive follow-up increased patient
-                                                satisfaction scores by 25%.</p>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="content">
-                                            <h2>Data Accuracy:</h2>
-                                            <p>Centralized record management reduced errors in patient histories and
-                                                treatment plans.</p>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item">
-                                        <div class="content">
-                                            <h2>Compliance Adherence:</h2>
-                                            <p>Ensured all clinics adhered to HIPAA and other regulatory standards.</p>
-                                        </div>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="content">
+                                        <h2>Improved Efficiency: </h2>
+                                        <p>Reduced documentation time by 35%, allowing doctors to focus more on
+                                            patient care.</p>
                                     </div>
                                 </div>
+                                <div class="timeline-item">
+                                    <div class="content">
+                                        <h2>Enhanced Patient Experience:</h2>
+                                        <p>Streamlined scheduling and proactive follow-up increased patient
+                                            satisfaction scores by 25%.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="content">
+                                        <h2>Data Accuracy:</h2>
+                                        <p>Centralized record management reduced errors in patient histories and
+                                            treatment plans.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="content">
+                                        <h2>Compliance Adherence:</h2>
+                                        <p>Ensured all clinics adhered to HIPAA and other regulatory standards.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -260,26 +270,24 @@
             <?php include '../includes/footer.php'; ?>
 
         </div>
-      
+
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-      
-
         jQuery(function($) {
-           
+
             var doAnimations = function() {
-             
+
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-              
+
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-             
+
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -288,7 +296,7 @@
                 });
             };
 
-          
+
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 

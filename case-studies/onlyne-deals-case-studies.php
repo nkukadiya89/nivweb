@@ -18,8 +18,9 @@
                         <div class="inrpgtitle">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Onlyne Deals</li>
                                 </ol>
@@ -148,7 +149,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                    <img src="../images/casestudy-img/onlyne-deals-solution.png" alt="" />
                                 </div>
                             </div>
 
@@ -300,7 +301,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../images/Hey Courrier-img.png" alt="" />
+                                <img src="../images/casestudy-img/onlyne-deals-img.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -330,26 +331,24 @@
             <?php include '../includes/footer.php'; ?>
 
         </div>
-     
+
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-       
-
         jQuery(function($) {
-         
+
             var doAnimations = function() {
-              
+
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-              
+
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-               
+
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -358,7 +357,7 @@
                 });
             };
 
-         
+
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 

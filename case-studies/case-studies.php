@@ -19,7 +19,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
                             <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Case Studies</li>
                             </ol>
                             <h1>Case Studiese</h1>
@@ -35,8 +35,8 @@
                 </div>
             </div>
 
-                
-                 <div class="casestudiesrow bg2 SmartBuyer-part">
+
+            <div class="casestudiesrow bg2 SmartBuyer-part">
                 <div class="container">
                     <div class="row">
 
@@ -51,7 +51,12 @@
                                     <h3>Hey Couriers</h3>
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p>
-                                        <b>Hey Couriers </b>is a cutting-edge logistics platform available on both web and mobile applications, designed to provide businesses and individuals with smarter, faster, and more reliable courier services. Developed by <b>Nivzen Technologies</b>, both interfaces offer essential tools, with the mobile app empowering drivers through optimized delivery routes to minimize delays and maximize speed, revolutionizing courier services.
+                                        <b>Hey Couriers </b>is a cutting-edge logistics platform available on both web
+                                        and mobile applications, designed to provide businesses and individuals with
+                                        smarter, faster, and more reliable courier services. Developed by <b>Nivzen
+                                            Technologies</b>, both interfaces offer essential tools, with the mobile app
+                                        empowering drivers through optimized delivery routes to minimize delays and
+                                        maximize speed, revolutionizing courier services.
                                     </p>
 
                                     <a href="./heycourrier-case-studies.php" class="border-gradient mt-3" role="button">
@@ -64,7 +69,7 @@
                     </div>
                 </div>
             </div>
- <!-- part1 -->
+            <!-- part1 -->
             <div class="casestudiesrow bg1 PharmaLinkage-part">
                 <div class="container">
                     <div class="row">
@@ -176,17 +181,17 @@
             </div>
             <!-- part3end -->
 
-         
+
 
             <!-- part4 -->
 
-               <div class="casestudiesrow bg2 SmartBuyer-part">
+            <div class="casestudiesrow bg2 SmartBuyer-part">
                 <div class="container">
                     <div class="row">
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
                             <div class="image-part   ">
-                                <img src="../images/SmartBuyer-img.png" alt="" />
+                                <img src="../images/casestudy-img/shivamlogistic-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
@@ -203,7 +208,8 @@
                                         transparency, efficiency, and scalability in procurement operations.
                                     </p>
 
-                                    <a href="./shivam-logistics-case-studies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./shivam-logistics-case-studies.php" class="border-gradient mt-3"
+                                        role="button">
                                         <span>View Project</span>
                                     </a>
 
@@ -221,7 +227,7 @@
                     <div class="row">
                         <div class="col col-12 col-md-6 text-center">
                             <div class="image-part   ">
-                                <img src="../images/OBGUIDE-Conclusion-img.png" alt="" />
+                                <img src="../images/casestudy-img/onlyne-deals-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text">
@@ -239,7 +245,8 @@
 
                                     </p>
 
-                                    <a href="./onlyne-deals-case-studies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./onlyne-deals-case-studies.php" class="border-gradient mt-3"
+                                        role="button">
                                         <span>View Project</span>
                                     </a>
 
@@ -250,20 +257,20 @@
                 </div>
             </div>
             <!-- part5end -->
-   <!-- part6 -->
-   <div class="casestudiesrow bg2 SmartBuyer-part">
+            <!-- part6 -->
+            <div class="casestudiesrow bg2 SmartBuyer-part">
                 <div class="container">
                     <div class="row">
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
                             <div class="image-part   ">
-                                <img src="../images/SmartBuyer-img.png" alt="" />
+                                <img src="../images/casestudy-img/Performaz-img.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
                             <div class="content-part   ">
                                 <div class="pharma-txt">
-                                <h3>Performaz BI</h3>
+                                    <h3>Performaz BI</h3>
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p>
                                         <b>Performaz BI is an innovative Electronic Health Record (EHR) system </b>
@@ -289,25 +296,24 @@
             <?php include '../includes/footer.php'; ?>
 
         </div>
-    
+
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-    
         jQuery(function($) {
-         
+
             var doAnimations = function() {
-           
+
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-            
+
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-              
+
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -316,7 +322,7 @@
                 });
             };
 
-         
+
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 

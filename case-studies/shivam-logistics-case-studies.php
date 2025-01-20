@@ -18,8 +18,9 @@
                         <div class="inrpgtitle">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Shivam Logistics</li>
                                 </ol>
@@ -55,9 +56,13 @@
                                         <h5>The client approached Nivzen Technologies with the following
                                             objectives</h5>
                                         <p>
-                                        The requirements outlined above aim to address Shivam International Courier Service's challenges in logistics management, enhance operational efficiency, and improve customer satisfaction. The solution should be robust, scalable, and user-friendly, ensuring that Shivam can adapt to future demands in the logistics industry.
+                                            The requirements outlined above aim to address Shivam International Courier
+                                            Service's challenges in logistics management, enhance operational
+                                            efficiency, and improve customer satisfaction. The solution should be
+                                            robust, scalable, and user-friendly, ensuring that Shivam can adapt to
+                                            future demands in the logistics industry.
                                         </p>
-                                     
+
                                     </div>
                                 </div>
                             </div>
@@ -84,26 +89,30 @@
                                             <li>
                                                 <h5>Scattered Data Management</h5>
                                                 <p>
-                                                Multiple modules like cities, categories, and products were managed through disparate systems, leading to inefficiencies.
+                                                    Multiple modules like cities, categories, and products were managed
+                                                    through disparate systems, leading to inefficiencies.
                                                 </p>
                                             </li>
                                             <li>
                                                 <h5>Operational Inefficiencies</h5>
                                                 <p>
-                                                Manual processes for tasks such as booking LR (Lorry Receipt) and reverse pickups caused delays.
+                                                    Manual processes for tasks such as booking LR (Lorry Receipt) and
+                                                    reverse pickups caused delays.
                                                 </p>
                                             </li>
                                             <li>
                                                 <h5>Limited Reporting Capabilities</h5>
                                                 <p>
-                                                nadequate tools for generating detailed reports, hindering business insights.
+                                                    nadequate tools for generating detailed reports, hindering business
+                                                    insights.
                                                 </p>
 
                                             </li>
                                             <li>
                                                 <h5>Barcode Printing Challenges</h5>
                                                 <p>
-                                                Manual generation and printing of barcodes were time-consuming and prone to errors.
+                                                    Manual generation and printing of barcodes were time-consuming and
+                                                    prone to errors.
                                                 </p>
 
 
@@ -121,7 +130,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                    <img src="../images/casestudy-img/shivamlogistic-solution.png" alt="" />
                                 </div>
                             </div>
 
@@ -132,12 +141,14 @@
                                         <img class="my-3" src="../images/line.png" alt="">
                                         <h5>City Management</h5>
                                         <ul>
-                                            <li>Streamlined management of operational locations to ensure precise shipment routing.</li>
-                                           
+                                            <li>Streamlined management of operational locations to ensure precise
+                                                shipment routing.</li>
+
                                         </ul>
                                         <h5>Category Management</h5>
                                         <ul>
-                                            <li>Organized courier categories based on shipment type (e.g., documents, packages).</li>
+                                            <li>Organized courier categories based on shipment type (e.g., documents,
+                                                packages).</li>
                                         </ul>
                                         <h5>Impact and Results
                                         </h5>
@@ -220,7 +231,8 @@
                                 <div class="timeline-item">
                                     <div class="content highlight">
                                         <h2>Security</h2>
-                                        <p>Ensures data integrity and compliance with international shipping standards.</p>
+                                        <p>Ensures data integrity and compliance with international shipping standards.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -240,8 +252,12 @@
                                     <h2>Conclusion</h2>
                                     <img class="my-3" src="../images/line.png" alt="">
 
-                                    <p> The custom logistics process solution developed by  <b> Nivzen Technologies' </b> has transformed Shivam International Courier Service’s operations, making them more efficient and customer-centric. By addressing key challenges and providing scalable solutions, the application has positioned Shivam for sustained growth in the competitive logistics market.
-                        
+                                    <p> The custom logistics process solution developed by <b> Nivzen Technologies' </b>
+                                        has transformed Shivam International Courier Service’s operations, making them
+                                        more efficient and customer-centric. By addressing key challenges and providing
+                                        scalable solutions, the application has positioned Shivam for sustained growth
+                                        in the competitive logistics market.
+
                                     </p>
 
 
@@ -250,7 +266,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../images/Hey Courrier-img.png" alt="" />
+                                <img src="../images/casestudy-img/shivamlogistic-img.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -280,26 +296,24 @@
             <?php include '../includes/footer.php'; ?>
 
         </div>
-     
+
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-       
-
         jQuery(function($) {
-         
+
             var doAnimations = function() {
-              
+
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-              
+
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-               
+
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -308,7 +322,7 @@
                 });
             };
 
-         
+
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 
