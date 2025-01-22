@@ -42,7 +42,7 @@
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
                             <div class="image-part">
-                                <img src="../images/heycourier.png" alt="" />
+                                <img src="../images/HeyCouriers.png" alt="" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
@@ -84,7 +84,8 @@
                                     <h3>PharmaLinkage</h3>
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p>
-                                        <b> Pharma MatchMaking Platform </b>is a unique digital platform designed to
+                                        <b> Pharma Facilities Match Making Platform </b>is a unique digital platform
+                                        designed to
                                         bridge the gap between pharmaceutical manufacturers and the facilities they
                                         need.
                                         The platform acts as a matchmaking service, connecting manufacturers with

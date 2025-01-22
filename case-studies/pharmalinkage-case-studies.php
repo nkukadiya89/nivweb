@@ -18,16 +18,17 @@
                         <div class="inrpgtitle">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                    <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                    <li class="breadcrumb-item"><a
+                                            href="<?php echo $projectFolderName ?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">PharmaLinkage</li>
                                 </ol>
                             </nav>
                             <h1>PharmaLinkage</h1>
                             <p>
-                                More than 100+ companies turn to Digiteon to drive their businesses forward in the age
-                                of digital transformation.
+                                Transforming Pharma Facility Matchmaking with PharmaLinkage: A Seamless Connection
+                                Platform.
                             </p>
                         </div>
                         <div class="bnrimg">
@@ -98,45 +99,23 @@
                                         <h3>Key Challenges</h3>
                                         <img class="my-3" src="../images/line.png" alt=""><br>
 
-                                        <ol>
-                                            <li>
-                                                <h5>Data Security and Compliance</h5>
-                                                <p>
-                                                    Ensuring the platform complies with industry regulations and
-                                                    securely handles sensitive data, such as certifications and
-                                                    proprietary
-                                                    manufacturing details.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <h5>Efficient Matchmaking Algorithm</h5>
-                                                <p>
-                                                    Designing an algorithm that considers multiple parameters, including
-                                                    production capacity, certifications, location, and lead times, to
-                                                    generate
-                                                    precise matches.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <h5>Scalability</h5>
-                                                <p>
-                                                    Building system capable of supporting a growing user base without
-                                                    compromising performance
-                                                </p>
+                                        <h5>For Pharma Manufacturers:
+                                        </h5>
 
+                                        <ul class="m-0">
+                                            <li>Difficulty finding suitable pharma facilities for manufacturing needs.
                                             </li>
-                                            <li>
-                                                <h5>User Onboarding</h5>
-                                                <p>
-                                                    Simplifying the onboarding process for facility owners and
-                                                    manufacturers,
-                                                    many of whom were not familiar with digital platforms.
-                                                </p>
-
-
+                                            <li>Limited access to a centralized platform for facility comparisons.
                                             </li>
-
-                                        </ol>
+                                            <li>Challenges in showcasing capabilities to potential manufacturers.
+                                            </li>
+                                            <li>Inefficient lead generation and partnership opportunities.
+                                            </li>
+                                            <li>Lack of transparency and streamlined communication during collaboration.
+                                            </li>
+                                            <li>Time-consuming and manual matchmaking processes.
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -159,45 +138,32 @@
                                         <img class="my-3" src="../images/line.png" alt="">
                                         <h5>Compliance and Security Measures </h5>
                                         <ul>
+                                            <li>A single platform to connect pharma manufacturers with suitable
+                                                facilities based on their requirements.
+                                            </li>
                                             <li>Data encryption for all sensitive information.</li>
                                             <li>Role-based access control (RBAC) to ensure secure data access.</li>
                                             <li>GDPR compliance to protect user privacy and manage data processing
                                                 transparently.</li>
+
+                                        </ul>
                                         </ul>
                                         <h5>User Experience Optimization </h5>
                                         <ul>
+                                            <li>Facility owners can showcase their capabilities, certifications, and
+                                                infrastructure to attract manufacturers.
+                                            </li>
+
                                             <li>Simplified onboarding with guided steps for profile setup.</li>
                                             <li>Interactive walkthroughs to educate users about platform features.</li>
                                             <li>Mobile-friendly interface for accessibility on any device.</li>
                                         </ul>
-                                        <h5>Impact and Results
+                                        <h5>Streamlined Communication:
                                         </h5>
-                                        <ol>
-                                            <li>
-                                                <h5>Enhanced Collaboration</h5>
-                                                <p>Platform facilitated collaborations between hundreds of manufacturers
-                                                    and
-                                                    facilities within its first year of operation.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Time and Cost Savings</h5>
-                                                <p>The matchmaking algorithm reduced the time spent searching for
-                                                    suitable
-                                                    facilities by over 70%.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Market Penetration</h5>
-                                                <p>The platform attracted a diverse user base, from small-scale
-                                                    manufacturers to
-                                                    multinational pharmaceutical companies.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Data-Driven Insights</h5>
-                                                <p>The admin dashboard provided actionable insights into market trends,
-                                                    helping
-                                                    facilities and manufacturers align their operations with demand.</p>
-                                            </li>
-                                        </ol>
+                                        <ul>
+                                            <li>Integrated tools enable transparent and efficient communication between
+                                                manufacturers and facility owners.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -319,9 +285,11 @@
                         <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
                         <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
                         <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
                         <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
                         <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
                         <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>
@@ -330,26 +298,24 @@
             <?php include '../includes/footer.php'; ?>
 
         </div>
-     
+
         <script src="../js/jquery.js"></script>
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-       
-
         jQuery(function($) {
-         
+
             var doAnimations = function() {
-              
+
                 var offset = $(window).scrollTop() + $(window).height(),
                     $animatables = $(".animatable");
 
-              
+
                 if ($animatables.length == 0) {
                     $(window).off("scroll", doAnimations);
                 }
 
-               
+
                 $animatables.each(function(i) {
                     var $animatable = $(this);
                     if ($animatable.offset().top + $animatable.height() - 20 < offset) {
@@ -358,7 +324,7 @@
                 });
             };
 
-         
+
             $(window).on("scroll", doAnimations);
             $(window).trigger("scroll");
 

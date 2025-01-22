@@ -27,8 +27,7 @@
                             </nav>
                             <h1>Hey Couriers</h1>
                             <p>
-                                More than 100+ companies turn to Digiteon to drive their businesses forward in the age
-                                of digital transformation.
+                                Streamlining Package Delivery with Currier: A Modern Logistics Solution.
                             </p>
                         </div>
                         <div class="bnrimg">
@@ -81,7 +80,7 @@
                                         </p>
                                         <p>
                                             Onboard Companies to Use the API: Facilitate the onboarding process for
-                                            companies to integrate and utilize the HeyCouriers API through WebHooks,
+                                            companies to integrate and utilize the Hey Couriers API through WebHooks,
                                             allowing them to leverage the platform's capabilities for their own
                                             logistics needs.
                                         </p>
@@ -107,38 +106,28 @@
                                         <h3>Key Challenges</h3>
                                         <img class="my-3" src="../images/line.png" alt=""><br>
 
-                                        <ol>
-                                            <li>
-                                                <h5>Data Security and Compliance</h5>
-                                                <p>
-                                                    Ensuring the platform complies with industry regulations and
-                                                    securely handles sensitive data, such as user information and
-                                                    delivery details.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <h5>Efficient Route Optimization</h5>
-                                                <p>
-                                                    Designing a system that utilizes Google Maps APIs effectively to
-                                                    provide real-time tracking and optimal delivery routes.
-                                                </p>
-                                            </li>
-                                            <li>
-                                                <h5>Scalability</h5>
-                                                <p>
-                                                    Building a system capable of supporting a growing user base and
-                                                    increasing delivery volumes without compromising performance.
-                                                </p>
+                                        <h5>Admin</h5>
 
+                                        <ul class="m-0">
+                                            <li>Manual package assignment and route planning.
                                             </li>
-                                            <li>
-                                                <h5>User Onboarding</h5>
-                                                <p>
-                                                    Simplifying the onboarding process for drivers and users, many of
-                                                    whom may not be familiar with digital logistics platforms.
-                                                </p>
+                                            <li>Lack of real-time tracking and communication with drivers.
                                             </li>
-                                        </ol>
+                                            <li>Inefficient data management and delivery monitoring.
+                                            </li>
+                                        </ul>
+
+                                        <h5>Drivers</h5>
+
+                                        <ul class="m-0">
+                                            <li>Inefficient routes and package details access.
+                                            </li>
+                                            <li>No real-time updates or proof of delivery tools.
+                                            </li>
+                                            <li>Limited performance tracking and accountability.
+                                            </li>
+                                        </ul>
+
                                     </div>
                                 </div>
                             </div>
@@ -177,32 +166,7 @@
                                             <li>Real-time tracking of delivery drivers and packages.</li>
                                             <li>Displaying location information for customers and delivery teams.</li>
                                         </ul>
-                                        <h5>Impact and Results
-                                        </h5>
-                                        <ol>
-                                            <li>
-                                                <h5>Enhanced Operational Efficiency</h5>
-                                                <p>The platform significantly improved the management of deliveries and
-                                                    user interactions, leading to smoother operations.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Timely Deliveries</h5>
-                                                <p>The integration of Google Maps for route optimization resulted in
-                                                    faster delivery times and improved customer satisfaction.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Scalable Solution</h5>
-                                                <p>The platform successfully supported a growing user base,
-                                                    accommodating increased delivery volumes without performance
-                                                    degradation.</p>
-                                            </li>
-                                            <li>
-                                                <h5>User -Friendly Experience</h5>
-                                                <p>The intuitive interface and streamlined onboarding process
-                                                    facilitated quick adoption by drivers and users, enhancing overall
-                                                    engagement.</p>
-                                            </li>
-                                        </ol>
+
                                     </div>
                                 </div>
                             </div>
@@ -267,6 +231,13 @@
                                         </p>
                                     </div>
                                 </div>
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Webhook Documentstion</h2>
+                                        <p>Package Import from other systems and Tracking APIs webhook documentation.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -284,15 +255,15 @@
                                     <h2>Conclusion</h2>
                                     <img class="my-3" src="../images/line.png" alt="">
 
-                                    <p><b>HeyCouriers</b> exemplifies how technology can transform the logistics and
+                                    <p><b>Hey Couriers</b> exemplifies how technology can transform the logistics and
                                         courier industry by creating a dedicated platform for efficient delivery
                                         management. Nivzen Technologies' expertise in understanding client requirements
                                         and delivering tailored solutions played a pivotal role in the platform's
                                         success, setting a benchmark for innovation in the logistics sector.
                                     </p>
-                                    <p>With HeyCouriers, users can expect a seamless experience that not only meets
+                                    <p>With Hey Couriers, users can expect a seamless experience that not only meets
                                         their delivery needs but also enhances their overall logistics operations. For
-                                        more information, visit HeyCouriers or access the Admin Panel.</p>
+                                        more information, visit Hey Couriers or access the Admin Panel.</p>
 
                                 </div>
                             </div>
@@ -318,9 +289,11 @@
                         <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
                         <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
                         <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
                         <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
                         <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
                         <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>
@@ -334,51 +307,51 @@
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-        jQuery(function($) {
+            jQuery(function ($) {
 
-            var doAnimations = function() {
+                var doAnimations = function () {
 
-                var offset = $(window).scrollTop() + $(window).height(),
-                    $animatables = $(".animatable");
-
-
-                if ($animatables.length == 0) {
-                    $(window).off("scroll", doAnimations);
-                }
+                    var offset = $(window).scrollTop() + $(window).height(),
+                        $animatables = $(".animatable");
 
 
-                $animatables.each(function(i) {
-                    var $animatable = $(this);
-                    if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-                        $animatable.removeClass("animatable").addClass("animated");
+                    if ($animatables.length == 0) {
+                        $(window).off("scroll", doAnimations);
                     }
+
+
+                    $animatables.each(function (i) {
+                        var $animatable = $(this);
+                        if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+                            $animatable.removeClass("animatable").addClass("animated");
+                        }
+                    });
+                };
+
+
+                $(window).on("scroll", doAnimations);
+                $(window).trigger("scroll");
+
+                $(".ward").owlCarousel({
+                    loop: false,
+                    margin: 0,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 3,
+                        },
+                        600: {
+                            items: 4,
+                        },
+                        1000: {
+                            items: 6,
+                        },
+                        1300: {
+                            items: 6,
+                        },
+                    },
                 });
-            };
-
-
-            $(window).on("scroll", doAnimations);
-            $(window).trigger("scroll");
-
-            $(".ward").owlCarousel({
-                loop: false,
-                margin: 0,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 3,
-                    },
-                    600: {
-                        items: 4,
-                    },
-                    1000: {
-                        items: 6,
-                    },
-                    1300: {
-                        items: 6,
-                    },
-                },
             });
-        });
         </script>
     </body>
 
