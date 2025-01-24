@@ -100,8 +100,6 @@
                                         <span>View Project</span>
                                     </a>
 
-
-
                                 </div>
                             </div>
                         </div>
@@ -158,10 +156,13 @@
                         <div class="col col-12 col-md-6 pharma-text">
                             <div class="content-part  ">
                                 <div class="pharma-txt">
-                                    <h3>My OBGUIDE EHR System</h3>
+                                    <h3>
+                                        My OBGUIDE EHR System</h3>
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p>
-                                        <b>MyObGuide is an innovative Electronic Health Record (EHR) system </b>
+                                        <b>
+                                            My OBGUIDE EHR System is an innovative Electronic Health Record (EHR) system
+                                        </b>
                                         developed to address the specific needs of obstetric and gynecological (OB/GYN)
                                         doctors.
                                         Created by <b>Nivzen Technologies</b>, the platform empowers healthcare
@@ -294,6 +295,42 @@
                 </div>
             </div>
             <!-- part6end -->
+
+            <!-- part7 -->
+            <div class="casestudiesrow bg3 PharmaLinkage-part">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-12 col-md-6 text-center">
+                            <div class="image-part   ">
+                                <img src="../images/casestudy-img/lucysuit-img.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="col col-12 col-md-6 pharma-text">
+                            <div class="content-part  ">
+                                <div class="pharma-txt">
+                                    <h3>Lucysuit</h3>
+                                    <img class="my-3" src="../images/line.png" alt="">
+                                    <p>
+                                        <b>Lucysuit is an innovative Electronic Health Record (EHR) system </b>
+                                        developed to address the specific needs of obstetric and gynecological (OB/GYN)
+                                        doctors.
+                                        Created by <b>Nivzen Technologies</b>, the platform empowers healthcare
+                                        professionals by streamlining patient data management, improving care delivery,
+                                        and ensuring compliance with medical standards
+
+                                    </p>
+
+                                    <a href="./lucysuit-case-stydies.php" class="border-gradient mt-3" role="button">
+                                        <span>View Project</span>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- part7end -->
             <?php include '../includes/footer.php'; ?>
 
         </div>
@@ -302,51 +339,51 @@
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-        jQuery(function($) {
+            jQuery(function ($) {
 
-            var doAnimations = function() {
+                var doAnimations = function () {
 
-                var offset = $(window).scrollTop() + $(window).height(),
-                    $animatables = $(".animatable");
-
-
-                if ($animatables.length == 0) {
-                    $(window).off("scroll", doAnimations);
-                }
+                    var offset = $(window).scrollTop() + $(window).height(),
+                        $animatables = $(".animatable");
 
 
-                $animatables.each(function(i) {
-                    var $animatable = $(this);
-                    if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-                        $animatable.removeClass("animatable").addClass("animated");
+                    if ($animatables.length == 0) {
+                        $(window).off("scroll", doAnimations);
                     }
+
+
+                    $animatables.each(function (i) {
+                        var $animatable = $(this);
+                        if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+                            $animatable.removeClass("animatable").addClass("animated");
+                        }
+                    });
+                };
+
+
+                $(window).on("scroll", doAnimations);
+                $(window).trigger("scroll");
+
+                $(".ward").owlCarousel({
+                    loop: false,
+                    margin: 0,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 3,
+                        },
+                        600: {
+                            items: 4,
+                        },
+                        1000: {
+                            items: 6,
+                        },
+                        1300: {
+                            items: 6,
+                        },
+                    },
                 });
-            };
-
-
-            $(window).on("scroll", doAnimations);
-            $(window).trigger("scroll");
-
-            $(".ward").owlCarousel({
-                loop: false,
-                margin: 0,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 3,
-                    },
-                    600: {
-                        items: 4,
-                    },
-                    1000: {
-                        items: 6,
-                    },
-                    1300: {
-                        items: 6,
-                    },
-                },
             });
-        });
         </script>
     </body>
 

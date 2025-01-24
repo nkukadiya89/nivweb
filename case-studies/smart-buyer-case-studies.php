@@ -241,13 +241,13 @@
                                         set a benchmark
                                         for procurement excellence.
 
-                                    <div class="d-grid gap-2 col-lg-4  col-sm-12  mx-auto card-btn">
+                                        <!-- <div class="d-grid gap-2 col-lg-4  col-sm-12  mx-auto card-btn">
                                         <a href="javascript:history.go(-1)">
                                             <button class="border-gradient">
                                                 <span> View All Resources</span>
                                             </button>
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -272,9 +272,11 @@
                         <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
                         <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
                         <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
                         <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
                         <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
                         <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>

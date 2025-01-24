@@ -150,34 +150,7 @@
                                             <li>Organized courier categories based on shipment type (e.g., documents,
                                                 packages).</li>
                                         </ul>
-                                        <h5>Impact and Results
-                                        </h5>
-                                        <ol>
-                                            <li>
-                                                <h5>Product Management</h5>
-                                                <p>Detailed tracking and management of shipped products.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Departments</h5>
-                                                <p>Structured organization of Shivam’s internal operations.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Vendor Management</h5>
-                                                <p>Centralized tracking of vendors for smooth collaboration.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Receiver Company Management</h5>
-                                                <p>Ensures accurate delivery to intended businesses.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Booking LR</h5>
-                                                <p>Simplified process for creating and managing lorry receipts.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Reverse Pickup</h5>
-                                                <p>Dedicated module for managing return shipments efficiently.</p>
-                                            </li>
-                                        </ol>
+
                                     </div>
                                 </div>
                             </div>
@@ -285,9 +258,11 @@
                         <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
                         <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
                         <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
                         <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
                         <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
                         <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>

@@ -171,34 +171,7 @@
                                             <li>Interactive walkthroughs to educate users about platform features.</li>
                                             <li>Mobile-friendly interface for accessibility on any device.</li>
                                         </ul>
-                                        <h5>Impact and Results
-                                        </h5>
-                                        <ol>
-                                            <li>
-                                                <h5>Enhanced Collaboration</h5>
-                                                <p>Platform facilitated collaborations between hundreds of manufacturers
-                                                    and
-                                                    facilities within its first year of operation.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Time and Cost Savings</h5>
-                                                <p>The matchmaking algorithm reduced the time spent searching for
-                                                    suitable
-                                                    facilities by over 70%.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Market Penetration</h5>
-                                                <p>The platform attracted a diverse user base, from small-scale
-                                                    manufacturers to
-                                                    multinational pharmaceutical companies.</p>
-                                            </li>
-                                            <li>
-                                                <h5>Data-Driven Insights</h5>
-                                                <p>The admin dashboard provided actionable insights into market trends,
-                                                    helping
-                                                    facilities and manufacturers align their operations with demand.</p>
-                                            </li>
-                                        </ol>
+
                                     </div>
                                 </div>
                             </div>
@@ -320,9 +293,11 @@
                         <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
                         <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
                         <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
                         <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
                         <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
                         <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>

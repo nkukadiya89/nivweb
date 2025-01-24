@@ -5,7 +5,7 @@
                 <div class="col-12 col-sm-6 col-md-12 col-lg-3">
                     <a href="<?php echo $projectFolderName?>" class="footer-logo"
                         aria-label="this redirect to home page">
-                        <img src="<?php echo $projectFolderName?>/images/footer-logo.png" alt="footer logo" /></a>
+                        <img src="<?php echo $projectFolderName?>/images/footer-logo2.svg" alt="footer logo" /></a>
                     <div class="follow-up">
                         <ul class="list-inline">
                             <li>

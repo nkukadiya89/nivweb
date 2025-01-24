@@ -5,7 +5,7 @@
     <header>
         <div class="logo">
             <a class="navbar-brand m-0" href=" <?php echo $projectFolderName?>"
-                aria-label="image which shows site logo"><img src="/nivweb/images/site-logo.png" alt="site logo" /></a>
+                aria-label="image which shows site logo"><img src="/nivweb/images/site-logo2.svg" alt="site logo" /></a>
         </div>
         <div class="headright">
             <nav class="navbar navbar-expand-lg ">
@@ -23,10 +23,10 @@
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/aboutus.php">About
                                         Us</a></li>
-                                <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/ourteam.php">Our
-                                        Team</a></li>
-                                <li><a class="dropdown-item"
-                                        href="<?php echo $projectFolderName?>/lifeatnivzen.php">Life at Nivzen </a></li>
+                                <!-- <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/ourteam.php">Our
+                                        Team</a></li> -->
+                                <!-- <li><a class="dropdown-item"
+                                        href="<?php echo $projectFolderName?>/lifeatnivzen.php">Life at Nivzen </a></li> -->
                                 <li><a class="dropdown-item"
                                         href="<?php echo $projectFolderName?>/resources/careers/careers.php">Career</a>
                                 </li>
