@@ -20,15 +20,15 @@
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                     <li class="breadcrumb-item"><a
-                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                            href="<?php echo $projectFolderName ?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Shivam Logistics</li>
                                 </ol>
                             </nav>
                             <h1>Shivam Logistics</h1>
                             <p>
-                                More than 100+ companies turn to Digiteon to drive their businesses forward in the age
-                                of digital transformation.
+                                Streamlining supply chain efficiency and delivery solutions with Shivam Logistics'
+                                innovative approach
                             </p>
                         </div>
                         <div class="bnrimg">
@@ -276,51 +276,51 @@
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-        jQuery(function($) {
+            jQuery(function ($) {
 
-            var doAnimations = function() {
+                var doAnimations = function () {
 
-                var offset = $(window).scrollTop() + $(window).height(),
-                    $animatables = $(".animatable");
-
-
-                if ($animatables.length == 0) {
-                    $(window).off("scroll", doAnimations);
-                }
+                    var offset = $(window).scrollTop() + $(window).height(),
+                        $animatables = $(".animatable");
 
 
-                $animatables.each(function(i) {
-                    var $animatable = $(this);
-                    if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-                        $animatable.removeClass("animatable").addClass("animated");
+                    if ($animatables.length == 0) {
+                        $(window).off("scroll", doAnimations);
                     }
+
+
+                    $animatables.each(function (i) {
+                        var $animatable = $(this);
+                        if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+                            $animatable.removeClass("animatable").addClass("animated");
+                        }
+                    });
+                };
+
+
+                $(window).on("scroll", doAnimations);
+                $(window).trigger("scroll");
+
+                $(".ward").owlCarousel({
+                    loop: false,
+                    margin: 0,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 3,
+                        },
+                        600: {
+                            items: 4,
+                        },
+                        1000: {
+                            items: 6,
+                        },
+                        1300: {
+                            items: 6,
+                        },
+                    },
                 });
-            };
-
-
-            $(window).on("scroll", doAnimations);
-            $(window).trigger("scroll");
-
-            $(".ward").owlCarousel({
-                loop: false,
-                margin: 0,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 3,
-                    },
-                    600: {
-                        items: 4,
-                    },
-                    1000: {
-                        items: 6,
-                    },
-                    1300: {
-                        items: 6,
-                    },
-                },
             });
-        });
         </script>
     </body>
 

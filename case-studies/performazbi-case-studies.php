@@ -20,15 +20,15 @@
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                     <li class="breadcrumb-item"><a
-                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                            href="<?php echo $projectFolderName ?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Performaz BI</li>
                                 </ol>
                             </nav>
                             <h1>Performaz BI</h1>
                             <p>
-                                More than 100+ companies turn to Digiteon to drive their businesses forward in the age
-                                of digital transformation.
+                                AI-driven Business Intelligence platform that integrates, analyzes, and visualizes data
+                                in real-time to enhance decision-making and operational efficiency.
                             </p>
                         </div>
                         <div class="bnrimg">
@@ -56,27 +56,14 @@
                                         <h5>The client approached Nivzen Technologies with the following
                                             objectives</h5>
                                         <p>
+                                            Centralized data integration from multiple sources.
+                                            Automated and real-time reporting.
+                                            Interactive dashboards with AI-driven insights.
+                                            Scalable architecture to handle large datasets.
+                                            Secure role-based access control.
 
-                                            Develop a platform to connect pharmaceutical manufacturers with production
-                                            facilities based on specific requirements such as capacity, certifications,
-                                            and geographic location.
+                                        </p>
 
-                                        </p>
-                                        <p>
-                                            Incorporate features to manage profiles, upload facility certifications, and
-                                            automate matchmaking based on predefined criteria.
-                                        </p>
-                                        <p>
-                                            Ensure data privacy and adherence to regulatory standards in the
-                                            pharmaceutical industry.
-                                        </p>
-                                        <p>
-                                            Provide robust search, filter, and communication tools for users to
-                                            streamline the partnership process.
-                                        </p>
-                                        <p>
-                                            Create a scalable and user-friendly platform with an intuitive interface.
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -101,37 +88,32 @@
 
                                         <ol>
                                             <li>
-                                                <h5>Data Security and Compliance</h5>
+                                                <h5>Data Silos </h5>
                                                 <p>
-                                                    Ensuring the platform complies with industry regulations and
-                                                    securely handles sensitive data, such as certifications and
-                                                    proprietary
-                                                    manufacturing details.
+                                                    Client data was scattered across multiple databases, making it
+                                                    difficult to generate consolidated reports.
                                                 </p>
                                             </li>
                                             <li>
-                                                <h5>Efficient Matchmaking Algorithm</h5>
+                                                <h5>Manual Reporting </h5>
                                                 <p>
-                                                    Designing an algorithm that considers multiple parameters, including
-                                                    production capacity, certifications, location, and lead times, to
-                                                    generate
-                                                    precise matches.
+                                                    The existing reporting process was time-consuming and prone to human
+                                                    errors.
                                                 </p>
                                             </li>
                                             <li>
-                                                <h5>Scalability</h5>
+                                                <h5>Lack of Real-Time Insights </h5>
                                                 <p>
-                                                    Building system capable of supporting a growing user base without
-                                                    compromising performance
+                                                    Decision-makers lacked real-time data visualization, leading to
+                                                    delayed business strategies.
                                                 </p>
 
                                             </li>
                                             <li>
-                                                <h5>User Onboarding</h5>
+                                                <h5>Scalability Issues </h5>
                                                 <p>
-                                                    Simplifying the onboarding process for facility owners and
-                                                    manufacturers,
-                                                    many of whom were not familiar with digital platforms.
+                                                    The legacy system could not efficiently handle large data sets and
+                                                    real-time analytics.
                                                 </p>
 
 
@@ -158,20 +140,37 @@
                                     <div class="pharma-txt">
                                         <h3>Solution</h3>
                                         <img class="my-3" src="../images/line.png" alt="">
-                                        <h5>Compliance and Security Measures </h5>
+                                        <h5>Unified Data Integration </h5>
                                         <ul>
-                                            <li>Data encryption for all sensitive information.</li>
-                                            <li>Role-based access control (RBAC) to ensure secure data access.</li>
-                                            <li>GDPR compliance to protect user privacy and manage data processing
-                                                transparently.</li>
+                                            <li>The BI tool aggregates data from multiple sources, including databases,
+                                                APIs, and third-party applications, ensuring a centralized data
+                                                repository.</li>
                                         </ul>
-                                        <h5>User Experience Optimization </h5>
+                                        <h5>Advanced Analytics & AI-powered Insights </h5>
                                         <ul>
-                                            <li>Simplified onboarding with guided steps for profile setup.</li>
-                                            <li>Interactive walkthroughs to educate users about platform features.</li>
-                                            <li>Mobile-friendly interface for accessibility on any device.</li>
+                                            <li>Built-in AI models provide predictive analytics and trend forecasting
+                                                to enhance business decision-making.</li>
                                         </ul>
-
+                                        <h5>Interactive Dashboards & Reports </h5>
+                                        <ul>
+                                            <li>A user-friendly interface with dynamic visualizations allows users to
+                                                create customizable reports and dashboards.</li>
+                                        </ul>
+                                        <h5>Real-Time Data Processing </h5>
+                                        <ul>
+                                            <li>The system delivers real-time data updates, ensuring accurate and timely
+                                                insights.</li>
+                                        </ul>
+                                        <h5>Role-Based Access Control </h5>
+                                        <ul>
+                                            <li>Secure access to dashboards and reports based on user roles and
+                                                permissions.</li>
+                                        </ul>
+                                        <h5>Scalability & Performance Optimization </h5>
+                                        <ul>
+                                            <li>Optimized database architecture ensures high-speed data processing, even
+                                                for large datasets.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -196,49 +195,43 @@
 
                                 <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Facility and Manufacturer Profiles</h2>
-                                        <p> Each facility and manufacturer can create detailed profiles with fields for
-                                            certifications, production capabilities, location, and contact details.</p>
+                                        <h2>Data Aggregation </h2>
+                                        <p> Seamlessly integrates data from multiple sources.</p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Advanced Matchmaking Algorithm</h2>
-                                        <p>The algorithm matches facilities and manufacturers based on multi-factor
-                                            criteria, prioritizing certifications and capacity requirements.</p>
+                                        <h2>Customizable Dashboards</h2>
+                                        <p>Users can create and modify dashboards based on specific KPIs.</p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Search and Filter Options</h2>
-                                        <p>Users can refine searches based on location, certifications, and facility
-                                            specialization.</p>
+                                        <h2>AI-Powered Analytics</h2>
+                                        <p> Provides predictive insights and trend analysis.</p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Secure Document Management</h2>
-                                        <p>Facilities can upload and share certifications securely, with access
-                                            restricted to authorized users.</p>
+                                        <h2>Real-Time Reporting </h2>
+                                        <p>Generates instant reports with real-time data updates.</p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Communication Module</h2>
-                                        <p>A built-in messaging system enables secure communication between
-                                            manufacturers and facility owners.</p>
+                                        <h2>User Access Management</h2>
+                                        <p>Role-based access control ensures data security.</p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Dashboard for Admins</h2>
-                                        <p>Administrators can monitor activity, manage disputes, and ensure compliance
-                                            with platform policies.</p>
+                                        <h2>Performance Optimization</h2>
+                                        <p>Ensures high-speed data processing for large datasets.</p>
                                     </div>
                                 </div>
 
@@ -260,15 +253,11 @@
                                     <h2>Conclusion</h2>
                                     <img class="my-3" src="../images/line.png" alt="">
 
-                                    <p>Platform exemplifies how technology can address industry-specific challenges by
-                                        creating a dedicated platform for efficient resource utilization and
-                                        collaboration. <br><br>
-                                        <b> Nivzen Technologies' </b>expertise in understanding client requirements and
-                                        delivering tailored solutions played a pivotal role in the platform's success,
-                                        setting a benchmark for innovation in the pharmaceutical sector.
+                                    <p>The Performanz BI project successfully addressed the challenges of data silos,
+                                        inefficient reporting, and real-time analytics. The tool continues to empower
+                                        businesses with actionable intelligence, helping them stay ahead in a
+                                        data-driven world.
                                     </p>
-
-
                                 </div>
                             </div>
                         </div>

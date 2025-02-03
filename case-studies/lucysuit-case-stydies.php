@@ -29,7 +29,8 @@
                             </nav>
                             <h1>Lucysuit</h1>
                             <p>
-                                Empowering OB/GYN Practices with Lucysuit: A Case Study
+                                Empowering businesses with seamless customer relationship management, integrated HRM,
+                                and PMS functionalities.
                             </p>
                         </div>
                         <div class="bnrimg">

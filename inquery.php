@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col col-12 col-md-6">
                     <div class="hireformLeft">
-                        <h3>Hire <?php echo htmlspecialchars(ucfirst($fileName)); ?> Development Team As Per Your Need
+                        <h3>Hire Development Team As Per Your Need
                         </h3>
                         <p>
                             Simple & Transparent Pricing | Fully Signed NDA | Code
@@ -17,7 +17,7 @@
                             <h2>$2800</h2>
                             <h5>Monthly (USD)</h5>
                             <p>4+ Years of Exp. Senior
-                                <?php echo htmlspecialchars(str_replace('Company', '', ucfirst($fileName))); ?> - 160
+                                - 160
                                 hours
                             </p>
                         </div>
@@ -34,7 +34,7 @@
                 <div class="col col-12 col-md-6 text-center">
                     <div class="hireformRight">
                         <h3>
-                            Streamline Your Business With Top <?php echo htmlspecialchars(ucfirst($fileName)); ?>
+                            Streamline Your Business With Top
                         </h3>
                         <p>
                             We ensure you’re matched with the right talent resource based
@@ -93,7 +93,7 @@
         return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
     }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
- 
+
     // Initialize form validation
     $(document).ready(function() {
         // Apply validation on form

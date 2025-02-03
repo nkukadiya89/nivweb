@@ -20,15 +20,15 @@
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                     <li class="breadcrumb-item"><a
-                                            href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                            href="<?php echo $projectFolderName ?>/case-studies/case-studies.php">Case
                                             stuies</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Onlyne Deals</li>
                                 </ol>
                             </nav>
                             <h1>Onlyne Deals</h1>
                             <p>
-                                More than 100+ companies turn to Digiteon to drive their businesses forward in the age
-                                of digital transformation.
+                                Onlyne Deals is a hyper-local digital coupon platform that connects consumers with local
+                                businesses, providing personalized deals and driving sales growth.
                             </p>
                         </div>
                         <div class="bnrimg">
@@ -56,27 +56,13 @@
                                         <h5>The client approached Nivzen Technologies with the following
                                             objectives</h5>
                                         <p>
+                                            Enable local businesses to create and manage digital coupons. Provide
+                                            personalized deals to consumers based on location and preferences. Offer an
+                                            intuitive mobile and web experience for seamless deal discovery. Implement a
+                                            robust analytics system for tracking coupon performance. Reduce customer
+                                            acquisition costs through efficient marketing strategies.
+                                        </p>
 
-                                            Develop a platform to connect pharmaceutical manufacturers with production
-                                            facilities based on specific requirements such as capacity, certifications,
-                                            and geographic location.
-
-                                        </p>
-                                        <p>
-                                            Incorporate features to manage profiles, upload facility certifications, and
-                                            automate matchmaking based on predefined criteria.
-                                        </p>
-                                        <p>
-                                            Ensure data privacy and adherence to regulatory standards in the
-                                            pharmaceutical industry.
-                                        </p>
-                                        <p>
-                                            Provide robust search, filter, and communication tools for users to
-                                            streamline the partnership process.
-                                        </p>
-                                        <p>
-                                            Create a scalable and user-friendly platform with an intuitive interface.
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -101,39 +87,25 @@
 
                                         <ol>
                                             <li>
-                                                <h5>Data Security and Compliance</h5>
+                                                <h5>Low Footfall & Visibility</h5>
                                                 <p>
-                                                    Ensuring the platform complies with industry regulations and
-                                                    securely handles sensitive data, such as certifications and
-                                                    proprietary
-                                                    manufacturing details.
+                                                    Many SMEs found it difficult to attract new customers due to limited
+                                                    marketing budgets.
                                                 </p>
                                             </li>
                                             <li>
-                                                <h5>Efficient Matchmaking Algorithm</h5>
+                                                <h5>Lack of Targeted Marketing:</h5>
                                                 <p>
-                                                    Designing an algorithm that considers multiple parameters, including
-                                                    production capacity, certifications, location, and lead times, to
-                                                    generate
-                                                    precise matches.
+                                                    Businesses lacked insights into consumer behavior and preferences,
+                                                    making it challenging to personalize offers.
                                                 </p>
                                             </li>
                                             <li>
-                                                <h5>Scalability</h5>
+                                                <h5>High Customer Acquisition Costs: </h5>
                                                 <p>
-                                                    Building system capable of supporting a growing user base without
-                                                    compromising performance
+                                                    Digital advertising was expensive, making it harder for small
+                                                    businesses to compete with larger brands.
                                                 </p>
-
-                                            </li>
-                                            <li>
-                                                <h5>User Onboarding</h5>
-                                                <p>
-                                                    Simplifying the onboarding process for facility owners and
-                                                    manufacturers,
-                                                    many of whom were not familiar with digital platforms.
-                                                </p>
-
 
                                             </li>
 
@@ -158,20 +130,37 @@
                                     <div class="pharma-txt">
                                         <h3>Solution</h3>
                                         <img class="my-3" src="../images/line.png" alt="">
-                                        <h5>Compliance and Security Measures </h5>
+                                        <p>To address these challenges, Onlyne Deals introduced a feature-rich digital
+                                            coupon portal with the following key functionalities:</p>
+                                        <h5>Merchant Dashboard:</h5>
                                         <ul>
-                                            <li>Data encryption for all sensitive information.</li>
-                                            <li>Role-based access control (RBAC) to ensure secure data access.</li>
-                                            <li>GDPR compliance to protect user privacy and manage data processing
-                                                transparently.</li>
-                                        </ul>
-                                        <h5>User Experience Optimization </h5>
-                                        <ul>
-                                            <li>Simplified onboarding with guided steps for profile setup.</li>
-                                            <li>Interactive walkthroughs to educate users about platform features.</li>
-                                            <li>Mobile-friendly interface for accessibility on any device.</li>
-                                        </ul>
+                                            <li>Businesses can create, manage, and track coupons in real-time.</li>
 
+                                        </ul>
+                                        <h5>AI-Powered Personalization: </h5>
+                                        <ul>
+                                            <li>Consumers receive deals based on their location, preferences, and
+                                                shopping habits.</li>
+
+                                        </ul>
+                                        <h5>Geo-Targeted Offers: </h5>
+                                        <ul>
+                                            <li>: Users receive hyper-local deals, increasing the likelihood of in-store
+                                                visits.</li>
+                                        </ul>
+                                        <h5>QR Code Redemption:</h5>
+                                        <ul>
+                                            <li>Simplifies coupon usage, making it easy for customers to redeem
+                                                discounts at participating stores.</li>
+                                        </ul>
+                                        <h5>Loyalty Integration: </h5>
+                                        <ul>
+                                            <li>Encourages repeat purchases through reward-based discounts.</li>
+                                        </ul>
+                                        <h5>Mobile & Web Compatibility: </h5>
+                                        <ul>
+                                            <li>Available on both web and mobile apps for seamless user experience.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -196,52 +185,65 @@
 
                                 <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Facility and Manufacturer Profiles</h2>
-                                        <p> Each facility and manufacturer can create detailed profiles with fields for
-                                            certifications, production capabilities, location, and contact details.</p>
+                                        <h2>User-Friendly Interface</h2>
+                                        <p> Intuitive design for easy navigation and deal discovery. </p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content">
-                                        <h2>Advanced Matchmaking Algorithm</h2>
-                                        <p>The algorithm matches facilities and manufacturers based on multi-factor
-                                            criteria, prioritizing certifications and capacity requirements.</p>
+                                        <h2>Business Registration & Dashboard</h2>
+                                        <p>Merchants can register, list their business, and manage deals in real time.
+                                        </p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Search and Filter Options</h2>
-                                        <p>Users can refine searches based on location, certifications, and facility
-                                            specialization.</p>
+                                        <h2>Personalized Deals</h2>
+                                        <p>AI-driven recommendations based on user location and preferences.</p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Secure Document Management</h2>
-                                        <p>Facilities can upload and share certifications securely, with access
-                                            restricted to authorized users.</p>
+                                        <h2>QR Code & Digital Redemption</h2>
+                                        <p>Seamless coupon validation for in-store and online purchases. </p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Communication Module</h2>
-                                        <p>A built-in messaging system enables secure communication between
-                                            manufacturers and facility owners.</p>
+                                        <h2>Push Notifications & Alerts</h2>
+                                        <p>Instant updates on new deals and exclusive offers. </p>
                                     </div>
                                 </div>
 
                                 <div class="timeline-item">
                                     <div class="content highlight">
-                                        <h2>Dashboard for Admins</h2>
-                                        <p>Administrators can monitor activity, manage disputes, and ensure compliance
-                                            with platform policies.</p>
+                                        <h2>Loyalty & Reward System</h2>
+                                        <p>Encourages customer retention through points and discounts.</p>
                                     </div>
                                 </div>
-
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Analytics & Reporting</h2>
+                                        <p>Real-time insights for businesses on coupon performance and customer
+                                            engagement. </p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Multi-Platform Accessibility</h2>
+                                        <p>Available on web and mobile applications for wider reach.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="content highlight">
+                                        <h2>Secure Transactions</h2>
+                                        <p>Ensures safe and encrypted data handling for users and businesses.</p>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
@@ -260,12 +262,14 @@
                                     <h2>Conclusion</h2>
                                     <img class="my-3" src="../images/line.png" alt="">
 
-                                    <p>Platform exemplifies how technology can address industry-specific challenges by
-                                        creating a dedicated platform for efficient resource utilization and
-                                        collaboration. <br><br>
-                                        <b> Nivzen Technologies' </b>expertise in understanding client requirements and
-                                        delivering tailored solutions played a pivotal role in the platform's success,
-                                        setting a benchmark for innovation in the pharmaceutical sector.
+                                    <p><b>Onlyne Deals</b> has successfully transformed local commerce by
+                                        providing
+                                        businesses
+                                        with an innovative and cost-effective marketing solution. The platform continues
+                                        to evolve, incorporating new features such as AI-driven deal recommendations,
+                                        gamified rewards, and integration with digital payment systems. With its
+                                        commitment to supporting local economies, Onlyne Deals is poised to become the
+                                        go-to platform for hyper-local deals and promotions.
                                     </p>
 
 
