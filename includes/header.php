@@ -28,7 +28,7 @@
                                 <!-- <li><a class="dropdown-item"
                                         href="<?php echo $projectFolderName?>/lifeatnivzen.php">Life at Nivzen </a></li> -->
                                 <li><a class="dropdown-item"
-                                        href="<?php echo $projectFolderName?>/resources/careers/careers.php">Career</a>
+                                        href="<?php echo $projectFolderName?>/careers/careers.php">Career</a>
                                 </li>
                             </ul>
                         </li>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../../includes/layout.php'; ?>
+<?php include '../includes/layout.php'; ?>
 
 <body>
     <div id="wapper">
         <div class="header-wapper">
             <div class="container">
 
-                <?php include '../../includes/header.php'; ?>
+                <?php include '../includes/header.php'; ?>
 
             </div>
         </div>
@@ -46,10 +46,10 @@
                                 </div>
 
                                 <div class="btnwrp">
-                                    <a href="/nivweb/resources/careers/graphics-designer-role.php"
+                                    <a href="/nivweb/careers/graphics-designer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/resources/careers/graphics-designer-role.php"
+                                    <a href="/nivweb/careers/graphics-designer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -72,10 +72,10 @@
                                 </div>
 
                                 <div class="btnwrp">
-                                    <a href="/nivweb/resources/careers/business-developer-role.php"
+                                    <a href="/nivweb/careers/business-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/resources/careers/business-developer-role.php"
+                                    <a href="/nivweb/careers/business-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -96,10 +96,10 @@
                                     Work From Office
                                 </div>
                                 <div class="btnwrp">
-                                    <a href="/nivweb/resources/careers/python-django-developer-role.php"
+                                    <a href="/nivweb/careers/python-django-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/resources/careers/python-django-developer-role.php"
+                                    <a href="/nivweb/careers/python-django-developer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -120,10 +120,10 @@
                                     Work From Office
                                 </div>
                                 <div class="btnwrp">
-                                    <a href="/nivweb/resources/careers/content-writer-role.php"
+                                    <a href="/nivweb/careers/content-writer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/resources/careers/content-writer-role.php"
+                                    <a href="/nivweb/careers/content-writer-role.php"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -188,7 +188,7 @@
                           </div>
                         </form> -->
 
-        <?php include '../../includes/footer.php'; ?>
+        <?php include '../includes/footer.php'; ?>
 
 
 
@@ -197,8 +197,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
         // Trigger CSS animations on scroll.

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
 
-<?php include '../../includes/layout.php'; ?>
-<head>
+    <?php include '../includes/layout.php'; ?>
     <style>
         #drop-area {
             border: 2px dashed #ccc;
@@ -22,7 +21,6 @@
             color:red;
         }
     </style>
-
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- <script> 
         function enableSubmitBtn(){
@@ -36,7 +34,7 @@
             <div class="header-wapper">
                 <div class="container">
 
-                <?php include '../../includes/header.php'; ?>
+                <?php include '../includes/header.php'; ?>
 
                 </div>
             </div>
@@ -44,7 +42,7 @@
                 <div class="container">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
-                            <h3><span>Content Writer</span></h3>
+                            <h3><span> Python Django Developer</span></h3>
                         </div>
                         <div class="bnrimg">
                             <img src="../images/bloge-banner-img.png" alt="" />
@@ -69,11 +67,11 @@
 
                     <div class="col-lg-6 mb-5">
                         <p class="font-bold">Job Brief:</p>
-                        <p>Are you a wordsmith who can craft compelling and engaging content? Nivzen Technologies is looking for a talented<b> Content Writer </b>with 1-2 years of experience to join our creative team.</p>
-                        <p>As a<b> Content Writer at Nivzen</b>, you will be responsible for creating high-quality content for blogs, websites, social media, and marketing campaigns. 
-                            You'll work closely with our marketing and design teams to drive brand engagement through powerful storytelling.</p>
-                        <!-- <p><span class="font-bold">Role:</span> Wordpress Developer </p> 
-                        <p><span class="font-bold">Experience:</span> 1 to 2 Years </p>
+                        <p>Are you passionate about building scalable and high-performing web applications? 
+                            Nivzen Technologies is seeking a skilled <b>Python Django Developer </b>with 2-3 years of experience to join our growing development team.</p>
+                        <p>As a <b>Python Django Developer at Nivzen</b>, you will be responsible for designing, developing, and maintaining robust backend systems. You'll work on exciting projects, collaborate with cross-functional teams, and contribute to the success of innovative software solutions.</p>
+                        <!-- <p><span class="font-bold">Role:</span> UI/UX Designer</p> 
+                        <p><span class="font-bold">Experience:</span> 2 to 3 Years </p>
                         <p><span class="font-bold">Position Open:</span> 1</p><p><span class="font-bold">Job Location:</span> Ahmedabad</p>              
                         <p><span class="font-bold">Work from Home Available:</span> Not Available</p>                    
                         <p><span class="font-bold">Salary:</span> Not a constraint for the right candidate</p>                                             -->
@@ -81,25 +79,26 @@
                         <p class="font-bold">Key Responsibilities :</p>
                         
                         <ul class="style-icon">
-                            <li>Write clear, creative, and engaging content for blogs, articles, websites, and social media.</li>
-                            <li>Develop content strategies that align with company objectives and target audience needs.</li>
-                            <li>Conduct thorough research to ensure content is accurate, informative, and up-to-date.</li>
-                            <li>Collaborate with designers and marketers to create cohesive campaigns.</li>
-                            <li>Optimize content for SEO to improve organic visibility and engagement.</li>
-                            <li>Proofread and edit content to ensure high quality and adherence to brand guidelines.</li>
+                            <li>Develop and maintain web applications using Python and Django.</li>
+                            <li>Design and implement RESTful APIs for seamless integration with frontend systems.</li>
+                            <li>Optimize backend systems for performance, scalability, and reliability.</li>
+                            <li>Collaborate with frontend developers to ensure cohesive application functionality.</li>
+                            <li>Write clean, maintainable, and well-documented code.</li>
+                            <li>Troubleshoot and resolve technical issues promptly.</li>
                         </ul>                                            
                         <hr>
                         <p class="font-bold">Required Skills and Qualifications:</p>
-                        <ul class="style-icon"><li><b>Experience : </b>1-2 years as a content writer or similar role.</li>
-                            <li>Excellent command of the English language, with strong grammar and writing skills.</li>
-                            <li>Ability to write for diverse audiences and formats.</li>
-                            <li>Familiarity with SEO principles and tools.</li>
-                            <li>Strong research skills and attention to detail.</li>
+                        <ul class="style-icon"><li><b>Experience : </b>2-3 years in Python and Django development.</li>
+                            <li>Strong understanding of Django ORM, REST framework, and Python libraries.</li>
+                            <li>Experience with relational databases (PostgreSQL, MySQL, etc.).</li>
+                            <li>Proficiency in version control systems (e.g., Git).</li>
+                            <li>Familiarity with cloud platforms like AWS or Azure (preferred).</li>
+                            <li>Strong debugging and problem-solving skills.</li>
                         </ul>                                       
                             <hr><p><span class="font-bold">Additional Skills (Preferred) : </span></p>   
-                            <li>Experience with content management systems (CMS) like WordPress.</li>
-                            <li>Basic knowledge of social media marketing and analytics.</li>
-                            <li>Familiarity with graphic design tools like Canva (preferred but not required).</li>
+                            <li>Knowledge of frontend technologies like React or Angular.</li>
+                            <li>Experience with Docker, Kubernetes, or CI/CD pipelines.</li>
+                            <li>Understanding of Agile development methodologies.</li>
 
                             <hr><p><span class="font-bold">Location :</span> </p>  
                             <p>902, Ganesh glory, Godrej garden City road, jagatpur<br>
@@ -108,11 +107,10 @@
 
                         <ul class="style-icon">
                             <b>Why Join Nivzen Technologies?</b>
-                            <li>Work in a dynamic and creative environment.</li>
-                            <li>Collaborate with a passionate and talented team.</li>
-                            <li>Opportunities for skill enhancement and career growth.</li>
-                        </ul>               
-
+                            <li>Opportunity to work on innovative projects with cutting-edge technologies.</li>
+                            <li>Supportive and collaborative team environment.</li>
+                            <li>Career growth and skill development opportunities.</li>
+                        </ul>                 
                     
                         <a href="javascript:history.go(-1)">
                             <button class="border-gradient">
@@ -121,7 +119,6 @@
                         </a>              
                     </div> 
                     <div class="col-lg-1">
-                        <div class="vr"></div>
                     </div>
 
                     <?php include 'careers-details-inq-form.php'?>
@@ -130,19 +127,19 @@
             </div>
         </div>
 
-        <?php include '../../includes/footer.php'; ?>
+        <?php include '../includes/footer.php'; ?>
 
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <script src="../../js/jquery.js"></script>
-        <script src="../../js/bootstrap.bundle.min.js"></script>
+
      
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
 
         <script>
             $.validator.addMethod("phoneValidation", function(value, element) {
@@ -218,7 +215,7 @@
                         $('#recaptcha-error').show(); 
                         return;
                     }
-
+                    
                     var form_data = new FormData($(this)[0]);
                     var imgFile = $("#resume")[0]; // Get the file input element
                     form_data.append("resume", imgFile.files[0]); 
