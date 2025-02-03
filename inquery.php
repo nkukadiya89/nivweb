@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+#inquery-post-data .error {
+    text-align: left;
+    color: red;
+}
+</style>
 
 <body>
     <div class="hire-form-block">
@@ -134,6 +140,7 @@
         // Handle form submission
         $("#inquery-post-data").submit(function(event) {
             event.preventDefault(); // Prevent the default form submission
+            console.log("Form validation status:", $(this).valid());
 
             // Ensure the form is valid before continuing
             if (!$(this).valid()) {
@@ -155,12 +162,14 @@
 
             // Perform AJAX request
             $.ajax({
-                url: 'submit-inquery.php',
+                url: '/nivweb/submit-inquery.php',
                 type: 'POST',
                 data: form_data,
                 contentType: false,
                 processData: false,
                 success: function(response) {
+                    console.log("Raw response:", response);
+
                     try {
                         const obj = JSON.parse(response);
                         if (obj && obj.message) {

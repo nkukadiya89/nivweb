@@ -1,4 +1,4 @@
-<?php 
+<?php
 header('Content-Type: application/json');
 
 error_reporting(E_ALL);
@@ -18,13 +18,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
-    $mail->Password = 'zave copr rawt eugt'; // Your App Password
+    $mail->Username = 'nirav@nivzen.com'; // Your email
+    $mail->Password = '4jGyifXrtVpK'; // Your App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
     $mail->Port = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('foramdelvadiya@gmail.com', $_REQUEST['fname']); // From address
+    $mail->setFrom('nirav@nivzen.com', $_REQUEST['fname']); // From address
     $mail->addAddress($_REQUEST['email']); // To address
 
     // Email content
@@ -32,11 +32,11 @@ try {
     $mail->Subject = $_REQUEST['fname'];
 
     // Create the email body
-    $html = 'First Name: ' . $_REQUEST['fname'] . '<br>' . 
-            'Last Name: ' . $_REQUEST['lname'] . '<br>' .
-            'Email: ' . $_REQUEST['email'] . '<br>' .
-            'Phone Number: ' . $_REQUEST['phone'] . '<br>' .
-            'Message: ' . $_REQUEST['message'];
+    $html = 'First Name: ' . $_REQUEST['fname'] . '<br>' .
+        'Last Name: ' . $_REQUEST['lname'] . '<br>' .
+        'Email: ' . $_REQUEST['email'] . '<br>' .
+        'Phone Number: ' . $_REQUEST['phone'] . '<br>' .
+        'Message: ' . $_REQUEST['message'];
 
     $mail->Body = $html;
 

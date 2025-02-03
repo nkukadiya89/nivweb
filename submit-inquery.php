@@ -18,7 +18,7 @@ if (move_uploaded_file($_FILES['inqueryfile']['tmp_name'], $filePath)) {
     // echo json_encode(["message" => "Your application has been submitted successfully!"]);
     // exit;
 
-}   
+}
 
 // Create a new PHPMailer instance
 $mail = new PHPMailer(true);
@@ -28,26 +28,26 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
-    $mail->Password = 'zave copr rawt eugt'; // Your App Password
+    $mail->Username = 'nirav@nivzen.com'; // Your email
+    $mail->Password = '4jGyifXrtVpK'; // Your App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
     $mail->Port = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('foramdelvadiya@gmail.com', $_REQUEST['name']);
+    $mail->setFrom('nirav@nivzen.com', $_REQUEST['name']);
     $mail->addAddress($_REQUEST['email']);  // Add recipient
 
     // Email content
     $mail->isHTML(true);
     $mail->Subject = 'Inquiry Details';
     $html = 'Name: ' . $_REQUEST['name'] . '<br>' .
-            'Email: ' . $_REQUEST['email'] . '<br>' .
-            'Phone Number: ' . $_REQUEST['phone'] . '<br>' .
-            'Description: ' . $_REQUEST['desc'];
+        'Email: ' . $_REQUEST['email'] . '<br>' .
+        'Phone Number: ' . $_REQUEST['phone'] . '<br>' .
+        'Description: ' . $_REQUEST['desc'];
 
     $mail->Body = $html;
 
-    
+
     // Add attachment (if file exists)
     if (file_exists($filePath)) {
         $mail->addAttachment($filePath, $fileName);  // Add file attachment
