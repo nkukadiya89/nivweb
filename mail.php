@@ -16,7 +16,7 @@ $mail = new PHPMailer(true);
 try {
     // SMTP configuration
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'smtp.zoho.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'nirav@nivzen.com'; // Your email
     $mail->Password = '4jGyifXrtVpK'; // Your App Password
@@ -24,12 +24,12 @@ try {
     $mail->Port = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('nirav@nivzen.com', $_REQUEST['fname']); // From address
-    $mail->addAddress($_REQUEST['email']); // To address
+    $mail->setFrom($_REQUEST['email'], $_REQUEST['fname']); // From address
+    $mail->addAddress('nirav@nivzen.com'); // To address
 
     // Email content
     $mail->isHTML(true);
-    $mail->Subject = $_REQUEST['fname'];
+    $mail->Subject = 'Contact From '. $_REQUEST['fname'];
 
     // Create the email body
     $html = 'First Name: ' . $_REQUEST['fname'] . '<br>' .
