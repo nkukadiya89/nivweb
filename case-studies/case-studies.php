@@ -238,13 +238,13 @@
                                     <h3>Onlyne Deals</h3>
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p>
-                                        <b>Onlyne Deals is an innovative Electronic Health Record (EHR) system </b>
-                                        is a hyper-local market platform that connects local businesses
+                                        <b>Onlyne Deals</b> is a hyper-local market platform that connects local
+                                        businesses
                                         with consumers through an intuitive and dynamic coupon portal. By providing
                                         exclusive deals, discounts, and promotions, the platform enhances customer
-                                        engagement and boosts sales for small and medium-sized enterprises (SMEs). The
-                                        platform caters to users looking for localized deals, while businesses gain
-                                        increased visibility and foot traffic.
+                                        engagement and boosts sales for small and medium-sized enterprises (SMEs).
+                                        The platform caters to users looking for localized deals, while businesses
+                                        gain increased visibility and foot traffic.
                                     </p>
 
                                     <a href="./onlyne-deals-case-studies.php" class="border-gradient mt-3"
@@ -275,11 +275,13 @@
                                     <h3>Performaz BI</h3>
                                     <img class="my-3" src="../images/line.png" alt="">
                                     <p>
-                                        <b>Performaz BI is an innovative Electronic Health Record (EHR) system </b>
-                                        is a data-driven organization that required a robust Business
+                                        <b>Performanz BI</b> is a data-driven organization that required a robust
+                                        Business
                                         Intelligence (BI) solution to streamline data analysis, visualization, and
-                                        reporting for its diverse range of clients. The company specializes in providing
-                                        actionable insights to businesses across multiple industries, including finance,
+                                        reporting for its diverse range of clients. The company specializes in
+                                        providing
+                                        actionable insights to businesses across multiple industries, including
+                                        finance,
                                         retail, healthcare, and manufacturing.
                                     </p>
 
@@ -338,51 +340,51 @@
         <script src="../js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <script>
-        jQuery(function($) {
+            jQuery(function ($) {
 
-            var doAnimations = function() {
+                var doAnimations = function () {
 
-                var offset = $(window).scrollTop() + $(window).height(),
-                    $animatables = $(".animatable");
-
-
-                if ($animatables.length == 0) {
-                    $(window).off("scroll", doAnimations);
-                }
+                    var offset = $(window).scrollTop() + $(window).height(),
+                        $animatables = $(".animatable");
 
 
-                $animatables.each(function(i) {
-                    var $animatable = $(this);
-                    if ($animatable.offset().top + $animatable.height() - 20 < offset) {
-                        $animatable.removeClass("animatable").addClass("animated");
+                    if ($animatables.length == 0) {
+                        $(window).off("scroll", doAnimations);
                     }
+
+
+                    $animatables.each(function (i) {
+                        var $animatable = $(this);
+                        if ($animatable.offset().top + $animatable.height() - 20 < offset) {
+                            $animatable.removeClass("animatable").addClass("animated");
+                        }
+                    });
+                };
+
+
+                $(window).on("scroll", doAnimations);
+                $(window).trigger("scroll");
+
+                $(".ward").owlCarousel({
+                    loop: false,
+                    margin: 0,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 3,
+                        },
+                        600: {
+                            items: 4,
+                        },
+                        1000: {
+                            items: 6,
+                        },
+                        1300: {
+                            items: 6,
+                        },
+                    },
                 });
-            };
-
-
-            $(window).on("scroll", doAnimations);
-            $(window).trigger("scroll");
-
-            $(".ward").owlCarousel({
-                loop: false,
-                margin: 0,
-                nav: false,
-                responsive: {
-                    0: {
-                        items: 3,
-                    },
-                    600: {
-                        items: 4,
-                    },
-                    1000: {
-                        items: 6,
-                    },
-                    1300: {
-                        items: 6,
-                    },
-                },
             });
-        });
         </script>
     </body>
 
