@@ -33,12 +33,13 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Password = '4jGyifXrtVpK'; // Your password or App Password
+    $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
+    $mail->Password = 'kzjacemhzqgogpvf'; // Your password or App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
     $mail->Port = 587; // TCP port to connect to
 
-    $mail->setFrom('nirav@nivzen.com', $_REQUEST['fname']);
-    $mail->addAddress($_REQUEST['email']);
+    $mail->setFrom(trim($_REQUEST['email']), 'Nivweb'); // From address
+    $mail->addAddress('noreply.nivzen@gmail.com', $_REQUEST['fname']); // To address
 
     $mail->isHTML(true);
     $mail->Subject = 'Career Details';

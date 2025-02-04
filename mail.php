@@ -12,20 +12,19 @@ require 'vendor/autoload.php';
 
 // Initialize PHPMailer
 $mail = new PHPMailer(true);
-
 try {
     // SMTP configuration
     $mail->isSMTP();
-    $mail->Host = 'smtp.zoho.com';
+    $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'nirav@nivzen.com'; // Your email
-    $mail->Password = '4jGyifXrtVpK'; // Your App Password
+    $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
+    $mail->Password = 'kzjacemhzqgogpvf'; // Your App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
     $mail->Port = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom($_REQUEST['email'], $_REQUEST['fname']); // From address
-    $mail->addAddress('nirav@nivzen.com'); // To address
+    $mail->setFrom(trim($_REQUEST['email']), 'Nivweb'); // From address
+    $mail->addAddress('noreply.nivzen@gmail.com', $_REQUEST['fname']); // To address
 
     // Email content
     $mail->isHTML(true);
@@ -47,6 +46,8 @@ try {
     echo json_encode(["message" => "Success! Our team will contact you soon."]);
 
 } catch (Exception $e) {
+  print_r($e);
+  exit;
     // Return error message in JSON format
     echo json_encode(["message" => "Email could not be sent. Error: {$mail->ErrorInfo}"]);
 }

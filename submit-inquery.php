@@ -28,14 +28,14 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'nirav@nivzen.com'; // Your email
-    $mail->Password = '4jGyifXrtVpK'; // Your App Password
+    $mail->Username = 'foramdelvadiya@gmail.com'; // Your email
+    $mail->Password = 'kzjacemhzqgogpvf'; // Your App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS
     $mail->Port = 587; // TCP port to connect to
 
     // Recipients
-    $mail->setFrom('nirav@nivzen.com', $_REQUEST['name']);
-    $mail->addAddress($_REQUEST['email']);  // Add recipient
+    $mail->setFrom(trim($_REQUEST['email']), 'Nivweb'); // From address
+    $mail->addAddress('noreply.nivzen@gmail.com', $_REQUEST['fname']); // To address
 
     // Email content
     $mail->isHTML(true);

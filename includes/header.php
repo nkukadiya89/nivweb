@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<style>
+    #inquery-post-head .error {
+        color:red;
+    }
+</style>
 <body>
     <header>
         <div class="logo">
@@ -398,7 +402,7 @@
     }, "Please enter a valid Gmail address.");
 
     // Initialize form validation
-    $("#inquery-post-head-1").validate({
+    $("#inquery-post-head").validate({
         rules: {
             name: {
                 required: true,
@@ -445,7 +449,7 @@
             }
 
             $.ajax({
-                url: 'submit-inquery.php',
+                url: '/nivweb/submit-inquery.php',
                 type: 'POST',
                 data: form_data,
                 contentType: false,
@@ -455,7 +459,7 @@
                         const obj = JSON.parse(response);
                         if (obj && obj.message) {
                             // Optional: Redirect to a thank-you page or show a success message
-                            window.location.href = 'thank-you.php';
+                            window.location.href = '/nivweb/thank-you.php';
                         } else {
                             console.error("Response error: Mode is undefined.");
                         }
