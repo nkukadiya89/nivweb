@@ -105,7 +105,7 @@
                             <li>Ability to analyze data to make informed decisions.</li>
 
                             <hr><p><span class="font-bold">Location :</span> </p>  
-                            <p>902, Ganesh glory, Godrej garden City road, jagatpur<br>
+                            <p>110, Ganesh glory, Godrej garden City road, jagatpur<br>
                                 Ahmedabad - 382481</p>                  
                             <hr><p><span class="font-bold">Job Type : </span>Full-time</p>
 
