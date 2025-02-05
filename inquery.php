@@ -57,6 +57,13 @@
                                 <input type="text" class="form-control" id="phone" name="phone"
                                     placeholder="Phone Number" />
                             </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="country" name="country"
+                                    placeholder="Country" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="city" name="city" placeholder="City" />
+                            </div>
                             <div class="mb-4">
                                 <textarea class="form-control" rows="3" id="desc" name="desc"
                                     placeholder="Describe Your Requirements"></textarea>
@@ -93,16 +100,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
+
     <script>
-    // Custom phone number validation (allowing +, spaces, dashes, parentheses)
-    $.validator.addMethod("phoneValidation", function(value, element) {
-        return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
-    }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
-
-
-    // Initialize form validation
     $(document).ready(function() {
-        // Apply validation on form
+        console.log("Document ready - initializing validation and form submission.");
+
+        // Custom phone number validation (supports +, spaces, dashes, and parentheses)
+        $.validator.addMethod("phoneValidation", function(value, element) {
+            return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
+        }, "Enter a valid phone number (10-13 digits).");
+
+        // File size validation (Max 10MB)
+        $.validator.addMethod("fileSize", function(value, element) {
+            if (element.files.length === 0) return true; // No file, skip validation
+            return element.files[0].size <= 10485760; // Max size: 10MB (10 * 1024 * 1024)
+        }, "File must be 10MB or smaller.");
+
+        // Form validation rules
         $("#inquery-post-data").validate({
             rules: {
                 name: {
@@ -114,55 +130,65 @@
                 },
                 phone: {
                     required: true,
-                    phoneValidation: true // Custom phone validation
+                    phoneValidation: true
                 },
-                desc: { // Message/Description field
+                country: {
+                    required: true,
+                },
+                city: {
+                    required: true,
+                },
+                desc: {
                     required: false
                 },
-                file: { // File input field validation
+                file: {
                     required: false,
-                    extension: "jpg|jpeg|png|pdf", // Valid file types
-                    filesize: 10485760 // 10 MB in bytes
+                    extension: "jpg|jpeg|png|pdf",
+                    fileSize: true // Custom file size validation
                 }
             },
             messages: {
                 name: "Please enter your name.",
-                email: "Please enter a valid email address.",
-                phone: "Please enter a valid phone number.",
-                desc: "Please describe your requirements.",
+                email: "Enter a valid email address.",
+                phone: "Enter a valid phone number.",
+                country: "Enter a valid country.",
+                city: "Enter a valid city.",
                 file: {
-                    extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
-                    filesize: "The file size must not exceed 10 MB."
+                    extension: "Allowed formats: JPG, JPEG, PNG, PDF.",
+                    fileSize: "File must not exceed 10MB."
                 }
+            },
+            errorPlacement: function(error, element) {
+                error.insertAfter(element); // Places the error message after input field
             }
         });
 
-        // Handle form submission
+        // Form Submission
         $("#inquery-post-data").submit(function(event) {
-            event.preventDefault(); // Prevent the default form submission
-            console.log("Form validation status:", $(this).valid());
+            event.preventDefault(); // Prevent default form submission
+            console.log("Form submission triggered.");
 
-            // Ensure the form is valid before continuing
             if (!$(this).valid()) {
-                return; // If form is invalid, stop the submission
+                console.warn("Form validation failed.");
+                return; // Stop submission if form is invalid
             }
 
-            // Show processing message
+            // Disable submit button & show processing message
             $('#inq-btn').prop('disabled', true);
             $('#inq_text').text('Processing...');
 
-            // Create FormData to send in the request
-            var form_data = new FormData(this); // 'this' refers to the form
+            // Create FormData for AJAX request
+            var form_data = new FormData(this);
 
-            // Handle file attachment
+            // Append file if exists
             var imgFile = $("#inqueryfile")[0];
             if (imgFile.files.length > 0) {
                 form_data.append("inqueryfile", imgFile.files[0]);
             }
 
-            // Perform AJAX request
+            // AJAX Request
             $.ajax({
-                url: '/nivweb/submit-inquery.php',
+                url: '/nivweb/submit-inquery.php', // Ensure correct backend path
                 type: 'POST',
                 data: form_data,
                 contentType: false,
@@ -172,30 +198,30 @@
 
                     try {
                         const obj = JSON.parse(response);
-                        if (obj && obj.message) {
-                            // Redirect to the thank-you page
-                            window.location.href = 'thank-you.php';
+                        if (obj.message) {
+
+                            window.location.href = 'thank-you.html';
                         } else {
-                            console.error("Response error: Mode is undefined.");
+                            console.error("Unexpected response format.");
                         }
                     } catch (error) {
-                        console.error("Error parsing JSON response:", error);
+                        console.error("Error parsing JSON:", error);
+                        alert("Server response is invalid.");
                     }
                 },
-                error: function() {
-                    alert(
-                        'There was an error submitting your form. Please try again later.'
-                    );
+                error: function(xhr, status, error) {
+                    console.error("AJAX Error:", status, error);
+                    alert("An error occurred. Please try again.");
                 },
                 complete: function() {
-                    // Re-enable the submit button and reset the text
                     $('#inq-btn').prop('disabled', false);
-                    $('#inq_text').text('Inquire now');
+                    $('#inq_text').text('Inquire Now');
                 }
             });
         });
     });
     </script>
+
 </body>
 
 </html>

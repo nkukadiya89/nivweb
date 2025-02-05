@@ -39,10 +39,11 @@ try {
 
     // Email content
     $mail->isHTML(true);
-    $mail->Subject = 'Inquiry Details';
+    $mail->Subject = 'Inquiry From ' . $_REQUEST['name'] . ' ' . $_REQUEST['country'];
     $html = 'Name: ' . $_REQUEST['name'] . '<br>' .
         'Email: ' . $_REQUEST['email'] . '<br>' .
         'Phone Number: ' . $_REQUEST['phone'] . '<br>' .
+        'country: ' . $_REQUEST['country'] . '<br>' .
         'Description: ' . $_REQUEST['desc'];
 
     $mail->Body = $html;

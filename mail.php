@@ -28,12 +28,14 @@ try {
 
     // Email content
     $mail->isHTML(true);
-    $mail->Subject = 'Contact From '. $_REQUEST['fname'];
+    $mail->Subject = 'Contact From ' . $_REQUEST['fname'] . ' ' . $_REQUEST['country'];
 
     // Create the email body
     $html = 'First Name: ' . $_REQUEST['fname'] . '<br>' .
         'Last Name: ' . $_REQUEST['lname'] . '<br>' .
         'Email: ' . $_REQUEST['email'] . '<br>' .
+        'country: ' . $_REQUEST['country'] . '<br>' .
+        'city: ' . $_REQUEST['city'] . '<br>' .
         'Phone Number: ' . $_REQUEST['phone'] . '<br>' .
         'Message: ' . $_REQUEST['message'];
 
@@ -46,8 +48,8 @@ try {
     echo json_encode(["message" => "Success! Our team will contact you soon."]);
 
 } catch (Exception $e) {
-  print_r($e);
-  exit;
+    print_r($e);
+    exit;
     // Return error message in JSON format
     echo json_encode(["message" => "Email could not be sent. Error: {$mail->ErrorInfo}"]);
 }

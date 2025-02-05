@@ -43,14 +43,14 @@ try {
 
     $mail->isHTML(true);
     $mail->Subject = 'Career Details';
-    $html = 'First Name : ' . $_REQUEST['fname'] . '<br>' . 'Last Name :' . $_REQUEST['lname'] . '<br>' . 'Email : ' . $_REQUEST['email'] . '<br>' . 'Phone Number : ' . $_REQUEST['phone'];
+    $html = 'First Name : ' . $_REQUEST['fname'] . '<br>' . 'Last Name :' . $_REQUEST['lname'] . '<br>' . 'Email : ' . $_REQUEST['email'] . '<br>' . 'Phone Number : ' . $_REQUEST['phone'] . '<br>' . 'Country : ' . $_REQUEST['country'] . '<br>' . 'City : ' . $_REQUEST['city'];
     $mail->Body = $html;
 
     $mail->send();
 
-    echo json_encode(value: ["message" => "Your Details has been submitted successfully."]);
+    echo json_encode(["message" => "Your Details has been submitted successfully."]);
 
 } catch (Exception $e) {
-    echo json_encode(value: ["message" => "Your Details has been not submitted. EMailerrror: {$mail->ErrorInfo}"]);
+    echo json_encode(["message" => "Your Details has not been submitted. Email error: " . $mail->ErrorInfo]);
 }
 ?>

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    #inquery-post-head .error {
-        color:red;
-    }
+#inquery-post-head .error {
+    color: red;
+}
 </style>
+
 <body>
     <header>
         <div class="logo">
@@ -338,30 +339,40 @@
                                     on your requirement.
                                 </p>
                                 <form id="inquery-post-head" method="post" enctype="multipart/form-data">
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control" id="name" name="name"
-                                            placeholder="Name" />
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="email" class="form-control" id="email" name="email"
-                                            placeholder="Email" />
-                                    </div>
-                                    <div class="mb-3">
-                                        <input type="text" class="form-control" id="phone" name="phone"
-                                            placeholder="Phone Number" />
-                                    </div>
-                                    <div class="mb-4">
-                                        <textarea class="form-control" rows="3" id="desc" name="desc"
-                                            placeholder="Describe Your Requirements"></textarea>
-                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                placeholder="Name" />
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                placeholder="Email" />
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" id="phone" name="phone"
+                                                placeholder="Phone Number" />
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control" id="country" name="country"
+                                                placeholder="Country" />
+                                        </div>
+                                        <!-- <div class="mb-3">
+                                        <input type="text" class="form-control" id="city" name="city"
+                                            placeholder="City" />
+                                    </div> -->
+                                        <div class=" mb-4">
+                                            <textarea class="form-control" rows="2" id="desc" name="desc"
+                                                placeholder="Describe Your Requirements"></textarea>
+                                        </div>
 
 
-                                    <div class="input-group mb-4">
-                                        <input type="file" class="form-control file" id="inqueryfile" name="inqueryfile"
-                                            accept=".pdf,.doc,.docx">
+                                        <div class="input-group mb-4">
+                                            <input type="file" class="form-control file" id="inqueryfile"
+                                                name="inqueryfile" accept=".pdf,.doc,.docx">
+                                        </div>
                                     </div>
 
-                                    <div class="mb-5 d-flex justify-content-end">
+                                    <div class="mb-2 d-flex justify-content-end">
                                         <button class="border-gradient2 border-gradient" type="submit" id="inq-btn">
                                             <span id="inq_text">Inquire now</span>
                                         </button>
@@ -416,6 +427,9 @@
                 required: true,
                 phoneValidation: true
             },
+            country: {
+                required: true,
+            },
             desc: {
                 required: false
             },
@@ -430,6 +444,7 @@
             name: "Please enter your name.",
             email: "Please enter a valid email address.",
             phone: "Please enter a valid phone number.",
+            country: "Please enter a valid country.",
             desc: "Please describe your requirements.",
             file: {
                 extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
