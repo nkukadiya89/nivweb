@@ -269,14 +269,14 @@
                         </div>
                     </div>
                     <div class="icon-btn">
-                        <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
-                        <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
-                        <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
-                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
-                        <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
-                        <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
-                        <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
-                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
+                        <a><img src="../images/Python.png" alt="Python Icon">Python</a>
+                        <a><img src="../images/dj.png" alt="Django Icon">Django</a>
+                        <a><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
+                        <a><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
+                        <a><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
+                        <a><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>

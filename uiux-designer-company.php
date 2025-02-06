@@ -31,7 +31,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="images/Hire-UI-UX-Designer.png" alt="" />
+              <img src="images/Hire-UI-UX-Designer.png" alt="Hire-UI-UX-Designer" />
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part animatable fadeInRight">
-                <img src="images/hire-images/UI-UX-Designer.png" alt="" />
+                <img src="images/hire-images/UI-UX-Designer.png" alt="UI-UX-Designer" />
               </div>
             </div>
           </div>

@@ -31,7 +31,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="images/Hire-React-Native-Developer.png" alt="" />
+              <img src="images/Hire-React-Native-Developer.png" alt="Hire-React-Native-Developer" />
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part animatable fadeInRight">
-                <img src="images/about-react-img.png" alt="" />
+                <img src="images/about-react-img.png" alt="about-react" />
               </div>
             </div>
           </div>

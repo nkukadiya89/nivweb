@@ -27,7 +27,7 @@
                         <p>1st May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner" />
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="blog-dtl-title">User-centered design</div>
                 <div class="blogbigimg mb-3">
-                    <img src="../images/Blog-part5-pic1.png" alt="">
+                    <img src="../images/Blog-part5-pic1.png" alt="Blog-part5-pic1">
                 </div>
 
                 <p>User-centered design (UCD) is a process used in the design of user interfaces to ensure that the
@@ -84,7 +84,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part5-pic2.png" alt="">
+                            <img src="../images/Blog-part5-pic2.png" alt="Blog-part5-pic2">
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part5-pic3.png" alt="" class="responsive">
+                            <img src="../images/Blog-part5-pic3.png" alt="Blog-part5-pic3" class="responsive">
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part5-pic4.png" alt="" class="responsive">
+                            <img src="../images/Blog-part5-pic4.png" alt="Blog-part5-pic4" class="responsive">
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part5-pic5.png" alt="" class="responsive">
+                            <img src="../images/Blog-part5-pic5.png" alt="bloge" class="responsive">
                         </div>
                     </div>
                 </div>

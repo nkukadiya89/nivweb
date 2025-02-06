@@ -28,7 +28,7 @@
                         <p>15th May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" />
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="blog-dtl-title">Introduction</div>
 
                 <div class="blogbigimg mb-3">
-                    <img src="../images/Blog-part2-pic1.png" alt="" class="responsive">
+                    <img src="../images/Blog-part2-pic1.png" alt="Blog-part2-pic1" class="responsive">
                 </div>
 
                 <p>The development of augmented reality (AR) and virtual reality (VR) technology has given rise to
@@ -74,7 +74,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part2-pic2.png" alt="">
+                            <img src="../images/Blog-part2-pic2.png" alt="Blog-part2-pic2">
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part2-pic3.png" alt="">
+                            <img src="../images/Blog-part2-pic3.png" alt="Blog-part2-pic3">
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part2-pic4.png" alt="">
+                            <img src="../images/Blog-part2-pic4.png" alt="Blog-part2-pic4">
                         </div>
                     </div>
                 </div>

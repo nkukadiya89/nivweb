@@ -27,7 +27,7 @@
                         </p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/blog-banner-img.png" alt="" />
+                        <img src="../images/blog-banner-img.png" alt="blog-banner" />
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./quantum-computing-details.php">
-                            <img src="../images/Blog-part1-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part1-pic1.png" class="card-img-top" alt="Blog-part1-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
@@ -100,7 +100,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./ar-vr-details.php">
-                            <img src="../images/Blog-part2-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part2-pic1.png" class="card-img-top" alt="Blog-part2-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
@@ -126,7 +126,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./ai-ml-details.php">
-                            <img src="../images/Blog-part3-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part3-pic1.png" class="card-img-top" alt="Blog-part3-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class=" text-start card-tag">
@@ -151,7 +151,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./cybersecurity-details.php">
-                            <img src="../images/Blog-part4-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part4-pic1.png" class="card-img-top" alt="Blog-part4-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class=" text-start card-tag">
@@ -178,7 +178,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./ux-design-details.php">
-                            <img src="../images/Blog-part5-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part5-pic1.png" class="card-img-top" alt="Blog-part5-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="col-lg- text-start card-tag">
@@ -205,7 +205,7 @@
                 <div class="col">
                     <div class="card h-100">
                         <a href="./healthcare-details.php">
-                            <img src="../images/Blog-part6-pic1.png" class="card-img-top" alt="...">
+                            <img src="../images/Blog-part6-pic1.png" class="card-img-top" alt="Blog-part6-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">

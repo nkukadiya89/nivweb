@@ -49,7 +49,7 @@
                                         </div>
                                     </div>
                                     <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/home-bnr-1.png" alt="" /></div>
+                                        <div class="imgdi"><img src="images/home-banner.png" alt="home-banner" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +77,8 @@
                                         </div>
                                     </div>
                                     <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/aiml-development.png" alt="" /></div>
+                                        <div class="imgdi"><img src="images/aiml-development.png"
+                                                alt="aiml-development" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +105,8 @@
                                         </div>
                                     </div>
                                     <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/python-development.png" alt="" /></div>
+                                        <div class="imgdi"><img src="images/python-development.png"
+                                                alt="python-development" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +133,8 @@
                                         </div>
                                     </div>
                                     <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/react-development.png" alt="" /></div>
+                                        <div class="imgdi"><img src="images/react-development.png"
+                                                alt="react-development" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +164,8 @@
                                         </div>
                                     </div>
                                     <div class="col col-5 colone">
-                                        <div class="imgdi"><img src="images/mobile-development.png" alt="" /></div>
+                                        <div class="imgdi"><img src="images/mobile-development.png"
+                                                alt="mobile-development" /></div>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +181,7 @@
 
                     <div class="col col-12 col-md-6 text-center">
                         <div class="image-part animatable  fadeInLeft">
-                            <img src="images/aboutimg.png" width="551" height="496" alt="" />
+                            <img src="images/aboutimg.png" width="551" height="496" alt="about" />
                         </div>
                     </div>
                     <div class="col col-12 col-md-6">
@@ -212,7 +216,8 @@
                         <div class="processwrp">
                             <div class="count">01</div>
                             <div class="processbox red">
-                                <div class="icondiv"><img src="images/p1.png" alt="" /></div>
+                                <div class="icondiv"><img src="images/strategic-planning.png"
+                                        alt="Strategic Planning" /></div>
                                 <h3>Strategic Planning </h3>
                                 <p>Strategic planning involves creating a comprehensive plan to achieve specific</p>
                             </div>
@@ -222,7 +227,8 @@
                         <div class="processwrp gap">
                             <div class="count">02</div>
                             <div class="processbox yellow">
-                                <div class="icondiv"><img src="images/p2.png" alt="" /></div>
+                                <div class="icondiv"><img src="images/concept-development.png"
+                                        alt="concept-development" /></div>
                                 <h3>Concept Development </h3>
                                 <p>Concept development involves generating and refining ideas into a cohesive concept
                                 </p>
@@ -233,7 +239,7 @@
                         <div class="processwrp">
                             <div class="count">03</div>
                             <div class="processbox green">
-                                <div class="icondiv"><img src="images/p4.png" alt="" /></div>
+                                <div class="icondiv"><img src="images/deployment-maintanance.png" alt="deployment-maintanance" /></div>
                                 <h3>Design & Development </h3>
                                 <p>Design development is the process of turning a concept or idea into a functional</p>
                             </div>
@@ -243,7 +249,8 @@
                         <div class="processwrp gap">
                             <div class="count">04</div>
                             <div class="processbox blue">
-                                <div class="icondiv"><img src="images/p3.png" alt="" /></div>
+                                <div class="icondiv"><img src="images/design-development.png"
+                                        alt="Deployment & Maintanance" /></div>
                                 <h3>Post Deployment & Maintanance</h3>
                                 <p>Involves updating, fixing issues, and providing support to ensure a software</p>
                             </div>
@@ -266,13 +273,13 @@
             </div>
             <div class="servicesslider">
                 <div class="servicesimg-col">
-                    <img src="images/servicescol.png" alt="" />
+                    <img src="images/servicescol.png" alt="servicescol" />
                 </div>
                 <div class="services-col">
 
                     <div class="owl-carousel owl-services">
                         <div class="item">
-                            <div class="imgico"><img src="images/web-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/web-ico.png" alt="review" /></div>
                             <h3>Web Development</h3>
                             <p>Whether you require a custom website designed to your exact specifications or a more
                                 standardized
@@ -283,7 +290,7 @@
                             <a href="./our-expertise/web-and-mobile-solutions.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/mobile-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/mobile-ico.png" alt="review" /></div>
                             <h3>Mobile App Development </h3>
                             <p>Achieve your business goals with our top-notch mobile app development service. Our
                                 dedicated team of
@@ -295,7 +302,7 @@
                             <a href="./android-development-company.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/python-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/python-ico.png" alt="review" /></div>
                             <h3>Python Web Development</h3>
                             <p>Unlock the potential of Python for your web projects with our custom Python web
                                 development services.
@@ -307,7 +314,7 @@
                             <a href="./python-developer-company.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/react-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/react-ico.png" alt="review" /></div>
                             <h3>React JS Web Development</h3>
                             <p>As a leading React JS development company, we harness the power of this cutting-edge
                                 JavaScript library
@@ -320,7 +327,7 @@
                             <a href="./react-js-development-company.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/concept-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/concept-ico.png" alt="review" /></div>
                             <h3>Concept Development</h3>
                             <p>Transform your ideas into actionable plans with our expert team. We refine concepts to
                                 align seamlessly
@@ -329,7 +336,7 @@
                             <a href="./concept-development.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/poc-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/poc-ico.png" alt="review" /></div>
                             <h3>POC Development</h3>
                             <p>Validate the feasibility of your ideas with our Proof of Concept (POC) development
                                 services. Build
@@ -340,7 +347,7 @@
                             <a href="./poc-development.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/mvp-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/mvp-ico.png" alt="review" /></div>
                             <h3>MVP Development</h3>
                             <p>Accelerate your product launch with our Minimum Viable Product (MVP) development
                                 services. Develop a
@@ -351,7 +358,7 @@
                             <a href="./mvp-development.php">Read More</a>
                         </div>
                         <div class="item">
-                            <div class="imgico"><img src="images/analysys-ico.png" alt="" /></div>
+                            <div class="imgico"><img src="images/analysys-ico.png" alt="review" /></div>
                             <h3>Requirement Analysis</h3>
                             <p>Ensure project success with our meticulous requirement analysis services. We
                                 comprehensively analyze
@@ -392,11 +399,11 @@
                 <div id="testimonial" class="carousel slide " data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#testimonial" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"><img src="images/review-1.jpg" alt="" /></button>
+                            aria-current="true" aria-label="Slide 1"><img src="images/review-1.jpg" alt="review" /></button>
                         <button type="button" data-bs-target="#testimonial" data-bs-slide-to="1"
-                            aria-label="Slide 2"><img src="images/review-2.jpg" alt="" /></button>
+                            aria-label="Slide 2"><img src="images/review-2.jpg" alt="review" /></button>
                         <button type="button" data-bs-target="#testimonial" data-bs-slide-to="2"
-                            aria-label="Slide 3"><img src="images/review-3.jpg" alt="" /></button>
+                            aria-label="Slide 3"><img src="images/review-3.jpg" alt="review" /></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">

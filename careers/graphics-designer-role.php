@@ -49,7 +49,7 @@
                         <h3><span>Graphic Designer</span></h3>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" />
                     </div>
                 </div>
             </div>

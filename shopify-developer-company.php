@@ -30,7 +30,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="images/Hire-Shopify-Developer.png" alt="" />
+              <img src="images/Hire-Shopify-Developer.png" alt="Hire-Shopify-Developer" />
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part animatable fadeInRight">
-                <img src="images/hire-images/Shopify-Developer.png" alt="" />
+                <img src="images/hire-images/Shopify-Developer.png" alt="Shopify-Developer" />
               </div>
             </div>
           </div>

@@ -26,7 +26,7 @@
                         <p>13th June</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" />
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
 
                 <div class="blog-dtl-title">Introduction</div>
                 <div class="blogbigimg mb-3">
-                    <img src="../images/Blog-part1-pic1.png" alt="">
+                    <img src="../images/Blog-part1-pic1.png" alt="Blog-part1-pic1">
                 </div>
                 <p>Quantum computing is a new & developing field of computing which harnesses the power of quantum
                     mechanics to solve complex problems.
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part1-pic2.png" alt="">
+                            <img src="../images/Blog-part1-pic2.png" alt="Blog-part1-pic2">
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part1-pic3.png" alt="">
+                            <img src="../images/Blog-part1-pic3.png" alt="Blog-part1-pic3">
                         </div>
                     </div>
                 </div>

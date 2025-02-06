@@ -19,17 +19,16 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>#">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
                             </ol>
                             <h1>About Us</h1>
                             <p>
-                                More than 100+ companies turn to Digiteon to drive their businesses forward in the age
-                                of digital transformation.
+                            Innovative Software Solutions Tailored for Business Growth
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="../images/case-banner.png" alt="" />
+                            <img src="images\case-banner.png" alt="case-banner" />
                         </div>
                     </div>
                 </div>
@@ -41,25 +40,53 @@
                     <div class="row">
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
-                            <div class="image-part   ">
-                                <img src="images/aboutbig.png" alt="" />
+                            <div class="image-part">
+                                <img src="images/aboutbig.png" alt="aboutbig" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
                             <div class="content-part   ">
                                 <div class="pharma-txt">
                                     <h3>Nivzen Technologies</h3>
-                                    <img class="my-3" src="./images/line.png" alt="">
+                                    <img class="my-3" src="./images/line.png" alt="line">
                                     <p>
-                                        On the other hand, Nivzen Technologies is a trusted company dedicated to
-                                        providing comprehensive technology solutions that empower businesses to innovate
-                                        and thrive. With a strong focus on digital transformation, Nivzen Technologies
-                                        offers a range of services designed to enhance operational efficiency, improve
-                                        user experiences, and optimize business processes through the power of
-                                        technology.
+                                    At Nivzen Technologies, we craft innovative and scalable software solutions that drive business success. With expertise in custom software development, SaaS solutions, AI/ML integration, ERP, CRM, and mobile app development, we empower businesses to streamline operations and enhance efficiency.
                                     </p>
 
                                 </div>
+                                 <div class="pharma-txt">
+                                <h5>Who We Are</h5>
+                    <p>
+                        Founded with a passion for technology and innovation, Nivzen Technologies is a team of skilled developers,
+                        designers, and strategists committed to delivering high-quality, results-driven software solutions.
+                        We specialize in Python Django for backend development, React JS for frontend, and mobile solutions using
+                        React Native and Flutter.
+                    </p>
+                    </div>
+
+                     <div class="pharma-txt">
+                    <h5>Our Expertise</h5>
+                    <ul>
+                        <li><strong>Custom Software Development</strong> – Tailored solutions to meet unique business needs.</li>
+                        <li><strong>ERP & CRM Solutions</strong> – Seamless business process automation.</li>
+                        <li><strong>AI & ML Integration</strong> – Intelligent solutions for data-driven decision-making.</li>
+                        <li><strong>SaaS Products</strong> – Scalable and efficient cloud-based applications.</li>
+                        <li><strong>E-commerce & Marketplace Development</strong> – Advanced platforms for online growth.</li>
+                        <li><strong>Mobile App Development</strong> – Cutting-edge apps for Android and iOS.</li>
+                    </ul>
+                   </div>
+                    <div class="pharma-txt">
+                    <h5>Why Choose Us?</h5>
+                    <ul>
+                        <li><strong>Monolithic Architecture Experts</strong> for robust, scalable applications.</li>
+                        <li><strong>End-to-End Development</strong> – From ideation to deployment and beyond.</li>
+                        <li><strong>Client-Centric Approach</strong> – We prioritize your business goals.</li>
+                        <li><strong>Innovative & Future-Ready</strong> – Always leveraging the latest tech.</li>
+                    </ul>
+                    </div>
+                    <p>
+                        At Nivzen Technologies, we don’t just build software—we build digital experiences that drive growth.
+                    </p>
                             </div>
                         </div>
                     </div>
@@ -96,7 +123,7 @@
                         <p>At Nivzen Technologies</p>
                     </div>
                     <div class="processimg">
-                        <img src="images/proccess.png" alt="" />
+                        <img src="images/proccess.png" alt="proccess" />
                     </div>
                 </div>
             </div>

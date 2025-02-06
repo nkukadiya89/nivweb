@@ -37,7 +37,7 @@
 
                 <div class="thankinside">
                     <div class="title" style="text-align:center;">
-                        <img class="" src="./images/thank.png" alt="">
+                        <img class="" src="./images/thank.png" alt="thank">
                         <h3>Thank You</h3>
 
                     </div>

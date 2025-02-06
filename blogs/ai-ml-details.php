@@ -27,7 +27,7 @@
                         <p>05th May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" />
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <div class="inrpgtitle">
                     <div class="blog-dtl-title">Introduction</div>
                     <div class="blogbigimg mb-3">
-                        <img src="../images/Blog-part3-pic1.png" alt="" class="responsive">
+                        <img src="../images/Blog-part3-pic1.png" alt="Blog-part3-pic1" class="responsive">
                     </div>
 
                     <p>The Various Ways AI and ML Are Impacting Different Industries</p>
@@ -84,7 +84,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part3-pic2.png" alt="">
+                                <img src="../images/Blog-part3-pic2.png" alt="Blog-part3-pic2">
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part3-pic3.png" alt="">
+                                <img src="../images/Blog-part3-pic3.png" alt="Blog-part3-pic3">
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part3-pic4.png" alt="">
+                                <img src="../images/Blog-part3-pic4.png" alt="Blog-part3-pic4">
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part3-pic5.png" alt="">
+                                <img src="../images/Blog-part3-pic5.png" alt="Blog-part3-pic5">
                             </div>
                         </div>
                     </div>

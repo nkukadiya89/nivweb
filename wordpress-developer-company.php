@@ -27,7 +27,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert Wordpress Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="images/Hire-Wordpress-Developer.png" alt="" />
+            <img src="images/Hire-Wordpress-Developer.png" alt="Hire-Wordpress-Developer" />
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="images/hire-images/Wordpress-Developer.png" alt="" />
+              <img src="images/hire-images/Wordpress-Developer.png" alt="Wordpress-Developer" />
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert ReactJS Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="images/react-bnr.png" alt="" />
+            <img src="images/react-bnr.png" alt="react-bnr" />
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="images/hire-images/React-Js-Developer.png" alt="" />
+              <img src="images/hire-images/React-Js-Developer.png" alt="React-Js-Developer" />
             </div>
           </div>
         </div>

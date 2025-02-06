@@ -19,17 +19,17 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="inrpgtitle">
-                    <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>#">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">AI-ML Development Company</li>
-                                </ol>
-                            </nav>
+                            </ol>
+                        </nav>
                         <h1>AI-ML Development Company</h1>
                         <p>Elevate User Experiences With Nivzen Technologies' Expert AI-ML Development Services</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="images/ML-Developer.png" alt="" />
+                        <img src="images/ML-Developer.png" alt="ML-Developer" />
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="col col-12 col-md-6 text-center ">
                         <div class="image-part">
-                            <img src="images/hire-images/ML-Developer.png" alt="" />
+                            <img src="images/hire-images/ML-Developer.png" alt="hire-ML-Developer" />
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
 
         <?php include 'inquery.php';?>
 
-      
+
         <div class="discussProject">
             <div class="container">
                 <h3>Let's Discuss Your Project</h3>
@@ -94,7 +94,7 @@
 
     </div>
 
-   
+
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
@@ -102,8 +102,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-
-
     jQuery(function($) {
         var doAnimations = function() {
             var offset = $(window).scrollTop() + $(window).height(),
@@ -182,12 +180,12 @@
 
     $("#inquery-post").submit(function(event) {
         event.preventDefault();
-        if ($(this).valid()) { 
+        if ($(this).valid()) {
             $('#inq_text').text('Processing...');
             $.ajax({
                 url: '<?php echo $projectFolderName?>/submit-inquery.php',
                 type: 'POST',
-                data: $(this).serialize(), 
+                data: $(this).serialize(),
                 success: function(response) {
                     const obj = JSON.parse(response);
                     if (obj && obj.message) {

@@ -5,7 +5,8 @@
                 <div class="col-12 col-sm-6 col-md-12 col-lg-3">
                     <a href="<?php echo $projectFolderName?>" class="footer-logo"
                         aria-label="this redirect to home page">
-                        <img src="<?php echo $projectFolderName?>/images/footer-logo2.svg" alt="footer logo" /></a>
+                        <img src="<?php echo $projectFolderName?>/images/nivzen-technologies-footer.svg"
+                            alt="Nivzen Technologies" /></a>
                     <div class="follow-up">
                         <ul class="list-inline">
                             <li>
@@ -26,12 +27,14 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="quick-links">
                         <ul>
-                            <li><a href="<?php echo $projectFolderName?>">Company </a></li>
-                            <!-- <li><a href="#">Services </a></li>
-              <li><a href="#">Technologies</a></li>
-              <li><a href="#">Industries </a></li> -->
-                            <li><a href="<?php echo $projectFolderName; ?>/resources/blogs/blogs.php">Resources</a></li>
-                            </li>
+                            <li><a href="<?php echo $projectFolderName?>/index.php">Company </a></li>
+                            <!-- <li><a href="#">Services </a></li> -->
+              <li><a href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
+              <li><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+              Studies </a></li>
+            
+                            <!-- <li><a href="<?php echo $projectFolderName; ?>/resources/blogs/blogs.php">Resources</a></li>
+                            </li> -->
                             <li><a href="<?php echo $projectFolderName; ?>/resources/careers/careers.php">Careers</a>
                             <li><a href="<?php echo $projectFolderName; ?>/contact-us.php">Contact Us</a></li>
                         </ul>

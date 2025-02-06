@@ -28,7 +28,6 @@
     }
     </style>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- <script> 
         function enableSubmitBtn(){
             document.getElementById("career_submit_btn").disabled=false;
@@ -53,7 +52,7 @@
                         <h3><span>Business Developer</span></h3>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" />
                     </div>
                 </div>
             </div>
@@ -210,6 +209,7 @@
             }
         },
         errorPlacement: function(error, element) {
+            
             if (element.attr("name") == "recaptcha") {
                 error.appendTo("#recaptcha-error");
             } else {

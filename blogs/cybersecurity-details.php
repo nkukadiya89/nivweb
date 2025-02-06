@@ -27,7 +27,7 @@
                         <p>1st May</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" class="responsive" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" class="responsive" />
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 <div class="inrpgtitle">
                     <div class="blog-dtl-title">Introduction</div>
                     <div class="blogbigimg mb-3">
-                        <img src="../images/Blog-part4-pic1.png" alt="">
+                        <img src="../images/Blog-part4-pic1.png" alt="Blog-part4-pic1">
                     </div>
                     <p>The internet has revolutionized the way businesses operate.
                         It has made it possible for businesses to reach a global audience and conduct transactions
@@ -134,7 +134,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part4-pic2.png" alt="">
+                                <img src="../images/Blog-part4-pic2.png" alt="Blog-part4-pic2">
                             </div>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part4-pic3.png" alt="">
+                                <img src="../images/Blog-part4-pic3.png" alt="Blog-part4-pic3">
                             </div>
                         </div>
                     </div>
@@ -252,7 +252,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part4-pic4.png" alt="">
+                                <img src="../images/Blog-part4-pic4.png" alt="Blog-part4-pic4">
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
                         </div>
                         <div class="col col-12 col-md-4 text-center ">
                             <div class="contentimg">
-                                <img src="../images/Blog-part4-pic5.png" alt="">
+                                <img src="../images/Blog-part4-pic5.png" alt="Blog-part4-pic5">
                             </div>
                         </div>
                     </div>

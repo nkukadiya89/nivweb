@@ -32,7 +32,7 @@
                             </p>
                         </div>
                         <div class="bnrimg">
-                            <img src="../images/case-banner.png" alt="" />
+                            <img src="../images/case-banner.png" alt="case-banner" />
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Introduction-img.png" alt="" />
+                                    <img src="../images/Introduction-img.png" alt="Introduction" />
                                 </div>
                             </div>
 
@@ -52,7 +52,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Client Requirements</h3>
-                                        <img class="my-3 mb-4" src="../images/line.png" alt="">
+                                        <img class="my-3 mb-4" src="../images/line.png" alt="line">
                                         <h5>The client approached Nivzen Technologies with the following
                                             objectives</h5>
                                         <p>
@@ -89,7 +89,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center   order-md-2">
                                 <div class="image-part  ">
-                                    <img src="../images/Challenges-img.png" alt="" />
+                                    <img src="../images/Challenges-img.png" alt="Challenges" />
                                 </div>
                             </div>
 
@@ -97,7 +97,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Key Challenges</h3>
-                                        <img class="my-3" src="../images/line.png" alt=""><br>
+                                        <img class="my-3" src="../images/line.png" alt="line"><br>
 
                                         <h5>For Pharma Manufacturers:
                                         </h5>
@@ -127,7 +127,7 @@
                         <div class="row">
                             <div class="col col-12 col-md-6 text-center">
                                 <div class="image-part ">
-                                    <img src="../images/Solution-img.png" alt="" />
+                                    <img src="../images/Solution-img.png" alt="Solution" />
                                 </div>
                             </div>
 
@@ -135,7 +135,7 @@
                                 <div class="content-part ">
                                     <div class="pharma-txt">
                                         <h3>Solution</h3>
-                                        <img class="my-3" src="../images/line.png" alt="">
+                                        <img class="my-3" src="../images/line.png" alt="line">
                                         <h5>Compliance and Security Measures </h5>
                                         <ul>
                                             <li>A single platform to connect pharma manufacturers with suitable
@@ -178,7 +178,7 @@
                     <div class="text-center mt-3">
                         <h3>Key Features</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="../images/line2.png" alt="">
+                            <img class="my-3" src="../images/line2.png" alt="line">
                         </div>
                     </div>
                     <div class="my-4">
@@ -250,7 +250,7 @@
                             <div class="content-part animatable fadeInLeft">
                                 <div class="pharma-txt mx-4">
                                     <h2>Conclusion</h2>
-                                    <img class="my-3" src="../images/line.png" alt="">
+                                    <img class="my-3" src="../images/line.png" alt="line">
 
                                     <p>Platform exemplifies how technology can address industry-specific challenges by
                                         creating a dedicated platform for efficient resource utilization and
@@ -266,7 +266,7 @@
                         </div>
                         <div class="col col-12 col-md-6 text-center my-3">
                             <div class="image-part animatable fadeInRight ">
-                                <img src="../images/PharmaLinkage-img.png" alt="" />
+                                <img src="../images/PharmaLinkage-img.png" alt="PharmaLinkage" />
                             </div>
                         </div>
                     </div>
@@ -278,18 +278,18 @@
                     <div class="text-center mt-3">
                         <h3>Technologies</h3>
                         <div class="dot-line">
-                            <img class="my-3" src="../images/line.png" alt="">
+                            <img class="my-3" src="../images/line.png" alt="line">
                         </div>
                     </div>
                     <div class="icon-btn">
-                        <a href=""><img src="../images/Python.png" alt="Python Icon">Python</a>
-                        <a href=""><img src="../images/dj.png" alt="Django Icon">Django</a>
-                        <a href=""><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
-                        <a href=""><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
-                        <a href=""><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
-                        <a href=""><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
-                        <a href=""><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
-                        <a href=""><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
+                        <a><img src="../images/Python.png" alt="Python Icon">Python</a>
+                        <a><img src="../images/dj.png" alt="Django Icon">Django</a>
+                        <a><img src="../images/ReactJs.png" alt="React JS Icon">React JS</a>
+                        <a><img src="../images/pwa-icon.png" alt="PWA">PWA</a>
+                        <a><img src="../images/antd.png" alt="Ant Design Icon">Ant Design</a>
+                        <a><img src="../images/Figma.png" alt="Figma Icon">Figma</a>
+                        <a><img src="../images/aws.png" alt="AWS Cloud Icon">AWS Cloud</a>
+                        <a><img src="../images/postgresql-icon.png" alt="postgre sql Icon">PostgreSQL</a>
                     </div>
                 </div>
             </div>

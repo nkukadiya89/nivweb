@@ -31,7 +31,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="../images/Design-Planning-Services.png" alt="" />
+              <img src="../images/Design-Planning-Services.png" alt="Design-Planning-Services" />
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ Whether you're starting from scratch or looking to redesign and improve an exist
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part">
-                <img src="../images/expertize-page/img-Design-Planning-Services.png" alt="" />
+                <img src="../images/expertize-page/img-Design-Planning-Services.png" alt="Design-Planning-Services" />
               </div>
             </div>
           </div>

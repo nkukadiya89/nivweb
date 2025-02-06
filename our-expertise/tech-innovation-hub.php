@@ -29,7 +29,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="../images/Tech-Innovation-Hub.png" alt="" />
+              <img src="../images/Tech-Innovation-Hub.png" alt="Tech-Innovation-Hub" />
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part">
-                <img src="../images/expertize-page/img-Tech-Innovation-Hub.png" alt="" />
+                <img src="../images/expertize-page/img-Tech-Innovation-Hub.png" alt="Tech-Innovation-Hub" />
               </div>
             </div>
           </div>

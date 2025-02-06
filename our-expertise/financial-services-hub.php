@@ -31,7 +31,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="../images/Financial-Services-Hub.png" alt="" />
+              <img src="../images/Financial-Services-Hub.png" alt="Financial-Services-Hub" />
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part">
-                <img src="../images/expertize-page/img-Financial-Services-Hub.png" alt="" />
+                <img src="../images/expertize-page/img-Financial-Services-Hub.png" alt="Financial-Services-Hub" />
               </div>
             </div>
           </div>

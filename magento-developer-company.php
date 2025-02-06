@@ -27,7 +27,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert Magento Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="images/Hire-Magento-Developer.png" alt="" />
+            <img src="images/Hire-Magento-Developer.png" alt="Hire-Magento-Developer" />
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ we offer a comprehensive range of Magento development services designed to meet 
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="images/hire-images/Magento-Developer.png" alt="" />
+              <img src="images/hire-images/Magento-Developer.png" alt="Magento-Developer" />
             </div>
           </div>
         </div>

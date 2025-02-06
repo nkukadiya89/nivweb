@@ -48,7 +48,7 @@
                         <h3><span> Python Django Developer</span></h3>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner" />
                     </div>
                 </div>
             </div>

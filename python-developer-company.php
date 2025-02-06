@@ -26,7 +26,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert Python Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="images/Hire-Python-Developer.png" alt="" />
+            <img src="images/Hire-Python-Developer.png" alt="Hire-Python-Developer" />
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part">
-              <img src="images/hire-images/Python-Developer.png" alt="" />
+              <img src="images/hire-images/Python-Developer.png" alt="Python-Developer" />
             </div>
           </div>
         </div>

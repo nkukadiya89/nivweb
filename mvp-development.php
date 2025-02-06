@@ -20,7 +20,7 @@
             <p>Elevate User Experiences With Nivzen Technologies' Expert MVP Development Services</p>
           </div>
           <div class="bnrimg">
-            <img src="../images/react-bnr.png" alt="" />
+            <img src="../images/react-bnr.png" alt="react-bnr" />
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@
           </div>
           <div class="col col-12 col-md-6 text-center ">
             <div class="image-part animatable  fadeInRight">
-              <img src="../images/about-react-img.png" alt="" />
+              <img src="../images/about-react-img.png" alt="about-react" />
             </div>
           </div>
         </div>

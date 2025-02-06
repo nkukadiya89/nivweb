@@ -31,7 +31,7 @@
               </p>
             </div>
             <div class="bnrimg">
-              <img src="../images/Industry-Solutions.png" alt="" />
+              <img src="../images/Industry-Solutions.png" alt="Industry-Solutions" />
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="col col-12 col-md-6 text-center">
               <div class="image-part">
-                <img src="../images/expertize-page/img-Industry-Solutions.png" alt="" />
+                <img src="../images/expertize-page/img-Industry-Solutions.png" alt="Industry-Solutions" />
               </div>
             </div>
           </div>
@@ -138,7 +138,9 @@
     <script>
    
 
-      jQuery(function ($) {
+      jQuery(function ($) {                    $('#recaptcha-error').hide();
+
+
         var doAnimations = function () {
           var offset = $(window).scrollTop() + $(window).height(),
             $animatables = $(".animatable");
@@ -182,60 +184,6 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
-<script>
-
-  $.validator.addMethod("phoneValidation", function(value, element) {
-      return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
-  }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
-
-
-
-
-    $("#inquery-post").validate({
-        rules: {
-            'name': {
-                required: true,
-            },
-            'email': {
-                required: true ,
-                email: true ,
-            },
-            'phone': {
-                required: true,
-                phoneValidation: true 
-            },
-            'desc': {
-                required: true
-            }
-        }
-    });
-
-    $("#inquery-post").submit(function(event) {
-        event.preventDefault();
-        if ($(this).valid()) { 
-          $('#inq_text').text('Processing...'); 
-            $.ajax({
-                url: '<?php echo $projectFolderName?>/submit-inquery.php',
-                type: 'POST',
-                data: $(this).serialize(), 
-                success: function(response) {
-                    const obj = JSON.parse(response);
-                    if (obj && obj.message) {
-                        $("#alertMsg").html(`
-                            <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                ${obj.message}
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        `);
-                        $('#inq_text').text('Inquiry Sent'); 
-
-                        $('#inquery-post')[0].reset();
-                    } 
-                }
-            });
-        }
-    });
-    </script>
 
   </body>
 

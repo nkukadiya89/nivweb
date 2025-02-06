@@ -27,7 +27,7 @@
                         <p>1st March</p>
                     </div>
                     <div class="bnrimg">
-                        <img src="../images/bloge-banner-img.png" alt="" />
+                        <img src="../images/bloge-banner-img.png" alt="bloge-banner-img" />
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="blog-dtl-title">EHR Interoperability</div>
                 <div class="blogbigimg mb-3">
-                    <img src="../images/Blog-part6-pic1.png" alt="">
+                    <img src="../images/Blog-part6-pic1.png" alt="Blog-part6-pic1">
                 </div>
 
                 <p>The healthcare sector is under constant pressure to provide better patient care while reducing
@@ -71,7 +71,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part6-pic2.png" alt="" class="responsive">
+                            <img src="../images/Blog-part6-pic2.png" alt="Blog-part6-pic2" class="responsive">
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part6-pic3.png" alt="" class="responsive">
+                            <img src="../images/Blog-part6-pic3.png" alt="Blog-part6-pic3" class="responsive">
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part4-pic4.png" alt="" class="responsive">
+                            <img src="../images/Blog-part4-pic4.png" alt="Blog-part4-pic4" class="responsive">
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="col col-12 col-md-4 text-center ">
                         <div class="contentimg">
-                            <img src="../images/Blog-part6-pic6.png" alt="" class="responsive">
+                            <img src="../images/Blog-part6-pic6.png" alt="Blog-part6-pic6" class="responsive">
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@
                         </p>
                     </div>
                     <div class="bnrimg">
-                        <img src="./images/blog-banner-img.png" alt="" />
+                        <img src="./images/blog-banner-img.png" alt="blog-banner" />
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
 
                     <div class="col col-12 col-md-6 text-center  order-md-2">
                         <div class="image-part   ">
-                            <img src="images/teamgroup.png" alt="" />
+                            <img src="images/teamgroup.png" alt="teamgroup" />
                         </div>
                     </div>
                     <div class="col col-12 col-md-6 pharma-text order-md-1">
@@ -75,7 +75,7 @@
                 <div class="row">
                     <div class="col col-12 col-sm-6 col-lg-3">
                         <div class="teammember">
-                            <div class="memberphoto"><img src="images/nirav.jpg" alt=""></div>
+                            <div class="memberphoto"><img src="images/nirav.jpg" alt="team"></div>
                             <h3>Nirav Kukadiya </h3>
                             <h6>Founder, Chairman & CEO</h6>
 
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col col-12 col-sm-6 col-lg-3">
                         <div class="teammember">
-                            <div class="memberphoto"><img src="images/team-img-2.jpg" alt=""></div>
+                            <div class="memberphoto"><img src="images/team-img-2.jpg" alt="team"></div>
                             <h3>Flora Nyra </h3>
                             <h6>Product Manager</h6>
 
@@ -91,7 +91,7 @@
                     </div>
                     <div class="col col-12 col-sm-6 col-lg-3">
                         <div class="teammember">
-                            <div class="memberphoto"><img src="images/team-img-1.jpg" alt=""></div>
+                            <div class="memberphoto"><img src="images/team-img-1.jpg" alt="team"></div>
                             <h3>James Levi </h3>
                             <h6>Product Manager</h6>
 
@@ -99,7 +99,7 @@
                     </div>
                     <div class="col col-12 col-sm-6 col-lg-3">
                         <div class="teammember">
-                            <div class="memberphoto"><img src="images/review-3.jpg" alt=""></div>
+                            <div class="memberphoto"><img src="images/review-3.jpg" alt="review"></div>
                             <h3>James Levi </h3>
                             <h6>Product Manager</h6>
 
