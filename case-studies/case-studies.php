@@ -193,7 +193,7 @@
 
                         <div class="col col-12 col-md-6 text-center my-3 order-md-2">
                             <div class="image-part   ">
-                                <img src="../images/casestudy-img/shivamlogistic-img.png" alt="shivamlogistic" />
+                                <img src="../images/casestudy-img/vvamlogistic-img.png" alt="shivamlogistic" />
                             </div>
                         </div>
                         <div class="col col-12 col-md-6 pharma-text order-md-1">
@@ -202,12 +202,7 @@
                                     <h3>Shivam Logistics</h3>
                                     <img class="my-3" src="../images/line.png" alt="line">
                                     <p>
-                                        <b>Shivam Logistics </b>is a state-of-the-art procurement portal designed to
-                                        streamline and optimize the procurement process for businesses.
-                                        Developed by <b>Nivzen Technologies</b>, this platform addresses the challenges
-                                        of procurement inefficiencies, supplier management, and cost control.
-                                        The solution provides businesses with a seamless digital experience, ensuring
-                                        transparency, efficiency, and scalability in procurement operations.
+                                       <b>Shivam Logistics</b> is a comprehensive application designed to streamline and manage logistics operations efficiently. It enables seamless tracking of Booking LRs, reverse pickups, and barcode generation, ensuring smooth workflow and accurate shipment management. By optimizing logistics processes, Shivam Logistics enhances operational transparency and improves overall supply chain efficiency.
                                     </p>
 
                                     <a href="./shivam-logistics-case-studies.php" class="border-gradient mt-3"

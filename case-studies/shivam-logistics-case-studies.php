@@ -53,16 +53,9 @@
                                     <div class="pharma-txt">
                                         <h3>Client Requirements</h3>
                                         <img class="my-3 mb-4" src="../images/line.png" alt="line">
-                                        <h5>The client approached Nivzen Technologies with the following
-                                            objectives</h5>
                                         <p>
-                                            The requirements outlined above aim to address Shivam International Courier
-                                            Service's challenges in logistics management, enhance operational
-                                            efficiency, and improve customer satisfaction. The solution should be
-                                            robust, scalable, and user-friendly, ensuring that Shivam can adapt to
-                                            future demands in the logistics industry.
-                                        </p>
-
+                                     <b>Shivam Logistics</b> is a comprehensive application designed to streamline and manage logistics operations efficiently. It enables seamless tracking of Booking LRs, reverse pickups, and barcode generation, ensuring smooth workflow and accurate shipment management. By optimizing logistics processes, Shivam Logistics enhances operational transparency and improves overall supply chain efficiency.
+</p>
                                     </div>
                                 </div>
                             </div>
