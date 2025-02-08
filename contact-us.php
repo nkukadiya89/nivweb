@@ -151,6 +151,14 @@
                                                 placeholder="Enter Message Here..." required></textarea>
                                         </div>
                                     </div>
+                                    <div class="form-group mt-3">
+                                        <div class="g-recaptcha mb-2"  data-sitekey="6LfeXowqAAAAAP-pi9irdFbgr2qxJxmzKBbyY7dP"
+                                            name="recaptcha"></div>
+                                        <div id="recaptcha-error-cont" class="error"
+                                            style="color: red; display: none;">
+                                            Please verify that you are not a robot.
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="btnwrap">
@@ -200,12 +208,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
-        // Trigger CSS animations on scroll.
-        // Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-        // Looking for a version that also reverses the animation when
-        // elements scroll below the fold again?
-        // --> Check https://codepen.io/bramus/pen/vKpjNP
+     
 
         jQuery(function ($) {
             // Function which adds the 'animated' class to any '.animatable' in view
@@ -263,10 +266,6 @@
             return this.optional(element) || /^[+]?[0-9\s\-()]{10,13}$/.test(value);
         }, "Please enter a valid phone number (10-13 digits, optional +, spaces, dashes, or parentheses).");
 
-        $.validator.addMethod("gmailValidation", function (value, element) {
-            return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
-        }, "Please enter a valid Gmail address.");
-
         $("#contact-post").validate({
             rules: {
                 'fname': {
@@ -277,8 +276,7 @@
                 },
                 'emailAddress': {
                     required: true,
-                    email: true,
-                    gmailValidation: "Please enter a valid Gmail address ending in @gmail.com."
+                    email: true
                 },
                 'phone': {
                     required: true,
@@ -298,10 +296,21 @@
 
         $("#contact-post").submit(function (event) {
             event.preventDefault(); // Prevent default form submission
+            $('#recaptcha-error-cont').hide();
 
             if ($(this).valid()) { // Only submit if the form is valid
                 // Change submit button text to indicate processing
                 $('#submit_btn').text('Processing...');
+
+                var recaptchaResponse1 = document.getElementById('g-recaptcha-response-1').value;
+
+              
+                if (recaptchaResponse1.length === 0) {
+                    $('#submit_btn').text('Submit');
+
+                    $('#recaptcha-error-cont').show();
+                    return false;
+                }
 
                 $.ajax({
                     url: 'mail.php', // PHP file to handle the form data
@@ -338,16 +347,3 @@
 </body>
 
 </html>
-
-<!-- <form id="contact-form">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea><br><br>
-
-    <button type="submit">Send</button>
-</form> -->

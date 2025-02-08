@@ -80,7 +80,6 @@
                     <p>As a <b>Business Development Manager at Nivzen</b>, you will play a critical role in driving
                         business growth by identifying new opportunities, building partnerships, and developing
                         strategies to expand our market presence.</p>
-                                                   -->
                     <hr>
                     <p class="font-bold">Key Responsibilities :</p>
 
