@@ -74,6 +74,15 @@
                                     accept=".pdf,.doc,.docx">
                             </div>
 
+                            <div class="form-group mt-3">
+                                <div class="g-recaptcha mb-2"  data-sitekey="6LfeXowqAAAAAP-pi9irdFbgr2qxJxmzKBbyY7dP"
+                                    name="recaptcha"></div>
+                                <div id="recaptcha-error-inq" class="error"
+                                    style="color: red; display: none;">
+                                    Please verify that you are not a robot.
+                                </div>
+                            </div>
+
                             <div class="mb-5 d-flex justify-content-end">
                                 <button class="border-gradient2 border-gradient" type="submit" id="inq-btn">
                                     <span id="inq_text">Inquire now</span>
@@ -97,15 +106,11 @@
         </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
 
     <script>
     $(document).ready(function() {
-        console.log("Document ready - initializing validation and form submission.");
 
         // Custom phone number validation (supports +, spaces, dashes, and parentheses)
         $.validator.addMethod("phoneValidation", function(value, element) {
@@ -166,10 +171,17 @@
         // Form Submission
         $("#inquery-post-data").submit(function(event) {
             event.preventDefault(); // Prevent default form submission
-            console.log("Form submission triggered.");
+            $('#recaptcha-error-inq').hide();
 
             if (!$(this).valid()) {
                 console.warn("Form validation failed.");
+                if (grecaptcha.getResponse().length === 0) {
+                    $('#inq-btn-head').prop('disabled', false);
+                    $('#inq_text_head').text('Inquire now');
+
+                    $('#recaptcha-error-inq').show();
+                    return;
+                }
                 return; // Stop submission if form is invalid
             }
 
@@ -210,6 +222,8 @@
                     }
                 },
                 error: function(xhr, status, error) {
+                    grecaptcha.reset();
+                    $('#recaptcha-error-inq').hide();
                     console.error("AJAX Error:", status, error);
                     alert("An error occurred. Please try again.");
                 },

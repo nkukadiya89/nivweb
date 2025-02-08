@@ -80,11 +80,7 @@
                     <p>As a <b>Business Development Manager at Nivzen</b>, you will play a critical role in driving
                         business growth by identifying new opportunities, building partnerships, and developing
                         strategies to expand our market presence.</p>
-                    <!-- <p><span class="font-bold">Role:</span> Business Developer </p> 
-                        <p><span class="font-bold">Experience:</span> 1 to 2 Years</p>
-                        <p><span class="font-bold">Position Open:</span> 1</p><p><span class="font-bold">Job Location:</span> Ahmedabad</p>              
-                        <p><span class="font-bold">Work from Home Available:</span> Not Available</p>                    
-                        <p><span class="font-bold">Salary:</span> Not a constraint for the right candidate</p>                                             -->
+                                                   -->
                     <hr>
                     <p class="font-bold">Key Responsibilities :</p>
 
@@ -148,10 +144,8 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script>
     $.validator.addMethod("phoneValidation", function(value, element) {

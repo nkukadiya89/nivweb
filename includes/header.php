@@ -356,10 +356,7 @@
                                             <input type="text" class="form-control" id="country" name="country"
                                                 placeholder="Country" />
                                         </div>
-                                        <!-- <div class="mb-3">
-                                        <input type="text" class="form-control" id="city" name="city"
-                                            placeholder="City" />
-                                    </div> -->
+                                  
                                         <div class=" mb-4">
                                             <textarea class="form-control" rows="2" id="desc" name="desc"
                                                 placeholder="Describe Your Requirements"></textarea>
@@ -370,11 +367,20 @@
                                             <input type="file" class="form-control file" id="inqueryfile"
                                                 name="inqueryfile" accept=".pdf,.doc,.docx">
                                         </div>
+                                     
+                                        <div class="form-group mt-3">
+                                            <div class="g-recaptcha mb-2"  data-sitekey="6LfeXowqAAAAAP-pi9irdFbgr2qxJxmzKBbyY7dP"
+                                                name="recaptcha"></div>
+                                            <div id="recaptcha-error-head" class="error"
+                                                style="color: red; display: none;">
+                                                Please verify that you are not a robot.
+                                            </div>
+                                        </div>
                                     </div>
 
                                     <div class="mb-2 d-flex justify-content-end">
-                                        <button class="border-gradient2 border-gradient" type="submit" id="inq-btn">
-                                            <span id="inq_text">Inquire now</span>
+                                        <button class="border-gradient2 border-gradient" type="submit" id="inq-btn-head">
+                                            <span id="inq_text_head">Inquire now</span>
                                         </button>
                                     </div>
                                 </form>
@@ -400,6 +406,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
     <script>
     // Custom phone number validation (allowing +, spaces, dashes, parentheses)
@@ -411,6 +418,10 @@
     $.validator.addMethod("gmailValidation", function(value, element) {
         return this.optional(element) || /^[a-zA-Z0-9._%+-]+@gmail\.com$/.test(value);
     }, "Please enter a valid Gmail address.");
+
+    $.validator.addMethod("recaptchaValidation", function(value, element) {
+        return grecaptcha.getResponse().length > 0;
+    }, "Please verify that you are not a robot.");
 
     // Initialize form validation
     $("#inquery-post-head").validate({
@@ -437,6 +448,10 @@
                 required: false,
                 extension: "jpg|jpeg|png|pdf",
                 filesize: 10485760
+            },
+            recaptcha: {
+                required: true,
+                recaptchaValidation: true
             }
         },
         messages: {
@@ -446,16 +461,35 @@
             phone: "Please enter a valid phone number.",
             country: "Please enter a valid country.",
             desc: "Please describe your requirements.",
+            recaptcha: "Please describe your requirements.",
             file: {
                 extension: "Please upload a valid file (jpg, jpeg, png, pdf).",
                 filesize: "The file size must not exceed 10 MB."
             }
         },
+        errorPlacement: function(error, element) {
+            if (element.attr("name") == "recaptcha") {
+                error.appendTo("#recaptcha-error-head");
+            } else {
+                error.insertAfter(element);
+            }
+        },
         submitHandler: function(form, event) {
             event.preventDefault();
+            $('#recaptcha-error-head').hide();
 
-            $('#inq-btn').prop('disabled', true);
-            $('#inq_text').text('Processing...');
+
+            $('#inq-btn-head').prop('disabled', true);
+            $('#inq_text_head').text('Processing...');
+
+
+            if (grecaptcha.getResponse().length === 0) {
+                $('#inq-btn-head').prop('disabled', false);
+                $('#inq_text_head').text('Inquire now');
+
+                $('#recaptcha-error-head').show();
+                return;
+            }
             var form_data = new FormData(form);
 
             var imgFile = $("#inqueryfile")[0];
@@ -483,12 +517,14 @@
                     }
                 },
                 error: function() {
+                    grecaptcha.reset();
+                    $('#recaptcha-error-head').hide();
                     alert('There was an error submitting your form. Please try again later.');
                 },
                 complete: function() {
                     // Re-enable the submit button and reset the text after the request completes
                     $('#inq-btn').prop('disabled', false);
-                    $('#inq_text').text('Inquire now');
+                    $('#inq_text_head').text('Inquire now');
                 }
             });
         }
