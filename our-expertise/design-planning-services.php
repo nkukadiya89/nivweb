@@ -79,7 +79,7 @@ Whether you're starting from scratch or looking to redesign and improve an exist
                   Get free consultation and let us know your project idea to turn it
                   into an amazing digital product.
                 </p>
-                <a href="../contact-us.php">
+                <a href="../contact-us">
                 <button class="border-gradient">
                   <span>Contact Us</span>
                 </button>

@@ -59,7 +59,7 @@
                                         maximize speed, revolutionizing courier services.
                                     </p>
 
-                                    <a href="./heycourrier-case-studies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./heycourrier-case-studies" class="border-gradient mt-3" role="button">
                                         <span>View Project</span>
                                     </a>
 
@@ -95,7 +95,7 @@
                                         industry standards.
                                     </p>
 
-                                    <a href="./pharmalinkage-case-studies.php" class="border-gradient mt-3"
+                                    <a href="./pharmalinkage-case-studies" class="border-gradient mt-3"
                                         role="button">
                                         <span>View Project</span>
                                     </a>
@@ -132,7 +132,7 @@
                                         transparency, efficiency, and scalability in procurement operations.
                                     </p>
 
-                                    <a href="./smart-buyer-case-studies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./smart-buyer-case-studies" class="border-gradient mt-3" role="button">
                                         <span>View Project</span>
                                     </a>
 
@@ -171,7 +171,7 @@
 
                                     </p>
 
-                                    <a href="./obguide-case-studies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./obguide-case-studies" class="border-gradient mt-3" role="button">
                                         <span>View Project</span>
                                     </a>
 
@@ -205,7 +205,7 @@
                                        <b>Shivam Logistics</b> is a comprehensive application designed to streamline and manage logistics operations efficiently. It enables seamless tracking of Booking LRs, reverse pickups, and barcode generation, ensuring smooth workflow and accurate shipment management. By optimizing logistics processes, Shivam Logistics enhances operational transparency and improves overall supply chain efficiency.
                                     </p>
 
-                                    <a href="./shivam-logistics-case-studies.php" class="border-gradient mt-3"
+                                    <a href="./shivam-logistics-case-studies" class="border-gradient mt-3"
                                         role="button">
                                         <span>View Project</span>
                                     </a>
@@ -242,7 +242,7 @@
                                         gain increased visibility and foot traffic.
                                     </p>
 
-                                    <a href="./onlyne-deals-case-studies.php" class="border-gradient mt-3"
+                                    <a href="./onlyne-deals-case-studies" class="border-gradient mt-3"
                                         role="button">
                                         <span>View Project</span>
                                     </a>
@@ -280,7 +280,7 @@
                                         retail, healthcare, and manufacturing.
                                     </p>
 
-                                    <a href="./performazbi-case-studies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./performazbi-case-studies" class="border-gradient mt-3" role="button">
                                         <span>View Project</span>
                                     </a>
 
@@ -316,7 +316,7 @@
 
                                     </p>
 
-                                    <a href="./lucysuit-case-stydies.php" class="border-gradient mt-3" role="button">
+                                    <a href="./lucysuit-case-stydies" class="border-gradient mt-3" role="button">
                                         <span>View Project</span>
                                     </a>
 

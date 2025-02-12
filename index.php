@@ -41,7 +41,7 @@
                                                 Partner in Web
                                                 Development Excellence
                                             </p>
-                                            <a href="./contact-us.php">
+                                            <a href="./contact-us">
                                                 <button class="border-gradient ">
                                                     <span>Contact Us</span>
                                                 </button>
@@ -69,7 +69,7 @@
                                                 Cutting-Edge Mobile App
                                                 Development
                                             </p>
-                                            <a href="./contact-us.php">
+                                            <a href="./contact-us">
                                                 <button class="border-gradient ">
                                                     <span>Contact Us</span>
                                                 </button>
@@ -97,7 +97,7 @@
                                                 Ideas into Reality with
                                                 Our Team of Skilled Python Developers
                                             </p>
-                                            <a href="./contact-us.php">
+                                            <a href="./contact-us">
                                                 <button class="border-gradient ">
                                                     <span>Contact Us</span>
                                                 </button>
@@ -125,7 +125,7 @@
                                                 Your Trusted Partner for
                                                 Innovative Web Development Services
                                             </p>
-                                            <a href="./contact-us.php">
+                                            <a href="./contact-us">
                                                 <button class="border-gradient ">
                                                     <span>Contact Us</span>
                                                 </button>
@@ -156,7 +156,7 @@
                                                 Development
 
                                             </p>
-                                            <a href="./contact-us.php">
+                                            <a href="./contact-us">
                                                 <button class="border-gradient ">
                                                     <span>Contact Us</span>
                                                 </button>
@@ -287,7 +287,7 @@
                                 delivering
                                 exceptional results that align with your vision and business objectives.
                             </p>
-                            <a href="./our-expertise/web-and-mobile-solutions.php">Read More</a>
+                            <a href="./our-expertise/web-and-mobile-solutions">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/mobile-ico.png" alt="review" /></div>
@@ -299,7 +299,7 @@
                                 ensuring
                                 a seamless user experience.
                             </p>
-                            <a href="./android-development-company.php">Read More</a>
+                            <a href="./android-development-company">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/python-ico.png" alt="review" /></div>
@@ -311,7 +311,7 @@
                                 your specific
                                 needs. Explore the possibilities of Python web application development with us.
                             </p>
-                            <a href="./python-developer-company.php">Read More</a>
+                            <a href="./python-developer-company">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/react-ico.png" alt="review" /></div>
@@ -324,7 +324,7 @@
                                 React JS web
                                 development company.
                             </p>
-                            <a href="./react-js-development-company.php">Read More</a>
+                            <a href="./react-js-development-company">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/concept-ico.png" alt="review" /></div>
@@ -333,7 +333,7 @@
                                 align seamlessly
                                 with your business objectives, turning visions into strategic roadmaps for success.
                             </p>
-                            <a href="./concept-development.php">Read More</a>
+                            <a href="./concept-development">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/poc-ico.png" alt="review" /></div>
@@ -344,7 +344,7 @@
                                 robust foundation
                                 for successful projects.
                             </p>
-                            <a href="./poc-development.php">Read More</a>
+                            <a href="./poc-development">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/mvp-ico.png" alt="review" /></div>
@@ -355,7 +355,7 @@
                                 full-scale
                                 deployment.
                             </p>
-                            <a href="./mvp-development.php">Read More</a>
+                            <a href="./mvp-development">Read More</a>
                         </div>
                         <div class="item">
                             <div class="imgico"><img src="images/analysys-ico.png" alt="review" /></div>
@@ -366,7 +366,7 @@
                                 successful project
                                 outcomes
                             </p>
-                            <a href="./requirement-analysis.php">Read More</a>
+                            <a href="./requirement-analysis">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -466,7 +466,7 @@
             </div>
         </div>
 
-        <?php include './includes/footer.php'; ?>
+        <?php include 'includes/footer.php';?>
 
 
     </div>

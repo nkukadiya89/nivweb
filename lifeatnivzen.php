@@ -61,14 +61,14 @@
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
                     <div class="col">
                         <div class="card ">
-                            <a href="./quantum-computing-details.php">
+                            <a href="./quantum-computing-details">
                                 <img src="./images/Blog-part1-pic1.png" class="card-img-top" alt="Blog-part1-pic1">
                             </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card ">
-                            <a href="./ar-vr-details.php">
+                            <a href="./ar-vr-details">
                                 <img src="./images/Blog-part2-pic1.png" class="card-img-top" alt="Blog-part2-pic1">
                             </a>
 
@@ -76,28 +76,28 @@
                     </div>
                     <div class="col">
                         <div class="card ">
-                            <a href="./ai-ml-details.php">
+                            <a href="./ai-ml-details">
                                 <img src="./images/Blog-part3-pic1.png" class="card-img-top" alt="Blog-part3-pic1">
                             </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./cybersecurity-details.php">
+                            <a href="./cybersecurity-details">
                                 <img src="./images/Blog-part4-pic1.png" class="card-img-top" alt="Blog-part4-pic1">
                             </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./ux-design-details.php">
+                            <a href="./ux-design-details">
                                 <img src="./images/Blog-part5-pic1.png" class="card-img-top" alt="Blog-part5-pic1">
                             </a>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <a href="./healthcare-details.php">
+                            <a href="./healthcare-details">
                                 <img src="./images/Blog-part6-pic1.png" class="card-img-top" alt="Blog-part6-pic1">
                             </a>
 

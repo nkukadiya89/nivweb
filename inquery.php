@@ -200,7 +200,7 @@
 
             // AJAX Request
             $.ajax({
-                url: '/nivweb/submit-inquery.php', // Ensure correct backend path
+                url: '/nivweb/submit-inquery', // Ensure correct backend path
                 type: 'POST',
                 data: form_data,
                 contentType: false,

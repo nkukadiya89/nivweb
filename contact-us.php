@@ -313,14 +313,14 @@
                 }
 
                 $.ajax({
-                    url: 'mail.php', // PHP file to handle the form data
+                    url: 'mail', // PHP file to handle the form data
                     type: 'POST', // HTTP request type
                     data: $(this).serialize(), // Serialize form data
                     success: function (response) {
 
                         if (response) {
                             // Redirect if the response contains the message key
-                            window.location.href = 'thank-you.php';
+                            window.location.href = 'thank-you';
                         } else {
                             alert(
                                 "An error occurred while processing your request. Please try again later."

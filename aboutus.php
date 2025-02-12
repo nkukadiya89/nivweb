@@ -19,7 +19,7 @@
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="inrpgtitle">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
                             </ol>
                             <h1>About Us</h1>

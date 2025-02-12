@@ -19,7 +19,7 @@
                     <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo $projectFolderName ?>">Home</a></li>
-                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo $projectFolderName?>/blogs/blogs">Blogs</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">How to Keep Your Business Safe Online: Cybersecurity Best Practices</li>
                             </ol>
                         </nav>

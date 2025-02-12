@@ -46,10 +46,10 @@
                                 </div>
 
                                 <div class="btnwrp">
-                                    <a href="/nivweb/careers/graphics-designer-role.php"
+                                    <a href="/nivweb/careers/graphics-designer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/careers/graphics-designer-role.php"
+                                    <a href="/nivweb/careers/graphics-designer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -72,10 +72,10 @@
                                 </div>
 
                                 <div class="btnwrp">
-                                    <a href="/nivweb/careers/business-developer-role.php"
+                                    <a href="/nivweb/careers/business-developer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/careers/business-developer-role.php"
+                                    <a href="/nivweb/careers/business-developer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -96,10 +96,10 @@
                                     Work From Office
                                 </div>
                                 <div class="btnwrp">
-                                    <a href="/nivweb/careers/python-django-developer-role.php"
+                                    <a href="/nivweb/careers/python-django-developer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/careers/python-django-developer-role.php"
+                                    <a href="/nivweb/careers/python-django-developer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>
@@ -120,10 +120,10 @@
                                     Work From Office
                                 </div>
                                 <div class="btnwrp">
-                                    <a href="/nivweb/careers/content-writer-role.php"
+                                    <a href="/nivweb/careers/content-writer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Read More</span> </a>
-                                    <a href="/nivweb/careers/content-writer-role.php"
+                                    <a href="/nivweb/careers/content-writer-role"
                                         class="border-gradient2 border-gradient">
                                         <span>Apply Now</span> </a>
                                 </div>

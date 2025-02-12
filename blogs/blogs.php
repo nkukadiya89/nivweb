@@ -72,7 +72,7 @@
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-5">
                 <div class="col">
                     <div class="card h-100">
-                        <a href="./quantum-computing-details.php">
+                        <a href="./quantum-computing-details">
                             <img src="../images/Blog-part1-pic1.png" class="card-img-top" alt="Blog-part1-pic1">
                         </a>
                         <div class="card-body">
@@ -80,7 +80,7 @@
                                     <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
                                 </div> -->
 
-                            <a href="./quantum-computing-details.php">
+                            <a href="./quantum-computing-details">
                                 <h3>The Power Of Quantum Computing:How It Can Solve
                                     Complex
                                     Problem.
@@ -99,16 +99,16 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="./ar-vr-details.php">
+                        <a href="./ar-vr-details">
                             <img src="../images/Blog-part2-pic1.png" class="card-img-top" alt="Blog-part2-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail" role="button">Mobile App Development</a>
                                 </div> -->
 
 
-                            <a href="./ar-vr-details.php">
+                            <a href="./ar-vr-details">
                                 <h3>The Many Uses of AR and VR: From Games to Healthcare
                                 </h3>
                             </a>
@@ -125,15 +125,15 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="./ai-ml-details.php">
+                        <a href="./ai-ml-details">
                             <img src="../images/Blog-part3-pic1.png" class="card-img-top" alt="Blog-part3-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class=" text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail" role="button">Mobile App Development</a>
                                 </div> -->
 
-                            <a href="./ai-ml-details.php">
+                            <a href="./ai-ml-details">
                                 <h3>The Various Ways AI and ML Are Impacting Different
                                     Industries</h3>
                             </a>
@@ -150,16 +150,16 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="./cybersecurity-details.php">
+                        <a href="./cybersecurity-details">
                             <img src="../images/Blog-part4-pic1.png" class="card-img-top" alt="Blog-part4-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class=" text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail" role="button">Mobile App Development</a>
                                 </div> -->
 
 
-                            <a href="./cybersecurity-details.php">
+                            <a href="./cybersecurity-details">
                                 <h3>How to Keep Your Business Safe Online: Cybersecurity
                                     Best Practices
                                 </h3>
@@ -177,16 +177,16 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="./ux-design-details.php">
+                        <a href="./ux-design-details">
                             <img src="../images/Blog-part5-pic1.png" class="card-img-top" alt="Blog-part5-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="col-lg- text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail" role="button">Mobile App Development</a>
                                 </div> -->
 
 
-                            <a href="./ux-design-details.php">
+                            <a href="./ux-design-details">
                                 <h3>The Top 5 UX Design Principles Every Designer Must
                                     Know
                                 </h3>
@@ -204,15 +204,15 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <a href="./healthcare-details.php">
+                        <a href="./healthcare-details">
                             <img src="../images/Blog-part6-pic1.png" class="card-img-top" alt="Blog-part6-pic1">
                         </a>
                         <div class="card-body">
                             <!-- <div class="text-start card-tag">
-                                    <a class="" href="./blogdetail.php" role="button">Mobile App Development</a>
+                                    <a class="" href="./blogdetail" role="button">Mobile App Development</a>
                                 </div> -->
 
-                            <a href="./healthcare-details.php">
+                            <a href="./healthcare-details">
                                 <h3>The Top 5 Healthcare Tech advancements You Should
                                     Know About
                                 </h3>

@@ -10,7 +10,7 @@
     <header>
         <div class="logo">
             <a class="navbar-brand m-0" href=" <?php echo $projectFolderName?>"
-                aria-label="image which shows site logo"><img src="/nivweb/images/site-logo2.svg" alt="site logo" /></a>
+                aria-label="image which shows site logo"><img src="/nivweb/images/nivzen-technologies.svg" alt="site logo" /></a>
         </div>
         <div class="headright">
             <nav class="navbar navbar-expand-lg ">
@@ -26,14 +26,14 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">Company</a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/aboutus.php">About
+                                <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/aboutus">About
                                         Us</a></li>
-                                <!-- <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/ourteam.php">Our
+                                <!-- <li><a class="dropdown-item" href="<?php echo $projectFolderName?>/ourteam">Our
                                         Team</a></li> -->
                                 <!-- <li><a class="dropdown-item"
-                                        href="<?php echo $projectFolderName?>/lifeatnivzen.php">Life at Nivzen </a></li> -->
+                                        href="<?php echo $projectFolderName?>/lifeatnivzen">Life at Nivzen </a></li> -->
                                 <li><a class="dropdown-item"
-                                        href="<?php echo $projectFolderName?>/careers/careers.php">Career</a>
+                                        href="<?php echo $projectFolderName?>/careers/careers">Career</a>
                                 </li>
                             </ul>
                         </li>
@@ -52,21 +52,21 @@
                                                 <h6 class="title">Nivzen LAB</h6>
                                                 <ul class="list-unstyled">
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/web-and-mobile-solutions.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/web-and-mobile-solutions">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/Web-Mobile.png"
                                                                     alt="" /></div> Web & Mobile
                                                             Solutions
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/digital-strategy-services.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/digital-strategy-services">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/Digital-Services.png"
                                                                     alt="" /></div>Digital
                                                             Strategy Services
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/tech-innovation-hub.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/tech-innovation-hub">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/Tech-Innovation.png"
                                                                     alt="" /></div>Tech
@@ -74,14 +74,14 @@
                                                             Hub
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/crm-enterprise-solutions.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/crm-enterprise-solutions">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/CRM.png"
                                                                     alt="" /></div>CRM &
                                                             Enterprise Solutions
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/design-planning-services.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/design-planning-services">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/design-ico.png"
                                                                     alt="" /></div>Design &
@@ -97,28 +97,28 @@
                                                 <h6 class="title">Domain Expertise</h6>
                                                 <ul class="list-unstyled">
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/industry-solutions.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/industry-solutions">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/Industry.png"
                                                                     alt="" /></div>Industry
                                                             Solutions
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/marketplace-e-commerce.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/marketplace-e-commerce">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/ecommerce.png"
                                                                     alt="" /></div>Marketplace &
                                                             E-commerce
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/financial-services-hub.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/financial-services-hub">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/financial.png"
                                                                     alt="" /></div>Financial
                                                             Services Hub
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/our-expertise/educational-technology.php">
+                                                            href="<?php echo $projectFolderName?>/our-expertise/educational-technology">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/education.png"
                                                                     alt="" /></div>Educational
@@ -149,21 +149,21 @@
                                                 <h6 class="title">Front End</h6>
                                                 <ul class="list-unstyled">
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/react-js-development-company.php">
+                                                            href="<?php echo $projectFolderName?>/react-js-development-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/react2-ico.png"
                                                                     alt="" /></div> Hire React Js
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/uiux-designer-company.php">
+                                                            href="<?php echo $projectFolderName?>/uiux-designer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/design-ico.png"
                                                                     alt="" /></div>Hire UI/UX
                                                             Designer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/graphics-designer-company.php">
+                                                            href="<?php echo $projectFolderName?>/graphics-designer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/design-ico.png"
                                                                     alt="" /></div>Hire Graphics
@@ -173,21 +173,21 @@
                                                 <h6 class="title">Content Management System (CMS)</h6>
                                                 <ul class="list-unstyled">
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/wordpress-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/wordpress-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/wordpress-ico.png"
                                                                     alt="" /></div>Hire
                                                             Wordpress Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/shopify-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/shopify-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/shopify-ico.png"
                                                                     alt="" /></div>Hire Shopify
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/magento-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/magento-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/magento-ico.png"
                                                                     alt="" /></div>Hire Magento
@@ -202,56 +202,56 @@
                                                 <h6 class="title">Backend</h6>
                                                 <ul class="list-unstyled">
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/python-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/python-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/python2-ico.png"
                                                                     alt="" /></div>Hire Python
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/ai-ml-development-company.php">
+                                                            href="<?php echo $projectFolderName?>/ai-ml-development-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/ai-ico.png"
                                                                     alt="" /></div>Hire AI/ML
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/django-development-company.php">
+                                                            href="<?php echo $projectFolderName?>/django-development-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/django-ico.png"
                                                                     alt="" /></div>Hire Django
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/flask-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/flask-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/flask-ico.png"
                                                                     alt="" /></div>Hire Flask
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/fast-api-development-company.php">
+                                                            href="<?php echo $projectFolderName?>/fast-api-development-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/fastapi-ico.png"
                                                                     alt="" /></div>Hire Fast API
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/ruby-rails-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/ruby-rails-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/ruby-ico.png"
                                                                     alt="" /></div>Hire Ruby and
                                                             Rails Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/laravel-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/laravel-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/laravel-ico.png"
                                                                     alt="" /></div>Hire Laravel
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/dotnet-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/dotnet-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/dotnet-ico.png"
                                                                     alt="" /></div>Hire .Net
@@ -265,27 +265,27 @@
                                                 <h6 class="title">Mobile App Development</h6>
                                                 <ul class="list-unstyled">
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/android-development-company.php">
+                                                            href="<?php echo $projectFolderName?>/android-development-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/android-ico.png"
                                                                     alt="" /></div>Hire Android
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/ios-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/ios-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/ios-ico.png"
                                                                     alt="" /></div>Hire IOS Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/flutter-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/flutter-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/flutter-ico.png"
                                                                     alt="" /></div>Hire Flutter
                                                             Developer
                                                         </a></li>
                                                     <li><a
-                                                            href="<?php echo $projectFolderName?>/react-native-developer-company.php">
+                                                            href="<?php echo $projectFolderName?>/react-native-developer-company">
                                                             <div class="menuico"><img
                                                                     src="<?php echo $projectFolderName?>/images/react2-ico.png"
                                                                     alt="" /></div>Hire React
@@ -302,14 +302,14 @@
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Resources</a>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item"
-                                        href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
+                                        href="<?php echo $projectFolderName?>/blogs/blogs">Blogs</a></li>
                                 <li><a class="dropdown-item"
-                                        href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+                                        href="<?php echo $projectFolderName?>/case-studies/case-studies">Case
                                         Studies</a></li>
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="<?php echo $projectFolderName?>/contact-us.php">
+                        <li class="nav-item"><a class="nav-link" href="<?php echo $projectFolderName?>/contact-us">
                                 Contact Us </a></li>
                     </ul>
                 </div>
@@ -498,7 +498,7 @@
             }
 
             $.ajax({
-                url: '/nivweb/submit-inquery.php',
+                url: '/nivweb/submit-inquery',
                 type: 'POST',
                 data: form_data,
                 contentType: false,

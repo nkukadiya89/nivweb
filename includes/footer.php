@@ -27,16 +27,17 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                     <div class="quick-links">
                         <ul>
-                            <li><a href="<?php echo $projectFolderName?>/index.php">Company </a></li>
+                            <li><a href="<?php echo $projectFolderName?>/index">Company </a></li>
                             <!-- <li><a href="#">Services </a></li> -->
-              <li><a href="<?php echo $projectFolderName?>/blogs/blogs.php">Blogs</a></li>
-              <li><a href="<?php echo $projectFolderName?>/case-studies/case-studies.php">Case
+              <li><a href="<?php echo $projectFolderName?>/blogs/blogs">Blogs</a></li>
+              <li><a href="<?php echo $projectFolderName?>/case-studies/case-studies">Case
               Studies </a></li>
             
-                            <!-- <li><a href="<?php echo $projectFolderName; ?>/resources/blogs/blogs.php">Resources</a></li>
+                            <!-- <li><a href="<?php echo $projectFolderName; ?>/resources/blogs/blogs">Resources</a></li>
                             </li> -->
-                            <li><a href="<?php echo $projectFolderName; ?>/resources/careers/careers.php">Careers</a>
-                            <li><a href="<?php echo $projectFolderName; ?>/contact-us.php">Contact Us</a></li>
+                            <li><a class="dropdown-item"
+                                        href="<?php echo $projectFolderName?>/careers/careers">Career</a>
+                            <li><a href="<?php echo $projectFolderName; ?>/contact-us">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
