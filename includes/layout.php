@@ -26,6 +26,7 @@
     <meta name="keywords" content="<?php echo $pageMeta['keywords']; ?>">
     <meta name="description" content="<?php echo $pageMeta['description']; ?>">
     <meta name="title" content="<?php echo $pageMeta['title']; ?>">
+    <meta name="google-site-verification" content="u1EcXotPuN78LyCYNVpr43uVfOma1VNikZFujuhSwcA" />
     <title><?php echo $pageMeta['title']; ?></title>
 
     <link rel="canonical" href="<?php echo $currentUrl?>"/>
